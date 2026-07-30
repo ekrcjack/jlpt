@@ -22,13 +22,17 @@ body{
 }
 .jp{font-family:"Noto Serif JP","Hiragino Mincho ProN",serif;}
 header.hero{
-  max-width:1000px;margin:0 auto;padding:48px 20px 20px;text-align:center;
+  max-width:1000px;margin:0 auto;padding:48px 20px 12px;text-align:center;
 }
 .hero .kana{font-family:"Noto Serif JP",serif;font-size:2.6rem;font-weight:700;letter-spacing:.06em;margin:0}
 .hero h1{font-size:1.15rem;font-weight:600;color:var(--sub);margin:6px 0 0;letter-spacing:.02em}
 .hero p{color:var(--sub);font-size:.9rem;margin:14px auto 0;max-width:560px}
 main{max-width:1000px;margin:0 auto;padding:16px 20px 60px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:8px}
+.section-title{display:flex;align-items:center;gap:12px;margin:30px 0 4px}
+.section-title h2{font-size:1.05rem;margin:0;font-weight:700}
+.section-title::after{content:"";flex:1;height:1px;background:var(--line)}
+.section-title .hint{color:var(--sub);font-size:.8rem;font-weight:500}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:14px}
 .card{
   display:flex;flex-direction:column;gap:10px;text-decoration:none;color:inherit;
   background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 20px 18px;
@@ -40,7 +44,9 @@ main{max-width:1000px;margin:0 auto;padding:16px 20px 60px}
   flex:0 0 auto;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;
   font-family:"Noto Serif JP",serif;font-weight:700;font-size:1.35rem;color:#fff;letter-spacing:.02em;
 }
+.badge.sm{font-size:1rem}
 .b-n5{background:#16a085}.b-n4{background:#2980b9}.b-n3{background:#8e44ad}.b-n2{background:#d35400}.b-n1{background:#c0392b}
+.b-note{background:#27ae60}.b-card{background:#2c7a7b}.b-card2{background:#0e7490}.b-han{background:#7d6608}
 .card h2{font-size:1.15rem;margin:0;font-weight:700}
 .card .sub{color:var(--sub);font-size:.82rem;margin-top:1px}
 .card .desc{color:var(--ink);font-size:.9rem;margin:0}
@@ -59,19 +65,17 @@ footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-
 <body>
 <header class="hero">
   <p class="kana jp">日本語 学習</p>
-  <h1>JLPT 單字・文法・發音學習總覽</h1>
+  <h1>JLPT 單字・文法・發音・漢字學習總覽</h1>
   <p>依程度選擇：從 N5 發音入門，到 N1 單字文法。每個項目皆附例句、假名、中譯與語音朗讀。</p>
 </header>
 
 <main>
+  <div class="section-title"><h2>分級學習</h2><span class="hint">單字・文法（附發音）</span></div>
   <div class="grid">
     <a class="card" href="ch2/index.html">
       <div class="card-top">
         <div class="badge b-n5">N5</div>
-        <div>
-          <h2>單字漢字發音</h2>
-          <div class="sub">入門 ｜ N5 程度</div>
-        </div>
+        <div><h2>單字漢字發音</h2><div class="sub">入門 ｜ N5 程度</div></div>
       </div>
       <p class="desc">五十音、必背單字、漢字、動詞、形容詞的發音練習，含濁音半濁音拗音例句。</p>
       <div class="meta"><span class="tag">五十音</span><span class="tag">單字</span><span class="tag">漢字</span><span class="tag">發音</span></div>
@@ -81,10 +85,7 @@ footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-
     <a class="card" href="n4/index.html">
       <div class="card-top">
         <div class="badge b-n4">N4</div>
-        <div>
-          <h2>N4 單字・文法</h2>
-          <div class="sub">初級 ｜ JLPT N4</div>
-        </div>
+        <div><h2>N4 單字・文法</h2><div class="sub">初級 ｜ JLPT N4</div></div>
       </div>
       <p class="desc">約 386 個常用單字與 118 個文法句型，皆附例句、假名讀音與中譯。</p>
       <div class="meta"><span class="tag">單字 386</span><span class="tag">文法 118</span></div>
@@ -94,10 +95,7 @@ footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-
     <a class="card" href="n3/index.html">
       <div class="card-top">
         <div class="badge b-n3">N3</div>
-        <div>
-          <h2>N3 單字・文法</h2>
-          <div class="sub">中級 ｜ JLPT N3</div>
-        </div>
+        <div><h2>N3 單字・文法</h2><div class="sub">中級 ｜ JLPT N3</div></div>
       </div>
       <p class="desc">約 377 個單字與 150 個文法句型，涵蓋條件、使役受身、授受等機能分組。</p>
       <div class="meta"><span class="tag">單字 377</span><span class="tag">文法 150</span></div>
@@ -107,10 +105,7 @@ footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-
     <a class="card" href="n2/index.html">
       <div class="card-top">
         <div class="badge b-n2">N2</div>
-        <div>
-          <h2>N2 單字・文法</h2>
-          <div class="sub">中高級 ｜ JLPT N2</div>
-        </div>
+        <div><h2>N2 單字・文法</h2><div class="sub">中高級 ｜ JLPT N2</div></div>
       </div>
       <p class="desc">約 400 個單字與 147 個文法句型，含逆接、判斷推量、傳聞引用等進階用法。</p>
       <div class="meta"><span class="tag">單字 400</span><span class="tag">文法 147</span></div>
@@ -120,14 +115,54 @@ footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-
     <a class="card" href="n1/index.html">
       <div class="card-top">
         <div class="badge b-n1">N1</div>
-        <div>
-          <h2>N1 單字・文法</h2>
-          <div class="sub">高級 ｜ JLPT N1</div>
-        </div>
+        <div><h2>N1 單字・文法</h2><div class="sub">高級 ｜ JLPT N1</div></div>
       </div>
       <p class="desc">約 430 個單字與 160 個文法句型，涵蓋四字熟語、慣用句與高階句型。</p>
       <div class="meta"><span class="tag">單字 430</span><span class="tag">文法 160</span></div>
       <span class="go">開始學習 →</span>
+    </a>
+  </div>
+
+  <div class="section-title"><h2>N5 補充教材・工具</h2><span class="hint">筆記・單字卡・漢字表</span></div>
+  <div class="grid">
+    <a class="card" href="fulln5/index.html">
+      <div class="card-top">
+        <div class="badge sm b-note">筆記</div>
+        <div><h2>N5 完整學習筆記</h2><div class="sub">綜合 ｜ N5 程度</div></div>
+      </div>
+      <p class="desc">多章節學習筆記：五十音、單字、漢字、文法、動詞變化、聽力、模擬試題與學習進度表。</p>
+      <div class="meta"><span class="tag">文法</span><span class="tag">動詞變化</span><span class="tag">模擬試題</span></div>
+      <span class="go">開始學習 →</span>
+    </a>
+
+    <a class="card" href="jn5/index.html">
+      <div class="card-top">
+        <div class="badge sm b-card">單字卡</div>
+        <div><h2>N5 單字卡</h2><div class="sub">翻卡練習 ｜ N5 程度</div></div>
+      </div>
+      <p class="desc">翻卡式單字卡，依詞性分類，可用語音朗讀發音，適合反覆記憶。</p>
+      <div class="meta"><span class="tag">單字卡</span><span class="tag">發音</span></div>
+      <span class="go">開始學習 →</span>
+    </a>
+
+    <a class="card" href="yuann5/index.html">
+      <div class="card-top">
+        <div class="badge sm b-card2">單字卡</div>
+        <div><h2>N5 單字卡（變體版）</h2><div class="sub">翻卡練習 ｜ N5 程度</div></div>
+      </div>
+      <p class="desc">單字卡的另一個版本，同樣支援翻卡與發音，介面與收錄略有不同。</p>
+      <div class="meta"><span class="tag">單字卡</span><span class="tag">發音</span></div>
+      <span class="go">開始學習 →</span>
+    </a>
+
+    <a class="card" href="han/index.html">
+      <div class="card-top">
+        <div class="badge sm b-han">漢字</div>
+        <div><h2>常用漢字 2,136 字</h2><div class="sub">查詢工具 ｜ 常用漢字</div></div>
+      </div>
+      <p class="desc">日本常用漢字 2,136 字一覽表，可搜尋與瀏覽，適合查字與整體複習。</p>
+      <div class="meta"><span class="tag">2,136 字</span><span class="tag">搜尋</span></div>
+      <span class="go">開始查詢 →</span>
     </a>
   </div>
 </main>

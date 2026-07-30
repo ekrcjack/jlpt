@@ -1,0 +1,8506 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>JLPT N5 完整學習筆記</title>
+<style>
+  :root{
+    --paper:#EDEAE2; --paper-2:#F6F4EE; --ink:#1E2A44; --muted:#7C7566;
+    --line:#D8D2C4; --accent:#2E4A7D; --accent-soft:#2E4A7D14; --zh:#4a4a4a;
+    --topbar:56px; --drawer:264px;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent;}
+  html,body{margin:0; height:100%;}
+  body{
+    color:var(--ink); background:var(--paper);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans TC","Microsoft JhengHei",sans-serif;
+    line-height:1.75; font-size:16px;
+  }
+
+  /* ---------- top bar ---------- */
+  .topbar{
+    position:fixed; top:0; left:0; right:0; height:var(--topbar); z-index:40;
+    background:color-mix(in srgb, var(--paper) 86%, white); backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--line);
+    display:flex; align-items:center; gap:10px; padding:0 14px;
+  }
+  .hamb{
+    appearance:none; border:1px solid var(--line); background:var(--paper-2); color:var(--ink);
+    width:38px; height:38px; border-radius:10px; cursor:pointer; font-size:17px;
+    display:flex; align-items:center; justify-content:center; flex:0 0 auto;
+  }
+  .hamb:hover{border-color:var(--accent); color:var(--accent);}
+  .tb-title{font-weight:700; font-size:15px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
+  .tb-title small{display:block; font-weight:400; font-size:11px; color:var(--muted); line-height:1.2;}
+
+  /* ---------- drawer ---------- */
+  .drawer{
+    position:fixed; top:0; bottom:0; left:0; width:var(--drawer); z-index:60;
+    background:var(--paper-2); border-right:1px solid var(--line);
+    transform:translateX(-100%); transition:transform .25s ease;
+    display:flex; flex-direction:column; overflow:hidden;
+  }
+  .drawer.open{transform:none; box-shadow:0 0 50px rgba(30,42,68,.25);}
+  .dhead{
+    padding:16px 16px 12px; border-bottom:1px solid var(--line); flex:0 0 auto;
+  }
+  .dhead .kana{font-size:11px; letter-spacing:.25em; color:var(--muted);}
+  .dhead b{font-size:16px;}
+  .dnav{flex:1; overflow-y:auto; padding:8px;}
+  .navchap{
+    appearance:none; width:100%; border:none; background:none; cursor:pointer;
+    display:flex; align-items:center; gap:10px; padding:9px 10px; border-radius:10px;
+    font:inherit; font-size:14px; font-weight:600; color:var(--ink); text-align:left;
+  }
+  .navchap:hover{background:var(--accent-soft);}
+  .navgroup.active > .navchap{background:var(--accent); color:#fff;}
+  .navgroup.active > .navchap .nicon{background:#fff; color:var(--accent);}
+  .nicon{
+    width:26px; height:26px; border-radius:8px; background:var(--accent); color:#fff;
+    display:flex; align-items:center; justify-content:center; font-size:13px; flex:0 0 auto;
+  }
+  .nlabel{flex:1; line-height:1.25;}
+  .nlabel small{display:block; font-weight:400; font-size:11.5px; opacity:.75;}
+  .chev{font-size:11px; opacity:.55; transition:transform .2s;}
+  .navgroup.expanded .chev{transform:rotate(90deg);}
+  .subs{display:none; padding:2px 0 6px 34px;}
+  .navgroup.expanded .subs{display:block;}
+  .sub{
+    appearance:none; display:block; width:100%; text-align:left; border:none; background:none;
+    font:inherit; font-size:12.5px; color:var(--muted); cursor:pointer;
+    padding:5px 8px; border-radius:7px; line-height:1.35;
+  }
+  .sub:hover{color:var(--accent); background:var(--accent-soft);}
+  .sub.current{color:var(--accent); font-weight:600;}
+  .dfoot{padding:10px 16px; border-top:1px solid var(--line); font-size:11px; color:var(--muted); flex:0 0 auto;}
+  .scrim{
+    position:fixed; inset:0; background:rgba(30,42,68,.35); z-index:50;
+    opacity:0; pointer-events:none; transition:opacity .25s;
+  }
+  .scrim.show{opacity:1; pointer-events:auto;}
+
+  /* ---------- layout / content ---------- */
+  .main{padding:calc(var(--topbar) + 18px) 20px 90px; max-width:860px; margin:0 auto;}
+  @media (min-width:1100px){
+    .drawer{transform:none; top:0;}
+    .scrim{display:none;}
+    .hamb{display:none;}
+    .topbar{left:var(--drawer);}
+    .main{margin-left:calc(var(--drawer)); max-width:none; padding-left:40px; padding-right:40px;}
+    .content-inner{max-width:820px; margin:0 auto;}
+  }
+
+  h1,h2,h3,h4{line-height:1.35; scroll-margin-top:calc(var(--topbar) + 12px); font-weight:700;}
+  h1{font-size:1.7em; margin:.2em 0 .6em; padding-bottom:.3em; border-bottom:3px solid var(--accent);}
+  h2{font-size:1.35em; margin:1.8em 0 .5em; color:var(--accent); padding-left:.5em; border-left:5px solid var(--accent);}
+  h3{font-size:1.12em; margin:1.4em 0 .4em;}
+  p{margin:.6em 0;}
+  a{color:var(--accent);}
+  hr{border:none; border-top:1px solid var(--line); margin:2em 0;}
+  blockquote{
+    margin:1em 0; padding:.7em 1.1em; background:var(--paper-2);
+    border-left:4px solid var(--accent); border-radius:0 8px 8px 0; color:#5a5344; font-size:.95em;
+  }
+  blockquote p{margin:.3em 0;}
+  ul,ol{padding-left:1.4em; margin:.5em 0;}
+  li{margin:.28em 0;}
+  table{border-collapse:collapse; width:100%; font-size:.92em; background:var(--paper-2); border-radius:10px; overflow:hidden; margin:1em 0;}
+  th,td{border:1px solid var(--line); padding:7px 10px; text-align:left; vertical-align:top;}
+  th{background:var(--accent); color:#fff; font-weight:600; white-space:nowrap;}
+  tr:nth-child(even) td{background:#efece4;}
+  @media (max-width:600px){
+    body{font-size:15px;}
+    .main{padding-left:14px; padding-right:14px;}
+    table{display:block; overflow-x:auto; white-space:nowrap;}
+    th,td{padding:5px 7px;}
+  }
+
+  /* example blocks */
+  li:has(> .exj){
+    list-style:none; margin-left:-1.4em; padding:9px 14px 10px;
+    background:var(--paper-2); border-left:3px solid var(--accent);
+    border-radius:0 8px 8px 0; margin-top:8px; margin-bottom:8px;
+  }
+  .exj{display:block; font-weight:600; font-size:1.05em;}
+  .exj::before{
+    content:attr(data-tag); display:inline-block; vertical-align:.15em; margin-right:8px;
+    font-size:.68em; font-weight:600; color:#fff; background:var(--accent);
+    border-radius:5px; padding:1px 7px; white-space:nowrap;
+  }
+  .exk,.exr,.exz{padding-left:0;}
+  .exk{display:block; color:var(--muted); font-size:.9em;}
+  .exr{display:block; color:var(--accent); font-style:italic; font-size:.9em;}
+  .exz{display:inline-block; color:var(--zh); font-size:.95em; margin-top:2px;}
+  .say-btn{
+    display:inline-flex; align-items:center; justify-content:center;
+    vertical-align:middle; margin-left:8px; width:24px; height:24px; padding:0;
+    border:1px solid var(--accent); border-radius:50%;
+    background:transparent; color:var(--accent); cursor:pointer; font-size:12px;
+    line-height:1; transition:background .15s, transform .1s;
+  }
+  .say-btn:hover{background:var(--accent); }
+  .say-btn:active{transform:scale(.9);}
+  .say-btn.playing{background:var(--accent);}
+  .play-sec{
+    vertical-align:middle; margin-left:12px; padding:3px 12px;
+    border:1px solid var(--accent); border-radius:14px;
+    background:transparent; color:var(--accent); cursor:pointer;
+    font-family:inherit; font-size:.5em; font-weight:600; line-height:1.4;
+    white-space:nowrap; transition:background .15s, color .15s, transform .1s;
+  }
+  .play-sec:hover{background:var(--accent); color:#fff;}
+  .play-sec:active{transform:scale(.96);}
+  .play-sec.playing{background:var(--accent); color:#fff;}
+  @media (max-width:600px){
+    li:has(> .exj){margin-left:-1.2em;}
+  }
+
+  /* home cards */
+  .cards{display:grid; grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:12px; margin-top:20px;}
+  .card{
+    appearance:none; border:1px solid var(--line); background:var(--paper-2); border-radius:14px;
+    padding:14px 12px; cursor:pointer; text-align:left; font:inherit; color:var(--ink);
+    display:flex; flex-direction:column; gap:3px; transition:.15s;
+  }
+  .card:hover{border-color:var(--accent); transform:translateY(-2px); box-shadow:0 10px 22px -14px var(--accent);}
+  .cicon{width:34px; height:34px; border-radius:10px; background:var(--accent); color:#fff;
+    display:flex; align-items:center; justify-content:center; font-size:16px; margin-bottom:5px;}
+  .card b{font-size:14px;}
+  .card > span:not(.cicon){font-size:12.5px; color:var(--muted); line-height:1.3;}
+  .card small{font-size:11px; color:var(--accent); margin-top:3px;}
+
+  /* chapter pager */
+  .pager{display:flex; gap:10px; margin-top:36px;}
+  .pager[hidden]{display:none;}
+  .pager button{
+    appearance:none; flex:1; border:1px solid var(--line); background:var(--paper-2); color:var(--ink);
+    font:inherit; font-size:14px; border-radius:12px; padding:12px 14px; cursor:pointer; text-align:left;
+  }
+  .pager button:hover{border-color:var(--accent); color:var(--accent);}
+  .pager button small{display:block; font-size:11px; color:var(--muted);}
+  .pager button.next{text-align:right;}
+  .pager button[disabled]{visibility:hidden;}
+
+  .backtop{
+    position:fixed; right:16px; bottom:16px; z-index:30;
+    background:var(--accent); color:#fff; border:none; border-radius:50%;
+    width:44px; height:44px; font-size:17px; cursor:pointer; opacity:0; pointer-events:none;
+    transition:opacity .2s; box-shadow:0 6px 16px -6px var(--accent);
+  }
+  .backtop.show{opacity:.9; pointer-events:auto;}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <button class="hamb" id="hamb" aria-label="開啟目錄">☰</button>
+  <div class="tb-title" id="tbTitle">JLPT N5 完整學習筆記<small id="tbSub">首頁</small></div>
+</header>
+
+<aside class="drawer" id="drawer">
+  <div class="dhead">
+    <div class="kana">エヌゴ　がくしゅうノート</div>
+    <b>JLPT N5 學習筆記</b>
+  </div>
+  <nav class="dnav">
+    <div class="navgroup" data-ch="home">
+      <button class="navchap" data-ch="home"><span class="nicon">⌂</span><span class="nlabel">首頁<small>總覽與章節</small></span></button>
+    </div>
+
+    <div class="navgroup" data-ch="0">
+      <button class="navchap" data-ch="0">
+        <span class="nicon">あ</span>
+        <span class="nlabel">第一章<small>五十音與發音複習</small></span>
+        <span class="chev">▸</span>
+      </button>
+      <div class="subs"><button class="sub" data-ch="0" data-target="c0s0">1.1 平假名（清音）</button><button class="sub" data-ch="0" data-target="c0s1">1.2 濁音・半濁音</button><button class="sub" data-ch="0" data-target="c0s2">1.3 拗音</button><button class="sub" data-ch="0" data-target="c0s3">1.4 特殊發音規則</button></div>
+    </div>
+    <div class="navgroup" data-ch="1">
+      <button class="navchap" data-ch="1">
+        <span class="nicon">語</span>
+        <span class="nlabel">第二章<small>必背單字 800+</small></span>
+        <span class="chev">▸</span>
+      </button>
+      <div class="subs"><button class="sub" data-ch="1" data-target="c1s0">2.1 數字（25 字）</button><button class="sub" data-ch="1" data-target="c1s1">2.2 時間與日期（75 字）</button><button class="sub" data-ch="1" data-target="c1s2">2.3 量詞（16 字）</button><button class="sub" data-ch="1" data-target="c1s3">2.4 人物與家族（40 字）</button><button class="sub" data-ch="1" data-target="c1s4">2.5 身體部位（20 字）</button><button class="sub" data-ch="1" data-target="c1s5">2.6 食物與飲料（45 字）</button><button class="sub" data-ch="1" data-target="c1s6">2.7 衣物與配件（16 字）</button><button class="sub" data-ch="1" data-target="c1s7">2.8 住居・家具・日用品（46 字）</button><button class="sub" data-ch="1" data-target="c1s8">2.9 場所與建築（40 字）</button><button class="sub" data-ch="1" data-target="c1s9">2.10 交通（20 字）</button><button class="sub" data-ch="1" data-target="c1s10">2.11 自然與天氣（26 字）</button><button class="sub" data-ch="1" data-target="c1s11">2.12 動物與植物（10 字）</button><button class="sub" data-ch="1" data-target="c1s12">2.13 學校與學習（35 字）</button><button class="sub" data-ch="1" data-target="c1s13">2.14 工作與職業（15 字）</button><button class="sub" data-ch="1" data-target="c1s14">2.15 動詞（135 字）</button><button class="sub" data-ch="1" data-target="c1s15">2.16 い形容詞（46 字）</button><button class="sub" data-ch="1" data-target="c1s16">2.17 な形容詞（20 字）</button><button class="sub" data-ch="1" data-target="c1s17">2.18 副詞與接續詞（46 字）</button><button class="sub" data-ch="1" data-target="c1s18">2.19 疑問詞・代名詞・指示詞（35 字）</button><button class="sub" data-ch="1" data-target="c1s19">2.20 片假名外來語（50 字）</button><button class="sub" data-ch="1" data-target="c1s20">2.21 寒暄語與慣用表現（36 句）</button><button class="sub" data-ch="1" data-target="c1s21">2.22 其他重要名詞（40 字）</button></div>
+    </div>
+    <div class="navgroup" data-ch="2">
+      <button class="navchap" data-ch="2">
+        <span class="nicon">漢</span>
+        <span class="nlabel">第三章<small>常用漢字 100</small></span>
+        <span class="chev">▸</span>
+      </button>
+      <div class="subs"><button class="sub" data-ch="2" data-target="c2s0">3.1 數字・時間類（24 字）</button><button class="sub" data-ch="2" data-target="c2s1">3.2 自然・方位類（20 字）</button><button class="sub" data-ch="2" data-target="c2s2">3.3 人・身體類（16 字）</button><button class="sub" data-ch="2" data-target="c2s3">3.4 動作類（20 字）</button><button class="sub" data-ch="2" data-target="c2s4">3.5 學校・場所・其他（20 字）</button></div>
+    </div>
+    <div class="navgroup" data-ch="3">
+      <button class="navchap" data-ch="3">
+        <span class="nicon">文</span>
+        <span class="nlabel">第四章<small>N5 全文法（附例句）</small></span>
+        <span class="chev">▸</span>
+      </button>
+      <div class="subs"><button class="sub" data-ch="3" data-target="c3s0">4.1 名詞句（判斷句）</button><button class="sub" data-ch="3" data-target="c3s1">4.2 指示詞句型</button><button class="sub" data-ch="3" data-target="c3s2">4.3 存在句</button><button class="sub" data-ch="3" data-target="c3s3">4.4 動詞句與助詞</button><button class="sub" data-ch="3" data-target="c3s4">4.5 動詞時態（ます形變化）</button><button class="sub" data-ch="3" data-target="c3s5">4.6 邀約・請求・意志</button><button class="sub" data-ch="3" data-target="c3s6">4.7 て形句型</button><button class="sub" data-ch="3" data-target="c3s7">4.8 形容詞句型</button><button class="sub" data-ch="3" data-target="c3s8">4.9 比較句型</button><button class="sub" data-ch="3" data-target="c3s9">4.10 頻率・程度副詞句型</button><button class="sub" data-ch="3" data-target="c3s10">4.11 其他重要句型</button></div>
+    </div>
+    <div class="navgroup" data-ch="4">
+      <button class="navchap" data-ch="4">
+        <span class="nicon">変</span>
+        <span class="nlabel">第五章<small>動詞變化整理</small></span>
+        <span class="chev">▸</span>
+      </button>
+      <div class="subs"><button class="sub" data-ch="4" data-target="c4s0">5.1 動詞三大分類</button><button class="sub" data-ch="4" data-target="c4s1">5.2 ます形 ⇄ 辞書形</button><button class="sub" data-ch="4" data-target="c4s2">5.3 て形變化（五段動詞音便）</button><button class="sub" data-ch="4" data-target="c4s3">5.4 ない形（否定形）</button><button class="sub" data-ch="4" data-target="c4s4">5.5 た形（過去形）</button><button class="sub" data-ch="4" data-target="c4s5">5.6 常用動詞變化總表（30 個高頻動詞）</button><button class="sub" data-ch="4" data-target="c4s6">5.7 各變化形的用途對照</button></div>
+    </div>
+    <div class="navgroup" data-ch="5">
+      <button class="navchap" data-ch="5">
+        <span class="nicon">聴</span>
+        <span class="nlabel">第六章<small>聽力重點</small></span>
+        <span class="chev">▸</span>
+      </button>
+      <div class="subs"><button class="sub" data-ch="5" data-target="c5s0">6.1 N5 聽力題型（共 4 大題、約 24 題、30 分鐘）</button><button class="sub" data-ch="5" data-target="c5s1">6.2 高頻聽力情境與關鍵字</button><button class="sub" data-ch="5" data-target="c5s2">6.3 最常見的聽力陷阱</button><button class="sub" data-ch="5" data-target="c5s3">6.4 即時応答高頻對答</button><button class="sub" data-ch="5" data-target="c5s4">6.5 聽力備考策略</button></div>
+    </div>
+    <div class="navgroup" data-ch="6">
+      <button class="navchap" data-ch="6">
+        <span class="nicon">試</span>
+        <span class="nlabel">第七章<small>模擬試題與解答</small></span>
+        <span class="chev">▸</span>
+      </button>
+      <div class="subs"><button class="sub" data-ch="6" data-target="c6s0">7.1 文字・語彙（20 題）</button><button class="sub" data-ch="6" data-target="c6s1">7.2 文法（15 題）</button><button class="sub" data-ch="6" data-target="c6s2">7.3 読解（3 題）</button><button class="sub" data-ch="6" data-target="c6s3">7.4 聴解（腳本式模擬，5 題）</button><button class="sub" data-ch="6" data-target="c6s4">7.5 解答與解析</button></div>
+    </div>
+    <div class="navgroup" data-ch="7">
+      <button class="navchap" data-ch="7">
+        <span class="nicon">計</span>
+        <span class="nlabel">第八章<small>30 天每日學習進度表</small></span>
+        <span class="chev">▸</span>
+      </button>
+      <div class="subs"><button class="sub" data-ch="7" data-target="c7s0">第一週：基礎打底（Day 1–7）</button><button class="sub" data-ch="7" data-target="c7s1">第二週：核心動詞與句型（Day 8–14）</button><button class="sub" data-ch="7" data-target="c7s2">第三週：形容詞・て形・進階句型（Day 15–21）</button><button class="sub" data-ch="7" data-target="c7s3">第四週：衝刺與模擬（Day 22–30）</button><button class="sub" data-ch="7" data-target="c7s4">考前一天檢查清單</button><button class="sub" data-ch="7" data-target="c7s5">考試當天時間管理</button></div>
+    </div>
+  </nav>
+  <div class="dfoot">共 8 章｜例句附羅馬拼音</div>
+</aside>
+<div class="scrim" id="scrim"></div>
+
+<main class="main"><div class="content-inner">
+<section class="panel" data-panel="home"><h1>JLPT N5 完整學習筆記</h1>
+<blockquote>
+<p><strong>適用對象</strong>：準備 JLPT N5 考試的華語學習者
+<strong>內容</strong>：必背單字 800+｜常用漢字 100｜N5 全文法（附例句）｜動詞變化整理｜聽力重點｜模擬試題與解答｜30 天學習進度表
+<strong>格式說明</strong>：單字表格式為「單字｜假名｜羅馬拼音｜中文」；文法例句均附假名讀音提示與中文翻譯。</p>
+</blockquote><div class="cards"><button class="card" data-ch="0"><span class="cicon">あ</span><b>第一章</b><span>五十音與發音複習</span><small>4 節</small></button><button class="card" data-ch="1"><span class="cicon">語</span><b>第二章</b><span>必背單字 800+</span><small>22 節</small></button><button class="card" data-ch="2"><span class="cicon">漢</span><b>第三章</b><span>常用漢字 100</span><small>5 節</small></button><button class="card" data-ch="3"><span class="cicon">文</span><b>第四章</b><span>N5 全文法（附例句）</span><small>11 節</small></button><button class="card" data-ch="4"><span class="cicon">変</span><b>第五章</b><span>動詞變化整理</span><small>7 節</small></button><button class="card" data-ch="5"><span class="cicon">聴</span><b>第六章</b><span>聽力重點</span><small>5 節</small></button><button class="card" data-ch="6"><span class="cicon">試</span><b>第七章</b><span>模擬試題與解答</span><small>5 節</small></button><button class="card" data-ch="7"><span class="cicon">計</span><b>第八章</b><span>30 天每日學習進度表</span><small>6 節</small></button></div></section><section class="panel" data-panel="0" hidden><h1>第一章　五十音與發音複習</h1>
+<h2 id="c0s0">1.1 平假名（清音）</h2>
+<table>
+<thead>
+<tr>
+<th>段＼行</th>
+<th>あ行</th>
+<th>か行</th>
+<th>さ行</th>
+<th>た行</th>
+<th>な行</th>
+<th>は行</th>
+<th>ま行</th>
+<th>や行</th>
+<th>ら行</th>
+<th>わ行</th>
+<th>ん</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>あ段</td>
+<td>あ a</td>
+<td>か ka</td>
+<td>さ sa</td>
+<td>た ta</td>
+<td>な na</td>
+<td>は ha</td>
+<td>ま ma</td>
+<td>や ya</td>
+<td>ら ra</td>
+<td>わ wa</td>
+<td>ん n</td>
+</tr>
+<tr>
+<td>い段</td>
+<td>い i</td>
+<td>き ki</td>
+<td>し shi</td>
+<td>ち chi</td>
+<td>に ni</td>
+<td>ひ hi</td>
+<td>み mi</td>
+<td>—</td>
+<td>り ri</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td>う段</td>
+<td>う u</td>
+<td>く ku</td>
+<td>す su</td>
+<td>つ tsu</td>
+<td>ぬ nu</td>
+<td>ふ fu</td>
+<td>む mu</td>
+<td>ゆ yu</td>
+<td>る ru</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td>え段</td>
+<td>え e</td>
+<td>け ke</td>
+<td>せ se</td>
+<td>て te</td>
+<td>ね ne</td>
+<td>へ he</td>
+<td>め me</td>
+<td>—</td>
+<td>れ re</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr>
+<td>お段</td>
+<td>お o</td>
+<td>こ ko</td>
+<td>そ so</td>
+<td>と to</td>
+<td>の no</td>
+<td>ほ ho</td>
+<td>も mo</td>
+<td>よ yo</td>
+<td>ろ ro</td>
+<td>を o(wo)</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="c0s1">1.2 濁音・半濁音</h2>
+<table>
+<thead>
+<tr>
+<th>が行</th>
+<th>ざ行</th>
+<th>だ行</th>
+<th>ば行</th>
+<th>ぱ行</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>が ga</td>
+<td>ざ za</td>
+<td>だ da</td>
+<td>ば ba</td>
+<td>ぱ pa</td>
+</tr>
+<tr>
+<td>ぎ gi</td>
+<td>じ ji</td>
+<td>ぢ ji</td>
+<td>び bi</td>
+<td>ぴ pi</td>
+</tr>
+<tr>
+<td>ぐ gu</td>
+<td>ず zu</td>
+<td>づ zu</td>
+<td>ぶ bu</td>
+<td>ぷ pu</td>
+</tr>
+<tr>
+<td>げ ge</td>
+<td>ぜ ze</td>
+<td>で de</td>
+<td>べ be</td>
+<td>ぺ pe</td>
+</tr>
+<tr>
+<td>ご go</td>
+<td>ぞ zo</td>
+<td>ど do</td>
+<td>ぼ bo</td>
+<td>ぽ po</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c0s2">1.3 拗音</h2>
+<table>
+<thead>
+<tr>
+<th>きゃ kya</th>
+<th>きゅ kyu</th>
+<th>きょ kyo</th>
+<th>しゃ sha</th>
+<th>しゅ shu</th>
+<th>しょ sho</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ちゃ cha</td>
+<td>ちゅ chu</td>
+<td>ちょ cho</td>
+<td>にゃ nya</td>
+<td>にゅ nyu</td>
+<td>にょ nyo</td>
+</tr>
+<tr>
+<td>ひゃ hya</td>
+<td>ひゅ hyu</td>
+<td>ひょ hyo</td>
+<td>みゃ mya</td>
+<td>みゅ myu</td>
+<td>みょ myo</td>
+</tr>
+<tr>
+<td>りゃ rya</td>
+<td>りゅ ryu</td>
+<td>りょ ryo</td>
+<td>ぎゃ gya</td>
+<td>ぎゅ gyu</td>
+<td>ぎょ gyo</td>
+</tr>
+<tr>
+<td>じゃ ja</td>
+<td>じゅ ju</td>
+<td>じょ jo</td>
+<td>びゃ bya</td>
+<td>びゅ byu</td>
+<td>びょ byo</td>
+</tr>
+<tr>
+<td>ぴゃ pya</td>
+<td>ぴゅ pyu</td>
+<td>ぴょ pyo</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="c0s3">1.4 特殊發音規則</h2>
+<table>
+<thead>
+<tr>
+<th>規則</th>
+<th>說明</th>
+<th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>長音</td>
+<td>母音拉長一拍</td>
+<td>おかあさん okaasan（媽媽）、せんせい sensee（老師）、こうえん kooen（公園）</td>
+</tr>
+<tr>
+<td>促音（っ）</td>
+<td>停頓一拍，羅馬拼音重複下一個子音</td>
+<td>きって kitte（郵票）、ざっし zasshi（雜誌）</td>
+</tr>
+<tr>
+<td>撥音（ん）</td>
+<td>鼻音佔一拍</td>
+<td>しんぶん shinbun（報紙）</td>
+</tr>
+<tr>
+<td>「は」作助詞</td>
+<td>讀作 wa</td>
+<td>わたしは watashi wa</td>
+</tr>
+<tr>
+<td>「へ」作助詞</td>
+<td>讀作 e</td>
+<td>学校へ gakkoo e</td>
+</tr>
+<tr>
+<td>「を」作助詞</td>
+<td>讀作 o</td>
+<td>本を hon o</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>聽力提醒</strong>：長音與促音是 N5 聽力最常見的陷阱，例如「おばさん（阿姨）」vs「おばあさん（奶奶）」、「きて（來）」vs「きって（郵票）」。</p>
+</blockquote>
+<hr></section><section class="panel" data-panel="1" hidden><h1>第二章　必背單字 800+</h1>
+<blockquote>
+<p>使用方式：每天依第八章進度表背 30～40 個字。先遮住中文回想意思，再遮住假名練習讀音。</p>
+</blockquote>
+<h2 id="c1s0">2.1 數字（25 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>〇／ゼロ</td>
+<td>れい／ゼロ</td>
+<td>rei / zero</td>
+<td>零</td>
+</tr>
+<tr>
+<td>一</td>
+<td>いち</td>
+<td>ichi</td>
+<td>一</td>
+</tr>
+<tr>
+<td>二</td>
+<td>に</td>
+<td>ni</td>
+<td>二</td>
+</tr>
+<tr>
+<td>三</td>
+<td>さん</td>
+<td>san</td>
+<td>三</td>
+</tr>
+<tr>
+<td>四</td>
+<td>よん／し</td>
+<td>yon / shi</td>
+<td>四</td>
+</tr>
+<tr>
+<td>五</td>
+<td>ご</td>
+<td>go</td>
+<td>五</td>
+</tr>
+<tr>
+<td>六</td>
+<td>ろく</td>
+<td>roku</td>
+<td>六</td>
+</tr>
+<tr>
+<td>七</td>
+<td>なな／しち</td>
+<td>nana / shichi</td>
+<td>七</td>
+</tr>
+<tr>
+<td>八</td>
+<td>はち</td>
+<td>hachi</td>
+<td>八</td>
+</tr>
+<tr>
+<td>九</td>
+<td>きゅう／く</td>
+<td>kyuu / ku</td>
+<td>九</td>
+</tr>
+<tr>
+<td>十</td>
+<td>じゅう</td>
+<td>juu</td>
+<td>十</td>
+</tr>
+<tr>
+<td>二十</td>
+<td>にじゅう</td>
+<td>nijuu</td>
+<td>二十</td>
+</tr>
+<tr>
+<td>百</td>
+<td>ひゃく</td>
+<td>hyaku</td>
+<td>一百</td>
+</tr>
+<tr>
+<td>三百</td>
+<td>さんびゃく</td>
+<td>sanbyaku</td>
+<td>三百（注意濁音）</td>
+</tr>
+<tr>
+<td>六百</td>
+<td>ろっぴゃく</td>
+<td>roppyaku</td>
+<td>六百（注意促音＋半濁音）</td>
+</tr>
+<tr>
+<td>八百</td>
+<td>はっぴゃく</td>
+<td>happyaku</td>
+<td>八百</td>
+</tr>
+<tr>
+<td>千</td>
+<td>せん</td>
+<td>sen</td>
+<td>一千</td>
+</tr>
+<tr>
+<td>三千</td>
+<td>さんぜん</td>
+<td>sanzen</td>
+<td>三千（注意濁音）</td>
+</tr>
+<tr>
+<td>八千</td>
+<td>はっせん</td>
+<td>hassen</td>
+<td>八千</td>
+</tr>
+<tr>
+<td>一万</td>
+<td>いちまん</td>
+<td>ichiman</td>
+<td>一萬</td>
+</tr>
+<tr>
+<td>十万</td>
+<td>じゅうまん</td>
+<td>juuman</td>
+<td>十萬</td>
+</tr>
+<tr>
+<td>百万</td>
+<td>ひゃくまん</td>
+<td>hyakuman</td>
+<td>一百萬</td>
+</tr>
+<tr>
+<td>半分</td>
+<td>はんぶん</td>
+<td>hanbun</td>
+<td>一半</td>
+</tr>
+<tr>
+<td>番号</td>
+<td>ばんごう</td>
+<td>bangou</td>
+<td>號碼</td>
+</tr>
+<tr>
+<td>電話番号</td>
+<td>でんわばんごう</td>
+<td>denwa bangou</td>
+<td>電話號碼</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s1">2.2 時間與日期（75 字）</h2>
+<h3>星期</h3>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>月曜日</td>
+<td>げつようび</td>
+<td>getsuyoubi</td>
+<td>星期一</td>
+</tr>
+<tr>
+<td>火曜日</td>
+<td>かようび</td>
+<td>kayoubi</td>
+<td>星期二</td>
+</tr>
+<tr>
+<td>水曜日</td>
+<td>すいようび</td>
+<td>suiyoubi</td>
+<td>星期三</td>
+</tr>
+<tr>
+<td>木曜日</td>
+<td>もくようび</td>
+<td>mokuyoubi</td>
+<td>星期四</td>
+</tr>
+<tr>
+<td>金曜日</td>
+<td>きんようび</td>
+<td>kinyoubi</td>
+<td>星期五</td>
+</tr>
+<tr>
+<td>土曜日</td>
+<td>どようび</td>
+<td>doyoubi</td>
+<td>星期六</td>
+</tr>
+<tr>
+<td>日曜日</td>
+<td>にちようび</td>
+<td>nichiyoubi</td>
+<td>星期日</td>
+</tr>
+<tr>
+<td>何曜日</td>
+<td>なんようび</td>
+<td>nanyoubi</td>
+<td>星期幾</td>
+</tr>
+</tbody>
+</table>
+<h3>月份</h3>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>一月</td>
+<td>いちがつ</td>
+<td>ichigatsu</td>
+<td>一月</td>
+</tr>
+<tr>
+<td>二月</td>
+<td>にがつ</td>
+<td>nigatsu</td>
+<td>二月</td>
+</tr>
+<tr>
+<td>三月</td>
+<td>さんがつ</td>
+<td>sangatsu</td>
+<td>三月</td>
+</tr>
+<tr>
+<td>四月</td>
+<td>しがつ</td>
+<td>shigatsu</td>
+<td>四月（注意：し不是よん）</td>
+</tr>
+<tr>
+<td>五月</td>
+<td>ごがつ</td>
+<td>gogatsu</td>
+<td>五月</td>
+</tr>
+<tr>
+<td>六月</td>
+<td>ろくがつ</td>
+<td>rokugatsu</td>
+<td>六月</td>
+</tr>
+<tr>
+<td>七月</td>
+<td>しちがつ</td>
+<td>shichigatsu</td>
+<td>七月（注意：しち）</td>
+</tr>
+<tr>
+<td>八月</td>
+<td>はちがつ</td>
+<td>hachigatsu</td>
+<td>八月</td>
+</tr>
+<tr>
+<td>九月</td>
+<td>くがつ</td>
+<td>kugatsu</td>
+<td>九月（注意：く不是きゅう）</td>
+</tr>
+<tr>
+<td>十月</td>
+<td>じゅうがつ</td>
+<td>juugatsu</td>
+<td>十月</td>
+</tr>
+<tr>
+<td>十一月</td>
+<td>じゅういちがつ</td>
+<td>juuichigatsu</td>
+<td>十一月</td>
+</tr>
+<tr>
+<td>十二月</td>
+<td>じゅうにがつ</td>
+<td>juunigatsu</td>
+<td>十二月</td>
+</tr>
+<tr>
+<td>何月</td>
+<td>なんがつ</td>
+<td>nangatsu</td>
+<td>幾月</td>
+</tr>
+</tbody>
+</table>
+<h3>日期（特殊讀音必背）</h3>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>一日</td>
+<td>ついたち</td>
+<td>tsuitachi</td>
+<td>1 日</td>
+</tr>
+<tr>
+<td>二日</td>
+<td>ふつか</td>
+<td>futsuka</td>
+<td>2 日</td>
+</tr>
+<tr>
+<td>三日</td>
+<td>みっか</td>
+<td>mikka</td>
+<td>3 日</td>
+</tr>
+<tr>
+<td>四日</td>
+<td>よっか</td>
+<td>yokka</td>
+<td>4 日</td>
+</tr>
+<tr>
+<td>五日</td>
+<td>いつか</td>
+<td>itsuka</td>
+<td>5 日</td>
+</tr>
+<tr>
+<td>六日</td>
+<td>むいか</td>
+<td>muika</td>
+<td>6 日</td>
+</tr>
+<tr>
+<td>七日</td>
+<td>なのか</td>
+<td>nanoka</td>
+<td>7 日</td>
+</tr>
+<tr>
+<td>八日</td>
+<td>ようか</td>
+<td>youka</td>
+<td>8 日</td>
+</tr>
+<tr>
+<td>九日</td>
+<td>ここのか</td>
+<td>kokonoka</td>
+<td>9 日</td>
+</tr>
+<tr>
+<td>十日</td>
+<td>とおか</td>
+<td>tooka</td>
+<td>10 日</td>
+</tr>
+<tr>
+<td>十四日</td>
+<td>じゅうよっか</td>
+<td>juuyokka</td>
+<td>14 日</td>
+</tr>
+<tr>
+<td>二十日</td>
+<td>はつか</td>
+<td>hatsuka</td>
+<td>20 日</td>
+</tr>
+<tr>
+<td>二十四日</td>
+<td>にじゅうよっか</td>
+<td>nijuuyokka</td>
+<td>24 日</td>
+</tr>
+<tr>
+<td>何日</td>
+<td>なんにち</td>
+<td>nannichi</td>
+<td>幾號</td>
+</tr>
+</tbody>
+</table>
+<h3>時間詞</h3>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>今日</td>
+<td>きょう</td>
+<td>kyou</td>
+<td>今天</td>
+</tr>
+<tr>
+<td>昨日</td>
+<td>きのう</td>
+<td>kinou</td>
+<td>昨天</td>
+</tr>
+<tr>
+<td>明日</td>
+<td>あした</td>
+<td>ashita</td>
+<td>明天</td>
+</tr>
+<tr>
+<td>一昨日</td>
+<td>おととい</td>
+<td>ototoi</td>
+<td>前天</td>
+</tr>
+<tr>
+<td>明後日</td>
+<td>あさって</td>
+<td>asatte</td>
+<td>後天</td>
+</tr>
+<tr>
+<td>今朝</td>
+<td>けさ</td>
+<td>kesa</td>
+<td>今天早上</td>
+</tr>
+<tr>
+<td>今晩</td>
+<td>こんばん</td>
+<td>konban</td>
+<td>今晚</td>
+</tr>
+<tr>
+<td>毎日</td>
+<td>まいにち</td>
+<td>mainichi</td>
+<td>每天</td>
+</tr>
+<tr>
+<td>毎朝</td>
+<td>まいあさ</td>
+<td>maiasa</td>
+<td>每天早上</td>
+</tr>
+<tr>
+<td>毎晩</td>
+<td>まいばん</td>
+<td>maiban</td>
+<td>每天晚上</td>
+</tr>
+<tr>
+<td>毎週</td>
+<td>まいしゅう</td>
+<td>maishuu</td>
+<td>每週</td>
+</tr>
+<tr>
+<td>今週</td>
+<td>こんしゅう</td>
+<td>konshuu</td>
+<td>這週</td>
+</tr>
+<tr>
+<td>先週</td>
+<td>せんしゅう</td>
+<td>senshuu</td>
+<td>上週</td>
+</tr>
+<tr>
+<td>来週</td>
+<td>らいしゅう</td>
+<td>raishuu</td>
+<td>下週</td>
+</tr>
+<tr>
+<td>今月</td>
+<td>こんげつ</td>
+<td>kongetsu</td>
+<td>這個月</td>
+</tr>
+<tr>
+<td>先月</td>
+<td>せんげつ</td>
+<td>sengetsu</td>
+<td>上個月</td>
+</tr>
+<tr>
+<td>来月</td>
+<td>らいげつ</td>
+<td>raigetsu</td>
+<td>下個月</td>
+</tr>
+<tr>
+<td>今年</td>
+<td>ことし</td>
+<td>kotoshi</td>
+<td>今年</td>
+</tr>
+<tr>
+<td>去年</td>
+<td>きょねん</td>
+<td>kyonen</td>
+<td>去年</td>
+</tr>
+<tr>
+<td>来年</td>
+<td>らいねん</td>
+<td>rainen</td>
+<td>明年</td>
+</tr>
+<tr>
+<td>朝</td>
+<td>あさ</td>
+<td>asa</td>
+<td>早上</td>
+</tr>
+<tr>
+<td>昼</td>
+<td>ひる</td>
+<td>hiru</td>
+<td>中午、白天</td>
+</tr>
+<tr>
+<td>夜</td>
+<td>よる</td>
+<td>yoru</td>
+<td>晚上</td>
+</tr>
+<tr>
+<td>晩</td>
+<td>ばん</td>
+<td>ban</td>
+<td>晚上</td>
+</tr>
+<tr>
+<td>午前</td>
+<td>ごぜん</td>
+<td>gozen</td>
+<td>上午</td>
+</tr>
+<tr>
+<td>午後</td>
+<td>ごご</td>
+<td>gogo</td>
+<td>下午</td>
+</tr>
+<tr>
+<td>〜時</td>
+<td>〜じ</td>
+<td>-ji</td>
+<td>～點</td>
+</tr>
+<tr>
+<td>〜分</td>
+<td>〜ふん／ぷん</td>
+<td>-fun / -pun</td>
+<td>～分</td>
+</tr>
+<tr>
+<td>〜半</td>
+<td>〜はん</td>
+<td>-han</td>
+<td>～點半</td>
+</tr>
+<tr>
+<td>時間</td>
+<td>じかん</td>
+<td>jikan</td>
+<td>時間、小時</td>
+</tr>
+<tr>
+<td>時々</td>
+<td>ときどき</td>
+<td>tokidoki</td>
+<td>有時候</td>
+</tr>
+<tr>
+<td>週間</td>
+<td>しゅうかん</td>
+<td>shuukan</td>
+<td>～週（期間）</td>
+</tr>
+<tr>
+<td>春</td>
+<td>はる</td>
+<td>haru</td>
+<td>春天</td>
+</tr>
+<tr>
+<td>夏</td>
+<td>なつ</td>
+<td>natsu</td>
+<td>夏天</td>
+</tr>
+<tr>
+<td>秋</td>
+<td>あき</td>
+<td>aki</td>
+<td>秋天</td>
+</tr>
+<tr>
+<td>冬</td>
+<td>ふゆ</td>
+<td>fuyu</td>
+<td>冬天</td>
+</tr>
+<tr>
+<td>誕生日</td>
+<td>たんじょうび</td>
+<td>tanjoubi</td>
+<td>生日</td>
+</tr>
+<tr>
+<td>休み</td>
+<td>やすみ</td>
+<td>yasumi</td>
+<td>休息、休假</td>
+</tr>
+<tr>
+<td>夏休み</td>
+<td>なつやすみ</td>
+<td>natsuyasumi</td>
+<td>暑假</td>
+</tr>
+<tr>
+<td>最初</td>
+<td>さいしょ</td>
+<td>saisho</td>
+<td>最初</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>時刻讀音陷阱</strong>：四時＝よじ（不是よんじ）、七時＝しちじ、九時＝くじ。分：一分 いっぷん、三分 さんぷん、六分 ろっぷん、八分 はっぷん、十分 じゅっぷん，其餘用 ふん。</p>
+</blockquote>
+<h2 id="c1s2">2.3 量詞（16 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文／用途</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>〜つ</td>
+<td>〜つ</td>
+<td>-tsu</td>
+<td>個（1〜10：ひとつ、ふたつ、みっつ、よっつ、いつつ、むっつ、ななつ、やっつ、ここのつ、とお）</td>
+</tr>
+<tr>
+<td>〜個</td>
+<td>〜こ</td>
+<td>-ko</td>
+<td>個（小東西）</td>
+</tr>
+<tr>
+<td>〜人</td>
+<td>〜にん</td>
+<td>-nin</td>
+<td>人（一人 ひとり、二人 ふたり、四人 よにん）</td>
+</tr>
+<tr>
+<td>〜枚</td>
+<td>〜まい</td>
+<td>-mai</td>
+<td>張、件（薄的東西）</td>
+</tr>
+<tr>
+<td>〜本</td>
+<td>〜ほん／ぼん／ぽん</td>
+<td>-hon</td>
+<td>支、瓶（細長物；一本 いっぽん、三本 さんぼん）</td>
+</tr>
+<tr>
+<td>〜冊</td>
+<td>〜さつ</td>
+<td>-satsu</td>
+<td>本（書）</td>
+</tr>
+<tr>
+<td>〜台</td>
+<td>〜だい</td>
+<td>-dai</td>
+<td>台（機器、車）</td>
+</tr>
+<tr>
+<td>〜匹</td>
+<td>〜ひき／びき／ぴき</td>
+<td>-hiki</td>
+<td>隻（小動物；一匹 いっぴき、三匹 さんびき）</td>
+</tr>
+<tr>
+<td>〜杯</td>
+<td>〜はい／ばい／ぱい</td>
+<td>-hai</td>
+<td>杯（一杯 いっぱい、三杯 さんばい）</td>
+</tr>
+<tr>
+<td>〜階</td>
+<td>〜かい／がい</td>
+<td>-kai</td>
+<td>樓（三階 さんがい）</td>
+</tr>
+<tr>
+<td>〜回</td>
+<td>〜かい</td>
+<td>-kai</td>
+<td>次</td>
+</tr>
+<tr>
+<td>〜歳</td>
+<td>〜さい</td>
+<td>-sai</td>
+<td>歲（二十歳 はたち）</td>
+</tr>
+<tr>
+<td>〜円</td>
+<td>〜えん</td>
+<td>-en</td>
+<td>日圓</td>
+</tr>
+<tr>
+<td>〜番</td>
+<td>〜ばん</td>
+<td>-ban</td>
+<td>第～號</td>
+</tr>
+<tr>
+<td>〜度</td>
+<td>〜ど</td>
+<td>-do</td>
+<td>度、次</td>
+</tr>
+<tr>
+<td>〜ページ</td>
+<td>〜ページ</td>
+<td>-peeji</td>
+<td>頁</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s3">2.4 人物與家族（40 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>私</td>
+<td>わたし</td>
+<td>watashi</td>
+<td>我</td>
+</tr>
+<tr>
+<td>私たち</td>
+<td>わたしたち</td>
+<td>watashitachi</td>
+<td>我們</td>
+</tr>
+<tr>
+<td>あなた</td>
+<td>あなた</td>
+<td>anata</td>
+<td>你</td>
+</tr>
+<tr>
+<td>彼</td>
+<td>かれ</td>
+<td>kare</td>
+<td>他</td>
+</tr>
+<tr>
+<td>彼女</td>
+<td>かのじょ</td>
+<td>kanojo</td>
+<td>她</td>
+</tr>
+<tr>
+<td>人</td>
+<td>ひと</td>
+<td>hito</td>
+<td>人</td>
+</tr>
+<tr>
+<td>男</td>
+<td>おとこ</td>
+<td>otoko</td>
+<td>男</td>
+</tr>
+<tr>
+<td>女</td>
+<td>おんな</td>
+<td>onna</td>
+<td>女</td>
+</tr>
+<tr>
+<td>男の人</td>
+<td>おとこのひと</td>
+<td>otoko no hito</td>
+<td>男人</td>
+</tr>
+<tr>
+<td>女の人</td>
+<td>おんなのひと</td>
+<td>onna no hito</td>
+<td>女人</td>
+</tr>
+<tr>
+<td>男の子</td>
+<td>おとこのこ</td>
+<td>otoko no ko</td>
+<td>男孩</td>
+</tr>
+<tr>
+<td>女の子</td>
+<td>おんなのこ</td>
+<td>onna no ko</td>
+<td>女孩</td>
+</tr>
+<tr>
+<td>子供</td>
+<td>こども</td>
+<td>kodomo</td>
+<td>小孩</td>
+</tr>
+<tr>
+<td>大人</td>
+<td>おとな</td>
+<td>otona</td>
+<td>大人</td>
+</tr>
+<tr>
+<td>家族</td>
+<td>かぞく</td>
+<td>kazoku</td>
+<td>家人</td>
+</tr>
+<tr>
+<td>父</td>
+<td>ちち</td>
+<td>chichi</td>
+<td>（我）父親</td>
+</tr>
+<tr>
+<td>母</td>
+<td>はは</td>
+<td>haha</td>
+<td>（我）母親</td>
+</tr>
+<tr>
+<td>お父さん</td>
+<td>おとうさん</td>
+<td>otousan</td>
+<td>父親（尊稱）</td>
+</tr>
+<tr>
+<td>お母さん</td>
+<td>おかあさん</td>
+<td>okaasan</td>
+<td>母親（尊稱）</td>
+</tr>
+<tr>
+<td>両親</td>
+<td>りょうしん</td>
+<td>ryoushin</td>
+<td>雙親</td>
+</tr>
+<tr>
+<td>兄</td>
+<td>あに</td>
+<td>ani</td>
+<td>（我）哥哥</td>
+</tr>
+<tr>
+<td>姉</td>
+<td>あね</td>
+<td>ane</td>
+<td>（我）姊姊</td>
+</tr>
+<tr>
+<td>お兄さん</td>
+<td>おにいさん</td>
+<td>oniisan</td>
+<td>哥哥（尊稱）</td>
+</tr>
+<tr>
+<td>お姉さん</td>
+<td>おねえさん</td>
+<td>oneesan</td>
+<td>姊姊（尊稱）</td>
+</tr>
+<tr>
+<td>弟</td>
+<td>おとうと</td>
+<td>otouto</td>
+<td>弟弟</td>
+</tr>
+<tr>
+<td>妹</td>
+<td>いもうと</td>
+<td>imouto</td>
+<td>妹妹</td>
+</tr>
+<tr>
+<td>兄弟</td>
+<td>きょうだい</td>
+<td>kyoudai</td>
+<td>兄弟姊妹</td>
+</tr>
+<tr>
+<td>おじいさん</td>
+<td>おじいさん</td>
+<td>ojiisan</td>
+<td>爺爺、老爺爺</td>
+</tr>
+<tr>
+<td>おばあさん</td>
+<td>おばあさん</td>
+<td>obaasan</td>
+<td>奶奶、老奶奶</td>
+</tr>
+<tr>
+<td>おじさん</td>
+<td>おじさん</td>
+<td>ojisan</td>
+<td>叔叔、伯伯</td>
+</tr>
+<tr>
+<td>おばさん</td>
+<td>おばさん</td>
+<td>obasan</td>
+<td>阿姨、姑姑</td>
+</tr>
+<tr>
+<td>夫</td>
+<td>おっと</td>
+<td>otto</td>
+<td>丈夫</td>
+</tr>
+<tr>
+<td>妻</td>
+<td>つま</td>
+<td>tsuma</td>
+<td>妻子</td>
+</tr>
+<tr>
+<td>ご主人</td>
+<td>ごしゅじん</td>
+<td>goshujin</td>
+<td>（別人的）先生</td>
+</tr>
+<tr>
+<td>奥さん</td>
+<td>おくさん</td>
+<td>okusan</td>
+<td>（別人的）太太</td>
+</tr>
+<tr>
+<td>友達</td>
+<td>ともだち</td>
+<td>tomodachi</td>
+<td>朋友</td>
+</tr>
+<tr>
+<td>みなさん</td>
+<td>みなさん</td>
+<td>minasan</td>
+<td>大家</td>
+</tr>
+<tr>
+<td>一人</td>
+<td>ひとり</td>
+<td>hitori</td>
+<td>一個人</td>
+</tr>
+<tr>
+<td>二人</td>
+<td>ふたり</td>
+<td>futari</td>
+<td>兩個人</td>
+</tr>
+<tr>
+<td>名前</td>
+<td>なまえ</td>
+<td>namae</td>
+<td>名字</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s4">2.5 身體部位（20 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>体</td>
+<td>からだ</td>
+<td>karada</td>
+<td>身體</td>
+</tr>
+<tr>
+<td>頭</td>
+<td>あたま</td>
+<td>atama</td>
+<td>頭</td>
+</tr>
+<tr>
+<td>顔</td>
+<td>かお</td>
+<td>kao</td>
+<td>臉</td>
+</tr>
+<tr>
+<td>目</td>
+<td>め</td>
+<td>me</td>
+<td>眼睛</td>
+</tr>
+<tr>
+<td>耳</td>
+<td>みみ</td>
+<td>mimi</td>
+<td>耳朵</td>
+</tr>
+<tr>
+<td>鼻</td>
+<td>はな</td>
+<td>hana</td>
+<td>鼻子</td>
+</tr>
+<tr>
+<td>口</td>
+<td>くち</td>
+<td>kuchi</td>
+<td>嘴巴</td>
+</tr>
+<tr>
+<td>歯</td>
+<td>は</td>
+<td>ha</td>
+<td>牙齒</td>
+</tr>
+<tr>
+<td>首</td>
+<td>くび</td>
+<td>kubi</td>
+<td>脖子</td>
+</tr>
+<tr>
+<td>手</td>
+<td>て</td>
+<td>te</td>
+<td>手</td>
+</tr>
+<tr>
+<td>指</td>
+<td>ゆび</td>
+<td>yubi</td>
+<td>手指</td>
+</tr>
+<tr>
+<td>足</td>
+<td>あし</td>
+<td>ashi</td>
+<td>腳、腿</td>
+</tr>
+<tr>
+<td>お腹</td>
+<td>おなか</td>
+<td>onaka</td>
+<td>肚子</td>
+</tr>
+<tr>
+<td>背</td>
+<td>せ</td>
+<td>se</td>
+<td>身高、背</td>
+</tr>
+<tr>
+<td>髪</td>
+<td>かみ</td>
+<td>kami</td>
+<td>頭髮</td>
+</tr>
+<tr>
+<td>声</td>
+<td>こえ</td>
+<td>koe</td>
+<td>聲音（人的）</td>
+</tr>
+<tr>
+<td>病気</td>
+<td>びょうき</td>
+<td>byouki</td>
+<td>生病</td>
+</tr>
+<tr>
+<td>風邪</td>
+<td>かぜ</td>
+<td>kaze</td>
+<td>感冒</td>
+</tr>
+<tr>
+<td>薬</td>
+<td>くすり</td>
+<td>kusuri</td>
+<td>藥</td>
+</tr>
+<tr>
+<td>元気</td>
+<td>げんき</td>
+<td>genki</td>
+<td>有精神、健康</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s5">2.6 食物與飲料（45 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>食べ物</td>
+<td>たべもの</td>
+<td>tabemono</td>
+<td>食物</td>
+</tr>
+<tr>
+<td>飲み物</td>
+<td>のみもの</td>
+<td>nomimono</td>
+<td>飲料</td>
+</tr>
+<tr>
+<td>ご飯</td>
+<td>ごはん</td>
+<td>gohan</td>
+<td>飯、餐</td>
+</tr>
+<tr>
+<td>朝ご飯</td>
+<td>あさごはん</td>
+<td>asagohan</td>
+<td>早餐</td>
+</tr>
+<tr>
+<td>昼ご飯</td>
+<td>ひるごはん</td>
+<td>hirugohan</td>
+<td>午餐</td>
+</tr>
+<tr>
+<td>晩ご飯</td>
+<td>ばんごはん</td>
+<td>bangohan</td>
+<td>晚餐</td>
+</tr>
+<tr>
+<td>料理</td>
+<td>りょうり</td>
+<td>ryouri</td>
+<td>料理、菜</td>
+</tr>
+<tr>
+<td>米</td>
+<td>こめ</td>
+<td>kome</td>
+<td>米</td>
+</tr>
+<tr>
+<td>パン</td>
+<td>パン</td>
+<td>pan</td>
+<td>麵包</td>
+</tr>
+<tr>
+<td>卵</td>
+<td>たまご</td>
+<td>tamago</td>
+<td>蛋</td>
+</tr>
+<tr>
+<td>肉</td>
+<td>にく</td>
+<td>niku</td>
+<td>肉</td>
+</tr>
+<tr>
+<td>牛肉</td>
+<td>ぎゅうにく</td>
+<td>gyuuniku</td>
+<td>牛肉</td>
+</tr>
+<tr>
+<td>豚肉</td>
+<td>ぶたにく</td>
+<td>butaniku</td>
+<td>豬肉</td>
+</tr>
+<tr>
+<td>鶏肉</td>
+<td>とりにく</td>
+<td>toriniku</td>
+<td>雞肉</td>
+</tr>
+<tr>
+<td>魚</td>
+<td>さかな</td>
+<td>sakana</td>
+<td>魚</td>
+</tr>
+<tr>
+<td>野菜</td>
+<td>やさい</td>
+<td>yasai</td>
+<td>蔬菜</td>
+</tr>
+<tr>
+<td>果物</td>
+<td>くだもの</td>
+<td>kudamono</td>
+<td>水果</td>
+</tr>
+<tr>
+<td>りんご</td>
+<td>りんご</td>
+<td>ringo</td>
+<td>蘋果</td>
+</tr>
+<tr>
+<td>みかん</td>
+<td>みかん</td>
+<td>mikan</td>
+<td>橘子</td>
+</tr>
+<tr>
+<td>バナナ</td>
+<td>バナナ</td>
+<td>banana</td>
+<td>香蕉</td>
+</tr>
+<tr>
+<td>塩</td>
+<td>しお</td>
+<td>shio</td>
+<td>鹽</td>
+</tr>
+<tr>
+<td>砂糖</td>
+<td>さとう</td>
+<td>satou</td>
+<td>糖</td>
+</tr>
+<tr>
+<td>醤油</td>
+<td>しょうゆ</td>
+<td>shouyu</td>
+<td>醬油</td>
+</tr>
+<tr>
+<td>お茶</td>
+<td>おちゃ</td>
+<td>ocha</td>
+<td>茶</td>
+</tr>
+<tr>
+<td>紅茶</td>
+<td>こうちゃ</td>
+<td>koucha</td>
+<td>紅茶</td>
+</tr>
+<tr>
+<td>コーヒー</td>
+<td>コーヒー</td>
+<td>koohii</td>
+<td>咖啡</td>
+</tr>
+<tr>
+<td>牛乳</td>
+<td>ぎゅうにゅう</td>
+<td>gyuunyuu</td>
+<td>牛奶</td>
+</tr>
+<tr>
+<td>水</td>
+<td>みず</td>
+<td>mizu</td>
+<td>水</td>
+</tr>
+<tr>
+<td>お酒</td>
+<td>おさけ</td>
+<td>osake</td>
+<td>酒</td>
+</tr>
+<tr>
+<td>ビール</td>
+<td>ビール</td>
+<td>biiru</td>
+<td>啤酒</td>
+</tr>
+<tr>
+<td>ジュース</td>
+<td>ジュース</td>
+<td>juusu</td>
+<td>果汁</td>
+</tr>
+<tr>
+<td>お菓子</td>
+<td>おかし</td>
+<td>okashi</td>
+<td>點心、零食</td>
+</tr>
+<tr>
+<td>飴</td>
+<td>あめ</td>
+<td>ame</td>
+<td>糖果</td>
+</tr>
+<tr>
+<td>カレー</td>
+<td>カレー</td>
+<td>karee</td>
+<td>咖哩</td>
+</tr>
+<tr>
+<td>ラーメン</td>
+<td>ラーメン</td>
+<td>raamen</td>
+<td>拉麵</td>
+</tr>
+<tr>
+<td>そば</td>
+<td>そば</td>
+<td>soba</td>
+<td>蕎麥麵</td>
+</tr>
+<tr>
+<td>うどん</td>
+<td>うどん</td>
+<td>udon</td>
+<td>烏龍麵</td>
+</tr>
+<tr>
+<td>寿司</td>
+<td>すし</td>
+<td>sushi</td>
+<td>壽司</td>
+</tr>
+<tr>
+<td>天ぷら</td>
+<td>てんぷら</td>
+<td>tenpura</td>
+<td>天婦羅</td>
+</tr>
+<tr>
+<td>弁当</td>
+<td>べんとう</td>
+<td>bentou</td>
+<td>便當</td>
+</tr>
+<tr>
+<td>味</td>
+<td>あじ</td>
+<td>aji</td>
+<td>味道</td>
+</tr>
+<tr>
+<td>コップ</td>
+<td>コップ</td>
+<td>koppu</td>
+<td>杯子</td>
+</tr>
+<tr>
+<td>茶碗</td>
+<td>ちゃわん</td>
+<td>chawan</td>
+<td>碗</td>
+</tr>
+<tr>
+<td>箸</td>
+<td>はし</td>
+<td>hashi</td>
+<td>筷子</td>
+</tr>
+<tr>
+<td>お皿</td>
+<td>おさら</td>
+<td>osara</td>
+<td>盤子</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s6">2.7 衣物與配件（16 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>服</td>
+<td>ふく</td>
+<td>fuku</td>
+<td>衣服</td>
+</tr>
+<tr>
+<td>洋服</td>
+<td>ようふく</td>
+<td>youfuku</td>
+<td>西式衣服</td>
+</tr>
+<tr>
+<td>シャツ</td>
+<td>シャツ</td>
+<td>shatsu</td>
+<td>襯衫</td>
+</tr>
+<tr>
+<td>ワイシャツ</td>
+<td>ワイシャツ</td>
+<td>waishatsu</td>
+<td>白襯衫</td>
+</tr>
+<tr>
+<td>セーター</td>
+<td>セーター</td>
+<td>seetaa</td>
+<td>毛衣</td>
+</tr>
+<tr>
+<td>コート</td>
+<td>コート</td>
+<td>kooto</td>
+<td>大衣</td>
+</tr>
+<tr>
+<td>上着</td>
+<td>うわぎ</td>
+<td>uwagi</td>
+<td>外套、上衣</td>
+</tr>
+<tr>
+<td>ズボン</td>
+<td>ズボン</td>
+<td>zubon</td>
+<td>褲子</td>
+</tr>
+<tr>
+<td>スカート</td>
+<td>スカート</td>
+<td>sukaato</td>
+<td>裙子</td>
+</tr>
+<tr>
+<td>靴</td>
+<td>くつ</td>
+<td>kutsu</td>
+<td>鞋子</td>
+</tr>
+<tr>
+<td>靴下</td>
+<td>くつした</td>
+<td>kutsushita</td>
+<td>襪子</td>
+</tr>
+<tr>
+<td>帽子</td>
+<td>ぼうし</td>
+<td>boushi</td>
+<td>帽子</td>
+</tr>
+<tr>
+<td>眼鏡</td>
+<td>めがね</td>
+<td>megane</td>
+<td>眼鏡</td>
+</tr>
+<tr>
+<td>時計</td>
+<td>とけい</td>
+<td>tokei</td>
+<td>時鐘、手錶</td>
+</tr>
+<tr>
+<td>ネクタイ</td>
+<td>ネクタイ</td>
+<td>nekutai</td>
+<td>領帶</td>
+</tr>
+<tr>
+<td>ポケット</td>
+<td>ポケット</td>
+<td>poketto</td>
+<td>口袋</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s7">2.8 住居・家具・日用品（46 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>家</td>
+<td>いえ／うち</td>
+<td>ie / uchi</td>
+<td>家、房子</td>
+</tr>
+<tr>
+<td>部屋</td>
+<td>へや</td>
+<td>heya</td>
+<td>房間</td>
+</tr>
+<tr>
+<td>玄関</td>
+<td>げんかん</td>
+<td>genkan</td>
+<td>玄關</td>
+</tr>
+<tr>
+<td>台所</td>
+<td>だいどころ</td>
+<td>daidokoro</td>
+<td>廚房</td>
+</tr>
+<tr>
+<td>風呂</td>
+<td>ふろ</td>
+<td>furo</td>
+<td>浴室、洗澡</td>
+</tr>
+<tr>
+<td>トイレ</td>
+<td>トイレ</td>
+<td>toire</td>
+<td>廁所</td>
+</tr>
+<tr>
+<td>お手洗い</td>
+<td>おてあらい</td>
+<td>otearai</td>
+<td>洗手間</td>
+</tr>
+<tr>
+<td>庭</td>
+<td>にわ</td>
+<td>niwa</td>
+<td>院子</td>
+</tr>
+<tr>
+<td>窓</td>
+<td>まど</td>
+<td>mado</td>
+<td>窗戶</td>
+</tr>
+<tr>
+<td>ドア</td>
+<td>ドア</td>
+<td>doa</td>
+<td>門</td>
+</tr>
+<tr>
+<td>戸</td>
+<td>と</td>
+<td>to</td>
+<td>門、拉門</td>
+</tr>
+<tr>
+<td>門</td>
+<td>もん</td>
+<td>mon</td>
+<td>大門</td>
+</tr>
+<tr>
+<td>階段</td>
+<td>かいだん</td>
+<td>kaidan</td>
+<td>樓梯</td>
+</tr>
+<tr>
+<td>机</td>
+<td>つくえ</td>
+<td>tsukue</td>
+<td>書桌</td>
+</tr>
+<tr>
+<td>椅子</td>
+<td>いす</td>
+<td>isu</td>
+<td>椅子</td>
+</tr>
+<tr>
+<td>テーブル</td>
+<td>テーブル</td>
+<td>teeburu</td>
+<td>桌子</td>
+</tr>
+<tr>
+<td>ベッド</td>
+<td>ベッド</td>
+<td>beddo</td>
+<td>床</td>
+</tr>
+<tr>
+<td>本棚</td>
+<td>ほんだな</td>
+<td>hondana</td>
+<td>書架</td>
+</tr>
+<tr>
+<td>電気</td>
+<td>でんき</td>
+<td>denki</td>
+<td>電、電燈</td>
+</tr>
+<tr>
+<td>電話</td>
+<td>でんわ</td>
+<td>denwa</td>
+<td>電話</td>
+</tr>
+<tr>
+<td>テレビ</td>
+<td>テレビ</td>
+<td>terebi</td>
+<td>電視</td>
+</tr>
+<tr>
+<td>ラジオ</td>
+<td>ラジオ</td>
+<td>rajio</td>
+<td>收音機</td>
+</tr>
+<tr>
+<td>カメラ</td>
+<td>カメラ</td>
+<td>kamera</td>
+<td>相機</td>
+</tr>
+<tr>
+<td>パソコン</td>
+<td>パソコン</td>
+<td>pasokon</td>
+<td>電腦</td>
+</tr>
+<tr>
+<td>冷蔵庫</td>
+<td>れいぞうこ</td>
+<td>reizouko</td>
+<td>冰箱</td>
+</tr>
+<tr>
+<td>ストーブ</td>
+<td>ストーブ</td>
+<td>sutoobu</td>
+<td>暖爐</td>
+</tr>
+<tr>
+<td>鍵</td>
+<td>かぎ</td>
+<td>kagi</td>
+<td>鑰匙</td>
+</tr>
+<tr>
+<td>傘</td>
+<td>かさ</td>
+<td>kasa</td>
+<td>雨傘</td>
+</tr>
+<tr>
+<td>鞄</td>
+<td>かばん</td>
+<td>kaban</td>
+<td>包包</td>
+</tr>
+<tr>
+<td>荷物</td>
+<td>にもつ</td>
+<td>nimotsu</td>
+<td>行李</td>
+</tr>
+<tr>
+<td>箱</td>
+<td>はこ</td>
+<td>hako</td>
+<td>箱子</td>
+</tr>
+<tr>
+<td>石鹸</td>
+<td>せっけん</td>
+<td>sekken</td>
+<td>肥皂</td>
+</tr>
+<tr>
+<td>タオル</td>
+<td>タオル</td>
+<td>taoru</td>
+<td>毛巾</td>
+</tr>
+<tr>
+<td>ハンカチ</td>
+<td>ハンカチ</td>
+<td>hankachi</td>
+<td>手帕</td>
+</tr>
+<tr>
+<td>新聞</td>
+<td>しんぶん</td>
+<td>shinbun</td>
+<td>報紙</td>
+</tr>
+<tr>
+<td>雑誌</td>
+<td>ざっし</td>
+<td>zasshi</td>
+<td>雜誌</td>
+</tr>
+<tr>
+<td>手紙</td>
+<td>てがみ</td>
+<td>tegami</td>
+<td>信</td>
+</tr>
+<tr>
+<td>葉書</td>
+<td>はがき</td>
+<td>hagaki</td>
+<td>明信片</td>
+</tr>
+<tr>
+<td>切手</td>
+<td>きって</td>
+<td>kitte</td>
+<td>郵票</td>
+</tr>
+<tr>
+<td>封筒</td>
+<td>ふうとう</td>
+<td>fuutou</td>
+<td>信封</td>
+</tr>
+<tr>
+<td>お金</td>
+<td>おかね</td>
+<td>okane</td>
+<td>錢</td>
+</tr>
+<tr>
+<td>財布</td>
+<td>さいふ</td>
+<td>saifu</td>
+<td>錢包</td>
+</tr>
+<tr>
+<td>煙草</td>
+<td>たばこ</td>
+<td>tabako</td>
+<td>香菸</td>
+</tr>
+<tr>
+<td>灰皿</td>
+<td>はいざら</td>
+<td>haizara</td>
+<td>菸灰缸</td>
+</tr>
+<tr>
+<td>花瓶</td>
+<td>かびん</td>
+<td>kabin</td>
+<td>花瓶</td>
+</tr>
+<tr>
+<td>写真</td>
+<td>しゃしん</td>
+<td>shashin</td>
+<td>照片</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s8">2.9 場所與建築（40 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>所</td>
+<td>ところ</td>
+<td>tokoro</td>
+<td>地方</td>
+</tr>
+<tr>
+<td>場所</td>
+<td>ばしょ</td>
+<td>basho</td>
+<td>場所</td>
+</tr>
+<tr>
+<td>学校</td>
+<td>がっこう</td>
+<td>gakkou</td>
+<td>學校</td>
+</tr>
+<tr>
+<td>大学</td>
+<td>だいがく</td>
+<td>daigaku</td>
+<td>大學</td>
+</tr>
+<tr>
+<td>教室</td>
+<td>きょうしつ</td>
+<td>kyoushitsu</td>
+<td>教室</td>
+</tr>
+<tr>
+<td>図書館</td>
+<td>としょかん</td>
+<td>toshokan</td>
+<td>圖書館</td>
+</tr>
+<tr>
+<td>会社</td>
+<td>かいしゃ</td>
+<td>kaisha</td>
+<td>公司</td>
+</tr>
+<tr>
+<td>銀行</td>
+<td>ぎんこう</td>
+<td>ginkou</td>
+<td>銀行</td>
+</tr>
+<tr>
+<td>郵便局</td>
+<td>ゆうびんきょく</td>
+<td>yuubinkyoku</td>
+<td>郵局</td>
+</tr>
+<tr>
+<td>病院</td>
+<td>びょういん</td>
+<td>byouin</td>
+<td>醫院</td>
+</tr>
+<tr>
+<td>美容院</td>
+<td>びよういん</td>
+<td>biyouin</td>
+<td>美容院（聽力陷阱：びょういん vs びよういん）</td>
+</tr>
+<tr>
+<td>店</td>
+<td>みせ</td>
+<td>mise</td>
+<td>商店</td>
+</tr>
+<tr>
+<td>喫茶店</td>
+<td>きっさてん</td>
+<td>kissaten</td>
+<td>咖啡廳</td>
+</tr>
+<tr>
+<td>食堂</td>
+<td>しょくどう</td>
+<td>shokudou</td>
+<td>食堂</td>
+</tr>
+<tr>
+<td>レストラン</td>
+<td>レストラン</td>
+<td>resutoran</td>
+<td>餐廳</td>
+</tr>
+<tr>
+<td>スーパー</td>
+<td>スーパー</td>
+<td>suupaa</td>
+<td>超市</td>
+</tr>
+<tr>
+<td>デパート</td>
+<td>デパート</td>
+<td>depaato</td>
+<td>百貨公司</td>
+</tr>
+<tr>
+<td>本屋</td>
+<td>ほんや</td>
+<td>honya</td>
+<td>書店</td>
+</tr>
+<tr>
+<td>八百屋</td>
+<td>やおや</td>
+<td>yaoya</td>
+<td>蔬果店</td>
+</tr>
+<tr>
+<td>映画館</td>
+<td>えいがかん</td>
+<td>eigakan</td>
+<td>電影院</td>
+</tr>
+<tr>
+<td>公園</td>
+<td>こうえん</td>
+<td>kouen</td>
+<td>公園</td>
+</tr>
+<tr>
+<td>駅</td>
+<td>えき</td>
+<td>eki</td>
+<td>車站</td>
+</tr>
+<tr>
+<td>空港</td>
+<td>くうこう</td>
+<td>kuukou</td>
+<td>機場</td>
+</tr>
+<tr>
+<td>ホテル</td>
+<td>ホテル</td>
+<td>hoteru</td>
+<td>飯店</td>
+</tr>
+<tr>
+<td>プール</td>
+<td>プール</td>
+<td>puuru</td>
+<td>游泳池</td>
+</tr>
+<tr>
+<td>交番</td>
+<td>こうばん</td>
+<td>kouban</td>
+<td>派出所</td>
+</tr>
+<tr>
+<td>大使館</td>
+<td>たいしかん</td>
+<td>taishikan</td>
+<td>大使館</td>
+</tr>
+<tr>
+<td>町</td>
+<td>まち</td>
+<td>machi</td>
+<td>城鎮</td>
+</tr>
+<tr>
+<td>村</td>
+<td>むら</td>
+<td>mura</td>
+<td>村子</td>
+</tr>
+<tr>
+<td>道</td>
+<td>みち</td>
+<td>michi</td>
+<td>道路</td>
+</tr>
+<tr>
+<td>橋</td>
+<td>はし</td>
+<td>hashi</td>
+<td>橋</td>
+</tr>
+<tr>
+<td>角</td>
+<td>かど</td>
+<td>kado</td>
+<td>轉角</td>
+</tr>
+<tr>
+<td>交差点</td>
+<td>こうさてん</td>
+<td>kousaten</td>
+<td>十字路口</td>
+</tr>
+<tr>
+<td>建物</td>
+<td>たてもの</td>
+<td>tatemono</td>
+<td>建築物</td>
+</tr>
+<tr>
+<td>ビル</td>
+<td>ビル</td>
+<td>biru</td>
+<td>大樓</td>
+</tr>
+<tr>
+<td>アパート</td>
+<td>アパート</td>
+<td>apaato</td>
+<td>公寓</td>
+</tr>
+<tr>
+<td>入口</td>
+<td>いりぐち</td>
+<td>iriguchi</td>
+<td>入口</td>
+</tr>
+<tr>
+<td>出口</td>
+<td>でぐち</td>
+<td>deguchi</td>
+<td>出口</td>
+</tr>
+<tr>
+<td>外国</td>
+<td>がいこく</td>
+<td>gaikoku</td>
+<td>外國</td>
+</tr>
+<tr>
+<td>国</td>
+<td>くに</td>
+<td>kuni</td>
+<td>國家</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s9">2.10 交通（20 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>電車</td>
+<td>でんしゃ</td>
+<td>densha</td>
+<td>電車</td>
+</tr>
+<tr>
+<td>地下鉄</td>
+<td>ちかてつ</td>
+<td>chikatetsu</td>
+<td>地下鐵</td>
+</tr>
+<tr>
+<td>新幹線</td>
+<td>しんかんせん</td>
+<td>shinkansen</td>
+<td>新幹線</td>
+</tr>
+<tr>
+<td>バス</td>
+<td>バス</td>
+<td>basu</td>
+<td>公車</td>
+</tr>
+<tr>
+<td>タクシー</td>
+<td>タクシー</td>
+<td>takushii</td>
+<td>計程車</td>
+</tr>
+<tr>
+<td>車</td>
+<td>くるま</td>
+<td>kuruma</td>
+<td>汽車</td>
+</tr>
+<tr>
+<td>自動車</td>
+<td>じどうしゃ</td>
+<td>jidousha</td>
+<td>汽車</td>
+</tr>
+<tr>
+<td>自転車</td>
+<td>じてんしゃ</td>
+<td>jitensha</td>
+<td>腳踏車</td>
+</tr>
+<tr>
+<td>飛行機</td>
+<td>ひこうき</td>
+<td>hikouki</td>
+<td>飛機</td>
+</tr>
+<tr>
+<td>船</td>
+<td>ふね</td>
+<td>fune</td>
+<td>船</td>
+</tr>
+<tr>
+<td>切符</td>
+<td>きっぷ</td>
+<td>kippu</td>
+<td>車票</td>
+</tr>
+<tr>
+<td>地図</td>
+<td>ちず</td>
+<td>chizu</td>
+<td>地圖</td>
+</tr>
+<tr>
+<td>旅行</td>
+<td>りょこう</td>
+<td>ryokou</td>
+<td>旅行</td>
+</tr>
+<tr>
+<td>散歩</td>
+<td>さんぽ</td>
+<td>sanpo</td>
+<td>散步</td>
+</tr>
+<tr>
+<td>右</td>
+<td>みぎ</td>
+<td>migi</td>
+<td>右邊</td>
+</tr>
+<tr>
+<td>左</td>
+<td>ひだり</td>
+<td>hidari</td>
+<td>左邊</td>
+</tr>
+<tr>
+<td>前</td>
+<td>まえ</td>
+<td>mae</td>
+<td>前面</td>
+</tr>
+<tr>
+<td>後ろ</td>
+<td>うしろ</td>
+<td>ushiro</td>
+<td>後面</td>
+</tr>
+<tr>
+<td>隣</td>
+<td>となり</td>
+<td>tonari</td>
+<td>隔壁</td>
+</tr>
+<tr>
+<td>近く</td>
+<td>ちかく</td>
+<td>chikaku</td>
+<td>附近</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s10">2.11 自然與天氣（26 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>天気</td>
+<td>てんき</td>
+<td>tenki</td>
+<td>天氣</td>
+</tr>
+<tr>
+<td>晴れ</td>
+<td>はれ</td>
+<td>hare</td>
+<td>晴天</td>
+</tr>
+<tr>
+<td>曇り</td>
+<td>くもり</td>
+<td>kumori</td>
+<td>陰天</td>
+</tr>
+<tr>
+<td>雨</td>
+<td>あめ</td>
+<td>ame</td>
+<td>雨</td>
+</tr>
+<tr>
+<td>雪</td>
+<td>ゆき</td>
+<td>yuki</td>
+<td>雪</td>
+</tr>
+<tr>
+<td>風</td>
+<td>かぜ</td>
+<td>kaze</td>
+<td>風</td>
+</tr>
+<tr>
+<td>空</td>
+<td>そら</td>
+<td>sora</td>
+<td>天空</td>
+</tr>
+<tr>
+<td>山</td>
+<td>やま</td>
+<td>yama</td>
+<td>山</td>
+</tr>
+<tr>
+<td>川</td>
+<td>かわ</td>
+<td>kawa</td>
+<td>河川</td>
+</tr>
+<tr>
+<td>海</td>
+<td>うみ</td>
+<td>umi</td>
+<td>海</td>
+</tr>
+<tr>
+<td>池</td>
+<td>いけ</td>
+<td>ike</td>
+<td>池塘</td>
+</tr>
+<tr>
+<td>木</td>
+<td>き</td>
+<td>ki</td>
+<td>樹</td>
+</tr>
+<tr>
+<td>花</td>
+<td>はな</td>
+<td>hana</td>
+<td>花</td>
+</tr>
+<tr>
+<td>石</td>
+<td>いし</td>
+<td>ishi</td>
+<td>石頭</td>
+</tr>
+<tr>
+<td>空気</td>
+<td>くうき</td>
+<td>kuuki</td>
+<td>空氣</td>
+</tr>
+<tr>
+<td>太陽</td>
+<td>たいよう</td>
+<td>taiyou</td>
+<td>太陽</td>
+</tr>
+<tr>
+<td>月</td>
+<td>つき</td>
+<td>tsuki</td>
+<td>月亮</td>
+</tr>
+<tr>
+<td>星</td>
+<td>ほし</td>
+<td>hoshi</td>
+<td>星星</td>
+</tr>
+<tr>
+<td>暑さ</td>
+<td>あつさ</td>
+<td>atsusa</td>
+<td>炎熱</td>
+</tr>
+<tr>
+<td>寒さ</td>
+<td>さむさ</td>
+<td>samusa</td>
+<td>寒冷</td>
+</tr>
+<tr>
+<td>東</td>
+<td>ひがし</td>
+<td>higashi</td>
+<td>東</td>
+</tr>
+<tr>
+<td>西</td>
+<td>にし</td>
+<td>nishi</td>
+<td>西</td>
+</tr>
+<tr>
+<td>南</td>
+<td>みなみ</td>
+<td>minami</td>
+<td>南</td>
+</tr>
+<tr>
+<td>北</td>
+<td>きた</td>
+<td>kita</td>
+<td>北</td>
+</tr>
+<tr>
+<td>上</td>
+<td>うえ</td>
+<td>ue</td>
+<td>上面</td>
+</tr>
+<tr>
+<td>下</td>
+<td>した</td>
+<td>shita</td>
+<td>下面</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s11">2.12 動物與植物（10 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>動物</td>
+<td>どうぶつ</td>
+<td>doubutsu</td>
+<td>動物</td>
+</tr>
+<tr>
+<td>犬</td>
+<td>いぬ</td>
+<td>inu</td>
+<td>狗</td>
+</tr>
+<tr>
+<td>猫</td>
+<td>ねこ</td>
+<td>neko</td>
+<td>貓</td>
+</tr>
+<tr>
+<td>鳥</td>
+<td>とり</td>
+<td>tori</td>
+<td>鳥</td>
+</tr>
+<tr>
+<td>馬</td>
+<td>うま</td>
+<td>uma</td>
+<td>馬</td>
+</tr>
+<tr>
+<td>牛</td>
+<td>うし</td>
+<td>ushi</td>
+<td>牛</td>
+</tr>
+<tr>
+<td>豚</td>
+<td>ぶた</td>
+<td>buta</td>
+<td>豬</td>
+</tr>
+<tr>
+<td>象</td>
+<td>ぞう</td>
+<td>zou</td>
+<td>大象</td>
+</tr>
+<tr>
+<td>ペット</td>
+<td>ペット</td>
+<td>petto</td>
+<td>寵物</td>
+</tr>
+<tr>
+<td>桜</td>
+<td>さくら</td>
+<td>sakura</td>
+<td>櫻花</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s12">2.13 學校與學習（35 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>学生</td>
+<td>がくせい</td>
+<td>gakusei</td>
+<td>學生</td>
+</tr>
+<tr>
+<td>留学生</td>
+<td>りゅうがくせい</td>
+<td>ryuugakusei</td>
+<td>留學生</td>
+</tr>
+<tr>
+<td>先生</td>
+<td>せんせい</td>
+<td>sensei</td>
+<td>老師</td>
+</tr>
+<tr>
+<td>授業</td>
+<td>じゅぎょう</td>
+<td>jugyou</td>
+<td>上課</td>
+</tr>
+<tr>
+<td>宿題</td>
+<td>しゅくだい</td>
+<td>shukudai</td>
+<td>作業</td>
+</tr>
+<tr>
+<td>試験</td>
+<td>しけん</td>
+<td>shiken</td>
+<td>考試</td>
+</tr>
+<tr>
+<td>テスト</td>
+<td>テスト</td>
+<td>tesuto</td>
+<td>測驗</td>
+</tr>
+<tr>
+<td>質問</td>
+<td>しつもん</td>
+<td>shitsumon</td>
+<td>問題、提問</td>
+</tr>
+<tr>
+<td>問題</td>
+<td>もんだい</td>
+<td>mondai</td>
+<td>問題、題目</td>
+</tr>
+<tr>
+<td>答え</td>
+<td>こたえ</td>
+<td>kotae</td>
+<td>答案</td>
+</tr>
+<tr>
+<td>意味</td>
+<td>いみ</td>
+<td>imi</td>
+<td>意思</td>
+</tr>
+<tr>
+<td>言葉</td>
+<td>ことば</td>
+<td>kotoba</td>
+<td>語言、詞彙</td>
+</tr>
+<tr>
+<td>日本語</td>
+<td>にほんご</td>
+<td>nihongo</td>
+<td>日語</td>
+</tr>
+<tr>
+<td>英語</td>
+<td>えいご</td>
+<td>eigo</td>
+<td>英語</td>
+</tr>
+<tr>
+<td>中国語</td>
+<td>ちゅうごくご</td>
+<td>chuugokugo</td>
+<td>中文</td>
+</tr>
+<tr>
+<td>漢字</td>
+<td>かんじ</td>
+<td>kanji</td>
+<td>漢字</td>
+</tr>
+<tr>
+<td>平仮名</td>
+<td>ひらがな</td>
+<td>hiragana</td>
+<td>平假名</td>
+</tr>
+<tr>
+<td>片仮名</td>
+<td>かたかな</td>
+<td>katakana</td>
+<td>片假名</td>
+</tr>
+<tr>
+<td>字</td>
+<td>じ</td>
+<td>ji</td>
+<td>字</td>
+</tr>
+<tr>
+<td>文章</td>
+<td>ぶんしょう</td>
+<td>bunshou</td>
+<td>文章</td>
+</tr>
+<tr>
+<td>本</td>
+<td>ほん</td>
+<td>hon</td>
+<td>書</td>
+</tr>
+<tr>
+<td>辞書</td>
+<td>じしょ</td>
+<td>jisho</td>
+<td>字典</td>
+</tr>
+<tr>
+<td>ノート</td>
+<td>ノート</td>
+<td>nooto</td>
+<td>筆記本</td>
+</tr>
+<tr>
+<td>鉛筆</td>
+<td>えんぴつ</td>
+<td>enpitsu</td>
+<td>鉛筆</td>
+</tr>
+<tr>
+<td>ペン</td>
+<td>ペン</td>
+<td>pen</td>
+<td>筆</td>
+</tr>
+<tr>
+<td>ボールペン</td>
+<td>ボールペン</td>
+<td>boorupen</td>
+<td>原子筆</td>
+</tr>
+<tr>
+<td>消しゴム</td>
+<td>けしゴム</td>
+<td>keshigomu</td>
+<td>橡皮擦</td>
+</tr>
+<tr>
+<td>紙</td>
+<td>かみ</td>
+<td>kami</td>
+<td>紙</td>
+</tr>
+<tr>
+<td>黒板</td>
+<td>こくばん</td>
+<td>kokuban</td>
+<td>黑板</td>
+</tr>
+<tr>
+<td>クラス</td>
+<td>クラス</td>
+<td>kurasu</td>
+<td>班級</td>
+</tr>
+<tr>
+<td>勉強</td>
+<td>べんきょう</td>
+<td>benkyou</td>
+<td>學習</td>
+</tr>
+<tr>
+<td>練習</td>
+<td>れんしゅう</td>
+<td>renshuu</td>
+<td>練習</td>
+</tr>
+<tr>
+<td>復習</td>
+<td>ふくしゅう</td>
+<td>fukushuu</td>
+<td>複習</td>
+</tr>
+<tr>
+<td>予習</td>
+<td>よしゅう</td>
+<td>yoshuu</td>
+<td>預習</td>
+</tr>
+<tr>
+<td>図書</td>
+<td>としょ</td>
+<td>tosho</td>
+<td>圖書</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s13">2.14 工作與職業（15 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>仕事</td>
+<td>しごと</td>
+<td>shigoto</td>
+<td>工作</td>
+</tr>
+<tr>
+<td>会社員</td>
+<td>かいしゃいん</td>
+<td>kaishain</td>
+<td>公司職員</td>
+</tr>
+<tr>
+<td>銀行員</td>
+<td>ぎんこういん</td>
+<td>ginkouin</td>
+<td>銀行員</td>
+</tr>
+<tr>
+<td>医者</td>
+<td>いしゃ</td>
+<td>isha</td>
+<td>醫生</td>
+</tr>
+<tr>
+<td>看護師</td>
+<td>かんごし</td>
+<td>kangoshi</td>
+<td>護理師</td>
+</tr>
+<tr>
+<td>警官</td>
+<td>けいかん</td>
+<td>keikan</td>
+<td>警察</td>
+</tr>
+<tr>
+<td>店員</td>
+<td>てんいん</td>
+<td>ten'in</td>
+<td>店員</td>
+</tr>
+<tr>
+<td>駅員</td>
+<td>えきいん</td>
+<td>ekiin</td>
+<td>站務員</td>
+</tr>
+<tr>
+<td>運転手</td>
+<td>うんてんしゅ</td>
+<td>untenshu</td>
+<td>司機</td>
+</tr>
+<tr>
+<td>歌手</td>
+<td>かしゅ</td>
+<td>kashu</td>
+<td>歌手</td>
+</tr>
+<tr>
+<td>エンジニア</td>
+<td>エンジニア</td>
+<td>enjinia</td>
+<td>工程師</td>
+</tr>
+<tr>
+<td>会議</td>
+<td>かいぎ</td>
+<td>kaigi</td>
+<td>會議</td>
+</tr>
+<tr>
+<td>電話番</td>
+<td>でんわばん</td>
+<td>denwaban</td>
+<td>接電話（值班）</td>
+</tr>
+<tr>
+<td>出張</td>
+<td>しゅっちょう</td>
+<td>shucchou</td>
+<td>出差</td>
+</tr>
+<tr>
+<td>アルバイト</td>
+<td>アルバイト</td>
+<td>arubaito</td>
+<td>打工</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s14">2.15 動詞（135 字）</h2>
+<blockquote>
+<p>分類標示：【I】＝五段動詞（第一類）、【II】＝一段動詞（第二類）、【III】＝不規則動詞（第三類）</p>
+</blockquote>
+<h3>移動・存在</h3>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+<th>類別</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>行く</td>
+<td>いく</td>
+<td>iku</td>
+<td>去</td>
+<td>I</td>
+</tr>
+<tr>
+<td>来る</td>
+<td>くる</td>
+<td>kuru</td>
+<td>來</td>
+<td>III</td>
+</tr>
+<tr>
+<td>帰る</td>
+<td>かえる</td>
+<td>kaeru</td>
+<td>回去（注意：五段！）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>歩く</td>
+<td>あるく</td>
+<td>aruku</td>
+<td>走路</td>
+<td>I</td>
+</tr>
+<tr>
+<td>走る</td>
+<td>はしる</td>
+<td>hashiru</td>
+<td>跑（注意：五段！）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>出る</td>
+<td>でる</td>
+<td>deru</td>
+<td>出去、離開</td>
+<td>II</td>
+</tr>
+<tr>
+<td>入る</td>
+<td>はいる</td>
+<td>hairu</td>
+<td>進入（注意：五段！）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>出かける</td>
+<td>でかける</td>
+<td>dekakeru</td>
+<td>外出</td>
+<td>II</td>
+</tr>
+<tr>
+<td>着く</td>
+<td>つく</td>
+<td>tsuku</td>
+<td>到達</td>
+<td>I</td>
+</tr>
+<tr>
+<td>渡る</td>
+<td>わたる</td>
+<td>wataru</td>
+<td>過（橋、馬路）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>曲がる</td>
+<td>まがる</td>
+<td>magaru</td>
+<td>轉彎</td>
+<td>I</td>
+</tr>
+<tr>
+<td>止まる</td>
+<td>とまる</td>
+<td>tomaru</td>
+<td>停</td>
+<td>I</td>
+</tr>
+<tr>
+<td>登る</td>
+<td>のぼる</td>
+<td>noboru</td>
+<td>爬、登</td>
+<td>I</td>
+</tr>
+<tr>
+<td>飛ぶ</td>
+<td>とぶ</td>
+<td>tobu</td>
+<td>飛</td>
+<td>I</td>
+</tr>
+<tr>
+<td>泳ぐ</td>
+<td>およぐ</td>
+<td>oyogu</td>
+<td>游泳</td>
+<td>I</td>
+</tr>
+<tr>
+<td>乗る</td>
+<td>のる</td>
+<td>noru</td>
+<td>搭乘</td>
+<td>I</td>
+</tr>
+<tr>
+<td>降りる</td>
+<td>おりる</td>
+<td>oriru</td>
+<td>下（車）</td>
+<td>II</td>
+</tr>
+<tr>
+<td>いる</td>
+<td>いる</td>
+<td>iru</td>
+<td>在（人、動物）</td>
+<td>II</td>
+</tr>
+<tr>
+<td>ある</td>
+<td>ある</td>
+<td>aru</td>
+<td>在、有（物品）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>住む</td>
+<td>すむ</td>
+<td>sumu</td>
+<td>住</td>
+<td>I</td>
+</tr>
+</tbody>
+</table>
+<h3>日常生活</h3>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+<th>類別</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>食べる</td>
+<td>たべる</td>
+<td>taberu</td>
+<td>吃</td>
+<td>II</td>
+</tr>
+<tr>
+<td>飲む</td>
+<td>のむ</td>
+<td>nomu</td>
+<td>喝</td>
+<td>I</td>
+</tr>
+<tr>
+<td>起きる</td>
+<td>おきる</td>
+<td>okiru</td>
+<td>起床</td>
+<td>II</td>
+</tr>
+<tr>
+<td>寝る</td>
+<td>ねる</td>
+<td>neru</td>
+<td>睡覺</td>
+<td>II</td>
+</tr>
+<tr>
+<td>休む</td>
+<td>やすむ</td>
+<td>yasumu</td>
+<td>休息、請假</td>
+<td>I</td>
+</tr>
+<tr>
+<td>立つ</td>
+<td>たつ</td>
+<td>tatsu</td>
+<td>站</td>
+<td>I</td>
+</tr>
+<tr>
+<td>座る</td>
+<td>すわる</td>
+<td>suwaru</td>
+<td>坐</td>
+<td>I</td>
+</tr>
+<tr>
+<td>着る</td>
+<td>きる</td>
+<td>kiru</td>
+<td>穿（上衣）</td>
+<td>II</td>
+</tr>
+<tr>
+<td>履く</td>
+<td>はく</td>
+<td>haku</td>
+<td>穿（褲、鞋）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>被る</td>
+<td>かぶる</td>
+<td>kaburu</td>
+<td>戴（帽子）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>掛ける</td>
+<td>かける</td>
+<td>kakeru</td>
+<td>戴（眼鏡）、掛、打（電話）</td>
+<td>II</td>
+</tr>
+<tr>
+<td>脱ぐ</td>
+<td>ぬぐ</td>
+<td>nugu</td>
+<td>脫</td>
+<td>I</td>
+</tr>
+<tr>
+<td>洗う</td>
+<td>あらう</td>
+<td>arau</td>
+<td>洗</td>
+<td>I</td>
+</tr>
+<tr>
+<td>磨く</td>
+<td>みがく</td>
+<td>migaku</td>
+<td>刷（牙）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>浴びる</td>
+<td>あびる</td>
+<td>abiru</td>
+<td>沖（澡）</td>
+<td>II</td>
+</tr>
+<tr>
+<td>開ける</td>
+<td>あける</td>
+<td>akeru</td>
+<td>打開（他動詞）</td>
+<td>II</td>
+</tr>
+<tr>
+<td>閉める</td>
+<td>しめる</td>
+<td>shimeru</td>
+<td>關（他動詞）</td>
+<td>II</td>
+</tr>
+<tr>
+<td>開く</td>
+<td>あく</td>
+<td>aku</td>
+<td>開（自動詞）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>閉まる</td>
+<td>しまる</td>
+<td>shimaru</td>
+<td>關（自動詞）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>点ける</td>
+<td>つける</td>
+<td>tsukeru</td>
+<td>開（燈、電器）</td>
+<td>II</td>
+</tr>
+<tr>
+<td>消す</td>
+<td>けす</td>
+<td>kesu</td>
+<td>關（燈）、擦掉</td>
+<td>I</td>
+</tr>
+<tr>
+<td>使う</td>
+<td>つかう</td>
+<td>tsukau</td>
+<td>使用</td>
+<td>I</td>
+</tr>
+<tr>
+<td>作る</td>
+<td>つくる</td>
+<td>tsukuru</td>
+<td>做、製作</td>
+<td>I</td>
+</tr>
+<tr>
+<td>料理する</td>
+<td>りょうりする</td>
+<td>ryouri suru</td>
+<td>做菜</td>
+<td>III</td>
+</tr>
+<tr>
+<td>掃除する</td>
+<td>そうじする</td>
+<td>souji suru</td>
+<td>打掃</td>
+<td>III</td>
+</tr>
+<tr>
+<td>洗濯する</td>
+<td>せんたくする</td>
+<td>sentaku suru</td>
+<td>洗衣服</td>
+<td>III</td>
+</tr>
+<tr>
+<td>買う</td>
+<td>かう</td>
+<td>kau</td>
+<td>買</td>
+<td>I</td>
+</tr>
+<tr>
+<td>売る</td>
+<td>うる</td>
+<td>uru</td>
+<td>賣</td>
+<td>I</td>
+</tr>
+<tr>
+<td>払う</td>
+<td>はらう</td>
+<td>harau</td>
+<td>付（錢）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>吸う</td>
+<td>すう</td>
+<td>suu</td>
+<td>吸（菸）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>持つ</td>
+<td>もつ</td>
+<td>motsu</td>
+<td>拿、持有</td>
+<td>I</td>
+</tr>
+<tr>
+<td>置く</td>
+<td>おく</td>
+<td>oku</td>
+<td>放置</td>
+<td>I</td>
+</tr>
+<tr>
+<td>取る</td>
+<td>とる</td>
+<td>toru</td>
+<td>拿取</td>
+<td>I</td>
+</tr>
+<tr>
+<td>撮る</td>
+<td>とる</td>
+<td>toru</td>
+<td>拍（照）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>切る</td>
+<td>きる</td>
+<td>kiru</td>
+<td>切、剪（注意：五段！）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>並べる</td>
+<td>ならべる</td>
+<td>naraberu</td>
+<td>排列</td>
+<td>II</td>
+</tr>
+<tr>
+<td>入れる</td>
+<td>いれる</td>
+<td>ireru</td>
+<td>放入</td>
+<td>II</td>
+</tr>
+<tr>
+<td>出す</td>
+<td>だす</td>
+<td>dasu</td>
+<td>拿出、寄出</td>
+<td>I</td>
+</tr>
+<tr>
+<td>送る</td>
+<td>おくる</td>
+<td>okuru</td>
+<td>寄送、送行</td>
+<td>I</td>
+</tr>
+<tr>
+<td>渡す</td>
+<td>わたす</td>
+<td>watasu</td>
+<td>交給</td>
+<td>I</td>
+</tr>
+<tr>
+<td>貸す</td>
+<td>かす</td>
+<td>kasu</td>
+<td>借出</td>
+<td>I</td>
+</tr>
+<tr>
+<td>借りる</td>
+<td>かりる</td>
+<td>kariru</td>
+<td>借入</td>
+<td>II</td>
+</tr>
+<tr>
+<td>返す</td>
+<td>かえす</td>
+<td>kaesu</td>
+<td>歸還</td>
+<td>I</td>
+</tr>
+<tr>
+<td>あげる</td>
+<td>あげる</td>
+<td>ageru</td>
+<td>給（我→人）</td>
+<td>II</td>
+</tr>
+<tr>
+<td>もらう</td>
+<td>もらう</td>
+<td>morau</td>
+<td>收到</td>
+<td>I</td>
+</tr>
+<tr>
+<td>くれる</td>
+<td>くれる</td>
+<td>kureru</td>
+<td>給（人→我）</td>
+<td>II</td>
+</tr>
+</tbody>
+</table>
+<h3>溝通・學習・思考</h3>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+<th>類別</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>言う</td>
+<td>いう</td>
+<td>iu</td>
+<td>說</td>
+<td>I</td>
+</tr>
+<tr>
+<td>話す</td>
+<td>はなす</td>
+<td>hanasu</td>
+<td>說話</td>
+<td>I</td>
+</tr>
+<tr>
+<td>聞く</td>
+<td>きく</td>
+<td>kiku</td>
+<td>聽、問</td>
+<td>I</td>
+</tr>
+<tr>
+<td>読む</td>
+<td>よむ</td>
+<td>yomu</td>
+<td>讀</td>
+<td>I</td>
+</tr>
+<tr>
+<td>書く</td>
+<td>かく</td>
+<td>kaku</td>
+<td>寫</td>
+<td>I</td>
+</tr>
+<tr>
+<td>見る</td>
+<td>みる</td>
+<td>miru</td>
+<td>看</td>
+<td>II</td>
+</tr>
+<tr>
+<td>見せる</td>
+<td>みせる</td>
+<td>miseru</td>
+<td>給～看</td>
+<td>II</td>
+</tr>
+<tr>
+<td>教える</td>
+<td>おしえる</td>
+<td>oshieru</td>
+<td>教、告訴</td>
+<td>II</td>
+</tr>
+<tr>
+<td>習う</td>
+<td>ならう</td>
+<td>narau</td>
+<td>學習</td>
+<td>I</td>
+</tr>
+<tr>
+<td>覚える</td>
+<td>おぼえる</td>
+<td>oboeru</td>
+<td>記住</td>
+<td>II</td>
+</tr>
+<tr>
+<td>忘れる</td>
+<td>わすれる</td>
+<td>wasureru</td>
+<td>忘記</td>
+<td>II</td>
+</tr>
+<tr>
+<td>知る</td>
+<td>しる</td>
+<td>shiru</td>
+<td>知道（注意：五段！）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>分かる</td>
+<td>わかる</td>
+<td>wakaru</td>
+<td>懂、明白</td>
+<td>I</td>
+</tr>
+<tr>
+<td>考える</td>
+<td>かんがえる</td>
+<td>kangaeru</td>
+<td>思考</td>
+<td>II</td>
+</tr>
+<tr>
+<td>答える</td>
+<td>こたえる</td>
+<td>kotaeru</td>
+<td>回答</td>
+<td>II</td>
+</tr>
+<tr>
+<td>呼ぶ</td>
+<td>よぶ</td>
+<td>yobu</td>
+<td>叫、呼喚</td>
+<td>I</td>
+</tr>
+<tr>
+<td>会う</td>
+<td>あう</td>
+<td>au</td>
+<td>見面</td>
+<td>I</td>
+</tr>
+<tr>
+<td>勉強する</td>
+<td>べんきょうする</td>
+<td>benkyou suru</td>
+<td>讀書、學習</td>
+<td>III</td>
+</tr>
+<tr>
+<td>練習する</td>
+<td>れんしゅうする</td>
+<td>renshuu suru</td>
+<td>練習</td>
+<td>III</td>
+</tr>
+<tr>
+<td>質問する</td>
+<td>しつもんする</td>
+<td>shitsumon suru</td>
+<td>提問</td>
+<td>III</td>
+</tr>
+<tr>
+<td>電話する</td>
+<td>でんわする</td>
+<td>denwa suru</td>
+<td>打電話</td>
+<td>III</td>
+</tr>
+<tr>
+<td>紹介する</td>
+<td>しょうかいする</td>
+<td>shoukai suru</td>
+<td>介紹</td>
+<td>III</td>
+</tr>
+<tr>
+<td>コピーする</td>
+<td>コピーする</td>
+<td>kopii suru</td>
+<td>影印</td>
+<td>III</td>
+</tr>
+</tbody>
+</table>
+<h3>工作・動作・其他</h3>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+<th>類別</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>する</td>
+<td>する</td>
+<td>suru</td>
+<td>做</td>
+<td>III</td>
+</tr>
+<tr>
+<td>働く</td>
+<td>はたらく</td>
+<td>hataraku</td>
+<td>工作</td>
+<td>I</td>
+</tr>
+<tr>
+<td>疲れる</td>
+<td>つかれる</td>
+<td>tsukareru</td>
+<td>疲累</td>
+<td>II</td>
+</tr>
+<tr>
+<td>待つ</td>
+<td>まつ</td>
+<td>matsu</td>
+<td>等待</td>
+<td>I</td>
+</tr>
+<tr>
+<td>始まる</td>
+<td>はじまる</td>
+<td>hajimaru</td>
+<td>開始（自動詞）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>始める</td>
+<td>はじめる</td>
+<td>hajimeru</td>
+<td>開始（他動詞）</td>
+<td>II</td>
+</tr>
+<tr>
+<td>終わる</td>
+<td>おわる</td>
+<td>owaru</td>
+<td>結束</td>
+<td>I</td>
+</tr>
+<tr>
+<td>遊ぶ</td>
+<td>あそぶ</td>
+<td>asobu</td>
+<td>玩</td>
+<td>I</td>
+</tr>
+<tr>
+<td>歌う</td>
+<td>うたう</td>
+<td>utau</td>
+<td>唱歌</td>
+<td>I</td>
+</tr>
+<tr>
+<td>踊る</td>
+<td>おどる</td>
+<td>odoru</td>
+<td>跳舞</td>
+<td>I</td>
+</tr>
+<tr>
+<td>弾く</td>
+<td>ひく</td>
+<td>hiku</td>
+<td>彈（樂器）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>引く</td>
+<td>ひく</td>
+<td>hiku</td>
+<td>拉、查（字典）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>押す</td>
+<td>おす</td>
+<td>osu</td>
+<td>推、按</td>
+<td>I</td>
+</tr>
+<tr>
+<td>死ぬ</td>
+<td>しぬ</td>
+<td>shinu</td>
+<td>死</td>
+<td>I</td>
+</tr>
+<tr>
+<td>生まれる</td>
+<td>うまれる</td>
+<td>umareru</td>
+<td>出生</td>
+<td>II</td>
+</tr>
+<tr>
+<td>結婚する</td>
+<td>けっこんする</td>
+<td>kekkon suru</td>
+<td>結婚</td>
+<td>III</td>
+</tr>
+<tr>
+<td>散歩する</td>
+<td>さんぽする</td>
+<td>sanpo suru</td>
+<td>散步</td>
+<td>III</td>
+</tr>
+<tr>
+<td>旅行する</td>
+<td>りょこうする</td>
+<td>ryokou suru</td>
+<td>旅行</td>
+<td>III</td>
+</tr>
+<tr>
+<td>買い物する</td>
+<td>かいものする</td>
+<td>kaimono suru</td>
+<td>購物</td>
+<td>III</td>
+</tr>
+<tr>
+<td>仕事する</td>
+<td>しごとする</td>
+<td>shigoto suru</td>
+<td>工作</td>
+<td>III</td>
+</tr>
+<tr>
+<td>運転する</td>
+<td>うんてんする</td>
+<td>unten suru</td>
+<td>開車</td>
+<td>III</td>
+</tr>
+<tr>
+<td>曇る</td>
+<td>くもる</td>
+<td>kumoru</td>
+<td>變陰</td>
+<td>I</td>
+</tr>
+<tr>
+<td>晴れる</td>
+<td>はれる</td>
+<td>hareru</td>
+<td>放晴</td>
+<td>II</td>
+</tr>
+<tr>
+<td>降る</td>
+<td>ふる</td>
+<td>furu</td>
+<td>下（雨、雪）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>吹く</td>
+<td>ふく</td>
+<td>fuku</td>
+<td>吹（風）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>咲く</td>
+<td>さく</td>
+<td>saku</td>
+<td>（花）開</td>
+<td>I</td>
+</tr>
+<tr>
+<td>鳴く</td>
+<td>なく</td>
+<td>naku</td>
+<td>（動物）叫</td>
+<td>I</td>
+</tr>
+<tr>
+<td>泣く</td>
+<td>なく</td>
+<td>naku</td>
+<td>哭</td>
+<td>I</td>
+</tr>
+<tr>
+<td>笑う</td>
+<td>わらう</td>
+<td>warau</td>
+<td>笑</td>
+<td>I</td>
+</tr>
+<tr>
+<td>困る</td>
+<td>こまる</td>
+<td>komaru</td>
+<td>困擾</td>
+<td>I</td>
+</tr>
+<tr>
+<td>要る</td>
+<td>いる</td>
+<td>iru</td>
+<td>需要（注意：五段！）</td>
+<td>I</td>
+</tr>
+<tr>
+<td>違う</td>
+<td>ちがう</td>
+<td>chigau</td>
+<td>不同、不對</td>
+<td>I</td>
+</tr>
+<tr>
+<td>太る</td>
+<td>ふとる</td>
+<td>futoru</td>
+<td>變胖</td>
+<td>I</td>
+</tr>
+<tr>
+<td>痩せる</td>
+<td>やせる</td>
+<td>yaseru</td>
+<td>變瘦</td>
+<td>II</td>
+</tr>
+<tr>
+<td>直す</td>
+<td>なおす</td>
+<td>naosu</td>
+<td>修理、改正</td>
+<td>I</td>
+</tr>
+<tr>
+<td>治る</td>
+<td>なおる</td>
+<td>naoru</td>
+<td>痊癒</td>
+<td>I</td>
+</tr>
+<tr>
+<td>なる</td>
+<td>なる</td>
+<td>naru</td>
+<td>變成</td>
+<td>I</td>
+</tr>
+<tr>
+<td>頑張る</td>
+<td>がんばる</td>
+<td>ganbaru</td>
+<td>努力</td>
+<td>I</td>
+</tr>
+<tr>
+<td>立てる</td>
+<td>たてる</td>
+<td>tateru</td>
+<td>立起</td>
+<td>II</td>
+</tr>
+<tr>
+<td>並ぶ</td>
+<td>ならぶ</td>
+<td>narabu</td>
+<td>排隊</td>
+<td>I</td>
+</tr>
+<tr>
+<td>上がる</td>
+<td>あがる</td>
+<td>agaru</td>
+<td>上升、進入</td>
+<td>I</td>
+</tr>
+<tr>
+<td>落ちる</td>
+<td>おちる</td>
+<td>ochiru</td>
+<td>掉落</td>
+<td>II</td>
+</tr>
+<tr>
+<td>掃く</td>
+<td>はく</td>
+<td>haku</td>
+<td>掃</td>
+<td>I</td>
+</tr>
+<tr>
+<td>選ぶ</td>
+<td>えらぶ</td>
+<td>erabu</td>
+<td>選擇</td>
+<td>I</td>
+</tr>
+<tr>
+<td>急ぐ</td>
+<td>いそぐ</td>
+<td>isogu</td>
+<td>趕快</td>
+<td>I</td>
+</tr>
+<tr>
+<td>手伝う</td>
+<td>てつだう</td>
+<td>tetsudau</td>
+<td>幫忙</td>
+<td>I</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s15">2.16 い形容詞（46 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>大きい</td>
+<td>おおきい</td>
+<td>ookii</td>
+<td>大的</td>
+</tr>
+<tr>
+<td>小さい</td>
+<td>ちいさい</td>
+<td>chiisai</td>
+<td>小的</td>
+</tr>
+<tr>
+<td>新しい</td>
+<td>あたらしい</td>
+<td>atarashii</td>
+<td>新的</td>
+</tr>
+<tr>
+<td>古い</td>
+<td>ふるい</td>
+<td>furui</td>
+<td>舊的</td>
+</tr>
+<tr>
+<td>高い</td>
+<td>たかい</td>
+<td>takai</td>
+<td>高的、貴的</td>
+</tr>
+<tr>
+<td>安い</td>
+<td>やすい</td>
+<td>yasui</td>
+<td>便宜的</td>
+</tr>
+<tr>
+<td>低い</td>
+<td>ひくい</td>
+<td>hikui</td>
+<td>低的</td>
+</tr>
+<tr>
+<td>長い</td>
+<td>ながい</td>
+<td>nagai</td>
+<td>長的</td>
+</tr>
+<tr>
+<td>短い</td>
+<td>みじかい</td>
+<td>mijikai</td>
+<td>短的</td>
+</tr>
+<tr>
+<td>広い</td>
+<td>ひろい</td>
+<td>hiroi</td>
+<td>寬廣的</td>
+</tr>
+<tr>
+<td>狭い</td>
+<td>せまい</td>
+<td>semai</td>
+<td>狹窄的</td>
+</tr>
+<tr>
+<td>重い</td>
+<td>おもい</td>
+<td>omoi</td>
+<td>重的</td>
+</tr>
+<tr>
+<td>軽い</td>
+<td>かるい</td>
+<td>karui</td>
+<td>輕的</td>
+</tr>
+<tr>
+<td>厚い</td>
+<td>あつい</td>
+<td>atsui</td>
+<td>厚的</td>
+</tr>
+<tr>
+<td>薄い</td>
+<td>うすい</td>
+<td>usui</td>
+<td>薄的、淡的</td>
+</tr>
+<tr>
+<td>暑い</td>
+<td>あつい</td>
+<td>atsui</td>
+<td>（天氣）熱的</td>
+</tr>
+<tr>
+<td>熱い</td>
+<td>あつい</td>
+<td>atsui</td>
+<td>（東西）燙的</td>
+</tr>
+<tr>
+<td>寒い</td>
+<td>さむい</td>
+<td>samui</td>
+<td>（天氣）冷的</td>
+</tr>
+<tr>
+<td>冷たい</td>
+<td>つめたい</td>
+<td>tsumetai</td>
+<td>（東西）冰冷的</td>
+</tr>
+<tr>
+<td>暖かい</td>
+<td>あたたかい</td>
+<td>atatakai</td>
+<td>溫暖的</td>
+</tr>
+<tr>
+<td>涼しい</td>
+<td>すずしい</td>
+<td>suzushii</td>
+<td>涼爽的</td>
+</tr>
+<tr>
+<td>良い</td>
+<td>いい／よい</td>
+<td>ii / yoi</td>
+<td>好的</td>
+</tr>
+<tr>
+<td>悪い</td>
+<td>わるい</td>
+<td>warui</td>
+<td>壞的</td>
+</tr>
+<tr>
+<td>忙しい</td>
+<td>いそがしい</td>
+<td>isogashii</td>
+<td>忙碌的</td>
+</tr>
+<tr>
+<td>早い</td>
+<td>はやい</td>
+<td>hayai</td>
+<td>早的</td>
+</tr>
+<tr>
+<td>速い</td>
+<td>はやい</td>
+<td>hayai</td>
+<td>快的</td>
+</tr>
+<tr>
+<td>遅い</td>
+<td>おそい</td>
+<td>osoi</td>
+<td>慢的、晚的</td>
+</tr>
+<tr>
+<td>近い</td>
+<td>ちかい</td>
+<td>chikai</td>
+<td>近的</td>
+</tr>
+<tr>
+<td>遠い</td>
+<td>とおい</td>
+<td>tooi</td>
+<td>遠的</td>
+</tr>
+<tr>
+<td>多い</td>
+<td>おおい</td>
+<td>ooi</td>
+<td>多的</td>
+</tr>
+<tr>
+<td>少ない</td>
+<td>すくない</td>
+<td>sukunai</td>
+<td>少的</td>
+</tr>
+<tr>
+<td>面白い</td>
+<td>おもしろい</td>
+<td>omoshiroi</td>
+<td>有趣的</td>
+</tr>
+<tr>
+<td>つまらない</td>
+<td>つまらない</td>
+<td>tsumaranai</td>
+<td>無聊的</td>
+</tr>
+<tr>
+<td>楽しい</td>
+<td>たのしい</td>
+<td>tanoshii</td>
+<td>快樂的</td>
+</tr>
+<tr>
+<td>嬉しい</td>
+<td>うれしい</td>
+<td>ureshii</td>
+<td>高興的</td>
+</tr>
+<tr>
+<td>難しい</td>
+<td>むずかしい</td>
+<td>muzukashii</td>
+<td>難的</td>
+</tr>
+<tr>
+<td>易しい</td>
+<td>やさしい</td>
+<td>yasashii</td>
+<td>簡單的</td>
+</tr>
+<tr>
+<td>優しい</td>
+<td>やさしい</td>
+<td>yasashii</td>
+<td>溫柔的</td>
+</tr>
+<tr>
+<td>美味しい</td>
+<td>おいしい</td>
+<td>oishii</td>
+<td>好吃的</td>
+</tr>
+<tr>
+<td>まずい</td>
+<td>まずい</td>
+<td>mazui</td>
+<td>難吃的</td>
+</tr>
+<tr>
+<td>甘い</td>
+<td>あまい</td>
+<td>amai</td>
+<td>甜的</td>
+</tr>
+<tr>
+<td>辛い</td>
+<td>からい</td>
+<td>karai</td>
+<td>辣的</td>
+</tr>
+<tr>
+<td>白い</td>
+<td>しろい</td>
+<td>shiroi</td>
+<td>白的</td>
+</tr>
+<tr>
+<td>黒い</td>
+<td>くろい</td>
+<td>kuroi</td>
+<td>黑的</td>
+</tr>
+<tr>
+<td>赤い</td>
+<td>あかい</td>
+<td>akai</td>
+<td>紅的</td>
+</tr>
+<tr>
+<td>青い</td>
+<td>あおい</td>
+<td>aoi</td>
+<td>藍的</td>
+</tr>
+<tr>
+<td>明るい</td>
+<td>あかるい</td>
+<td>akarui</td>
+<td>明亮的</td>
+</tr>
+<tr>
+<td>暗い</td>
+<td>くらい</td>
+<td>kurai</td>
+<td>暗的</td>
+</tr>
+<tr>
+<td>強い</td>
+<td>つよい</td>
+<td>tsuyoi</td>
+<td>強的</td>
+</tr>
+<tr>
+<td>弱い</td>
+<td>よわい</td>
+<td>yowai</td>
+<td>弱的</td>
+</tr>
+<tr>
+<td>若い</td>
+<td>わかい</td>
+<td>wakai</td>
+<td>年輕的</td>
+</tr>
+<tr>
+<td>汚い</td>
+<td>きたない</td>
+<td>kitanai</td>
+<td>髒的</td>
+</tr>
+<tr>
+<td>危ない</td>
+<td>あぶない</td>
+<td>abunai</td>
+<td>危險的</td>
+</tr>
+<tr>
+<td>痛い</td>
+<td>いたい</td>
+<td>itai</td>
+<td>痛的</td>
+</tr>
+<tr>
+<td>欲しい</td>
+<td>ほしい</td>
+<td>hoshii</td>
+<td>想要的</td>
+</tr>
+<tr>
+<td>可愛い</td>
+<td>かわいい</td>
+<td>kawaii</td>
+<td>可愛的</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s16">2.17 な形容詞（20 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>綺麗（な）</td>
+<td>きれい</td>
+<td>kirei</td>
+<td>漂亮的、乾淨的</td>
+</tr>
+<tr>
+<td>静か（な）</td>
+<td>しずか</td>
+<td>shizuka</td>
+<td>安靜的</td>
+</tr>
+<tr>
+<td>賑やか（な）</td>
+<td>にぎやか</td>
+<td>nigiyaka</td>
+<td>熱鬧的</td>
+</tr>
+<tr>
+<td>有名（な）</td>
+<td>ゆうめい</td>
+<td>yuumei</td>
+<td>有名的</td>
+</tr>
+<tr>
+<td>親切（な）</td>
+<td>しんせつ</td>
+<td>shinsetsu</td>
+<td>親切的</td>
+</tr>
+<tr>
+<td>元気（な）</td>
+<td>げんき</td>
+<td>genki</td>
+<td>有精神的</td>
+</tr>
+<tr>
+<td>暇（な）</td>
+<td>ひま</td>
+<td>hima</td>
+<td>空閒的</td>
+</tr>
+<tr>
+<td>便利（な）</td>
+<td>べんり</td>
+<td>benri</td>
+<td>方便的</td>
+</tr>
+<tr>
+<td>不便（な）</td>
+<td>ふべん</td>
+<td>fuben</td>
+<td>不方便的</td>
+</tr>
+<tr>
+<td>好き（な）</td>
+<td>すき</td>
+<td>suki</td>
+<td>喜歡的</td>
+</tr>
+<tr>
+<td>嫌い（な）</td>
+<td>きらい</td>
+<td>kirai</td>
+<td>討厭的</td>
+</tr>
+<tr>
+<td>上手（な）</td>
+<td>じょうず</td>
+<td>jouzu</td>
+<td>擅長的</td>
+</tr>
+<tr>
+<td>下手（な）</td>
+<td>へた</td>
+<td>heta</td>
+<td>不擅長的</td>
+</tr>
+<tr>
+<td>大好き（な）</td>
+<td>だいすき</td>
+<td>daisuki</td>
+<td>最喜歡的</td>
+</tr>
+<tr>
+<td>大丈夫（な）</td>
+<td>だいじょうぶ</td>
+<td>daijoubu</td>
+<td>沒問題的</td>
+</tr>
+<tr>
+<td>大変（な）</td>
+<td>たいへん</td>
+<td>taihen</td>
+<td>辛苦的、嚴重的</td>
+</tr>
+<tr>
+<td>大切（な）</td>
+<td>たいせつ</td>
+<td>taisetsu</td>
+<td>重要的</td>
+</tr>
+<tr>
+<td>丈夫（な）</td>
+<td>じょうぶ</td>
+<td>joubu</td>
+<td>堅固的、健壯的</td>
+</tr>
+<tr>
+<td>立派（な）</td>
+<td>りっぱ</td>
+<td>rippa</td>
+<td>出色的</td>
+</tr>
+<tr>
+<td>色々（な）</td>
+<td>いろいろ</td>
+<td>iroiro</td>
+<td>各式各樣的</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s17">2.18 副詞與接續詞（46 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>とても</td>
+<td>とても</td>
+<td>totemo</td>
+<td>非常</td>
+</tr>
+<tr>
+<td>大変</td>
+<td>たいへん</td>
+<td>taihen</td>
+<td>非常</td>
+</tr>
+<tr>
+<td>少し</td>
+<td>すこし</td>
+<td>sukoshi</td>
+<td>一點</td>
+</tr>
+<tr>
+<td>ちょっと</td>
+<td>ちょっと</td>
+<td>chotto</td>
+<td>稍微</td>
+</tr>
+<tr>
+<td>たくさん</td>
+<td>たくさん</td>
+<td>takusan</td>
+<td>很多</td>
+</tr>
+<tr>
+<td>大勢</td>
+<td>おおぜい</td>
+<td>oozei</td>
+<td>（人）很多</td>
+</tr>
+<tr>
+<td>全部</td>
+<td>ぜんぶ</td>
+<td>zenbu</td>
+<td>全部</td>
+</tr>
+<tr>
+<td>みんな</td>
+<td>みんな</td>
+<td>minna</td>
+<td>大家、全部</td>
+</tr>
+<tr>
+<td>よく</td>
+<td>よく</td>
+<td>yoku</td>
+<td>常常、好好地</td>
+</tr>
+<tr>
+<td>いつも</td>
+<td>いつも</td>
+<td>itsumo</td>
+<td>總是</td>
+</tr>
+<tr>
+<td>時々</td>
+<td>ときどき</td>
+<td>tokidoki</td>
+<td>有時</td>
+</tr>
+<tr>
+<td>たいてい</td>
+<td>たいてい</td>
+<td>taitei</td>
+<td>大致上、通常</td>
+</tr>
+<tr>
+<td>あまり（〜ない）</td>
+<td>あまり</td>
+<td>amari</td>
+<td>不太～</td>
+</tr>
+<tr>
+<td>全然（〜ない）</td>
+<td>ぜんぜん</td>
+<td>zenzen</td>
+<td>完全不～</td>
+</tr>
+<tr>
+<td>もう</td>
+<td>もう</td>
+<td>mou</td>
+<td>已經</td>
+</tr>
+<tr>
+<td>まだ</td>
+<td>まだ</td>
+<td>mada</td>
+<td>還、尚未</td>
+</tr>
+<tr>
+<td>もう一度</td>
+<td>もういちど</td>
+<td>mou ichido</td>
+<td>再一次</td>
+</tr>
+<tr>
+<td>もっと</td>
+<td>もっと</td>
+<td>motto</td>
+<td>更加</td>
+</tr>
+<tr>
+<td>すぐ（に）</td>
+<td>すぐ</td>
+<td>sugu</td>
+<td>馬上</td>
+</tr>
+<tr>
+<td>ゆっくり</td>
+<td>ゆっくり</td>
+<td>yukkuri</td>
+<td>慢慢地</td>
+</tr>
+<tr>
+<td>だんだん</td>
+<td>だんだん</td>
+<td>dandan</td>
+<td>漸漸地</td>
+</tr>
+<tr>
+<td>初めて</td>
+<td>はじめて</td>
+<td>hajimete</td>
+<td>第一次</td>
+</tr>
+<tr>
+<td>先に</td>
+<td>さきに</td>
+<td>sakini</td>
+<td>先</td>
+</tr>
+<tr>
+<td>一緒に</td>
+<td>いっしょに</td>
+<td>isshoni</td>
+<td>一起</td>
+</tr>
+<tr>
+<td>一人で</td>
+<td>ひとりで</td>
+<td>hitoride</td>
+<td>獨自</td>
+</tr>
+<tr>
+<td>多分</td>
+<td>たぶん</td>
+<td>tabun</td>
+<td>大概</td>
+</tr>
+<tr>
+<td>本当に</td>
+<td>ほんとうに</td>
+<td>hontouni</td>
+<td>真的</td>
+</tr>
+<tr>
+<td>丁度</td>
+<td>ちょうど</td>
+<td>choudo</td>
+<td>剛好</td>
+</tr>
+<tr>
+<td>また</td>
+<td>また</td>
+<td>mata</td>
+<td>又、再</td>
+</tr>
+<tr>
+<td>まっすぐ</td>
+<td>まっすぐ</td>
+<td>massugu</td>
+<td>直直地</td>
+</tr>
+<tr>
+<td>ちょうど</td>
+<td>ちょうど</td>
+<td>choudo</td>
+<td>正好</td>
+</tr>
+<tr>
+<td>どう</td>
+<td>どう</td>
+<td>dou</td>
+<td>如何</td>
+</tr>
+<tr>
+<td>どうぞ</td>
+<td>どうぞ</td>
+<td>douzo</td>
+<td>請</td>
+</tr>
+<tr>
+<td>どうも</td>
+<td>どうも</td>
+<td>doumo</td>
+<td>實在（謝謝）</td>
+</tr>
+<tr>
+<td>そして</td>
+<td>そして</td>
+<td>soshite</td>
+<td>然後</td>
+</tr>
+<tr>
+<td>それから</td>
+<td>それから</td>
+<td>sorekara</td>
+<td>之後</td>
+</tr>
+<tr>
+<td>それでは／では</td>
+<td>それでは</td>
+<td>soredewa</td>
+<td>那麼</td>
+</tr>
+<tr>
+<td>しかし</td>
+<td>しかし</td>
+<td>shikashi</td>
+<td>但是</td>
+</tr>
+<tr>
+<td>でも</td>
+<td>でも</td>
+<td>demo</td>
+<td>可是</td>
+</tr>
+<tr>
+<td>だから</td>
+<td>だから</td>
+<td>dakara</td>
+<td>所以</td>
+</tr>
+<tr>
+<td>じゃあ</td>
+<td>じゃあ</td>
+<td>jaa</td>
+<td>那麼（口語）</td>
+</tr>
+<tr>
+<td>〜ながら</td>
+<td>〜ながら</td>
+<td>-nagara</td>
+<td>一邊～一邊</td>
+</tr>
+<tr>
+<td>例えば</td>
+<td>たとえば</td>
+<td>tatoeba</td>
+<td>例如</td>
+</tr>
+<tr>
+<td>一番</td>
+<td>いちばん</td>
+<td>ichiban</td>
+<td>最</td>
+</tr>
+<tr>
+<td>次に</td>
+<td>つぎに</td>
+<td>tsugini</td>
+<td>接著</td>
+</tr>
+<tr>
+<td>後で</td>
+<td>あとで</td>
+<td>atode</td>
+<td>之後</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s18">2.19 疑問詞・代名詞・指示詞（35 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>これ</td>
+<td>これ</td>
+<td>kore</td>
+<td>這個</td>
+</tr>
+<tr>
+<td>それ</td>
+<td>それ</td>
+<td>sore</td>
+<td>那個（近對方）</td>
+</tr>
+<tr>
+<td>あれ</td>
+<td>あれ</td>
+<td>are</td>
+<td>那個（遠處）</td>
+</tr>
+<tr>
+<td>どれ</td>
+<td>どれ</td>
+<td>dore</td>
+<td>哪個</td>
+</tr>
+<tr>
+<td>この〜</td>
+<td>この</td>
+<td>kono</td>
+<td>這個～</td>
+</tr>
+<tr>
+<td>その〜</td>
+<td>その</td>
+<td>sono</td>
+<td>那個～</td>
+</tr>
+<tr>
+<td>あの〜</td>
+<td>あの</td>
+<td>ano</td>
+<td>那個～（遠）</td>
+</tr>
+<tr>
+<td>どの〜</td>
+<td>どの</td>
+<td>dono</td>
+<td>哪個～</td>
+</tr>
+<tr>
+<td>ここ</td>
+<td>ここ</td>
+<td>koko</td>
+<td>這裡</td>
+</tr>
+<tr>
+<td>そこ</td>
+<td>そこ</td>
+<td>soko</td>
+<td>那裡</td>
+</tr>
+<tr>
+<td>あそこ</td>
+<td>あそこ</td>
+<td>asoko</td>
+<td>那裡（遠）</td>
+</tr>
+<tr>
+<td>どこ</td>
+<td>どこ</td>
+<td>doko</td>
+<td>哪裡</td>
+</tr>
+<tr>
+<td>こちら</td>
+<td>こちら</td>
+<td>kochira</td>
+<td>這邊（禮貌）</td>
+</tr>
+<tr>
+<td>そちら</td>
+<td>そちら</td>
+<td>sochira</td>
+<td>那邊</td>
+</tr>
+<tr>
+<td>あちら</td>
+<td>あちら</td>
+<td>achira</td>
+<td>那邊（遠）</td>
+</tr>
+<tr>
+<td>どちら</td>
+<td>どちら</td>
+<td>dochira</td>
+<td>哪邊</td>
+</tr>
+<tr>
+<td>何</td>
+<td>なに／なん</td>
+<td>nani / nan</td>
+<td>什麼</td>
+</tr>
+<tr>
+<td>誰</td>
+<td>だれ</td>
+<td>dare</td>
+<td>誰</td>
+</tr>
+<tr>
+<td>どなた</td>
+<td>どなた</td>
+<td>donata</td>
+<td>哪位（禮貌）</td>
+</tr>
+<tr>
+<td>いつ</td>
+<td>いつ</td>
+<td>itsu</td>
+<td>什麼時候</td>
+</tr>
+<tr>
+<td>いくつ</td>
+<td>いくつ</td>
+<td>ikutsu</td>
+<td>幾個、幾歲</td>
+</tr>
+<tr>
+<td>いくら</td>
+<td>いくら</td>
+<td>ikura</td>
+<td>多少錢</td>
+</tr>
+<tr>
+<td>どうして</td>
+<td>どうして</td>
+<td>doushite</td>
+<td>為什麼</td>
+</tr>
+<tr>
+<td>なぜ</td>
+<td>なぜ</td>
+<td>naze</td>
+<td>為什麼</td>
+</tr>
+<tr>
+<td>どんな</td>
+<td>どんな</td>
+<td>donna</td>
+<td>什麼樣的</td>
+</tr>
+<tr>
+<td>どのくらい</td>
+<td>どのくらい</td>
+<td>donokurai</td>
+<td>多久、多少</td>
+</tr>
+<tr>
+<td>何歳</td>
+<td>なんさい</td>
+<td>nansai</td>
+<td>幾歲</td>
+</tr>
+<tr>
+<td>何人</td>
+<td>なんにん</td>
+<td>nannin</td>
+<td>幾個人</td>
+</tr>
+<tr>
+<td>何時</td>
+<td>なんじ</td>
+<td>nanji</td>
+<td>幾點</td>
+</tr>
+<tr>
+<td>何回</td>
+<td>なんかい</td>
+<td>nankai</td>
+<td>幾次</td>
+</tr>
+<tr>
+<td>何番</td>
+<td>なんばん</td>
+<td>nanban</td>
+<td>幾號</td>
+</tr>
+<tr>
+<td>こう</td>
+<td>こう</td>
+<td>kou</td>
+<td>這樣</td>
+</tr>
+<tr>
+<td>そう</td>
+<td>そう</td>
+<td>sou</td>
+<td>那樣</td>
+</tr>
+<tr>
+<td>ああ</td>
+<td>ああ</td>
+<td>aa</td>
+<td>那樣（遠）</td>
+</tr>
+<tr>
+<td>自分</td>
+<td>じぶん</td>
+<td>jibun</td>
+<td>自己</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s19">2.20 片假名外來語（50 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>アメリカ</td>
+<td>amerika</td>
+<td>美國</td>
+</tr>
+<tr>
+<td>イギリス</td>
+<td>igirisu</td>
+<td>英國</td>
+</tr>
+<tr>
+<td>フランス</td>
+<td>furansu</td>
+<td>法國</td>
+</tr>
+<tr>
+<td>ドイツ</td>
+<td>doitsu</td>
+<td>德國</td>
+</tr>
+<tr>
+<td>ホテル</td>
+<td>hoteru</td>
+<td>飯店</td>
+</tr>
+<tr>
+<td>レストラン</td>
+<td>resutoran</td>
+<td>餐廳</td>
+</tr>
+<tr>
+<td>デパート</td>
+<td>depaato</td>
+<td>百貨公司</td>
+</tr>
+<tr>
+<td>スーパー</td>
+<td>suupaa</td>
+<td>超市</td>
+</tr>
+<tr>
+<td>コンビニ</td>
+<td>konbini</td>
+<td>便利商店</td>
+</tr>
+<tr>
+<td>エレベーター</td>
+<td>erebeetaa</td>
+<td>電梯</td>
+</tr>
+<tr>
+<td>エスカレーター</td>
+<td>esukareetaa</td>
+<td>手扶梯</td>
+</tr>
+<tr>
+<td>ビル</td>
+<td>biru</td>
+<td>大樓</td>
+</tr>
+<tr>
+<td>アパート</td>
+<td>apaato</td>
+<td>公寓</td>
+</tr>
+<tr>
+<td>プール</td>
+<td>puuru</td>
+<td>游泳池</td>
+</tr>
+<tr>
+<td>パーティー</td>
+<td>paatii</td>
+<td>派對</td>
+</tr>
+<tr>
+<td>コンサート</td>
+<td>konsaato</td>
+<td>音樂會</td>
+</tr>
+<tr>
+<td>スポーツ</td>
+<td>supootsu</td>
+<td>運動</td>
+</tr>
+<tr>
+<td>サッカー</td>
+<td>sakkaa</td>
+<td>足球</td>
+</tr>
+<tr>
+<td>テニス</td>
+<td>tenisu</td>
+<td>網球</td>
+</tr>
+<tr>
+<td>バスケットボール</td>
+<td>basukettobooru</td>
+<td>籃球</td>
+</tr>
+<tr>
+<td>ギター</td>
+<td>gitaa</td>
+<td>吉他</td>
+</tr>
+<tr>
+<td>ピアノ</td>
+<td>piano</td>
+<td>鋼琴</td>
+</tr>
+<tr>
+<td>カラオケ</td>
+<td>karaoke</td>
+<td>卡拉OK</td>
+</tr>
+<tr>
+<td>ゲーム</td>
+<td>geemu</td>
+<td>遊戲</td>
+</tr>
+<tr>
+<td>ニュース</td>
+<td>nyuusu</td>
+<td>新聞</td>
+</tr>
+<tr>
+<td>映画（えいが）※和語</td>
+<td>eiga</td>
+<td>電影</td>
+</tr>
+<tr>
+<td>カレンダー</td>
+<td>karendaa</td>
+<td>月曆</td>
+</tr>
+<tr>
+<td>プレゼント</td>
+<td>purezento</td>
+<td>禮物</td>
+</tr>
+<tr>
+<td>シャワー</td>
+<td>shawaa</td>
+<td>淋浴</td>
+</tr>
+<tr>
+<td>ベッド</td>
+<td>beddo</td>
+<td>床</td>
+</tr>
+<tr>
+<td>ドア</td>
+<td>doa</td>
+<td>門</td>
+</tr>
+<tr>
+<td>テーブル</td>
+<td>teeburu</td>
+<td>桌子</td>
+</tr>
+<tr>
+<td>コップ</td>
+<td>koppu</td>
+<td>杯子</td>
+</tr>
+<tr>
+<td>ナイフ</td>
+<td>naifu</td>
+<td>刀子</td>
+</tr>
+<tr>
+<td>フォーク</td>
+<td>fooku</td>
+<td>叉子</td>
+</tr>
+<tr>
+<td>スプーン</td>
+<td>supuun</td>
+<td>湯匙</td>
+</tr>
+<tr>
+<td>ボタン</td>
+<td>botan</td>
+<td>按鈕、鈕扣</td>
+</tr>
+<tr>
+<td>ポスト</td>
+<td>posuto</td>
+<td>郵筒</td>
+</tr>
+<tr>
+<td>バター</td>
+<td>bataa</td>
+<td>奶油</td>
+</tr>
+<tr>
+<td>チーズ</td>
+<td>chiizu</td>
+<td>起司</td>
+</tr>
+<tr>
+<td>ケーキ</td>
+<td>keeki</td>
+<td>蛋糕</td>
+</tr>
+<tr>
+<td>チョコレート</td>
+<td>chokoreeto</td>
+<td>巧克力</td>
+</tr>
+<tr>
+<td>アイスクリーム</td>
+<td>aisukuriimu</td>
+<td>冰淇淋</td>
+</tr>
+<tr>
+<td>サンドイッチ</td>
+<td>sandoicchi</td>
+<td>三明治</td>
+</tr>
+<tr>
+<td>ハンバーガー</td>
+<td>hanbaagaa</td>
+<td>漢堡</td>
+</tr>
+<tr>
+<td>ピザ</td>
+<td>piza</td>
+<td>披薩</td>
+</tr>
+<tr>
+<td>メニュー</td>
+<td>menyuu</td>
+<td>菜單</td>
+</tr>
+<tr>
+<td>クラスメート</td>
+<td>kurasumeeto</td>
+<td>同班同學</td>
+</tr>
+<tr>
+<td>スマホ</td>
+<td>sumaho</td>
+<td>智慧型手機</td>
+</tr>
+<tr>
+<td>メール</td>
+<td>meeru</td>
+<td>電子郵件、簡訊</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s20">2.21 寒暄語與慣用表現（36 句）</h2>
+<table>
+<thead>
+<tr>
+<th>表現</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>おはようございます</td>
+<td>ohayou gozaimasu</td>
+<td>早安</td>
+</tr>
+<tr>
+<td>こんにちは</td>
+<td>konnichiwa</td>
+<td>午安、你好</td>
+</tr>
+<tr>
+<td>こんばんは</td>
+<td>konbanwa</td>
+<td>晚安（見面時）</td>
+</tr>
+<tr>
+<td>おやすみなさい</td>
+<td>oyasuminasai</td>
+<td>晚安（睡前）</td>
+</tr>
+<tr>
+<td>さようなら</td>
+<td>sayounara</td>
+<td>再見</td>
+</tr>
+<tr>
+<td>じゃ、また</td>
+<td>ja, mata</td>
+<td>再見（口語）</td>
+</tr>
+<tr>
+<td>ありがとうございます</td>
+<td>arigatou gozaimasu</td>
+<td>謝謝</td>
+</tr>
+<tr>
+<td>どういたしまして</td>
+<td>dou itashimashite</td>
+<td>不客氣</td>
+</tr>
+<tr>
+<td>すみません</td>
+<td>sumimasen</td>
+<td>對不起、不好意思</td>
+</tr>
+<tr>
+<td>ごめんなさい</td>
+<td>gomennasai</td>
+<td>對不起</td>
+</tr>
+<tr>
+<td>失礼します</td>
+<td>shitsurei shimasu</td>
+<td>打擾了、失陪了</td>
+</tr>
+<tr>
+<td>はじめまして</td>
+<td>hajimemashite</td>
+<td>初次見面</td>
+</tr>
+<tr>
+<td>どうぞよろしく</td>
+<td>douzo yoroshiku</td>
+<td>請多指教</td>
+</tr>
+<tr>
+<td>よろしくお願いします</td>
+<td>yoroshiku onegai shimasu</td>
+<td>請多關照</td>
+</tr>
+<tr>
+<td>お願いします</td>
+<td>onegai shimasu</td>
+<td>拜託、麻煩了</td>
+</tr>
+<tr>
+<td>いただきます</td>
+<td>itadakimasu</td>
+<td>開動了</td>
+</tr>
+<tr>
+<td>ごちそうさまでした</td>
+<td>gochisousama deshita</td>
+<td>吃飽了、謝謝招待</td>
+</tr>
+<tr>
+<td>いってきます</td>
+<td>ittekimasu</td>
+<td>我出門了</td>
+</tr>
+<tr>
+<td>いってらっしゃい</td>
+<td>itterasshai</td>
+<td>慢走</td>
+</tr>
+<tr>
+<td>ただいま</td>
+<td>tadaima</td>
+<td>我回來了</td>
+</tr>
+<tr>
+<td>おかえりなさい</td>
+<td>okaerinasai</td>
+<td>你回來啦</td>
+</tr>
+<tr>
+<td>お元気ですか</td>
+<td>ogenki desu ka</td>
+<td>你好嗎</td>
+</tr>
+<tr>
+<td>おかげさまで</td>
+<td>okagesama de</td>
+<td>託你的福</td>
+</tr>
+<tr>
+<td>お大事に</td>
+<td>odaiji ni</td>
+<td>請保重</td>
+</tr>
+<tr>
+<td>おめでとうございます</td>
+<td>omedetou gozaimasu</td>
+<td>恭喜</td>
+</tr>
+<tr>
+<td>いらっしゃいませ</td>
+<td>irasshaimase</td>
+<td>歡迎光臨</td>
+</tr>
+<tr>
+<td>ください</td>
+<td>kudasai</td>
+<td>請給我</td>
+</tr>
+<tr>
+<td>どうぞ</td>
+<td>douzo</td>
+<td>請</td>
+</tr>
+<tr>
+<td>ちょっと待ってください</td>
+<td>chotto matte kudasai</td>
+<td>請稍等</td>
+</tr>
+<tr>
+<td>もう一度お願いします</td>
+<td>mou ichido onegai shimasu</td>
+<td>請再說一次</td>
+</tr>
+<tr>
+<td>わかりました</td>
+<td>wakarimashita</td>
+<td>我明白了</td>
+</tr>
+<tr>
+<td>わかりません</td>
+<td>wakarimasen</td>
+<td>我不懂</td>
+</tr>
+<tr>
+<td>そうですね</td>
+<td>sou desu ne</td>
+<td>是啊</td>
+</tr>
+<tr>
+<td>そうですか</td>
+<td>sou desu ka</td>
+<td>是嗎</td>
+</tr>
+<tr>
+<td>大丈夫です</td>
+<td>daijoubu desu</td>
+<td>沒關係、沒問題</td>
+</tr>
+<tr>
+<td>結構です</td>
+<td>kekkou desu</td>
+<td>不用了、可以了</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c1s21">2.22 其他重要名詞（40 字）</h2>
+<table>
+<thead>
+<tr>
+<th>單字</th>
+<th>假名</th>
+<th>羅馬拼音</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>物</td>
+<td>もの</td>
+<td>mono</td>
+<td>東西</td>
+</tr>
+<tr>
+<td>事</td>
+<td>こと</td>
+<td>koto</td>
+<td>事情</td>
+</tr>
+<tr>
+<td>色</td>
+<td>いろ</td>
+<td>iro</td>
+<td>顏色</td>
+</tr>
+<tr>
+<td>音</td>
+<td>おと</td>
+<td>oto</td>
+<td>聲音（物體的）</td>
+</tr>
+<tr>
+<td>音楽</td>
+<td>おんがく</td>
+<td>ongaku</td>
+<td>音樂</td>
+</tr>
+<tr>
+<td>歌</td>
+<td>うた</td>
+<td>uta</td>
+<td>歌</td>
+</tr>
+<tr>
+<td>映画</td>
+<td>えいが</td>
+<td>eiga</td>
+<td>電影</td>
+</tr>
+<tr>
+<td>絵</td>
+<td>え</td>
+<td>e</td>
+<td>畫</td>
+</tr>
+<tr>
+<td>話</td>
+<td>はなし</td>
+<td>hanashi</td>
+<td>話、故事</td>
+</tr>
+<tr>
+<td>意見</td>
+<td>いけん</td>
+<td>iken</td>
+<td>意見</td>
+</tr>
+<tr>
+<td>気分</td>
+<td>きぶん</td>
+<td>kibun</td>
+<td>心情</td>
+</tr>
+<tr>
+<td>趣味</td>
+<td>しゅみ</td>
+<td>shumi</td>
+<td>興趣</td>
+</tr>
+<tr>
+<td>買い物</td>
+<td>かいもの</td>
+<td>kaimono</td>
+<td>購物</td>
+</tr>
+<tr>
+<td>食事</td>
+<td>しょくじ</td>
+<td>shokuji</td>
+<td>用餐</td>
+</tr>
+<tr>
+<td>値段</td>
+<td>ねだん</td>
+<td>nedan</td>
+<td>價格</td>
+</tr>
+<tr>
+<td>半分</td>
+<td>はんぶん</td>
+<td>hanbun</td>
+<td>一半</td>
+</tr>
+<tr>
+<td>次</td>
+<td>つぎ</td>
+<td>tsugi</td>
+<td>下一個</td>
+</tr>
+<tr>
+<td>隣</td>
+<td>となり</td>
+<td>tonari</td>
+<td>旁邊</td>
+</tr>
+<tr>
+<td>間</td>
+<td>あいだ</td>
+<td>aida</td>
+<td>之間</td>
+</tr>
+<tr>
+<td>中</td>
+<td>なか</td>
+<td>naka</td>
+<td>裡面</td>
+</tr>
+<tr>
+<td>外</td>
+<td>そと</td>
+<td>soto</td>
+<td>外面</td>
+</tr>
+<tr>
+<td>横</td>
+<td>よこ</td>
+<td>yoko</td>
+<td>旁邊</td>
+</tr>
+<tr>
+<td>側</td>
+<td>そば</td>
+<td>soba</td>
+<td>附近、旁邊</td>
+</tr>
+<tr>
+<td>向こう</td>
+<td>むこう</td>
+<td>mukou</td>
+<td>對面</td>
+</tr>
+<tr>
+<td>世界</td>
+<td>せかい</td>
+<td>sekai</td>
+<td>世界</td>
+</tr>
+<tr>
+<td>日本</td>
+<td>にほん</td>
+<td>nihon</td>
+<td>日本</td>
+</tr>
+<tr>
+<td>台湾</td>
+<td>たいわん</td>
+<td>taiwan</td>
+<td>台灣</td>
+</tr>
+<tr>
+<td>中国</td>
+<td>ちゅうごく</td>
+<td>chuugoku</td>
+<td>中國</td>
+</tr>
+<tr>
+<td>韓国</td>
+<td>かんこく</td>
+<td>kankoku</td>
+<td>韓國</td>
+</tr>
+<tr>
+<td>外国人</td>
+<td>がいこくじん</td>
+<td>gaikokujin</td>
+<td>外國人</td>
+</tr>
+<tr>
+<td>皆</td>
+<td>みな</td>
+<td>mina</td>
+<td>大家</td>
+</tr>
+<tr>
+<td>方</td>
+<td>かた</td>
+<td>kata</td>
+<td>位（人的敬稱）</td>
+</tr>
+<tr>
+<td>生活</td>
+<td>せいかつ</td>
+<td>seikatsu</td>
+<td>生活</td>
+</tr>
+<tr>
+<td>天気予報</td>
+<td>てんきよほう</td>
+<td>tenki yohou</td>
+<td>天氣預報</td>
+</tr>
+<tr>
+<td>電気製品</td>
+<td>でんきせいひん</td>
+<td>denki seihin</td>
+<td>電器產品</td>
+</tr>
+<tr>
+<td>会話</td>
+<td>かいわ</td>
+<td>kaiwa</td>
+<td>會話</td>
+</tr>
+<tr>
+<td>作文</td>
+<td>さくぶん</td>
+<td>sakubun</td>
+<td>作文</td>
+</tr>
+<tr>
+<td>文化</td>
+<td>ぶんか</td>
+<td>bunka</td>
+<td>文化</td>
+</tr>
+<tr>
+<td>病院代</td>
+<td>びょういんだい</td>
+<td>byouindai</td>
+<td>醫藥費</td>
+</tr>
+<tr>
+<td>お土産</td>
+<td>おみやげ</td>
+<td>omiyage</td>
+<td>伴手禮</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>第二章單字總計約 810 字</strong>（含寒暄句）。搭配第八章 30 天計畫，每天 30～40 字即可完成一輪。</p>
+</blockquote>
+<hr></section><section class="panel" data-panel="2" hidden><h1>第三章　常用漢字 100</h1>
+<blockquote>
+<p>N5 漢字約 100 個。「音讀」為漢語傳入讀音，「訓讀」為日語固有讀音。表中列出最常考的讀音與例詞。</p>
+</blockquote>
+<h2 id="c2s0">3.1 數字・時間類（24 字）</h2>
+<table>
+<thead>
+<tr>
+<th>漢字</th>
+<th>音讀</th>
+<th>訓讀</th>
+<th>例詞</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>一</td>
+<td>イチ ichi</td>
+<td>ひと(つ)</td>
+<td>一つ ひとつ、一月 いちがつ</td>
+</tr>
+<tr>
+<td>二</td>
+<td>ニ ni</td>
+<td>ふた(つ)</td>
+<td>二つ ふたつ、二人 ふたり</td>
+</tr>
+<tr>
+<td>三</td>
+<td>サン san</td>
+<td>みっ(つ)</td>
+<td>三つ みっつ、三時 さんじ</td>
+</tr>
+<tr>
+<td>四</td>
+<td>シ shi</td>
+<td>よん・よっ(つ)</td>
+<td>四月 しがつ、四つ よっつ</td>
+</tr>
+<tr>
+<td>五</td>
+<td>ゴ go</td>
+<td>いつ(つ)</td>
+<td>五つ いつつ、五分 ごふん</td>
+</tr>
+<tr>
+<td>六</td>
+<td>ロク roku</td>
+<td>むっ(つ)</td>
+<td>六つ むっつ、六時 ろくじ</td>
+</tr>
+<tr>
+<td>七</td>
+<td>シチ shichi</td>
+<td>なな(つ)</td>
+<td>七つ ななつ、七月 しちがつ</td>
+</tr>
+<tr>
+<td>八</td>
+<td>ハチ hachi</td>
+<td>やっ(つ)</td>
+<td>八つ やっつ、八百 はっぴゃく</td>
+</tr>
+<tr>
+<td>九</td>
+<td>キュウ・ク kyuu/ku</td>
+<td>ここの(つ)</td>
+<td>九つ ここのつ、九時 くじ</td>
+</tr>
+<tr>
+<td>十</td>
+<td>ジュウ juu</td>
+<td>とお</td>
+<td>十 とお、十日 とおか</td>
+</tr>
+<tr>
+<td>百</td>
+<td>ヒャク hyaku</td>
+<td>—</td>
+<td>三百 さんびゃく</td>
+</tr>
+<tr>
+<td>千</td>
+<td>セン sen</td>
+<td>—</td>
+<td>千円 せんえん</td>
+</tr>
+<tr>
+<td>万</td>
+<td>マン man</td>
+<td>—</td>
+<td>一万 いちまん</td>
+</tr>
+<tr>
+<td>円</td>
+<td>エン en</td>
+<td>—</td>
+<td>百円 ひゃくえん</td>
+</tr>
+<tr>
+<td>年</td>
+<td>ネン nen</td>
+<td>とし</td>
+<td>今年 ことし、来年 らいねん</td>
+</tr>
+<tr>
+<td>月</td>
+<td>ゲツ・ガツ getsu/gatsu</td>
+<td>つき</td>
+<td>月曜日 げつようび、一月 いちがつ</td>
+</tr>
+<tr>
+<td>日</td>
+<td>ニチ・ジツ nichi</td>
+<td>ひ・か</td>
+<td>日曜日 にちようび、三日 みっか</td>
+</tr>
+<tr>
+<td>時</td>
+<td>ジ ji</td>
+<td>とき</td>
+<td>時間 じかん、時々 ときどき</td>
+</tr>
+<tr>
+<td>分</td>
+<td>フン・ブン fun/bun</td>
+<td>わ(かる)</td>
+<td>五分 ごふん、分かる わかる</td>
+</tr>
+<tr>
+<td>週</td>
+<td>シュウ shuu</td>
+<td>—</td>
+<td>今週 こんしゅう</td>
+</tr>
+<tr>
+<td>半</td>
+<td>ハン han</td>
+<td>—</td>
+<td>半分 はんぶん、三時半 さんじはん</td>
+</tr>
+<tr>
+<td>今</td>
+<td>コン kon</td>
+<td>いま</td>
+<td>今 いま、今日 きょう</td>
+</tr>
+<tr>
+<td>毎</td>
+<td>マイ mai</td>
+<td>—</td>
+<td>毎日 まいにち</td>
+</tr>
+<tr>
+<td>何</td>
+<td>—</td>
+<td>なに・なん</td>
+<td>何 なに、何時 なんじ</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c2s1">3.2 自然・方位類（20 字）</h2>
+<table>
+<thead>
+<tr>
+<th>漢字</th>
+<th>音讀</th>
+<th>訓讀</th>
+<th>例詞</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>山</td>
+<td>サン san</td>
+<td>やま</td>
+<td>山 やま、富士山 ふじさん</td>
+</tr>
+<tr>
+<td>川</td>
+<td>セン sen</td>
+<td>かわ</td>
+<td>川 かわ</td>
+</tr>
+<tr>
+<td>天</td>
+<td>テン ten</td>
+<td>—</td>
+<td>天気 てんき</td>
+</tr>
+<tr>
+<td>気</td>
+<td>キ ki</td>
+<td>—</td>
+<td>元気 げんき、電気 でんき</td>
+</tr>
+<tr>
+<td>雨</td>
+<td>ウ u</td>
+<td>あめ</td>
+<td>雨 あめ</td>
+</tr>
+<tr>
+<td>空</td>
+<td>クウ kuu</td>
+<td>そら</td>
+<td>空 そら、空港 くうこう</td>
+</tr>
+<tr>
+<td>花</td>
+<td>カ ka</td>
+<td>はな</td>
+<td>花 はな、花見 はなみ</td>
+</tr>
+<tr>
+<td>木</td>
+<td>モク moku</td>
+<td>き</td>
+<td>木 き、木曜日 もくようび</td>
+</tr>
+<tr>
+<td>火</td>
+<td>カ ka</td>
+<td>ひ</td>
+<td>火曜日 かようび</td>
+</tr>
+<tr>
+<td>水</td>
+<td>スイ sui</td>
+<td>みず</td>
+<td>水 みず、水曜日 すいようび</td>
+</tr>
+<tr>
+<td>金</td>
+<td>キン kin</td>
+<td>かね</td>
+<td>お金 おかね、金曜日 きんようび</td>
+</tr>
+<tr>
+<td>土</td>
+<td>ド do</td>
+<td>つち</td>
+<td>土曜日 どようび</td>
+</tr>
+<tr>
+<td>東</td>
+<td>トウ tou</td>
+<td>ひがし</td>
+<td>東 ひがし、東京 とうきょう</td>
+</tr>
+<tr>
+<td>西</td>
+<td>セイ・サイ sei</td>
+<td>にし</td>
+<td>西 にし</td>
+</tr>
+<tr>
+<td>南</td>
+<td>ナン nan</td>
+<td>みなみ</td>
+<td>南 みなみ</td>
+</tr>
+<tr>
+<td>北</td>
+<td>ホク hoku</td>
+<td>きた</td>
+<td>北 きた</td>
+</tr>
+<tr>
+<td>上</td>
+<td>ジョウ jou</td>
+<td>うえ・あ(がる)</td>
+<td>上 うえ、上手 じょうず</td>
+</tr>
+<tr>
+<td>下</td>
+<td>カ・ゲ ka/ge</td>
+<td>した・くだ(さい)</td>
+<td>下 した、下手 へた</td>
+</tr>
+<tr>
+<td>中</td>
+<td>チュウ chuu</td>
+<td>なか</td>
+<td>中 なか、中国 ちゅうごく</td>
+</tr>
+<tr>
+<td>外</td>
+<td>ガイ gai</td>
+<td>そと</td>
+<td>外 そと、外国 がいこく</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c2s2">3.3 人・身體類（16 字）</h2>
+<table>
+<thead>
+<tr>
+<th>漢字</th>
+<th>音讀</th>
+<th>訓讀</th>
+<th>例詞</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>人</td>
+<td>ジン・ニン jin/nin</td>
+<td>ひと</td>
+<td>人 ひと、日本人 にほんじん、三人 さんにん</td>
+</tr>
+<tr>
+<td>男</td>
+<td>ダン dan</td>
+<td>おとこ</td>
+<td>男の人 おとこのひと</td>
+</tr>
+<tr>
+<td>女</td>
+<td>ジョ jo</td>
+<td>おんな</td>
+<td>女の子 おんなのこ</td>
+</tr>
+<tr>
+<td>子</td>
+<td>シ shi</td>
+<td>こ</td>
+<td>子供 こども</td>
+</tr>
+<tr>
+<td>父</td>
+<td>フ fu</td>
+<td>ちち・とう</td>
+<td>父 ちち、お父さん おとうさん</td>
+</tr>
+<tr>
+<td>母</td>
+<td>ボ bo</td>
+<td>はは・かあ</td>
+<td>母 はは、お母さん おかあさん</td>
+</tr>
+<tr>
+<td>友</td>
+<td>ユウ yuu</td>
+<td>とも</td>
+<td>友達 ともだち</td>
+</tr>
+<tr>
+<td>名</td>
+<td>メイ mei</td>
+<td>な</td>
+<td>名前 なまえ、有名 ゆうめい</td>
+</tr>
+<tr>
+<td>目</td>
+<td>モク moku</td>
+<td>め</td>
+<td>目 め</td>
+</tr>
+<tr>
+<td>口</td>
+<td>コウ kou</td>
+<td>くち・ぐち</td>
+<td>口 くち、入口 いりぐち</td>
+</tr>
+<tr>
+<td>手</td>
+<td>シュ shu</td>
+<td>て</td>
+<td>手 て、手紙 てがみ</td>
+</tr>
+<tr>
+<td>足</td>
+<td>ソク soku</td>
+<td>あし</td>
+<td>足 あし</td>
+</tr>
+<tr>
+<td>耳</td>
+<td>ジ ji</td>
+<td>みみ</td>
+<td>耳 みみ</td>
+</tr>
+<tr>
+<td>体</td>
+<td>タイ tai</td>
+<td>からだ</td>
+<td>体 からだ</td>
+</tr>
+<tr>
+<td>生</td>
+<td>セイ sei</td>
+<td>う(まれる)・い(きる)</td>
+<td>学生 がくせい、先生 せんせい</td>
+</tr>
+<tr>
+<td>私</td>
+<td>シ shi</td>
+<td>わたし</td>
+<td>私 わたし</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c2s3">3.4 動作類（20 字）</h2>
+<table>
+<thead>
+<tr>
+<th>漢字</th>
+<th>音讀</th>
+<th>訓讀</th>
+<th>例詞</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>行</td>
+<td>コウ kou</td>
+<td>い(く)</td>
+<td>行く いく、銀行 ぎんこう</td>
+</tr>
+<tr>
+<td>来</td>
+<td>ライ rai</td>
+<td>く(る)・き(ます)</td>
+<td>来る くる、来週 らいしゅう</td>
+</tr>
+<tr>
+<td>帰</td>
+<td>キ ki</td>
+<td>かえ(る)</td>
+<td>帰る かえる</td>
+</tr>
+<tr>
+<td>出</td>
+<td>シュツ shutsu</td>
+<td>で(る)・だ(す)</td>
+<td>出る でる、出口 でぐち</td>
+</tr>
+<tr>
+<td>入</td>
+<td>ニュウ nyuu</td>
+<td>はい(る)・い(れる)</td>
+<td>入る はいる、入口 いりぐち</td>
+</tr>
+<tr>
+<td>見</td>
+<td>ケン ken</td>
+<td>み(る)</td>
+<td>見る みる</td>
+</tr>
+<tr>
+<td>聞</td>
+<td>ブン bun</td>
+<td>き(く)</td>
+<td>聞く きく、新聞 しんぶん</td>
+</tr>
+<tr>
+<td>話</td>
+<td>ワ wa</td>
+<td>はな(す)・はなし</td>
+<td>話す はなす、電話 でんわ</td>
+</tr>
+<tr>
+<td>読</td>
+<td>ドク doku</td>
+<td>よ(む)</td>
+<td>読む よむ</td>
+</tr>
+<tr>
+<td>書</td>
+<td>ショ sho</td>
+<td>か(く)</td>
+<td>書く かく、辞書 じしょ</td>
+</tr>
+<tr>
+<td>言</td>
+<td>ゲン gen</td>
+<td>い(う)</td>
+<td>言う いう</td>
+</tr>
+<tr>
+<td>食</td>
+<td>ショク shoku</td>
+<td>た(べる)</td>
+<td>食べる たべる、食堂 しょくどう</td>
+</tr>
+<tr>
+<td>飲</td>
+<td>イン in</td>
+<td>の(む)</td>
+<td>飲む のむ</td>
+</tr>
+<tr>
+<td>買</td>
+<td>バイ bai</td>
+<td>か(う)</td>
+<td>買う かう、買い物 かいもの</td>
+</tr>
+<tr>
+<td>立</td>
+<td>リツ ritsu</td>
+<td>た(つ)</td>
+<td>立つ たつ</td>
+</tr>
+<tr>
+<td>休</td>
+<td>キュウ kyuu</td>
+<td>やす(む)</td>
+<td>休む やすむ、休み やすみ</td>
+</tr>
+<tr>
+<td>会</td>
+<td>カイ kai</td>
+<td>あ(う)</td>
+<td>会う あう、会社 かいしゃ</td>
+</tr>
+<tr>
+<td>待</td>
+<td>タイ tai</td>
+<td>ま(つ)</td>
+<td>待つ まつ</td>
+</tr>
+<tr>
+<td>作</td>
+<td>サク saku</td>
+<td>つく(る)</td>
+<td>作る つくる</td>
+</tr>
+<tr>
+<td>住</td>
+<td>ジュウ juu</td>
+<td>す(む)</td>
+<td>住む すむ</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c2s4">3.5 學校・場所・其他（20 字）</h2>
+<table>
+<thead>
+<tr>
+<th>漢字</th>
+<th>音讀</th>
+<th>訓讀</th>
+<th>例詞</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>学</td>
+<td>ガク gaku</td>
+<td>まな(ぶ)</td>
+<td>学校 がっこう、大学 だいがく</td>
+</tr>
+<tr>
+<td>校</td>
+<td>コウ kou</td>
+<td>—</td>
+<td>学校 がっこう</td>
+</tr>
+<tr>
+<td>先</td>
+<td>セン sen</td>
+<td>さき</td>
+<td>先生 せんせい、先週 せんしゅう</td>
+</tr>
+<tr>
+<td>本</td>
+<td>ホン hon</td>
+<td>もと</td>
+<td>本 ほん、日本 にほん</td>
+</tr>
+<tr>
+<td>語</td>
+<td>ゴ go</td>
+<td>—</td>
+<td>日本語 にほんご、英語 えいご</td>
+</tr>
+<tr>
+<td>国</td>
+<td>コク koku</td>
+<td>くに</td>
+<td>国 くに、外国 がいこく</td>
+</tr>
+<tr>
+<td>大</td>
+<td>ダイ・タイ dai/tai</td>
+<td>おお(きい)</td>
+<td>大きい おおきい、大学 だいがく</td>
+</tr>
+<tr>
+<td>小</td>
+<td>ショウ shou</td>
+<td>ちい(さい)</td>
+<td>小さい ちいさい</td>
+</tr>
+<tr>
+<td>高</td>
+<td>コウ kou</td>
+<td>たか(い)</td>
+<td>高い たかい、高校 こうこう</td>
+</tr>
+<tr>
+<td>安</td>
+<td>アン an</td>
+<td>やす(い)</td>
+<td>安い やすい</td>
+</tr>
+<tr>
+<td>新</td>
+<td>シン shin</td>
+<td>あたら(しい)</td>
+<td>新しい あたらしい、新聞 しんぶん</td>
+</tr>
+<tr>
+<td>古</td>
+<td>コ ko</td>
+<td>ふる(い)</td>
+<td>古い ふるい</td>
+</tr>
+<tr>
+<td>長</td>
+<td>チョウ chou</td>
+<td>なが(い)</td>
+<td>長い ながい、社長 しゃちょう</td>
+</tr>
+<tr>
+<td>白</td>
+<td>ハク haku</td>
+<td>しろ(い)</td>
+<td>白い しろい</td>
+</tr>
+<tr>
+<td>多</td>
+<td>タ ta</td>
+<td>おお(い)</td>
+<td>多い おおい</td>
+</tr>
+<tr>
+<td>少</td>
+<td>ショウ shou</td>
+<td>すく(ない)・すこ(し)</td>
+<td>少ない すくない、少し すこし</td>
+</tr>
+<tr>
+<td>電</td>
+<td>デン den</td>
+<td>—</td>
+<td>電車 でんしゃ、電話 でんわ</td>
+</tr>
+<tr>
+<td>車</td>
+<td>シャ sha</td>
+<td>くるま</td>
+<td>車 くるま、自転車 じてんしゃ</td>
+</tr>
+<tr>
+<td>駅</td>
+<td>エキ eki</td>
+<td>—</td>
+<td>駅 えき</td>
+</tr>
+<tr>
+<td>店</td>
+<td>テン ten</td>
+<td>みせ</td>
+<td>店 みせ、喫茶店 きっさてん</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>漢字學習法</strong>：每天 4 個字 × 25 天＝100 字。每字練寫 5 次並同時記例詞。考試中「漢字讀音題（漢字読み）」與「表記題（表記）」各佔文字語彙部分約三分之一。</p>
+</blockquote>
+<hr></section><section class="panel" data-panel="3" hidden><h1>第四章　N5 全文法（附例句）</h1>
+<blockquote>
+<p>每個文法均含：接續、意思、例句（附讀音與中文）。共 76 條。</p>
+</blockquote>
+<h2 id="c3s0">4.1 名詞句（判斷句） <button class="play-sec" type="button" title="播放本節全部例句" aria-label="播放本節全部例句">▶ 全部</button></h2>
+<h3>01. 〜は〜です（～是～）</h3>
+<ul>
+<li><strong>接續</strong>：N1 は N2 です</li>
+<li><span class="exj" data-tag="例">私は学生です。</span><span class="exk">わたしはがくせいです。</span><span class="exr">watashi wa gakusei desu.</span><span class="exz">我是學生。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">田中さんは日本人です。</span><span class="exk">たなかさんはにほんじんです。</span><span class="exr">tanakasan wa nihonjin desu.</span><span class="exz">田中先生是日本人。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>02. 〜は〜じゃありません／ではありません（～不是～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">私は先生じゃありません。</span><span class="exk">わたしはせんせいじゃありません。</span><span class="exr">watashi wa senseija arimasen.</span><span class="exz">我不是老師。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li>※ ではありません 較正式，じゃありません 較口語。</li>
+</ul>
+<h3>03. 〜は〜でした（過去肯定）</h3>
+<ul>
+<li><span class="exj" data-tag="例">昨日は雨でした。</span><span class="exk">きのうはあめでした。</span><span class="exr">kinou wa amedeshita.</span><span class="exz">昨天是雨天。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>04. 〜は〜じゃありませんでした（過去否定）</h3>
+<ul>
+<li><span class="exj" data-tag="例">先週は暇じゃありませんでした。</span><span class="exk">せんしゅうはひまじゃありませんでした。</span><span class="exr">senshuu wa himaja arimasendeshita.</span><span class="exz">上週不空閒。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>05. 〜ですか（疑問句）</h3>
+<ul>
+<li><span class="exj" data-tag="例">あなたは学生ですか。</span><span class="exk">あなたはがくせいですか。</span><span class="exr">anata wa gakusei desu ka.</span><span class="exz">你是學生嗎？</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li>はい、学生です。／いいえ、学生じゃありません。</li>
+</ul>
+<h3>06. 〜も（也）</h3>
+<ul>
+<li><span class="exj" data-tag="例">私も台湾人です。</span><span class="exk">わたしもたいわんじんです。</span><span class="exr">watashi mo taiwanjin desu.</span><span class="exz">我也是台灣人。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>07. 〜の（の的三種用法）</h3>
+<ul>
+<li><span class="exj" data-tag="所屬">私の本</span><span class="exk">わたしのほん</span><span class="exr">watashi no hon</span><span class="exz">我的書</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="內容說明">日本語の先生</span><span class="exk">にほんごのせんせい</span><span class="exr">nihon go no sensei</span><span class="exz">日語老師</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="代替名詞">この傘は私のです。</span><span class="exk">このかさはわたしのです。</span><span class="exr">kono kasa wa watashi no desu.</span><span class="exz">這把傘是我的。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h2 id="c3s1">4.2 指示詞句型 <button class="play-sec" type="button" title="播放本節全部例句" aria-label="播放本節全部例句">▶ 全部</button></h2>
+<h3>08. これ／それ／あれ は 〜です</h3>
+<ul>
+<li><span class="exj" data-tag="例">これは辞書です。</span><span class="exk">これはじしょです。</span><span class="exr">kore wa jisho desu.</span><span class="exz">這是字典。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">あれは何ですか。</span><span class="exk">あれはなんですか。</span><span class="exr">are wa nan desu ka.</span><span class="exz">那是什麼？</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>09. この／その／あの＋名詞</h3>
+<ul>
+<li><span class="exj" data-tag="例">この本は面白いです。</span><span class="exk">このほんはおもしろいです。</span><span class="exr">kono hon wa omoshiroi desu.</span><span class="exz">這本書很有趣。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>10. ここ／そこ／あそこ は 〜です</h3>
+<ul>
+<li><span class="exj" data-tag="例">ここは教室です。</span><span class="exk">ここはきょうしつです。</span><span class="exr">koko wa kyoushitsu desu.</span><span class="exz">這裡是教室。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">トイレはどこですか。</span><span class="exk">トイレはどこですか。</span><span class="exr">toire wa doko desu ka.</span><span class="exz">廁所在哪裡？</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h2 id="c3s2">4.3 存在句 <button class="play-sec" type="button" title="播放本節全部例句" aria-label="播放本節全部例句">▶ 全部</button></h2>
+<h3>11. 〜に〜があります（無生命物的存在）</h3>
+<ul>
+<li><span class="exj" data-tag="例">机の上に本があります。</span><span class="exk">つくえのうえにほんがあります。</span><span class="exr">tsukue no ue ni hon ga arimasu.</span><span class="exz">桌上有書。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>12. 〜に〜がいます（人・動物的存在）</h3>
+<ul>
+<li><span class="exj" data-tag="例">部屋に猫がいます。</span><span class="exk">へやにねこがいます。</span><span class="exr">heya ni neko ga imasu.</span><span class="exz">房間裡有貓。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>13. 〜は〜にあります／います（～在～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">銀行は駅の前にあります。</span><span class="exk">ぎんこうはえきのまえにあります。</span><span class="exr">ginkou wa eki no mae ni arimasu.</span><span class="exz">銀行在車站前面。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">先生は教室にいます。</span><span class="exk">せんせいはきょうしつにいます。</span><span class="exr">sensei wa kyoushitsu ni imasu.</span><span class="exz">老師在教室裡。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>14. 位置詞：上・下・中・前・後ろ・隣・近く・間</h3>
+<ul>
+<li><span class="exj" data-tag="例">郵便局は銀行と病院の間にあります。</span><span class="exk">ゆうびんきょくはぎんこうとびょういんのあいだにあります。</span><span class="exr">yuubin kyoku wa ginkou to byouin no aida ni arimasu.</span><span class="exz">郵局在銀行和醫院之間。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h2 id="c3s3">4.4 動詞句與助詞 <button class="play-sec" type="button" title="播放本節全部例句" aria-label="播放本節全部例句">▶ 全部</button></h2>
+<h3>15. 〜を＋他動詞（動作對象）</h3>
+<ul>
+<li><span class="exj" data-tag="例">パンを食べます。</span><span class="exk">パンをたべます。</span><span class="exr">pan o tabemasu.</span><span class="exz">吃麵包。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>16. 〜へ行きます／来ます／帰ります（方向）</h3>
+<ul>
+<li><span class="exj" data-tag="例">明日学校へ行きます。</span><span class="exk">あしたがっこうへいきます。</span><span class="exr">ashita gakkou e ikimasu.</span><span class="exz">明天去學校。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>17. 〜に行きます（目的地，可與へ互換）</h3>
+<ul>
+<li><span class="exj" data-tag="例">日本に行きたいです。</span><span class="exk">にほんにいきたいです。</span><span class="exr">nihon ni ikitai desu.</span><span class="exz">想去日本。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>18. 〜で（動作發生的場所）</h3>
+<ul>
+<li><span class="exj" data-tag="例">図書館で勉強します。</span><span class="exk">としょかんでべんきょうします。</span><span class="exr">toshokan de benkyou shimasu.</span><span class="exz">在圖書館讀書。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li>※ 比較：に＝存在場所、で＝動作場所。</li>
+</ul>
+<h3>19. 〜で（手段、工具、材料）</h3>
+<ul>
+<li><span class="exj" data-tag="例">バスで会社へ行きます。</span><span class="exk">バスでかいしゃへいきます。</span><span class="exr">basu de kaisha e ikimasu.</span><span class="exz">搭公車去公司。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">日本語でレポートを書きます。</span><span class="exk">にほんごでレポートをかきます。</span><span class="exr">nihon go de repooto o kakimasu.</span><span class="exz">用日語寫報告。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>20. 〜に（時間點）</h3>
+<ul>
+<li><span class="exj" data-tag="例">七時に起きます。</span><span class="exk">しちじにおきます。</span><span class="exr">shichi ji ni okimasu.</span><span class="exz">七點起床。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li>※ 「明日、毎日、今週」等相對時間詞不加に。</li>
+</ul>
+<h3>21. 〜に（動作對象：給、見、寄）</h3>
+<ul>
+<li><span class="exj" data-tag="例">友達に電話をかけます。</span><span class="exk">ともだちにでんわをかけます。</span><span class="exr">tomodachi ni denwa o kakemasu.</span><span class="exz">打電話給朋友。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">母に手紙を書きます。</span><span class="exk">ははにてがみをかきます。</span><span class="exr">haha ni tegami o kakimasu.</span><span class="exz">寫信給媽媽。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>22. 〜と（和～一起）</h3>
+<ul>
+<li><span class="exj" data-tag="例">家族と旅行します。</span><span class="exk">かぞくとりょこうします。</span><span class="exr">kazoku to ryokou shimasu.</span><span class="exz">和家人去旅行。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>23. 〜と（並列：和）</h3>
+<ul>
+<li><span class="exj" data-tag="例">机の上に本とペンがあります。</span><span class="exk">つくえのうえにほんとペンがあります。</span><span class="exr">tsukue no ue ni hon to pen ga arimasu.</span><span class="exz">桌上有書和筆。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>24. 〜や〜（など）（列舉，暗示還有其他）</h3>
+<ul>
+<li><span class="exj" data-tag="例">かばんの中に本やノートなどがあります。</span><span class="exk">かばんのなかにほんやノートなどがあります。</span><span class="exr">kaban no naka ni hon ya nooto nado ga arimasu.</span><span class="exz">包包裡有書、筆記本等等。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>25. 〜から／〜まで（從～／到～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">九時から五時まで働きます。</span><span class="exk">くじからごじまではたらきます。</span><span class="exr">ku ji kara go ji made hatarakimasu.</span><span class="exz">從九點工作到五點。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">家から駅まで歩きます。</span><span class="exk">いえからえきまであるきます。</span><span class="exr">ie kara eki made arukimasu.</span><span class="exz">從家走到車站。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>26. 〜から（原因、理由）</h3>
+<ul>
+<li><span class="exj" data-tag="例">時間がありませんから、タクシーで行きます。</span><span class="exk">じかんがありませんから、タクシーでいきます。</span><span class="exr">jikan ga arimasen kara, takushii de ikimasu.</span><span class="exz">因為沒時間，所以搭計程車去。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>27. 〜が（逆接：但是）</h3>
+<ul>
+<li><span class="exj" data-tag="例">日本語は難しいですが、面白いです。</span><span class="exk">にほんごはむずかしいですが、おもしろいです。</span><span class="exr">nihon go wa muzukashii desu ga, omoshiroi desu.</span><span class="exz">日語很難，但是很有趣。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>28. 〜が（對象：好き・嫌い・上手・下手・欲しい・分かる）</h3>
+<ul>
+<li><span class="exj" data-tag="例">私は音楽が好きです。</span><span class="exk">わたしはおんがくがすきです。</span><span class="exr">watashi wa ongaku ga suki desu.</span><span class="exz">我喜歡音樂。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">彼は日本語が分かります。</span><span class="exk">かれはにほんごがわかります。</span><span class="exr">kare wa nihon go ga wakarimasu.</span><span class="exz">他懂日語。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>29. 〜か（選擇：或）</h3>
+<ul>
+<li><span class="exj" data-tag="例">コーヒーか紅茶を飲みます。</span><span class="exk">コーヒーかこうちゃをのみます。</span><span class="exr">koohii ka koucha o nomimasu.</span><span class="exz">喝咖啡或紅茶。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>30. 〜ね／〜よ（終助詞）</h3>
+<ul>
+<li>ね（確認、同感）：いい天気ですね。（いいてんきですね。）天氣真好呢。</li>
+<li>よ（告知、提醒）：この店は安いですよ。（このみせはやすいですよ。）這家店很便宜喔。</li>
+</ul>
+<h3>31. 〜だけ（只有）</h3>
+<ul>
+<li><span class="exj" data-tag="例">朝はコーヒーだけ飲みます。</span><span class="exk">あさはコーヒーだけのみます。</span><span class="exr">asa wa koohii dake nomimasu.</span><span class="exz">早上只喝咖啡。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>32. 〜ぐらい／くらい（大約～量）</h3>
+<ul>
+<li><span class="exj" data-tag="例">毎日二時間ぐらい勉強します。</span><span class="exk">まいにちにじかんぐらいべんきょうします。</span><span class="exr">mainichi ni jikan gurai benkyou shimasu.</span><span class="exz">每天讀書大約兩小時。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>33. 〜ごろ（大約～時間點）</h3>
+<ul>
+<li><span class="exj" data-tag="例">七時ごろ家へ帰ります。</span><span class="exk">しちじごろいえへかえります。</span><span class="exr">shichi ji goro ie e kaerimasu.</span><span class="exz">七點左右回家。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>34. 〜しか〜ない（只有～，後接否定）</h3>
+<ul>
+<li><span class="exj" data-tag="例">百円しかありません。</span><span class="exk">ひゃくえんしかありません。</span><span class="exr">hyaku en shika arimasen.</span><span class="exz">只有一百日圓。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h2 id="c3s4">4.5 動詞時態（ます形變化） <button class="play-sec" type="button" title="播放本節全部例句" aria-label="播放本節全部例句">▶ 全部</button></h2>
+<h3>35. 〜ます／〜ません（現在肯定／否定）</h3>
+<ul>
+<li><span class="exj" data-tag="例">毎朝新聞を読みます。</span><span class="exk">まいあさしんぶんをよみます。</span><span class="exr">maiasa shinbun o yomimasu.</span><span class="exz">每天早上看報紙。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">お酒を飲みません。</span><span class="exk">おさけをのみません。</span><span class="exr">o sake o nomimasen.</span><span class="exz">不喝酒。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>36. 〜ました／〜ませんでした（過去肯定／否定）</h3>
+<ul>
+<li><span class="exj" data-tag="例">昨日映画を見ました。</span><span class="exk">きのうえいがをみました。</span><span class="exr">kinou eiga o mimashita.</span><span class="exz">昨天看了電影。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">宿題をしませんでした。</span><span class="exk">しゅくだいをしませんでした。</span><span class="exr">shukudai o shimasendeshita.</span><span class="exz">沒有做作業。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>37. もう〜ました（已經～了）</h3>
+<ul>
+<li><span class="exj" data-tag="例">もう昼ご飯を食べました。</span><span class="exk">もうひるごはんをたべました。</span><span class="exr">mou hirugohan o tabemashita.</span><span class="exz">已經吃過午餐了。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>38. まだ〜ていません／まだです（還沒～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">まだ食べていません。</span><span class="exk">まだたべていません。</span><span class="exr">mada tabete imasen.</span><span class="exz">還沒吃。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h2 id="c3s5">4.6 邀約・請求・意志 <button class="play-sec" type="button" title="播放本節全部例句" aria-label="播放本節全部例句">▶ 全部</button></h2>
+<h3>39. 〜ませんか（要不要一起～？邀約）</h3>
+<ul>
+<li><span class="exj" data-tag="例">一緒に映画を見ませんか。</span><span class="exk">いっしょにえいがをみませんか。</span><span class="exr">issho ni eiga o mimasen ka.</span><span class="exz">要不要一起看電影？</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>40. 〜ましょう（～吧！提議）</h3>
+<ul>
+<li><span class="exj" data-tag="例">ちょっと休みましょう。</span><span class="exk">ちょっとやすみましょう。</span><span class="exr">chotto yasumimashou.</span><span class="exz">休息一下吧。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>41. 〜ましょうか（我來～好嗎？主動提議）</h3>
+<ul>
+<li><span class="exj" data-tag="例">荷物を持ちましょうか。</span><span class="exk">にもつをもちましょうか。</span><span class="exr">nimotsu o mochimashou ka.</span><span class="exz">我幫你拿行李好嗎？</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>42. 〜たいです（想要做～）</h3>
+<ul>
+<li>接續：ます形去ます＋たい</li>
+<li><span class="exj" data-tag="例">日本へ行きたいです。</span><span class="exk">にほんへいきたいです。</span><span class="exr">nihon e ikitai desu.</span><span class="exz">想去日本。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">何も食べたくないです。</span><span class="exk">なにもたべたくないです。</span><span class="exr">nani mo tabetaku nai desu.</span><span class="exz">什麼都不想吃。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li>※ たい 變化同い形容詞。</li>
+</ul>
+<h3>43. 〜が欲しいです（想要～東西）</h3>
+<ul>
+<li><span class="exj" data-tag="例">新しいパソコンが欲しいです。</span><span class="exk">あたらしいパソコンがほしいです。</span><span class="exr">atarashii pasokon ga hoshii desu.</span><span class="exz">想要新電腦。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>44. 〜てください（請～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">ここに名前を書いてください。</span><span class="exk">ここになまえをかいてください。</span><span class="exr">koko ni namae o kaite kudasai.</span><span class="exz">請在這裡寫名字。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>45. 〜ないでください（請不要～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">ここで写真を撮らないでください。</span><span class="exk">ここでしゃしんをとらないでください。</span><span class="exr">koko de shashin o toranaide kudasai.</span><span class="exz">請不要在這裡拍照。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>46. 〜をください（請給我～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">この りんごを三つください。</span><span class="exk">このりんごをみっつください。</span><span class="exr">kono ringo o mittsu kudasai.</span><span class="exz">請給我三個蘋果。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h2 id="c3s6">4.7 て形句型 <button class="play-sec" type="button" title="播放本節全部例句" aria-label="播放本節全部例句">▶ 全部</button></h2>
+<h3>47. 〜ています（正在～／狀態持續）</h3>
+<ul>
+<li><span class="exj" data-tag="進行">今、雨が降っています。</span><span class="exk">いま、あめがふっています。</span><span class="exr">ima, ame ga futte imasu.</span><span class="exz">現在正在下雨。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="狀態">私は台北に住んでいます。</span><span class="exk">わたしはたいぺいにすんでいます。</span><span class="exr">watashi wa taipei ni sunde imasu.</span><span class="exz">我住在台北。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="職業">兄は銀行で働いています。</span><span class="exk">あにはぎんこうではたらいています。</span><span class="exr">ani wa ginkou de hataraite imasu.</span><span class="exz">哥哥在銀行工作。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>48. 〜てから（做完～之後）</h3>
+<ul>
+<li><span class="exj" data-tag="例">手を洗ってから、ご飯を食べます。</span><span class="exk">てをあらってから、ごはんをたべます。</span><span class="exr">te o aratte kara, gohan o tabemasu.</span><span class="exz">洗手後吃飯。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>49. 〜て、〜（動作接續）</h3>
+<ul>
+<li><span class="exj" data-tag="例">朝起きて、顔を洗って、朝ご飯を食べます。</span><span class="exk">あさおきて、かおをあらって、あさごはんをたべます。</span><span class="exr">asa okite, kao o aratte, asagohan o tabemasu.</span><span class="exz">早上起床、洗臉、吃早餐。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>50. 〜てもいいです（可以～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">ここに座ってもいいですか。</span><span class="exk">ここにすわってもいいですか。</span><span class="exr">koko ni suwatte mo ii desu ka.</span><span class="exz">可以坐這裡嗎？</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>51. 〜てはいけません（不可以～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">教室でたばこを吸ってはいけません。</span><span class="exk">きょうしつでたばこをすってはいけません。</span><span class="exr">kyoushitsu de tabako o sutte wa ikemasen.</span><span class="exz">不可以在教室抽菸。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h2 id="c3s7">4.8 形容詞句型 <button class="play-sec" type="button" title="播放本節全部例句" aria-label="播放本節全部例句">▶ 全部</button></h2>
+<h3>52. い形容詞的變化</h3>
+<ul>
+<li><span class="exj" data-tag="現在肯定">高いです</span><span class="exk">たかいです</span><span class="exr">takai desu</span><span class="exz">貴</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li>現在否定：高くないです／高くありません</li>
+<li>過去肯定：高かったです</li>
+<li>過去否定：高くなかったです</li>
+<li>※ いい 的變化：よくないです、よかったです、よくなかったです</li>
+</ul>
+<h3>53. な形容詞的變化</h3>
+<ul>
+<li><span class="exj" data-tag="現在肯定">静かです</span><span class="exk">しずかです</span><span class="exr">shizuka desu</span><span class="exz">安靜</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li>現在否定：静かじゃありません</li>
+<li>過去肯定：静かでした</li>
+<li>過去否定：静かじゃありませんでした</li>
+</ul>
+<h3>54. 形容詞＋名詞</h3>
+<ul>
+<li><span class="exj" data-tag="い形">大きい家</span><span class="exk">おおきいいえ</span><span class="exr">ookii ie</span><span class="exz">大房子</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="な形">綺麗な花</span><span class="exk">きれいなはな</span><span class="exr">kireina hana</span><span class="exz">漂亮的花</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>55. 〜くて／〜で（形容詞接續）</h3>
+<ul>
+<li><span class="exj" data-tag="例">この部屋は広くて、明るいです。</span><span class="exk">このへやはひろくて、あかるいです。</span><span class="exr">kono heya wa hirokute, akarui desu.</span><span class="exz">這個房間又寬敞又明亮。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">彼女は綺麗で、親切です。</span><span class="exk">かのじょはきれいで、しんせつです。</span><span class="exr">kanojo wa kirei de, shinsetsu desu.</span><span class="exz">她漂亮又親切。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>56. 〜くなります／〜になります（變得～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">暖かくなりました。</span><span class="exk">あたたかくなりました。</span><span class="exr">atatakaku narimashita.</span><span class="exz">變暖和了。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">日本語が上手になりました。</span><span class="exk">にほんごがじょうずになりました。</span><span class="exr">nihon go ga jouzuni narimashita.</span><span class="exz">日語變好了。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">医者になりたいです。</span><span class="exk">いしゃになりたいです。</span><span class="exr">isha ni naritai desu.</span><span class="exz">想成為醫生。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>57. どんな＋名詞（什麼樣的～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">どんな音楽が好きですか。</span><span class="exk">どんなおんがくがすきですか。</span><span class="exr">donna ongaku ga suki desu ka.</span><span class="exz">你喜歡什麼樣的音樂？</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>58. 〜はどうですか（～如何？）</h3>
+<ul>
+<li><span class="exj" data-tag="例">日本の生活はどうですか。</span><span class="exk">にほんのせいかつはどうですか。</span><span class="exr">nihon no seikatsu wa dou desu ka.</span><span class="exz">日本的生活如何？</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h2 id="c3s8">4.9 比較句型 <button class="play-sec" type="button" title="播放本節全部例句" aria-label="播放本節全部例句">▶ 全部</button></h2>
+<h3>59. AはBより〜（A比B～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">飛行機は電車より速いです。</span><span class="exk">ひこうきはでんしゃよりはやいです。</span><span class="exr">hikou ki wa densha yori hayai desu.</span><span class="exz">飛機比電車快。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>60. AとBとどちらが〜（A和B哪個～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">コーヒーと紅茶とどちらが好きですか。</span><span class="exk">コーヒーとこうちゃとどちらがすきですか。</span><span class="exr">koohii to koucha to dochira ga suki desu ka.</span><span class="exz">咖啡和紅茶你喜歡哪個？</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="答">コーヒーのほうが好きです。</span><span class="exk">コーヒーのほうがすきです。</span><span class="exr">koohii no hou ga suki desu.</span><span class="exz">比較喜歡咖啡。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>61. 〜（の中）で〜が一番〜（在～之中最～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">果物の中でりんごが一番好きです。</span><span class="exk">くだもののなかでりんごがいちばんすきです。</span><span class="exr">kudamono no naka de ringo ga ichiban suki desu.</span><span class="exz">水果之中最喜歡蘋果。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">一年で八月が一番暑いです。</span><span class="exk">いちねんではちがつがいちばんあついです。</span><span class="exr">ichi nen de hachi gatsu ga ichiban atsui desu.</span><span class="exz">一年之中八月最熱。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h2 id="c3s9">4.10 頻率・程度副詞句型 <button class="play-sec" type="button" title="播放本節全部例句" aria-label="播放本節全部例句">▶ 全部</button></h2>
+<h3>62. よく／時々／あまり／全然</h3>
+<ul>
+<li><span class="exj" data-tag="例">よく映画を見ます。</span><span class="exk">よくえいがをみます。</span><span class="exr">yoku eiga o mimasu.</span><span class="exz">常常看電影。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">あまりテレビを見ません。</span><span class="exk">あまりテレビをみません。</span><span class="exr">amari terebi o mimasen.</span><span class="exz">不太看電視。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">全然分かりません。</span><span class="exk">ぜんぜんわかりません。</span><span class="exr">zenzen wakarimasen.</span><span class="exz">完全不懂。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li>※ あまり・全然 後面必接否定。</li>
+</ul>
+<h3>63. とても／ちょっと</h3>
+<ul>
+<li><span class="exj" data-tag="例">この料理はとても美味しいです。</span><span class="exk">このりょうりはとてもおいしいです。</span><span class="exr">kono ryouri wa totemo oishii desu.</span><span class="exz">這道菜非常好吃。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h2 id="c3s10">4.11 其他重要句型 <button class="play-sec" type="button" title="播放本節全部例句" aria-label="播放本節全部例句">▶ 全部</button></h2>
+<h3>64. 〜ながら（一邊～一邊～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">音楽を聞きながら、勉強します。</span><span class="exk">おんがくをききながら、べんきょうします。</span><span class="exr">ongaku o kiki nagara, benkyou shimasu.</span><span class="exz">一邊聽音樂一邊讀書。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>65. 〜たり〜たりします（又～又～、列舉動作）</h3>
+<ul>
+<li><span class="exj" data-tag="例">日曜日は掃除したり、洗濯したりします。</span><span class="exk">にちようびはそうじしたり、せんたくしたりします。</span><span class="exr">nichiyou bi wa souji shi tari, sentaku shi tari shimasu.</span><span class="exz">星期天打掃、洗衣服等等。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>66. 〜の前に（～之前）</h3>
+<ul>
+<li><span class="exj" data-tag="例">寝る前に、歯を磨きます。</span><span class="exk">ねるまえに、はをみがきます。</span><span class="exr">neru mae ni, ha o migakimasu.</span><span class="exz">睡前刷牙。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">食事の前に手を洗います。</span><span class="exk">しょくじのまえにてをあらいます。</span><span class="exr">shokuji no mae ni te o araimasu.</span><span class="exz">吃飯前洗手。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>67. 〜の後で（～之後）</h3>
+<ul>
+<li><span class="exj" data-tag="例">授業の後で、図書館へ行きます。</span><span class="exk">じゅぎょうのあとで、としょかんへいきます。</span><span class="exr">jugyou no ato de, toshokan e ikimasu.</span><span class="exz">下課後去圖書館。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>68. 〜とき（～的時候）</h3>
+<ul>
+<li><span class="exj" data-tag="例">暇なとき、音楽を聞きます。</span><span class="exk">ひまなとき、おんがくをききます。</span><span class="exr">himana toki, ongaku o kikimasu.</span><span class="exz">有空的時候聽音樂。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>69. 〜でしょう（大概～吧）</h3>
+<ul>
+<li><span class="exj" data-tag="例">明日は晴れるでしょう。</span><span class="exk">あしたははれるでしょう。</span><span class="exr">ashita wa hareru deshou.</span><span class="exz">明天大概會放晴吧。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>70. 〜が、〜（前置、開場）</h3>
+<ul>
+<li><span class="exj" data-tag="例">すみませんが、駅はどこですか。</span><span class="exk">すみませんが、えきはどこですか。</span><span class="exr">sumimasen ga, eki wa doko desu ka.</span><span class="exz">不好意思，車站在哪裡？</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>71. 名詞＋の＋とき／名詞修飾</h3>
+<ul>
+<li><span class="exj" data-tag="例">子供のとき、よく川で泳ぎました。</span><span class="exk">こどものとき、よくかわでおよぎました。</span><span class="exr">kodomo no toki, yoku kawa de oyogimashita.</span><span class="exz">小時候常在河裡游泳。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>72. 〜方（〜かた）（～的方法）</h3>
+<ul>
+<li><span class="exj" data-tag="例">この漢字の読み方を教えてください。</span><span class="exk">このかんじのよみかたをおしえてください。</span><span class="exr">kono kanji no yomikata o oshiete kudasai.</span><span class="exz">請告訴我這個漢字的讀法。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>73. 疑問詞＋か（某～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">何か食べましたか。</span><span class="exk">なにかたべましたか。</span><span class="exr">nani ka tabemashita ka.</span><span class="exz">吃了什麼東西嗎？</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">誰か来ました。</span><span class="exk">だれかきました。</span><span class="exr">dare ka kimashita.</span><span class="exz">有人來了。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>74. 疑問詞＋も＋否定（都不～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">何も買いませんでした。</span><span class="exk">なにもかいませんでした。</span><span class="exr">nani mo kaimasendeshita.</span><span class="exz">什麼都沒買。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+<li><span class="exj" data-tag="例">どこも行きません。</span><span class="exk">どこもいきません。</span><span class="exr">doko mo ikimasen.</span><span class="exz">哪裡都不去。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>75. 〜という〜（叫做～的～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">「さくら」という店を知っていますか。</span><span class="exk">「さくら」というみせをしっていますか。</span><span class="exr">"sakura" to iu mise o shitte imasu ka.</span><span class="exz">你知道叫「さくら」的店嗎？</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<h3>76. 〜をしています（從事～、正在做～）</h3>
+<ul>
+<li><span class="exj" data-tag="例">父は医者をしています。</span><span class="exk">ちちはいしゃをしています。</span><span class="exr">chichi wa isha o shite imasu.</span><span class="exz">父親是醫生。</span><button class="say-btn" type="button" title="讀日文" aria-label="讀日文">🔊</button></li>
+</ul>
+<hr></section><section class="panel" data-panel="4" hidden><h1>第五章　動詞變化整理</h1>
+<h2 id="c4s0">5.1 動詞三大分類</h2>
+<table>
+<thead>
+<tr>
+<th>類別</th>
+<th>判斷方式</th>
+<th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>第 I 類（五段動詞）</td>
+<td>ます形結尾為「い段音＋ます」</td>
+<td>書きます、飲みます、買います</td>
+</tr>
+<tr>
+<td>第 II 類（一段動詞）</td>
+<td>ます形結尾為「え段音＋ます」；部分「い段＋ます」</td>
+<td>食べます、見ます、起きます</td>
+</tr>
+<tr>
+<td>第 III 類（不規則）</td>
+<td>只有兩個</td>
+<td>します、来ます（きます）</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>偽裝成第 II 類的第 I 類動詞（必背）</strong>：帰ります（かえります）、入ります（はいります）、切ります（きります）、知ります（しります）、走ります（はしります）、要ります（いります）。它們雖然是「り＋ます」，但屬於五段動詞。</p>
+</blockquote>
+<h2 id="c4s1">5.2 ます形 ⇄ 辞書形</h2>
+<table>
+<thead>
+<tr>
+<th>類別</th>
+<th>規則</th>
+<th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I</td>
+<td>い段 → う段</td>
+<td>書きます→書く、飲みます→飲む、買います→買う</td>
+</tr>
+<tr>
+<td>II</td>
+<td>ます → る</td>
+<td>食べます→食べる、見ます→見る</td>
+</tr>
+<tr>
+<td>III</td>
+<td>不規則</td>
+<td>します→する、来ます→来る（くる）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c4s2">5.3 て形變化（五段動詞音便）</h2>
+<table>
+<thead>
+<tr>
+<th>ます形結尾</th>
+<th>變化</th>
+<th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>き→いて</td>
+<td>書きます→書いて</td>
+<td>かいて</td>
+</tr>
+<tr>
+<td>ぎ→いで</td>
+<td>泳ぎます→泳いで</td>
+<td>およいで</td>
+</tr>
+<tr>
+<td>い・ち・り→って</td>
+<td>買います→買って／待ちます→待って／帰ります→帰って</td>
+<td>促音便</td>
+</tr>
+<tr>
+<td>に・び・み→んで</td>
+<td>死にます→死んで／遊びます→遊んで／飲みます→飲んで</td>
+<td>撥音便</td>
+</tr>
+<tr>
+<td>し→して</td>
+<td>話します→話して</td>
+<td>無音便</td>
+</tr>
+<tr>
+<td>※例外</td>
+<td>行きます→行って（いって）</td>
+<td>特殊</td>
+</tr>
+<tr>
+<td>第 II 類</td>
+<td>ます→て</td>
+<td>食べます→食べて、見ます→見て</td>
+</tr>
+<tr>
+<td>第 III 類</td>
+<td>します→して、来ます→来て（きて）</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>て形記憶口訣</strong>：「い・ち・り → って｜に・び・み → んで｜き → いて｜ぎ → いで｜し → して」</p>
+</blockquote>
+<h2 id="c4s3">5.4 ない形（否定形）</h2>
+<table>
+<thead>
+<tr>
+<th>類別</th>
+<th>規則</th>
+<th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>I</td>
+<td>い段 → あ段＋ない（※い→わ）</td>
+<td>書きます→書かない、買います→買わない、飲みます→飲まない</td>
+</tr>
+<tr>
+<td>II</td>
+<td>ます → ない</td>
+<td>食べます→食べない、見ます→見ない</td>
+</tr>
+<tr>
+<td>III</td>
+<td>します→しない、来ます→来ない（こない）</td>
+<td></td>
+</tr>
+<tr>
+<td>特殊</td>
+<td>あります→ない（不是あらない）</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="c4s4">5.5 た形（過去形）</h2>
+<ul>
+<li>變化規則與て形完全相同，把「て／で」換成「た／だ」即可。</li>
+<li>例：書いて→書いた、飲んで→飲んだ、食べて→食べた、行って→行った、して→した、来て→来た</li>
+</ul>
+<h2 id="c4s5">5.6 常用動詞變化總表（30 個高頻動詞）</h2>
+<table>
+<thead>
+<tr>
+<th>ます形</th>
+<th>辞書形</th>
+<th>て形</th>
+<th>ない形</th>
+<th>た形</th>
+<th>中文</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>行きます</td>
+<td>行く</td>
+<td>行って</td>
+<td>行かない</td>
+<td>行った</td>
+<td>去</td>
+</tr>
+<tr>
+<td>来ます</td>
+<td>来る</td>
+<td>来て</td>
+<td>来ない</td>
+<td>来た</td>
+<td>來</td>
+</tr>
+<tr>
+<td>帰ります</td>
+<td>帰る</td>
+<td>帰って</td>
+<td>帰らない</td>
+<td>帰った</td>
+<td>回去</td>
+</tr>
+<tr>
+<td>食べます</td>
+<td>食べる</td>
+<td>食べて</td>
+<td>食べない</td>
+<td>食べた</td>
+<td>吃</td>
+</tr>
+<tr>
+<td>飲みます</td>
+<td>飲む</td>
+<td>飲んで</td>
+<td>飲まない</td>
+<td>飲んだ</td>
+<td>喝</td>
+</tr>
+<tr>
+<td>見ます</td>
+<td>見る</td>
+<td>見て</td>
+<td>見ない</td>
+<td>見た</td>
+<td>看</td>
+</tr>
+<tr>
+<td>聞きます</td>
+<td>聞く</td>
+<td>聞いて</td>
+<td>聞かない</td>
+<td>聞いた</td>
+<td>聽</td>
+</tr>
+<tr>
+<td>読みます</td>
+<td>読む</td>
+<td>読んで</td>
+<td>読まない</td>
+<td>読んだ</td>
+<td>讀</td>
+</tr>
+<tr>
+<td>書きます</td>
+<td>書く</td>
+<td>書いて</td>
+<td>書かない</td>
+<td>書いた</td>
+<td>寫</td>
+</tr>
+<tr>
+<td>話します</td>
+<td>話す</td>
+<td>話して</td>
+<td>話さない</td>
+<td>話した</td>
+<td>說</td>
+</tr>
+<tr>
+<td>買います</td>
+<td>買う</td>
+<td>買って</td>
+<td>買わない</td>
+<td>買った</td>
+<td>買</td>
+</tr>
+<tr>
+<td>会います</td>
+<td>会う</td>
+<td>会って</td>
+<td>会わない</td>
+<td>会った</td>
+<td>見面</td>
+</tr>
+<tr>
+<td>待ちます</td>
+<td>待つ</td>
+<td>待って</td>
+<td>待たない</td>
+<td>待った</td>
+<td>等</td>
+</tr>
+<tr>
+<td>持ちます</td>
+<td>持つ</td>
+<td>持って</td>
+<td>持たない</td>
+<td>持った</td>
+<td>拿</td>
+</tr>
+<tr>
+<td>立ちます</td>
+<td>立つ</td>
+<td>立って</td>
+<td>立たない</td>
+<td>立った</td>
+<td>站</td>
+</tr>
+<tr>
+<td>座ります</td>
+<td>座る</td>
+<td>座って</td>
+<td>座らない</td>
+<td>座った</td>
+<td>坐</td>
+</tr>
+<tr>
+<td>入ります</td>
+<td>入る</td>
+<td>入って</td>
+<td>入らない</td>
+<td>入った</td>
+<td>進入</td>
+</tr>
+<tr>
+<td>出ます</td>
+<td>出る</td>
+<td>出て</td>
+<td>出ない</td>
+<td>出た</td>
+<td>出去</td>
+</tr>
+<tr>
+<td>起きます</td>
+<td>起きる</td>
+<td>起きて</td>
+<td>起きない</td>
+<td>起きた</td>
+<td>起床</td>
+</tr>
+<tr>
+<td>寝ます</td>
+<td>寝る</td>
+<td>寝て</td>
+<td>寝ない</td>
+<td>寝た</td>
+<td>睡覺</td>
+</tr>
+<tr>
+<td>します</td>
+<td>する</td>
+<td>して</td>
+<td>しない</td>
+<td>した</td>
+<td>做</td>
+</tr>
+<tr>
+<td>働きます</td>
+<td>働く</td>
+<td>働いて</td>
+<td>働かない</td>
+<td>働いた</td>
+<td>工作</td>
+</tr>
+<tr>
+<td>休みます</td>
+<td>休む</td>
+<td>休んで</td>
+<td>休まない</td>
+<td>休んだ</td>
+<td>休息</td>
+</tr>
+<tr>
+<td>泳ぎます</td>
+<td>泳ぐ</td>
+<td>泳いで</td>
+<td>泳がない</td>
+<td>泳いだ</td>
+<td>游泳</td>
+</tr>
+<tr>
+<td>遊びます</td>
+<td>遊ぶ</td>
+<td>遊んで</td>
+<td>遊ばない</td>
+<td>遊んだ</td>
+<td>玩</td>
+</tr>
+<tr>
+<td>死にます</td>
+<td>死ぬ</td>
+<td>死んで</td>
+<td>死なない</td>
+<td>死んだ</td>
+<td>死</td>
+</tr>
+<tr>
+<td>取ります</td>
+<td>取る</td>
+<td>取って</td>
+<td>取らない</td>
+<td>取った</td>
+<td>拿取</td>
+</tr>
+<tr>
+<td>作ります</td>
+<td>作る</td>
+<td>作って</td>
+<td>作らない</td>
+<td>作った</td>
+<td>製作</td>
+</tr>
+<tr>
+<td>使います</td>
+<td>使う</td>
+<td>使って</td>
+<td>使わない</td>
+<td>使った</td>
+<td>使用</td>
+</tr>
+<tr>
+<td>あります</td>
+<td>ある</td>
+<td>あって</td>
+<td>ない</td>
+<td>あった</td>
+<td>有（物）</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c4s6">5.7 各變化形的用途對照</h2>
+<table>
+<thead>
+<tr>
+<th>變化形</th>
+<th>主要句型</th>
+<th>例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ます形</td>
+<td>禮貌體、〜たい、〜ながら、〜ましょう</td>
+<td>食べたい、聞きながら</td>
+</tr>
+<tr>
+<td>て形</td>
+<td>〜てください、〜ています、〜てもいい、〜てから</td>
+<td>書いてください</td>
+</tr>
+<tr>
+<td>ない形</td>
+<td>〜ないでください</td>
+<td>吸わないでください</td>
+</tr>
+<tr>
+<td>た形</td>
+<td>〜たり〜たり</td>
+<td>歌ったり踊ったり</td>
+</tr>
+<tr>
+<td>辞書形</td>
+<td>〜前に、名詞修飾</td>
+<td>寝る前に</td>
+</tr>
+</tbody>
+</table>
+<hr></section><section class="panel" data-panel="5" hidden><h1>第六章　聽力重點</h1>
+<h2 id="c5s0">6.1 N5 聽力題型（共 4 大題、約 24 題、30 分鐘）</h2>
+<table>
+<thead>
+<tr>
+<th>大題</th>
+<th>題型</th>
+<th>題數</th>
+<th>說明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>課題理解</td>
+<td>聽對話→選「接下來要做什麼」</td>
+<td>7</td>
+<td>有圖或選項，注意順序詞「まず、それから、その後」</td>
+</tr>
+<tr>
+<td>ポイント理解</td>
+<td>先看題目→聽重點</td>
+<td>6</td>
+<td>先讀選項，鎖定「いつ・どこ・だれ・いくら」</td>
+</tr>
+<tr>
+<td>発話表現</td>
+<td>看圖＋情境→選正確的說法</td>
+<td>5</td>
+<td>考寒暄語與請求表現</td>
+</tr>
+<tr>
+<td>即時応答</td>
+<td>聽一句話→選正確回應</td>
+<td>6</td>
+<td>無圖，速度快，靠反射</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c5s1">6.2 高頻聽力情境與關鍵字</h2>
+<table>
+<thead>
+<tr>
+<th>情境</th>
+<th>必聽關鍵字</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>買東西</td>
+<td>いくらですか、〜円、〜をください、全部で</td>
+</tr>
+<tr>
+<td>點餐</td>
+<td>〜にします、〜と〜をお願いします</td>
+</tr>
+<tr>
+<td>問路</td>
+<td>まっすぐ、右に曲がって、左、信号、交差点、隣、前</td>
+</tr>
+<tr>
+<td>時間約定</td>
+<td>〜時に、〜時半、午前・午後、遅れます</td>
+</tr>
+<tr>
+<td>車站</td>
+<td>〜番線、次の駅、乗り換え、切符</td>
+</tr>
+<tr>
+<td>學校</td>
+<td>宿題、テスト、〜ページ、来週まで</td>
+</tr>
+<tr>
+<td>電話</td>
+<td>もしもし、〜さんをお願いします、また後で</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c5s2">6.3 最常見的聽力陷阱</h2>
+<ol>
+<li><strong>數字修正</strong>：先說一個數字，後面用「あ、すみません」「じゃなくて」修正。<strong>永遠以最後說的為準。</strong></li>
+<li><strong>長音／促音</strong>：おじさん（叔叔）vs おじいさん（爺爺）；きて（來）vs きって（郵票）；びょういん（醫院）vs びよういん（美容院）。</li>
+<li><strong>時間計算</strong>：「今、三時です。会議は一時間後です」→ 會議是四點。</li>
+<li><strong>否定回應</strong>：「行きませんか」→「すみません、ちょっと…」表示<strong>拒絕</strong>。</li>
+<li><strong>順序詞</strong>：まず（首先）→ 次に（接著）→ それから（然後）→ 最後に（最後）。課題理解題常考「最先做什麼」。</li>
+<li><strong>は vs が 的重音</strong>：注意問句焦點，「誰が行きますか」問的是「誰」。</li>
+</ol>
+<h2 id="c5s3">6.4 即時応答高頻對答</h2>
+<table>
+<thead>
+<tr>
+<th>聽到</th>
+<th>正確回應</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>お元気ですか</td>
+<td>はい、元気です／おかげさまで</td>
+</tr>
+<tr>
+<td>すみません、ちょっといいですか</td>
+<td>はい、何ですか</td>
+</tr>
+<tr>
+<td>これ、どうぞ</td>
+<td>ありがとうございます</td>
+</tr>
+<tr>
+<td>お先に失礼します</td>
+<td>お疲れさまでした</td>
+</tr>
+<tr>
+<td>いってきます</td>
+<td>いってらっしゃい</td>
+</tr>
+<tr>
+<td>ただいま</td>
+<td>おかえりなさい</td>
+</tr>
+<tr>
+<td>手伝いましょうか</td>
+<td>すみません、お願いします</td>
+</tr>
+<tr>
+<td>一緒に食べませんか</td>
+<td>いいですね、食べましょう</td>
+</tr>
+<tr>
+<td>ごちそうさまでした</td>
+<td>いいえ、どういたしまして</td>
+</tr>
+<tr>
+<td>はじめまして</td>
+<td>こちらこそ、よろしくお願いします</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c5s4">6.5 聽力備考策略</h2>
+<ol>
+<li><strong>每天精聽 10 分鐘</strong>：一段對話聽 3 遍→看原文→再盲聽 1 遍（影子跟讀 shadowing 效果最好）。</li>
+<li><strong>先看選項再聽</strong>：ポイント理解題播題前有讀題時間，先圈出選項差異（數字？地點？）。</li>
+<li><strong>不要卡題</strong>：聽不懂立刻放掉，準備下一題。N5 聽力節奏快，卡一題會連錯兩題。</li>
+<li><strong>練數字與時間的瞬間反應</strong>：自己出題「じゅうよっか＝？」→ 14 日，每天 2 分鐘。</li>
+<li>推薦素材：JLPT 官方問題例、「日本語の森」N5 聽力、NHK Easy News（略高於 N5，考前兩週再聽）。</li>
+</ol>
+<hr></section><section class="panel" data-panel="6" hidden><h1>第七章　模擬試題與解答</h1>
+<blockquote>
+<p>依照 JLPT N5 正式題型出題。實際考試：言語知識（文字・語彙）25 分／言語知識（文法）・読解 55 分／聴解 30 分。合格標準：總分 80／180 以上，且各科不低於門檻（語言知識＋讀解 38 分、聽解 19 分）。</p>
+</blockquote>
+<h2 id="c6s0">7.1 文字・語彙（20 題）</h2>
+<h3>問題 1　漢字読み（選出正確讀音）</h3>
+<ol>
+<li>明日、<strong>学校</strong>へ行きます。
+   ① がこう　② がっこう　③ かっこう　④ がくこう</li>
+<li><strong>水</strong>を飲みます。
+   ① すい　② みす　③ みず　④ みつ</li>
+<li>私の<strong>父</strong>は医者です。
+   ① ちち　② はは　③ あに　④ あね</li>
+<li><strong>九時</strong>に寝ます。
+   ① きゅうじ　② くじ　③ ここのじ　④ きゅじ</li>
+<li>この<strong>川</strong>はきれいです。
+   ① やま　② かわ　③ うみ　④ いけ</li>
+<li><strong>来週</strong>、日本へ行きます。
+   ① らいねん　② こんしゅう　③ らいしゅう　④ せんしゅう</li>
+<li><strong>四月</strong>に大学に入りました。
+   ① よんがつ　② しがつ　③ よがつ　④ しちがつ</li>
+<li>駅の<strong>出口</strong>はどこですか。
+   ① でぐち　② いりぐち　③ でくち　④ だしぐち</li>
+</ol>
+<h3>問題 2　表記（選出正確漢字／片假名）</h3>
+<ol start="9">
+<li>まいにち <strong>てれび</strong> を見ます。
+   ① テルビ　② テレビ　③ デレビ　④ テレピ</li>
+<li><strong>あたらしい</strong> かばんを買いました。
+    ① 新しい　② 親しい　③ 楽しい　④ 難しい</li>
+<li><strong>でんしゃ</strong> で会社へ行きます。
+    ① 電話　② 電気　③ 電車　④ 自転車</li>
+<li>きょうは <strong>てんき</strong> がいいです。
+    ① 天気　② 元気　③ 電気　④ 病気</li>
+</ol>
+<h3>問題 3　文脈規定（選出適當的詞）</h3>
+<ol start="13">
+<li>のどが渇きましたから、水を（　　）。
+    ① 食べます　② 飲みます　③ 吸います　④ 買います</li>
+<li>寒いですから、コートを（　　）。
+    ① 履きます　② 被ります　③ 着ます　④ 掛けます</li>
+<li>昨日は（　　）勉強しませんでした。
+    ① とても　② 全然　③ よく　④ たくさん</li>
+<li>すみません、この漢字の（　　）を教えてください。
+    ① 答え　② 読み方　③ 話　④ 音</li>
+<li>郵便局で切手を三（　　）買いました。
+    ① 本　② 枚　③ 冊　④ 台</li>
+<li>部屋が暗いですから、電気を（　　）ください。
+    ① 開けて　② 点けて　③ 閉めて　④ 消して</li>
+</ol>
+<h3>問題 4　言い換え類義（選出意思相近的句子）</h3>
+<ol start="19">
+<li>この問題は<strong>易しい</strong>です。
+    ① この問題は難しいです。② この問題は簡単です。③ この問題は面白いです。④ この問題はつまらないです。</li>
+<li>昨日は<strong>仕事を休みました</strong>。
+    ① 昨日は仕事をしませんでした。② 昨日は仕事をしました。③ 昨日は忙しかったです。④ 昨日は働きました。</li>
+</ol>
+<h2 id="c6s1">7.2 文法（15 題）</h2>
+<h3>問題 1　文法形式判斷</h3>
+<ol start="21">
+<li>私は毎朝七時（　　）起きます。
+    ① で　② に　③ を　④ へ</li>
+<li>図書館（　　）本を読みます。
+    ① に　② が　③ で　④ を</li>
+<li>私はりんご（　　）好きです。
+    ① を　② が　③ に　④ で</li>
+<li>バス（　　）駅へ行きます。
+    ① に　② を　③ で　④ が</li>
+<li>机の上に本（　　）ペンがあります。
+    ① と　② を　③ で　④ へ</li>
+<li>昨日、映画を（　　）。
+    ① 見ます　② 見ました　③ 見ません　④ 見ましょう</li>
+<li>すみません、ちょっと（　　）ください。
+    ① 待つ　② 待った　③ 待って　④ 待たない</li>
+<li>ここでたばこを（　　）ください。
+    ① 吸って　② 吸わないで　③ 吸います　④ 吸わない</li>
+<li>疲れましたから、少し（　　）。
+    ① 休みたいです　② 休みたかったです　③ 休みたくないです　④ 休みません</li>
+<li>日本語は難しいです（　　）、面白いです。
+    ① から　② が　③ と　④ や</li>
+<li>音楽を（　　）ながら、勉強します。
+    ① 聞く　② 聞いて　③ 聞き　④ 聞いた</li>
+<li>教室に学生が三人（　　）。
+    ① あります　② います　③ です　④ します</li>
+<li>果物の中で何（　　）一番好きですか。
+    ① が　② を　③ は　④ に</li>
+<li>寝る（　　）に、歯を磨きます。
+    ① 後　② とき　③ 前　④ から</li>
+<li>週末は掃除（　　）、洗濯したりします。
+    ① して　② したり　③ しますし　④ しました</li>
+</ol>
+<h3>問題 2　文の組み立て（排序題，選 ★ 位置的選項）</h3>
+<ol start="36">
+<li>あそこで ＿＿ ＿＿ <strong>★</strong> ＿＿ は田中さんです。
+    ① いる　② を　③ 新聞　④ 読んで
+    （正確語順：新聞 を 読んで いる → ★＝④読んで…之後接いる；完整句：あそこで新聞を読んでいる人は田中さんです）</li>
+<li>すみません、＿＿ ＿＿ <strong>★</strong> ＿＿ ください。
+    ① 水　② 一杯　③ を　④ お願いします→（改）ください前用：お水 を 一杯
+    （完整句：すみません、お水を一杯ください。★＝②一杯）</li>
+</ol>
+<h2 id="c6s2">7.3 読解（3 題）</h2>
+<h3>問題 1　短文理解</h3>
+<p><strong>（一）</strong>
+わたしは まいあさ 六じに おきます。あさごはんを たべてから、じてんしゃで がっこうへ いきます。がっこうは いえから 二十ぷんぐらいです。</p>
+<ol start="38">
+<li>この人はどうやって学校へ行きますか。
+    ① 歩いて行きます　② バスで行きます　③ 自転車で行きます　④ 電車で行きます</li>
+</ol>
+<p><strong>（二）</strong>
+（メモ）
+田中さんへ
+きょうの ごご三じの かいぎは あしたの ごぜん十じに なりました。ばしょは おなじです。
+山田</p>
+<ol start="39">
+<li>会議はいつですか。
+    ① 今日の午後三時　② 今日の午前十時　③ 明日の午後三時　④ 明日の午前十時</li>
+</ol>
+<p><strong>（三）</strong>
+やまださんは くだものが すきです。まいにち りんごか バナナを たべます。でも、みかんは あまり たべません。</p>
+<ol start="40">
+<li>山田さんについて、正しいものはどれですか。
+    ① 毎日みかんを食べます。② 果物が嫌いです。③ りんごやバナナをよく食べます。④ 果物を全然食べません。</li>
+</ol>
+<h2 id="c6s3">7.4 聴解（腳本式模擬，5 題）</h2>
+<blockquote>
+<p>練習方式：請家人唸腳本、或用 TTS 朗讀後作答。</p>
+</blockquote>
+<p>41.【課題理解】
+女：すみません、郵便局はどこですか。
+男：この道をまっすぐ行って、二つ目の角を右に曲がってください。左にありますよ。
+女：ありがとうございます。
+<strong>Q：女の人はどう行きますか。</strong>
+① まっすぐ行って、一つ目の角を左 ② まっすぐ行って、二つ目の角を右 ③ 右に曲がって、まっすぐ ④ 二つ目の角を左</p>
+<p>42.【ポイント理解】
+男：すみません、このりんごはいくらですか。
+女：一つ百二十円です。三つで三百円ですよ。
+男：じゃあ、三つください。
+<strong>Q：男の人はいくら払いますか。</strong>
+① 百二十円　② 二百四十円　③ 三百円　④ 三百六十円</p>
+<p>43.【課題理解】
+先生：みなさん、宿題は32ページです。あ、すみません、32ページじゃなくて、23ページです。来週の月曜日までに出してください。
+<strong>Q：宿題は何ページですか。</strong>
+① 22ページ　② 23ページ　③ 32ページ　④ 33ページ</p>
+<p>44.【発話表現】
+（圖：朋友的東西掉了，你撿起來要還他）
+① これ、落としましたよ。② これ、もらいました。③ これ、買いましたよ。④ これ、ありませんよ。</p>
+<p>45.【即時応答】
+男：お先に失礼します。
+女：（　　）
+① いってきます　② お疲れさまでした　③ ごちそうさま　④ おかえりなさい</p>
+<h2 id="c6s4">7.5 解答與解析</h2>
+<table>
+<thead>
+<tr>
+<th>題號</th>
+<th>答案</th>
+<th>解析</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>②</td>
+<td>学校＝がっこう，注意促音</td>
+</tr>
+<tr>
+<td>2</td>
+<td>③</td>
+<td>水＝みず</td>
+</tr>
+<tr>
+<td>3</td>
+<td>①</td>
+<td>父（自己的父親）＝ちち</td>
+</tr>
+<tr>
+<td>4</td>
+<td>②</td>
+<td>九時＝くじ（不是きゅうじ）</td>
+</tr>
+<tr>
+<td>5</td>
+<td>②</td>
+<td>川＝かわ</td>
+</tr>
+<tr>
+<td>6</td>
+<td>③</td>
+<td>来週＝らいしゅう</td>
+</tr>
+<tr>
+<td>7</td>
+<td>②</td>
+<td>四月＝しがつ（特殊讀音）</td>
+</tr>
+<tr>
+<td>8</td>
+<td>①</td>
+<td>出口＝でぐち</td>
+</tr>
+<tr>
+<td>9</td>
+<td>②</td>
+<td>テレビ</td>
+</tr>
+<tr>
+<td>10</td>
+<td>①</td>
+<td>新しい＝あたらしい</td>
+</tr>
+<tr>
+<td>11</td>
+<td>③</td>
+<td>電車＝でんしゃ</td>
+</tr>
+<tr>
+<td>12</td>
+<td>①</td>
+<td>天気＝てんき</td>
+</tr>
+<tr>
+<td>13</td>
+<td>②</td>
+<td>水を飲みます（喝水）</td>
+</tr>
+<tr>
+<td>14</td>
+<td>③</td>
+<td>大衣用「着ます」；褲鞋用履きます、帽子用被ります</td>
+</tr>
+<tr>
+<td>15</td>
+<td>②</td>
+<td>全然＋否定（しませんでした）</td>
+</tr>
+<tr>
+<td>16</td>
+<td>②</td>
+<td>読み方＝讀法（〜方＝方法）</td>
+</tr>
+<tr>
+<td>17</td>
+<td>②</td>
+<td>郵票是薄的東西，量詞用「枚」</td>
+</tr>
+<tr>
+<td>18</td>
+<td>②</td>
+<td>開燈＝電気を点けます</td>
+</tr>
+<tr>
+<td>19</td>
+<td>②</td>
+<td>易しい＝簡単（簡單）</td>
+</tr>
+<tr>
+<td>20</td>
+<td>①</td>
+<td>休みました＝しませんでした（沒工作）</td>
+</tr>
+<tr>
+<td>21</td>
+<td>②</td>
+<td>時間點＋に</td>
+</tr>
+<tr>
+<td>22</td>
+<td>③</td>
+<td>動作場所＋で</td>
+</tr>
+<tr>
+<td>23</td>
+<td>②</td>
+<td>好き的對象用が</td>
+</tr>
+<tr>
+<td>24</td>
+<td>③</td>
+<td>交通工具＋で</td>
+</tr>
+<tr>
+<td>25</td>
+<td>①</td>
+<td>並列用と</td>
+</tr>
+<tr>
+<td>26</td>
+<td>②</td>
+<td>昨日→過去式ました</td>
+</tr>
+<tr>
+<td>27</td>
+<td>③</td>
+<td>て形＋ください</td>
+</tr>
+<tr>
+<td>28</td>
+<td>②</td>
+<td>ない形＋でください（請不要）</td>
+</tr>
+<tr>
+<td>29</td>
+<td>①</td>
+<td>から表原因，後接想休息</td>
+</tr>
+<tr>
+<td>30</td>
+<td>②</td>
+<td>逆接用が</td>
+</tr>
+<tr>
+<td>31</td>
+<td>③</td>
+<td>ます形去ます＋ながら：聞き＋ながら</td>
+</tr>
+<tr>
+<td>32</td>
+<td>②</td>
+<td>人的存在用います</td>
+</tr>
+<tr>
+<td>33</td>
+<td>①</td>
+<td>疑問詞當主語用が</td>
+</tr>
+<tr>
+<td>34</td>
+<td>③</td>
+<td>辞書形＋前に（寝る前に）</td>
+</tr>
+<tr>
+<td>35</td>
+<td>②</td>
+<td>〜たり〜たりします</td>
+</tr>
+<tr>
+<td>36</td>
+<td>④</td>
+<td>新聞を読んでいる人（読んで在★位置）</td>
+</tr>
+<tr>
+<td>37</td>
+<td>②</td>
+<td>お水を一杯ください</td>
+</tr>
+<tr>
+<td>38</td>
+<td>③</td>
+<td>「じてんしゃで」＝騎腳踏車</td>
+</tr>
+<tr>
+<td>39</td>
+<td>④</td>
+<td>改到「あしたのごぜん十じ」＝明天上午十點</td>
+</tr>
+<tr>
+<td>40</td>
+<td>③</td>
+<td>每天吃蘋果或香蕉＝常吃；みかん不太吃</td>
+</tr>
+<tr>
+<td>41</td>
+<td>②</td>
+<td>直走→第二個轉角右轉</td>
+</tr>
+<tr>
+<td>42</td>
+<td>③</td>
+<td>三個一起買 300 円（陷阱：120×3＝360 不對，店家有優惠價）</td>
+</tr>
+<tr>
+<td>43</td>
+<td>②</td>
+<td>數字修正陷阱：32→23，以最後說的為準</td>
+</tr>
+<tr>
+<td>44</td>
+<td>①</td>
+<td>落としましたよ＝你東西掉了喔</td>
+</tr>
+<tr>
+<td>45</td>
+<td>②</td>
+<td>對「お先に失礼します」回「お疲れさまでした」</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>自我評分</strong>：45 題中答對 36 題（80%）以上＝合格水準；30～35 題＝再加強弱項；30 題以下＝回到第二～四章重新複習。</p>
+</blockquote>
+<hr></section><section class="panel" data-panel="7" hidden><h1>第八章　30 天每日學習進度表</h1>
+<blockquote>
+<p>每日建議 60～90 分鐘：單字 30 分＋文法 30 分＋聽力/漢字 30 分。✅ 完成後打勾。</p>
+</blockquote>
+<h2 id="c7s0">第一週：基礎打底（Day 1–7）</h2>
+<table>
+<thead>
+<tr>
+<th>天</th>
+<th>單字（第二章）</th>
+<th>文法（第四章）</th>
+<th>漢字（第三章）</th>
+<th>聽力／其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Day 1</td>
+<td>2.1 數字（25 字）</td>
+<td>文法 01–04（です句型）</td>
+<td>一〜十</td>
+<td>五十音總複習（第一章）</td>
+</tr>
+<tr>
+<td>Day 2</td>
+<td>2.2 星期＋月份（21 字）</td>
+<td>文法 05–07（か・も・の）</td>
+<td>百・千・万・円・年・月</td>
+<td>數字聽力反應練習</td>
+</tr>
+<tr>
+<td>Day 3</td>
+<td>2.2 日期＋時間詞前半（30 字）</td>
+<td>文法 08–10（指示詞）</td>
+<td>日・時・分・週・半・今</td>
+<td>日期特殊讀音朗讀</td>
+</tr>
+<tr>
+<td>Day 4</td>
+<td>2.2 時間詞後半＋2.3 量詞（30 字）</td>
+<td>文法 11–14（存在句）</td>
+<td>毎・何・山・川・天・気</td>
+<td>時刻聽力（〜時〜分）</td>
+</tr>
+<tr>
+<td>Day 5</td>
+<td>2.4 人物家族（40 字）</td>
+<td>文法 15–19（を・へ・で）</td>
+<td>人・男・女・子・父・母</td>
+<td>家族稱謂音檔跟讀</td>
+</tr>
+<tr>
+<td>Day 6</td>
+<td>2.5 身體＋2.12 動植物（30 字）</td>
+<td>文法 20–23（に・と）</td>
+<td>友・名・目・口・手・足</td>
+<td>即時応答 6.4 前半</td>
+</tr>
+<tr>
+<td>Day 7</td>
+<td><strong>複習日</strong>：Day1–6 單字自測</td>
+<td>文法 01–23 總複習</td>
+<td>漢字 1–34 默寫</td>
+<td>模擬題 7.1 問題 1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c7s1">第二週：核心動詞與句型（Day 8–14）</h2>
+<table>
+<thead>
+<tr>
+<th>天</th>
+<th>單字</th>
+<th>文法</th>
+<th>漢字</th>
+<th>聽力／其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Day 8</td>
+<td>2.15 動詞：移動存在（20 字）</td>
+<td>文法 24–27（や・から・まで・が）</td>
+<td>行・来・帰・出・入・見</td>
+<td>問路情境聽力</td>
+</tr>
+<tr>
+<td>Day 9</td>
+<td>2.15 動詞：日常生活前半（23 字）</td>
+<td>文法 28–31（が・か・ね・よ・だけ）</td>
+<td>聞・話・読・書・言・食</td>
+<td>買東西情境聽力</td>
+</tr>
+<tr>
+<td>Day 10</td>
+<td>2.15 動詞：日常生活後半（23 字）</td>
+<td>文法 32–34（ぐらい・ごろ・しか）</td>
+<td>飲・買・立・休・会・待</td>
+<td>點餐情境聽力</td>
+</tr>
+<tr>
+<td>Day 11</td>
+<td>2.15 動詞：溝通學習（23 字）</td>
+<td>文法 35–38（時態）</td>
+<td>作・住・学・校・先・本</td>
+<td>過去式聽辨練習</td>
+</tr>
+<tr>
+<td>Day 12</td>
+<td>2.15 動詞：其他（46 字，分兩天亦可）</td>
+<td>文法 39–43（邀約・たい・欲しい）</td>
+<td>語・国・大・小・高・安</td>
+<td>邀約與拒絕聽力</td>
+</tr>
+<tr>
+<td>Day 13</td>
+<td>2.16 い形容詞（前 28 字）</td>
+<td>文法 44–46（てください系列）</td>
+<td>新・古・長・白・多・少</td>
+<td>発話表現題練習</td>
+</tr>
+<tr>
+<td>Day 14</td>
+<td><strong>複習日</strong>：動詞變化表 5.6 全默寫</td>
+<td>第五章 5.1–5.5 動詞變化</td>
+<td>漢字 35–70 默寫</td>
+<td>模擬題 7.2 問題 1 前半</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c7s2">第三週：形容詞・て形・進階句型（Day 15–21）</h2>
+<table>
+<thead>
+<tr>
+<th>天</th>
+<th>單字</th>
+<th>文法</th>
+<th>漢字</th>
+<th>聽力／其他</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Day 15</td>
+<td>2.16 い形容詞（後 28 字）</td>
+<td>文法 47–49（ています・てから）</td>
+<td>電・車・駅・店・東・西</td>
+<td>ています聽辨</td>
+</tr>
+<tr>
+<td>Day 16</td>
+<td>2.17 な形容詞（20 字）</td>
+<td>文法 50–51（てもいい・てはいけません）</td>
+<td>南・北・上・下・中・外</td>
+<td>許可與禁止聽力</td>
+</tr>
+<tr>
+<td>Day 17</td>
+<td>2.6 食物飲料（45 字）</td>
+<td>文法 52–55（形容詞變化）</td>
+<td>花・木・火・水・金・土</td>
+<td>餐廳情境聽力</td>
+</tr>
+<tr>
+<td>Day 18</td>
+<td>2.7 衣物＋2.8 住居前半（35 字）</td>
+<td>文法 56–58（なります・どんな）</td>
+<td>空・雨・生・私・体・耳</td>
+<td>天氣預報聽力</td>
+</tr>
+<tr>
+<td>Day 19</td>
+<td>2.8 住居後半＋2.9 場所前半（40 字）</td>
+<td>文法 59–61（比較句型）</td>
+<td>複習全部漢字（第一輪完成）</td>
+<td>比較句聽辨</td>
+</tr>
+<tr>
+<td>Day 20</td>
+<td>2.9 場所後半＋2.10 交通（40 字）</td>
+<td>文法 62–65（副詞・ながら・たり）</td>
+<td>弱項漢字重寫</td>
+<td>車站廣播聽力</td>
+</tr>
+<tr>
+<td>Day 21</td>
+<td><strong>複習日</strong>：形容詞變化自測</td>
+<td>文法 47–65 總複習</td>
+<td>漢字全 100 字快速過一輪</td>
+<td>模擬題 7.3 読解</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c7s3">第四週：衝刺與模擬（Day 22–30）</h2>
+<table>
+<thead>
+<tr>
+<th>天</th>
+<th>單字</th>
+<th>文法</th>
+<th>重點</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Day 22</td>
+<td>2.11 自然天氣＋2.13 學校（61 字）</td>
+<td>文法 66–70（前に・後で・とき・でしょう）</td>
+<td>精聽 10 分鐘</td>
+</tr>
+<tr>
+<td>Day 23</td>
+<td>2.14 工作＋2.22 其他名詞（55 字）</td>
+<td>文法 71–76（方・疑問詞＋か／も）</td>
+<td>精聽 10 分鐘</td>
+</tr>
+<tr>
+<td>Day 24</td>
+<td>2.18 副詞接續詞（46 字）</td>
+<td>全文法快速複習（01–38）</td>
+<td>即時応答 6.4 全部</td>
+</tr>
+<tr>
+<td>Day 25</td>
+<td>2.19 疑問詞代名詞（35 字）</td>
+<td>全文法快速複習（39–76）</td>
+<td>聽力陷阱 6.3 重讀</td>
+</tr>
+<tr>
+<td>Day 26</td>
+<td>2.20 片假名外來語（50 字）</td>
+<td>助詞總整理（は・が・を・に・で・へ・と・から・まで）</td>
+<td>助詞填空自測 20 題</td>
+</tr>
+<tr>
+<td>Day 27</td>
+<td>2.21 寒暄語（36 句）</td>
+<td>動詞變化總複習（第五章）</td>
+<td>發話表現＋寒暄對答</td>
+</tr>
+<tr>
+<td>Day 28</td>
+<td><strong>第一次完整模擬考</strong>（第七章全部，計時）</td>
+<td>檢討錯題</td>
+<td>標記弱項章節</td>
+</tr>
+<tr>
+<td>Day 29</td>
+<td>弱項單字複習（錯過的字全部重背）</td>
+<td>弱項文法重讀＋例句朗讀</td>
+<td>弱項題型加強</td>
+</tr>
+<tr>
+<td>Day 30</td>
+<td><strong>第二次模擬考</strong>（重做第七章＋官方樣題）</td>
+<td>最終檢討</td>
+<td>準備考試用品、確認考場</td>
+</tr>
+</tbody>
+</table>
+<h2 id="c7s4">考前一天檢查清單</h2>
+<ul>
+<li>[ ] 准考證、身分證件</li>
+<li>[ ] 鉛筆（HB）×2、橡皮擦</li>
+<li>[ ] 手錶（考場可能沒有時鐘；不可用智慧手錶）</li>
+<li>[ ] 確認考場位置與交通時間</li>
+<li>[ ] 早睡，考前不熬夜背新單字，只看錯題筆記</li>
+</ul>
+<h2 id="c7s5">考試當天時間管理</h2>
+<table>
+<thead>
+<tr>
+<th>科目</th>
+<th>時間</th>
+<th>策略</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>文字・語彙</td>
+<td>25 分</td>
+<td>每題不超過 40 秒，先做有把握的</td>
+</tr>
+<tr>
+<td>文法・読解</td>
+<td>55 分</td>
+<td>文法 25 分內完成，留 30 分給讀解</td>
+</tr>
+<tr>
+<td>聴解</td>
+<td>30 分</td>
+<td>聽不懂立刻放掉，不留空白（沒有倒扣，一定要猜）</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p><em>頑張ってください！（がんばってください！）加油！</em></p>
+<p><em>— JLPT N5 完整學習筆記　完 —</em></p></section>
+<div class="pager" id="pager" hidden>
+  <button id="pgPrev"><small>上一章</small><span id="pgPrevT"></span></button>
+  <button id="pgNext" class="next"><small>下一章</small><span id="pgNextT"></span></button>
+</div>
+</div></main>
+
+<button class="backtop" id="backtop" aria-label="回頂端">↑</button>
+
+<script>
+const TITLES = ["第一章　五十音與發音複習", "第二章　必背單字 800+", "第三章　常用漢字 100", "第四章　N5 全文法（附例句）", "第五章　動詞變化整理", "第六章　聽力重點", "第七章　模擬試題與解答", "第八章　30 天每日學習進度表"];
+const $=id=>document.getElementById(id);
+const drawer=$("drawer"), scrim=$("scrim");
+let current="home";
+
+function isDesktop(){ return matchMedia("(min-width:1100px)").matches; }
+function openDrawer(){ drawer.classList.add("open"); if(!isDesktop()) scrim.classList.add("show"); }
+function closeDrawer(){ if(isDesktop()) return; drawer.classList.remove("open"); scrim.classList.remove("show"); }
+$("hamb").addEventListener("click", ()=> drawer.classList.contains("open")&&!isDesktop()? closeDrawer():openDrawer());
+scrim.addEventListener("click", closeDrawer);
+function syncDesktop(){ if(isDesktop()){ drawer.classList.add("open"); scrim.classList.remove("show"); } else { drawer.classList.remove("open"); } }
+matchMedia("(min-width:1100px)").addEventListener("change", syncDesktop); syncDesktop();
+
+function show(ch, targetId){
+  current=ch;
+  document.querySelectorAll(".panel").forEach(p=> p.hidden = p.dataset.panel!==String(ch));
+  document.querySelectorAll(".navgroup").forEach(g=>{
+    const on = g.dataset.ch===String(ch);
+    g.classList.toggle("active", on);
+    if(on && g.querySelector(".subs")) g.classList.add("expanded");
+  });
+  const home = ch==="home";
+  $("tbSub").textContent = home? "首頁" : TITLES[ch];
+  $("pager").hidden = home;
+  if(!home){
+    const i=+ch;
+    $("pgPrev").disabled = i===0;
+    $("pgNext").disabled = i===TITLES.length-1;
+    $("pgPrevT").textContent = i>0? TITLES[i-1] : "";
+    $("pgNextT").textContent = i<TITLES.length-1? TITLES[i+1] : "";
+  }
+  document.querySelectorAll(".sub").forEach(s=>s.classList.remove("current"));
+  if(targetId){
+    requestAnimationFrame(()=>{
+      const el=document.getElementById(targetId);
+      if(el) el.scrollIntoView();
+      const sb=document.querySelector(`.sub[data-target="${targetId}"]`);
+      if(sb) sb.classList.add("current");
+    });
+  } else {
+    window.scrollTo(0,0);
+  }
+  closeDrawer();
+}
+
+document.querySelectorAll(".navchap").forEach(b=>{
+  b.addEventListener("click", ()=>{
+    const g=b.closest(".navgroup");
+    if(b.dataset.ch==="home"){ show("home"); return; }
+    if(g.classList.contains("active")){ g.classList.toggle("expanded"); return; }
+    show(b.dataset.ch);
+  });
+});
+document.querySelectorAll(".sub").forEach(s=>
+  s.addEventListener("click", ()=> show(s.dataset.ch, s.dataset.target)));
+document.querySelectorAll(".card").forEach(c=>
+  c.addEventListener("click", ()=> show(c.dataset.ch)));
+$("pgPrev").addEventListener("click", ()=> show(String(+current-1)));
+$("pgNext").addEventListener("click", ()=> show(String(+current+1)));
+
+const bt=$("backtop");
+addEventListener("scroll", ()=> bt.classList.toggle("show", scrollY>600), {passive:true});
+bt.addEventListener("click", ()=> scrollTo({top:0, behavior:"smooth"}));
+
+show("home");
+
+/* ---- 例句語音朗讀（第四章）：單句、或整節依序播放日文 ---- */
+(function(){
+  const supported = 'speechSynthesis' in window;
+  if(!supported){
+    // 不支援語音時隱藏所有朗讀按鈕
+    document.querySelectorAll(".say-btn, .play-sec").forEach(b=> b.style.display="none");
+    return;
+  }
+  let jaVoice = null;
+  function pickVoice(){
+    const vs = speechSynthesis.getVoices();
+    jaVoice = vs.find(v=>/ja(-|_)?/i.test(v.lang)) ||
+              vs.find(v=>/japanese/i.test(v.name)) || null;
+  }
+  pickVoice();
+  speechSynthesis.onvoiceschanged = pickVoice;
+
+  let runId = 0;            // 每次播放的識別碼，用來讓被取消的序列自動失效
+  function stopAll(){
+    runId++;
+    speechSynthesis.cancel();
+    document.querySelectorAll(".say-btn.playing, .play-sec.playing")
+      .forEach(b=> b.classList.remove("playing"));
+  }
+  function makeUtter(text){
+    const u = new SpeechSynthesisUtterance(text);
+    u.lang = "ja-JP"; u.rate = 0.9;
+    if(!jaVoice) pickVoice();
+    if(jaVoice) u.voice = jaVoice;
+    return u;
+  }
+
+  // 單句：讀該例句的日文（exj）
+  function speakOne(btn){
+    const li = btn.closest("li");
+    const exj = li && li.querySelector(".exj");
+    const text = exj ? exj.textContent.trim() : "";
+    stopAll();
+    if(!text) return;
+    const myRun = runId;
+    btn.classList.add("playing");
+    const u = makeUtter(text);
+    u.onend = u.onerror = ()=>{ if(myRun===runId) btn.classList.remove("playing"); };
+    speechSynthesis.speak(u);
+  }
+
+  // 整節：依序讀本節（h2 之後到下一個 h2 之前）所有例句
+  function speakSection(btn){
+    const wasPlaying = btn.classList.contains("playing");
+    stopAll();
+    if(wasPlaying) return;          // 再按一次 = 停止
+    const h2 = btn.closest("h2");
+    if(!h2) return;
+    const texts = [];
+    let el = h2.nextElementSibling;
+    while(el && el.tagName !== "H2"){
+      el.querySelectorAll(".exj").forEach(x=>{
+        const t = x.textContent.trim();
+        if(t) texts.push(t);
+      });
+      el = el.nextElementSibling;
+    }
+    if(!texts.length) return;
+    const myRun = runId;
+    btn.classList.add("playing");
+    let i = 0;
+    (function next(){
+      if(myRun !== runId){ return; }          // 已被其他播放取消
+      if(i >= texts.length){ btn.classList.remove("playing"); return; }
+      const u = makeUtter(texts[i++]);
+      u.onend = next;
+      u.onerror = ()=>{ if(myRun===runId) btn.classList.remove("playing"); };
+      speechSynthesis.speak(u);
+    })();
+  }
+
+  document.addEventListener("click", e=>{
+    const sec = e.target.closest(".play-sec");
+    if(sec){ speakSection(sec); return; }
+    const one = e.target.closest(".say-btn");
+    if(one){ speakOne(one); return; }
+  });
+})();
+</script>
+</body>
+</html>
