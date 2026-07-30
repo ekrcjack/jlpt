@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日本語學習 ｜ 總覽</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --accent:#c0392b; --accent2:#8e44ad;
+  --paper:#fbf7f0; --card:#ffffff; --ink:#2b2320; --sub:#6f635b;
+  --line:#e7ddcf; --chip:#f1e9dc; --shadow:0 2px 10px rgba(80,50,30,.10);
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:"Noto Sans TC",-apple-system,"PingFang TC","Microsoft JhengHei",sans-serif;
+  line-height:1.6; -webkit-text-size-adjust:100%;
+}
+.jp{font-family:"Noto Serif JP","Hiragino Mincho ProN",serif;}
+header.hero{
+  max-width:1000px;margin:0 auto;padding:48px 20px 20px;text-align:center;
+}
+.hero .kana{font-family:"Noto Serif JP",serif;font-size:2.6rem;font-weight:700;letter-spacing:.06em;margin:0}
+.hero h1{font-size:1.15rem;font-weight:600;color:var(--sub);margin:6px 0 0;letter-spacing:.02em}
+.hero p{color:var(--sub);font-size:.9rem;margin:14px auto 0;max-width:560px}
+main{max-width:1000px;margin:0 auto;padding:16px 20px 60px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:8px}
+.card{
+  display:flex;flex-direction:column;gap:10px;text-decoration:none;color:inherit;
+  background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 20px 18px;
+  box-shadow:var(--shadow);transition:transform .15s, box-shadow .15s, border-color .15s;
+}
+.card:hover{transform:translateY(-3px);box-shadow:0 8px 20px rgba(80,50,30,.15);border-color:var(--accent)}
+.card-top{display:flex;align-items:center;gap:12px}
+.badge{
+  flex:0 0 auto;width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;
+  font-family:"Noto Serif JP",serif;font-weight:700;font-size:1.35rem;color:#fff;letter-spacing:.02em;
+}
+.b-n5{background:#16a085}.b-n4{background:#2980b9}.b-n3{background:#8e44ad}.b-n2{background:#d35400}.b-n1{background:#c0392b}
+.card h2{font-size:1.15rem;margin:0;font-weight:700}
+.card .sub{color:var(--sub);font-size:.82rem;margin-top:1px}
+.card .desc{color:var(--ink);font-size:.9rem;margin:0}
+.card .meta{color:var(--sub);font-size:.8rem;margin-top:auto;display:flex;gap:8px;flex-wrap:wrap}
+.tag{background:var(--chip);border:1px solid var(--line);border-radius:999px;padding:3px 10px}
+.go{color:var(--accent);font-weight:600;font-size:.85rem;margin-top:2px}
+.card:hover .go{text-decoration:underline}
+footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-size:.78rem;text-align:center}
+@media (max-width:520px){
+  .hero{padding-top:34px}
+  .hero .kana{font-size:2.1rem}
+  .grid{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<header class="hero">
+  <p class="kana jp">日本語 学習</p>
+  <h1>JLPT 單字・文法・發音學習總覽</h1>
+  <p>依程度選擇：從 N5 發音入門，到 N1 單字文法。每個項目皆附例句、假名、中譯與語音朗讀。</p>
+</header>
+
+<main>
+  <div class="grid">
+    <a class="card" href="ch2/index.html">
+      <div class="card-top">
+        <div class="badge b-n5">N5</div>
+        <div>
+          <h2>單字漢字發音</h2>
+          <div class="sub">入門 ｜ N5 程度</div>
+        </div>
+      </div>
+      <p class="desc">五十音、必背單字、漢字、動詞、形容詞的發音練習，含濁音半濁音拗音例句。</p>
+      <div class="meta"><span class="tag">五十音</span><span class="tag">單字</span><span class="tag">漢字</span><span class="tag">發音</span></div>
+      <span class="go">開始學習 →</span>
+    </a>
+
+    <a class="card" href="n4/index.html">
+      <div class="card-top">
+        <div class="badge b-n4">N4</div>
+        <div>
+          <h2>N4 單字・文法</h2>
+          <div class="sub">初級 ｜ JLPT N4</div>
+        </div>
+      </div>
+      <p class="desc">約 386 個常用單字與 118 個文法句型，皆附例句、假名讀音與中譯。</p>
+      <div class="meta"><span class="tag">單字 386</span><span class="tag">文法 118</span></div>
+      <span class="go">開始學習 →</span>
+    </a>
+
+    <a class="card" href="n3/index.html">
+      <div class="card-top">
+        <div class="badge b-n3">N3</div>
+        <div>
+          <h2>N3 單字・文法</h2>
+          <div class="sub">中級 ｜ JLPT N3</div>
+        </div>
+      </div>
+      <p class="desc">約 377 個單字與 150 個文法句型，涵蓋條件、使役受身、授受等機能分組。</p>
+      <div class="meta"><span class="tag">單字 377</span><span class="tag">文法 150</span></div>
+      <span class="go">開始學習 →</span>
+    </a>
+
+    <a class="card" href="n2/index.html">
+      <div class="card-top">
+        <div class="badge b-n2">N2</div>
+        <div>
+          <h2>N2 單字・文法</h2>
+          <div class="sub">中高級 ｜ JLPT N2</div>
+        </div>
+      </div>
+      <p class="desc">約 400 個單字與 147 個文法句型，含逆接、判斷推量、傳聞引用等進階用法。</p>
+      <div class="meta"><span class="tag">單字 400</span><span class="tag">文法 147</span></div>
+      <span class="go">開始學習 →</span>
+    </a>
+
+    <a class="card" href="n1/index.html">
+      <div class="card-top">
+        <div class="badge b-n1">N1</div>
+        <div>
+          <h2>N1 單字・文法</h2>
+          <div class="sub">高級 ｜ JLPT N1</div>
+        </div>
+      </div>
+      <p class="desc">約 430 個單字與 160 個文法句型，涵蓋四字熟語、慣用句與高階句型。</p>
+      <div class="meta"><span class="tag">單字 430</span><span class="tag">文法 160</span></div>
+      <span class="go">開始學習 →</span>
+    </a>
+  </div>
+</main>
+
+<footer>
+  <p>發音使用瀏覽器語音合成（Web Speech API，ja-JP）。點擊各項目卡片即可進入對應的學習頁面。</p>
+</footer>
+</body>
+</html>
