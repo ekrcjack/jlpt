@@ -73,6 +73,28 @@ footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-
 .b-gram{background:#00838f}
 .b-conv{background:#ad1457}
 .b-card{background:#558b2f}
+
+/* 分群 tab */
+.tabs{
+  position:sticky;top:0;z-index:20;
+  background:rgba(251,247,240,.94);backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--line);
+  display:flex;gap:8px;padding:12px 20px;overflow-x:auto;
+  max-width:1000px;margin:0 auto;
+}
+.tabs::-webkit-scrollbar{height:0}
+.tab{
+  flex:0 0 auto;font:inherit;font-size:.86rem;font-weight:600;cursor:pointer;
+  background:var(--card);color:var(--sub);
+  border:1px solid var(--line);border-radius:999px;padding:7px 15px;
+  transition:background .15s,color .15s,border-color .15s;
+}
+.tab:hover{border-color:var(--accent);color:var(--accent)}
+.tab[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+.tab .c{opacity:.7;font-weight:500;margin-left:4px;font-size:.8em}
+.group[hidden]{display:none}
+main.single .sec{display:none}
+@media (max-width:520px){ .tabs{padding:10px 14px;gap:6px} .tab{padding:6px 12px;font-size:.8rem} }
 </style>
 </head>
 <body>
@@ -82,7 +104,16 @@ footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-
   <p>依程度選擇：從 N5 發音入門，到 N1 單字文法。每個項目皆附例句、假名、中譯與語音朗讀。</p>
 </header>
 
-<main>
+<nav class="tabs" id="tabs" role="tablist">
+  <button class="tab" data-g="all" role="tab" aria-selected="true">全部<span class="c">16</span></button>
+  <button class="tab" data-g="g1" role="tab" aria-selected="false">N5 入門<span class="c">4</span></button>
+  <button class="tab" data-g="g2" role="tab" aria-selected="false">單字・漢字<span class="c">6</span></button>
+  <button class="tab" data-g="g3" role="tab" aria-selected="false">文法專題<span class="c">5</span></button>
+  <button class="tab" data-g="g4" role="tab" aria-selected="false">會話<span class="c">1</span></button>
+</nav>
+
+<main id="list">
+  <section class="group" data-g="g1">
   <div class="sec"><h2>N5 入門</h2><div class="rule"></div><span class="n">4 項</span></div>
   <div class="grid">
       <div class="card">
@@ -153,7 +184,9 @@ footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-
         </div>
       </div>
   </div>
+  </section>
 
+  <section class="group" data-g="g2">
   <div class="sec"><h2>單字・漢字</h2><div class="rule"></div><span class="n">6 項</span></div>
   <div class="grid">
       <div class="card">
@@ -258,7 +291,9 @@ footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-
         </div>
       </div>
   </div>
+  </section>
 
+  <section class="group" data-g="g3">
   <div class="sec"><h2>文法專題</h2><div class="rule"></div><span class="n">5 項</span></div>
   <div class="grid">
       <div class="card">
@@ -346,7 +381,9 @@ footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-
         </div>
       </div>
   </div>
+  </section>
 
+  <section class="group" data-g="g4">
   <div class="sec"><h2>會話</h2><div class="rule"></div><span class="n">1 項</span></div>
   <div class="grid">
       <div class="card">
@@ -366,11 +403,30 @@ footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-
         </div>
       </div>
   </div>
+  </section>
 </main>
 
 <footer>
   <p>共 16 個學習頁面，點卡片即可開啟；「原始碼」連向對應的 GitHub repo。</p>
   <p>發音使用瀏覽器語音合成（Web Speech API，ja-JP）；行動裝置需點擊後才會發聲。</p>
 </footer>
+
+<script>
+(function(){
+  var tabs=document.getElementById('tabs'), main=document.getElementById('list');
+  var groups=[].slice.call(main.querySelectorAll('.group'));
+  function show(g){
+    main.classList.toggle('single', g!=='all');
+    groups.forEach(function(s){ s.hidden = (g!=='all' && s.dataset.g!==g); });
+    [].forEach.call(tabs.children,function(b){ b.setAttribute('aria-selected', String(b.dataset.g===g)); });
+    var y=window.scrollY||document.documentElement.scrollTop||0;
+    if(y>0) window.scrollTo({top:0});
+  }
+  tabs.addEventListener('click',function(e){
+    var b=e.target.closest('.tab'); if(b) show(b.dataset.g);
+  });
+  show('all');
+})();
+</script>
 </body>
 </html>
