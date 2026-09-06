@@ -72,6 +72,8 @@ footer{max-width:1000px;margin:0 auto;padding:0 20px 40px;color:var(--sub);font-
 .b-gram{background:#00838f}
 .b-conv{background:#ad1457}
 .b-card{background:#558b2f}
+.b-note{background:#6d4c41}
+.b-sent{background:#455a64}
 
 /* 分群 tab */
 .tabs{
@@ -102,11 +104,12 @@ main.single .sec{display:none}
 </header>
 
 <nav class="tabs" id="tabs" role="tablist">
-  <button class="tab" data-g="all" role="tab" aria-selected="true">全部<span class="c">16</span></button>
+  <button class="tab" data-g="all" role="tab" aria-selected="true">全部<span class="c">19</span></button>
   <button class="tab" data-g="g1" role="tab" aria-selected="false">N5 入門<span class="c">4</span></button>
   <button class="tab" data-g="g2" role="tab" aria-selected="false">單字・漢字<span class="c">6</span></button>
-  <button class="tab" data-g="g3" role="tab" aria-selected="false">文法專題<span class="c">5</span></button>
+  <button class="tab" data-g="g3" role="tab" aria-selected="false">文法專題<span class="c">6</span></button>
   <button class="tab" data-g="g4" role="tab" aria-selected="false">會話<span class="c">1</span></button>
+  <button class="tab" data-g="g5" role="tab" aria-selected="false">課程筆記・例句<span class="c">2</span></button>
 </nav>
 
 <main id="list">
@@ -291,7 +294,7 @@ main.single .sec{display:none}
   </section>
 
   <section class="group" data-g="g3">
-  <div class="sec"><h2>文法專題</h2><div class="rule"></div><span class="n">5 項</span></div>
+  <div class="sec"><h2>文法專題</h2><div class="rule"></div><span class="n">6 項</span></div>
   <div class="grid">
       <div class="card">
         <a class="card-link" href="https://ekrcjack.github.io/pat/" aria-label="開啟日本語文型帳"></a>
@@ -377,6 +380,23 @@ main.single .sec{display:none}
           <a href="https://github.com/ekrcjack/connecting" target="_blank" rel="noopener">原始碼 ↗</a>
         </div>
       </div>
+
+      <div class="card">
+        <a class="card-link" href="https://ekrcjack.github.io/four/" aria-label="開啟四態變化對照表"></a>
+        <div class="card-top">
+          <div class="badge b-gram jp">態</div>
+          <div>
+            <h2>四態變化對照表</h2>
+            <div class="sub">N5・N4 ｜ 動詞變化</div>
+          </div>
+        </div>
+        <p class="desc">現在肯定／現在否定／過去肯定／過去否定四格同卡對照，39 組共 156 句，另附て形與常體生成規則。</p>
+        <div class="meta"><span class="tag">四態 39 組</span><span class="tag">例句 156</span><span class="tag">動詞・形容詞・名詞句</span><span class="tag">連播</span></div>
+        <span class="go">開始學習 ↗</span>
+        <div class="links">
+          <a href="https://github.com/ekrcjack/four" target="_blank" rel="noopener">原始碼 ↗</a>
+        </div>
+      </div>
   </div>
   </section>
 
@@ -401,10 +421,49 @@ main.single .sec{display:none}
       </div>
   </div>
   </section>
+
+  <section class="group" data-g="g5">
+  <div class="sec"><h2>課程筆記・例句</h2><div class="rule"></div><span class="n">2 項</span></div>
+  <div class="grid">
+      <div class="card">
+        <a class="card-link" href="https://ekrcjack.github.io/udemy/" aria-label="開啟日文文法與單字筆記"></a>
+        <div class="card-top">
+          <div class="badge b-note jp">課</div>
+          <div>
+            <h2>日文文法與單字筆記</h2>
+            <div class="sub">N5・N4 ｜ Udemy 課程整理</div>
+          </div>
+        </div>
+        <p class="desc">73 課依 10 個文法主題分頁，每課分單字・文法・例句三段，支援關鍵字搜尋與朗讀。</p>
+        <div class="meta"><span class="tag">課程 73</span><span class="tag">分頁 11</span><span class="tag">單字 393</span><span class="tag">搜尋</span></div>
+        <span class="go">開始學習 ↗</span>
+        <div class="links">
+          <a href="https://github.com/ekrcjack/udemy" target="_blank" rel="noopener">原始碼 ↗</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <a class="card-link" href="https://ekrcjack.github.io/sentences/" aria-label="開啟日文例句整理"></a>
+        <div class="card-top">
+          <div class="badge b-sent jp">例</div>
+          <div>
+            <h2>日文例句整理</h2>
+            <div class="sub">N5・N4 ｜ 例句庫</div>
+          </div>
+        </div>
+        <p class="desc">90 課共 1,602 個例句，每句附英文、平假名註解、羅馬拼音與中譯，可逐句或整組連播。</p>
+        <div class="meta"><span class="tag">例句 1,602</span><span class="tag">課程 90</span><span class="tag">羅馬拼音</span><span class="tag">連播</span></div>
+        <span class="go">開始學習 ↗</span>
+        <div class="links">
+          <a href="https://github.com/ekrcjack/sentences" target="_blank" rel="noopener">原始碼 ↗</a>
+        </div>
+      </div>
+  </div>
+  </section>
 </main>
 
 <footer>
-  <p>共 16 個學習頁面，點卡片即可開啟；「原始碼」連向對應的 GitHub repo。</p>
+  <p>共 19 個學習頁面，點卡片即可開啟；「原始碼」連向對應的 GitHub repo。</p>
   <p>發音使用瀏覽器語音合成（Web Speech API，ja-JP）；行動裝置需點擊後才會發聲。</p>
 </footer>
 

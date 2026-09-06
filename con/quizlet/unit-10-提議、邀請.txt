@@ -1,0 +1,104 @@
+あしたテニスをしないか？	Ashita tenisu wo shinai ka?
+明天要不要打網球？
+@@
+いいね。1時でいいかい？	Ii ne. Ichi-ji de ii kai?
+好啊！1點可以嗎？
+@@
+いいよ。	Ii yo.
+好的。
+@@
+土曜日の晩、夕食に来ませんか？	Doyōbi no ban, yūshoku ni kimasen ka?
+週末晚上要不要來吃晚餐？
+@@
+いいですよ。何時にいけばいいですか？	Ii desu yo. Nanji ni ikeba ii desu ka?
+好啊！什麼時候？
+@@
+6時ごろ来てください。	Roku-ji goro kite kudasai.
+那就約六點吧。
+@@
+一緒にお昼を食べに行きませんか。	Issho ni ohiru wo tabe ni ikimasen ka.
+中午要不要一起去吃飯？
+@@
+もちろん。何時？	Mochiron. Nanji?
+當然，什麼時候？
+@@
+11時45分。ロビーで会おう。	Jūichi-ji yonjūgo-fun. Robī de aō.
+11點45分。大廳見。
+@@
+きょうの午後、私と買い物に行きませんか？	Kyō no gogo, watashi to kaimono ni ikimasen ka?
+今天下午要不要跟我一起去購物？
+@@
+いいわよ。何時に出ますか？	Ii wa yo. Nanji ni demasu ka?
+好啊！什麼時候？
+@@
+昼食後、すぐに行きましょう。	Chūshoku go, sugu ni ikimashō.
+吃完午飯後馬上去。
+@@
+あした町をご案内しましょうか。	Ashita machi wo goannai shimashō ka.
+明天帶你參觀一下這個都市吧！
+@@
+ではお願いします。	De wa onegai shimasu.
+那真是太好了。
+@@
+10時ごろ出かけましょう。	Jū-ji goro dekakemashō.
+那我們10點左右出發吧。
+@@
+駅までお乗りになりませんか？	Eki made onori ni narimasen ka?
+要不要我載你到車站啊？
+@@
+ありがとうございます。ちょうどバスに乗り遅れるところだったのです。	Arigatō gozaimasu. Chōdo basu ni noriokureru tokoro datta no desu.
+太謝謝你了。差點就搭不上公車了。
+@@
+それはよかったです。	Sore wa yokatta desu.
+很高興能幫你。
+@@
+こんどの日曜日に家族とあなたを夕食にお招きしたいのですが。おひまですか。	Kondo no nichiyōbi ni kazoku to anata wo yūshoku ni omaneki shitai no desu ga. Ohima desu ka.
+這星期天我們家想請你吃晚飯。你有空嗎？
+@@
+はい、ぜひうかがいます。	Hai, zehi ukagaimasu.
+有啊，我一定到。
+@@
+それはよかった。6時30分にお待ちしております。	Sore wa yokatta. Roku-ji sanjuppun ni omachi shite orimasu.
+那真是太好了。那就跟你約六點三十分。
+@@
+美術館でエジプト美術展があるんだけど。あした行かない。	Bijutsukan de Ejiputo bijutsuten ga aru n dakedo. Ashita ikanai.
+美術館有個埃及藝術展。明天要不要去？
+@@
+あしたは都合が悪いな。あさってはどう？	Ashita wa tsugō ga warui na. Asatte wa dō?
+明天不行。後天怎樣？
+@@
+ぼくはいいよ。	Boku wa ii yo.
+沒問題。
+@@
+よければ、僕の自転車を使ってもいいよ。	Yokereba, boku no jitensha wo tsukatte mo ii yo.
+如果可以的話，你用我的腳踏車也行。
+@@
+ほんとう？ありがとう。	Hontō? Arigatō.
+真的？謝謝。
+@@
+どういたしまして。	Dō itashimashite.
+不客氣。
+@@
+今週末に映画に行こうよ。	Konshūmatsu ni eiga ni ikō yo.
+這週末去看電影吧。
+@@
+悪いだけど、行けないよ。試験勉強をしなくちゃ。	Warui dakedo, ikenai yo. Shiken benkyō wo shinakucha.
+不好意思，我不能去。得準備考試。
+@@
+今晩ボーリングに行きませんか？	Konban bōringu ni ikimasen ka?
+今晚要不要去打保齡球？
+@@
+誘ってくれてありがとう。でも今夜は遅くまで仕事です。	Sasotte kurete arigatō. Demo kon'ya wa osoku made shigoto desu.
+謝謝你邀請。但是今晚要工作到很晚。
+@@
+仕事のあと、一杯どう？	Shigoto no ato, ippai dō?
+下班後去喝一杯如何？
+@@
+悪いんだけど、きょうはだめなんです。	Warui n dakedo, kyō wa dame na n desu.
+不好意思，今天不行。
+@@
+もう少しスープはどう？	Mō sukoshi sūpu wa dō?
+再來點湯如何？
+@@
+けっこうです。ありがとう。もう十分です。	Kekkō desu. Arigatō. Mō jūbun desu.
+不用了，謝謝。已經夠了。

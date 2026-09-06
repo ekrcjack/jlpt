@@ -1,0 +1,71 @@
+すみませんが。今何時でしょうか？	Sumimasen ga. Ima nanji deshō ka?
+對不起，請問現在幾點？
+@@
+2時30分です。	Ni-ji sanjuppun desu.
+現在2點半。
+@@
+すみませんが、時間を教えていただけますでしょうか。	Sumimasen ga, jikan wo oshiete itadakemasu deshō ka.
+對不起，可以告訴我時間嗎？
+@@
+1時20分です。	Ichi-ji nijuppun desu.
+1點20分。
+@@
+おじゃまして申しわけありませんが、何時だか教えていただきますか？	Ojama shite mōshiwake arimasen ga, nanji da ka oshiete itadakimasu ka?
+抱歉打擾您一下，您能告訴我現在幾點嗎？
+@@
+いいですよ。11時50分です。	Ii desu yo. Jūichi-ji gojuppun desu.
+沒問題，現在11點50分。
+@@
+時計を合わせたいのですが。正確な時間は何時でしょうか？	Tokei wo awasetai no desu ga. Seikaku na jikan wa nanji deshō ka?
+我想調整我的手錶，現在應該是幾點幾分？
+@@
+ちょうど4時25分です。	Chōdo yo-ji nijūgo-fun desu.
+剛好4點25分。
+@@
+あなたの腕時計は2時30分ですか？	Anata no udedokei wa ni-ji sanjuppun desu ka?
+你的手錶是2點30分嗎？
+@@
+いいえ、2時27分です。	Iie, ni-ji nijūnana-fun desu.
+不是，我的是2點27分。
+@@
+あの時計によると、あなたのは正しいですね。私のは進んでいるに違いありません。	Ano tokei ni yoru to, anata no wa tadashii desu ne. Watashi no wa susunde iru ni chigai arimasen.
+根據那個時鐘的時間，你的錶才是對的，我的太快了。
+@@
+この2、3日で私の腕時計は遅れています。	Kono ni-san-nichi de watashi no udedokei wa okurete imasu.
+這2、3天我的手錶變慢了。
+@@
+たぶん電池を替えた方がいいでしょう。	Tabun denchi wo kaeta hō ga ii deshō.
+也許該換電池了。
+@@
+そうですね。	Sō desu ne.
+好主意。
+@@
+日曜日にドライブに行かない？	Nichiyōbi ni doraibu ni ikanai?
+禮拜天要不要去兜風？
+@@
+それはいいね。何時に出ようか？	Sore wa ii ne. Nanji ni deyō ka?
+好主意，什麼時候出發？
+@@
+9時30分に行こう。	Ku-ji sanjuppun ni ikō.
+那就約9點30分。
+@@
+空港まで乗せて行ってもらえますか？	Kūkō made nosete itte moraemasu ka?
+你能載我去機場嗎？
+@@
+いいですよ。飛行機は何時に出ますか？	Ii desu yo. Hikōki wa nanji ni demasu ka?
+可以啊，飛機什麼時候起飛？
+@@
+10時45分です。	Jū-ji yonjūgo-fun desu.
+10點45分。
+@@
+東京へはいつ発つの？	Tōkyō e wa itsu tatsu no?
+你什麼時候去東京？
+@@
+8月2日に発つ予定です。	Hachi-gatsu futsuka ni tatsu yotei desu.
+我打算8月2日走。
+@@
+春男、生年月日はいつなの？	Haruo, seinengappi wa itsu na no?
+春男，你生日是什麼時候？
+@@
+1965年2月10日だよ。	Sen-kyūhyaku-rokujūgo-nen ni-gatsu tōka da yo.
+1965年2月10日。

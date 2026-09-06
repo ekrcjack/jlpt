@@ -1,0 +1,1658 @@
+やあ、陽子。元気？	Yaa, Yōko. Genki?
+嗨！陽子，你好嗎？
+@@
+元気よ。あなたは？	Genki yo. Anata wa?
+我很好，你呢？
+@@
+絶好調さ。	Zekkōchō sa.
+再好不過了！
+@@
+おはよう、紀之。	Ohayō, Noriyuki.
+早啊，紀之。
+@@
+やあ、いい日だね。	Yaa, ii hi da ne.
+哈囉，天氣真好啊！不是嗎？
+@@
+本当だね。	Hontō da ne.
+是啊！
+@@
+元気？	Genki?
+過得如何？
+@@
+うん、ありがとう。君は？	Un, arigatō. Kimi wa?
+很好，謝謝。你呢？
+@@
+元気だよ。	Genki da yo.
+我很好。
+@@
+調子はどうだい？	Chōshi wa dō dai?
+過得如何？
+@@
+まあまあだよ。君は？	Maa maa da yo. Kimi wa?
+普普通通啦！你呢？
+@@
+まあまあさ。	Maa maa sa.
+還可以啦。
+@@
+こんばんは、久美子。	Konbanwa, Kumiko.
+晚安！久美子。
+@@
+こんばんは、莉莉。きれいなドレスね。	Konbanwa, Riri. Kirei na doresu ne.
+晚安，莉莉。你的晚禮服好漂亮。
+@@
+ありがとう。	Arigatō.
+謝謝。
+@@
+会えてうれしいよ、健一郎。	Aete ureshii yo, Kenichirō.
+健一郎，見到你真高興。
+@@
+久しぶりだね。	Hisashiburi da ne.
+好久不見了。
+@@
+どうしてた？	Dō shiteta?
+過得如何？
+@@
+元気だったよ。	Genki datta yo.
+我很好。
+@@
+さようなら。	Sayōnara.
+再見。
+@@
+またね。	Mata ne.
+改天見。
+@@
+じゃあね。火曜日にまた。	Jā ne. Kayōbi ni mata.
+拜拜！星期二見。
+@@
+うん。元気でね。	Un. Genki de ne.
+好，要保重喔。
+@@
+ええと、もう行かなくては。	Ēto, mō ikanakute wa.
+呃，我該走了。
+@@
+ああそう。じゃあね。	Ā sō. Jā ne.
+啊這樣。那再見。
+@@
+さようなら。元気でね。	Sayōnara. Genki de ne.
+再見。要保重。
+@@
+ああ、もうこんな時間だ！もう行かなくては。	Ā, mō konna jikan da! Mō ikanakute wa.
+哎呀！這麼晚了。我該走了。
+@@
+お話できてたのしかったです。元気でね。	Ohanashi dekite tanoshikatta desu. Genki de ne.
+跟你聊天真是愉快。要保重啊。
+@@
+おやすみなさい。また会いましょう。	Oyasuminasai. Mata aimashō.
+晚安。改天再見囉！
+@@
+よい週末を。	Yoi shūmatsu wo.
+週末愉快！
+@@
+ありがとう。君もね。	Arigatō. Kimi mo ne.
+謝謝。你也一樣。
+@@
+紀之によろしく。	Noriyuki ni yoroshiku.
+代我向紀之問好。
+@@
+オーケー。わかった。	Ōkē. Wakatta.
+好，沒問題。
+@@
+こんにちは。私の名前は渡辺春男です。	Konnichiwa. Watashi no namae wa Watanabe Haruo desu.
+你好，我叫渡邊春男。
+@@
+こんにちは。私は陳淑恵です。	Konnichiwa. Watashi wa Chin Shukukei desu.
+你好，我叫陳淑惠。
+@@
+はじめまして。	Hajimemashite.
+初次見面。
+@@
+お会いできてうれしいです。	Oai dekite ureshii desu.
+很高興認識你。
+@@
+私の名前は小林君枝です。	Watashi no namae wa Kobayashi Kimie desu.
+我叫小林君枝。
+@@
+お会いできてうれしいです。私は王莉莉です。	Oai dekite ureshii desu. Watashi wa Ō Riri desu.
+很高興認識你。我叫王莉莉。
+@@
+こんにちは、ぼくの名前は張建邦です。	Konnichiwa, boku no namae wa Chō Kenpō desu.
+你好，我叫張建邦。
+@@
+こんにちは。私は木村春子です。	Konnichiwa. Watashi wa Kimura Haruko desu.
+你好，我叫木村春子。
+@@
+会えてうれしいです。	Aete ureshii desu.
+很高興認識你。
+@@
+井上が姓です。井上俊成です。	Inoue ga sei desu. Inoue Toshinari desu.
+我姓井上。井上俊成。
+@@
+初めまして。李大成です。	Hajimemashite. Ri Taisei desu.
+初次見面。我叫李大成。
+@@
+李さん、お会いできてうれしいです。	Ri-san, oai dekite ureshii desu.
+李先生，很高興認識你。
+@@
+莉莉、お会いできてよかったわ。	Riri, oai dekite yokatta wa.
+莉莉，能認識你真好。
+@@
+きみえ、たのしかったわ。	Kimie, tanoshikatta wa.
+君枝，很愉快。
+@@
+また会いましょう。	Mata aimashō.
+改天再見。
+@@
+莉莉、こちらは斎藤恵美さんです。私の東京の友達です。	Riri, kochira wa Saitō Emi-san desu. Watashi no Tōkyō no tomodachi desu.
+莉莉，這位是齊藤惠美小姐，她是我在東京的朋友。
+@@
+恵美、こちらは王莉莉さん、私の親友です。	Emi, kochira wa Ō Riri-san, watashi no shin'yū desu.
+惠美，這位是王莉莉小姐，是我的好友。
+@@
+まあ、お会いできてうれしいです。	Maa, oai dekite ureshii desu.
+哦！真高興見到你。
+@@
+こちらこそ、恵美さん。	Kochira koso, Emi-san.
+我也是，惠美。
+@@
+淑恵、島田靖子さんを紹介します。靖子、こちらは陳淑恵さんです。	Shukukei, Shimada Yasuko-san wo shōkai shimasu. Yasuko, kochira wa Chin Shukukei-san desu.
+淑惠，我來介紹島田靖子小姐。靖子，這位是陳淑惠小姐。
+@@
+初めまして。	Hajimemashite.
+你好。
+@@
+陽子、蔡美鈴さんを紹介します。美鈴、こちらは村上陽子さんです。	Yōko, Sai Birei-san wo shōkai shimasu. Birei, kochira wa Murakami Yōko-san desu.
+陽子，我來跟你介紹蔡美鈴小姐。美鈴，這是村上陽子小姐。
+@@
+光栄です。	Kōei desu.
+這是我的榮幸。
+@@
+お名前をうかがえますか？	Onamae wo ukagaemasu ka?
+請問貴姓大名？
+@@
+李と申します。10時に鈴木さんと約束があります。	Ri to mōshimasu. Jū-ji ni Suzuki-san to yakusoku ga arimasu.
+敝姓李。我和鈴木先生在10點有約。
+@@
+東販会社の張建邦と申します。山本さんと10時に約束してあります。	Tōhan-gaisha no Chō Kenpō to mōshimasu. Yamamoto-san to jū-ji ni yakusoku shite arimasu.
+我是東販公司的張建邦。和山本先生約10點碰面。
+@@
+どうぞおかけください。ご来社の旨、山本さんに伝えます。	Dōzo okake kudasai. Goraisha no mune, Yamamoto-san ni tsutaemasu.
+請坐一下，我去通知山本先生。
+@@
+山本さん、こちらは台湾の東販会社の林明徳さんです。林さん、こちらは敝社の部長の、山本秀樹です。	Yamamoto-san, kochira wa Taiwan no Tōhan-gaisha no Rin Meitoku-san desu. Rin-san, kochira wa heisha no buchō no, Yamamoto Hideki desu.
+山本先生，這位是臺灣東販公司的林明德先生。林先生，這位是敝公司的部長山本秀樹。
+@@
+初めまして、林さん。東京にようこそ。	Hajimemashite, Rin-san. Tōkyō ni yōkoso.
+林先生，幸會，歡迎蒞臨東京。
+@@
+山本さん、お会いできて光栄です。	Yamamoto-san, oai dekite kōei desu.
+山本先生，能夠認識你，榮幸之至。
+@@
+紀之、こちらは大阪のABCエンジニアリングの若林禎彦さんです。若林さん、こちらは人事部長の神田紀之です。	Noriyuki, kochira wa Ōsaka no ABC enjiniaringu no Wakabayashi Yoshihiko-san desu. Wakabayashi-san, kochira wa jinji-buchō no Kanda Noriyuki desu.
+紀之，這位是大阪ABC工程公司的若林禎彥先生。若林先生，這位是人事經理神田紀之先生。
+@@
+若林さん、お会いできてうれしいです。	Wakabayashi-san, oai dekite ureshii desu.
+若林先生，很高興認識你。
+@@
+神田さん、お会いできて光栄です。	Kanda-san, oai dekite kōei desu.
+神田先生，能夠認識你是我的榮幸。
+@@
+私は遠藤文子です。京都出身で、京都大学で経済を勉強しています。好きなスポーツはボーリングとテニスです。	Watashi wa Endō Fumiko desu. Kyōto shusshin de, Kyōto daigaku de keizai wo benkyō shite imasu. Suki na supōtsu wa bōringu to tenisu desu.
+我是遠藤文子。京都人，在京都大學唸經濟。喜歡的運動是保齡球和網球。
+@@
+私は渡辺春男です。こんなにたくさんのすてきな新入社員のみなさんにお会いできてうれしいです。ようこそ！私は3年前に北海道大学を卒業し、現在はABC社の販売部に属しています。趣味はスキーと釣りです。	Watashi wa Watanabe Haruo desu. Konna ni takusan no suteki na shinnyū shain no minasan ni oai dekite ureshii desu. Yōkoso! Watashi wa san-nen mae ni Hokkaidō daigaku wo sotsugyō shi, genzai wa ABC-sha no hanbai-bu ni zoku shite imasu. Shumi wa sukī to tsuri desu.
+我是渡邊春男。能認識這麼多優秀的新進員工真高興。歡迎！我三年前從北海道大學畢業，現在在ABC公司的銷售部。興趣是滑雪和釣魚。
+@@
+自己紹介をさせていただきます。田中尚美です。東京の明治大学の2年生です。経済学部で勉強しています。会計学科でいい先生が大勢いるので満足です。私は公認会計士になりたいのです。	Jiko shōkai wo sasete itadakimasu. Tanaka Naomi desu. Tōkyō no Meiji daigaku no ni-nensei desu. Keizai gakubu de benkyō shite imasu. Kaikei gakka de ii sensei ga ōzei iru node manzoku desu. Watashi wa kōnin kaikeishi ni naritai no desu.
+請容我自我介紹。我是田中尚美。東京明治大學二年級。在經濟學部唸書。會計學科有很多好老師，我很滿意。我想成為公認會計師。
+@@
+ちょっと失礼します。新宿通りはどこか教えていただけますか？	Chotto shitsurei shimasu. Shinjuku-dōri wa doko ka oshiete itadakemasu ka?
+對不起，請問一下新宿街怎麼走？
+@@
+すみません。このあたりはあまり詳しくありません。	Sumimasen. Kono atari wa amari kuwashiku arimasen.
+抱歉，我對這附近也不熟。
+@@
+ああ、そうですか。	Ā, sō desu ka.
+哦，這樣子啊！
+@@
+失礼ですが、アメリカ大使館はどこかご存じですか？	Shitsurei desu ga, Amerika taishikan wa doko ka gozonji desu ka?
+對不起，請問美國大使館在哪裡？
+@@
+ええ、まっすぐ行ってください。ほんの2ブロック先です。	Ē, massugu itte kudasai. Honno ni-burokku saki desu.
+嗯，請直走，就在隔兩條街的地方。
+@@
+ありがとうございました。	Arigatō gozaimashita.
+謝謝！
+@@
+あのー、ハンカチを落としましたよ。	Anō, hankachi wo otoshimashita yo.
+那個，你的手帕掉了。
+@@
+あら、どうもすみません。	Ara, dōmo sumimasen.
+真是謝謝你。
+@@
+この席はどなたかいらっしゃいますか。	Kono seki wa donata ka irasshaimasu ka.
+這個位子有人坐嗎？
+@@
+いいえ。どうぞ。	Iie. Dōzo.
+沒有，請坐。
+@@
+すみませんが、ここは私の席です。	Sumimasen ga, koko wa watashi no seki desu.
+對不起，這是我的位子。
+@@
+ああ、すみません。	Ā, sumimasen.
+啊，對不起！／哦！對不起。
+@@
+ウェーターさん。	Wētā-san.
+服務生。
+@@
+はい、お客さま。	Hai, okyakusama.
+您好，客人。
+@@
+メニューを見せていただけませんか？	Menyū wo misete itadakemasen ka?
+可以給我看菜單嗎？
+@@
+いらっしゃいませ。	Irasshaimase.
+歡迎光臨！
+@@
+注文をとっていただけますか？	Chūmon wo totte itadakemasu ka?
+可以幫我點菜嗎？
+@@
+すみませんが。	Sumimasen ga.
+對不起。
+@@
+はい。何がよろしいでしょうか？	Hai. Nani ga yoroshii deshō ka?
+您好，需要什麼嗎？
+@@
+シルクのブラウスを見たいのですが。	Shiruku no burausu wo mitai no desu ga.
+我想看看絲質的罩衫。
+@@
+すみません。	Sumimasen.
+對不起。
+@@
+はい。何かご用でしょうか？	Hai. Nani ka goyō deshō ka?
+您好，需要什麼嗎？
+@@
+黒のカーディガンはありますか？	Kuro no kādigan wa arimasu ka?
+有黑色的毛線衣嗎？
+@@
+このセーターでLサイズはありますか？	Kono sētā de L saizu wa arimasu ka?
+這件毛衣有沒有L size的？
+@@
+すみませんが、もう一度お願いします。	Sumimasen ga, mō ichido onegai shimasu.
+對不起，請再說一遍。
+@@
+上野公園はどちらか教えていただけますか。	Ueno kōen wa dochira ka oshiete itadakemasu ka.
+能告訴我上野公園在哪裡嗎？
+@@
+ああ、いいですよ。まっすぐ行ってください。	Ā, ii desu yo. Massugu itte kudasai.
+啊，好的，請直走。
+@@
+すみませんが、何とおっしゃいましたか？	Sumimasen ga, nan to osshaimashita ka?
+對不起，你說什麼？
+@@
+お母さんはいかがですか。	Okāsan wa ikaga desu ka.
+你母親好嗎？
+@@
+ああ、母は先週退院いたしまして、元気です。	Ā, haha wa senshū taiin itashimashite, genki desu.
+啊，我母親上個禮拜出院了，她很好。
+@@
+圭子、もう一度言ってくれる？	Keiko, mō ichido itte kureru?
+圭子，再說一遍好嗎？
+@@
+次の週末の予定を聞いてたのよ。	Tsugi no shūmatsu no yotei wo kiiteta no yo.
+我是問你下週末有什麼計畫。
+@@
+ああ、別に決まっていないけど。何か考えがあるの？	Ā, betsu ni kimatte inai kedo. Nani ka kangae ga aru no?
+啊，還沒決定，你有什麼想法嗎？
+@@
+あなたのおっしゃったことが聞き取れなかったのですが。もう少しゆっくり話してくださいませんか？	Anata no osshatta koto ga kikitorenakatta no desu ga. Mō sukoshi yukkuri hanashite kudasaimasen ka?
+我聽不清楚你說的話，能不能再說慢一點呢？
+@@
+いいですよ。いいながめですね、と言いました。	Ii desu yo. Ii nagame desu ne, to iimashita.
+好的，我說『視野真好啊』。
+@@
+あなたの姓をもう一度おっしゃってくださいませんか？	Anata no sei wo mō ichido osshatte kudasaimasen ka?
+請再一次告訴我你的姓好嗎？
+@@
+はい、古川と申します。	Hai, Furukawa to mōshimasu.
+好的，我姓古川。
+@@
+古川さんですね。どうもありがとうございます。	Furukawa-san desu ne. Dōmo arigatō gozaimasu.
+古川先生，謝謝你。
+@@
+私の名前は若林禎彦です。	Watashi no namae wa Wakabayashi Yoshihiko desu.
+我的名字叫若林禎彥。
+@@
+ええと……禎彦、何さんですか？	Ēto…… Yoshihiko, nan-san desu ka?
+嗯，是……禎彥先生嗎？那姓什麼？
+@@
+若林。若林禎彦です。	Wakabayashi. Wakabayashi Yoshihiko desu.
+若林，是若林禎彥。
+@@
+私は東京の高田馬場駅の近くに住んでいます。	Watashi wa Tōkyō no Takadanobaba-eki no chikaku ni sunde imasu.
+我住在東京的高田馬場車站附近。
+@@
+どちらに住んでいるんですか？	Dochira ni sunde iru n desu ka?
+你剛說你住在哪裡？
+@@
+高田馬場駅の近くです。東京にあります。	Takadanobaba-eki no chikaku desu. Tōkyō ni arimasu.
+高田馬場車站的附近。在東京。
+@@
+ああ、そうですか！	Ā, sō desu ka!
+啊，是這樣啊！
+@@
+「スト」とはどういう意味ですか？	'Suto' to wa dō iu imi desu ka?
+「スト」是什麼意思？
+@@
+英語で「ストライキ」のことです。	Eigo de 'sutoraiki' no koto desu.
+是英文『strike（罷工）』的意思。
+@@
+ああ、わかりました。	Ā, wakarimashita.
+啊，我明白了。
+@@
+もし質問がありましたら、紀之に聞いてください。彼は我々のプロです。	Moshi shitsumon ga arimashitara, Noriyuki ni kiite kudasai. Kare wa wareware no puro desu.
+如果有問題的話，請教紀之，他是我們的專家（puro）。
+@@
+すみません、「プロ」とはどういう意味ですか？	Sumimasen, 'puro' to wa dō iu imi desu ka?
+對不起，puro是什麼意思？
+@@
+「専門家」ということです。	'Senmonka' to iu koto desu.
+就是「專家」的意思。
+@@
+お手伝っていただき、ありがとうございました。	Otetsudatte itadaki, arigatō gozaimashita.
+謝謝您的幫忙。
+@@
+どういたしまして。	Dō itashimashite.
+不客氣。
+@@
+きのうは手伝っていただいて、ありがとうございました。	Kinō wa tetsudatte itadaite, arigatō gozaimashita.
+多謝你昨天的幫忙。
+@@
+どういたしまして。お手伝いができてうれしいです。	Dō itashimashite. Otetsudai ga dekite ureshii desu.
+不客氣，很高興能夠幫得上忙。
+@@
+慈善バザーでお手伝いしていただきまして、本当にありがとうございました。	Jizen bazā de otetsudai shite itadakimashite, hontō ni arigatō gozaimashita.
+慈善義賣的事真的很謝謝你的幫忙。
+@@
+たいしたことないですよ。私も楽しかったです。	Taishita koto nai desu yo. Watashi mo tanoshikatta desu.
+沒什麼啦，我也很開心。
+@@
+本当にありがとうございました。	Hontō ni arigatō gozaimashita.
+真的很謝謝你。
+@@
+健一郎、乗せてくれてありがとう。	Kenichirō, nosete kurete arigatō.
+健一郎，謝謝你載我一程。
+@@
+たいしたことないさ。役に立ててうれしいよ。	Taishita koto nai sa. Yaku ni tatete ureshii yo.
+那沒什麼，很高興能幫得上忙。
+@@
+スポーツは好きですか？	Supōtsu wa suki desu ka?
+你喜歡運動嗎？
+@@
+ええ。とくに団体競技が好きです。野球やバスケットボールが一番好きです。	Ē. Toku ni dantai kyōgi ga suki desu. Yakyū ya basukettobōru ga ichiban suki desu.
+喜歡，尤其是團體運動。我最喜歡棒球和籃球。
+@@
+どんなスポーツが好きですか？	Donna supōtsu ga suki desu ka?
+你喜歡什麼運動？
+@@
+フットボールを見るのが好きですが、他のスポーツには興味がありません。	Futtobōru wo miru no ga suki desu ga, hoka no supōtsu ni wa kyōmi ga arimasen.
+我喜歡看足球，其他運動就沒什麼興趣。
+@@
+どんな音楽が好きですか？	Donna ongaku ga suki desu ka?
+你喜歡什麼音樂？
+@@
+ジャズが大好きです。	Jazu ga daisuki desu.
+我最喜歡爵士樂。
+@@
+私もです。高校時代からジャズのCDを集めています。	Watashi mo desu. Kōkō jidai kara jazu no CD wo atsumete imasu.
+我也是。從高中開始我就一直在收集爵士樂的CD。
+@@
+イタリア料理は好きですか？	Itaria ryōri wa suki desu ka?
+你喜歡義大利菜嗎？
+@@
+大好きです。	Daisuki desu.
+很喜歡啊！
+@@
+じゃあ夕食は「ナポリ」に行きましょう。	Jā yūshoku wa 'Napori' ni ikimashō.
+那麼晚餐就去「拿波里」吃吧！
+@@
+私は映画が大好きです。毎週映画館に見に行きます。	Watashi wa eiga ga daisuki desu. Maishū eigakan ni mi ni ikimasu.
+我最喜歡看電影。每個禮拜都會去電影院看。
+@@
+まあ！私も映画が好きです。でも、私は家でビデオを見るんです。	Maa! Watashi mo eiga ga suki desu. Demo, watashi wa ie de bideo wo miru n desu.
+嗯！我也喜歡看電影。但是我都在家裡看錄影帶。
+@@
+そう、私は映画館で見る方が好きですね。	Sō, watashi wa eigakan de miru hō ga suki desu ne.
+喔，我比較喜歡到電影院看。
+@@
+ああ、のどがかわいた。何か冷たい物がほしいな。	Ā, nodo ga kawaita. Nani ka tsumetai mono ga hoshii na.
+啊，口好渴，真想喝個涼的啊！
+@@
+オレンジジュースはどう？	Orenji jūsu wa dō?
+來杯柳橙汁怎麼樣？
+@@
+はい、いただきます。	Hai, itadakimasu.
+好，謝謝。
+@@
+夕食、何がいいですか？	Yūshoku, nani ga ii desu ka?
+晚餐吃什麼好呢？
+@@
+ピザが食べたい気分です。	Piza ga tabetai kibun desu.
+我想吃披薩。
+@@
+じゃあ、イタリア料理の店に行きましょう。	Jā, Itaria ryōri no mise ni ikimashō.
+那我們去吃義大利料理！
+@@
+ご注文はお決まりですか。	Gochūmon wa okimari desu ka.
+決定好要點什麼了嗎？
+@@
+はい。オニオンスープとステーキディナーをお願いします。	Hai. Onion sūpu to sutēki dinā wo onegai shimasu.
+是的，我要洋蔥湯和牛排。
+@@
+オニオンスープとステーキディナーですね。かしこまりました。	Onion sūpu to sutēki dinā desu ne. Kashikomarimashita.
+洋蔥湯和牛排。好的。
+@@
+他に何かいりますか。	Hoka ni nani ka irimasu ka.
+其他還需要些什麼嗎？
+@@
+はい、デザートをお願いします。	Hai, dezāto wo onegai shimasu.
+是的，我要點心。
+@@
+こちらがメニューです。	Kochira ga menyū desu.
+請看菜單。
+@@
+予約をしたはずなのですが。	Yoyaku wo shita hazu na no desu ga.
+我應該有訂位。
+@@
+はい、こちらへどうぞ。	Hai, kochira e dōzo.
+好的，這邊請。
+@@
+大きくなったら何になりたいの？	Ōkiku nattara nani ni naritai no?
+你長大了想做什麼？
+@@
+レーサーになりたいです。	Rēsā ni naritai desu.
+想當一名賽車手。
+@@
+今日は何をしたいの？	Kyō wa nani wo shitai no?
+今天想做什麼？
+@@
+釣りに行こうかと思っていたんだ。一緒に行かない。	Tsuri ni ikō ka to omotte ita n da. Issho ni ikanai.
+想去釣魚。要一起去嗎？
+@@
+おもしろそうだね。	Omoshirosō da ne.
+好像很有趣呢！
+@@
+東京大学の入学試験に受かればいいなあ。	Tōkyō daigaku no nyūgaku shiken ni ukareba ii nā.
+希望能通過東京大學的入學考試。
+@@
+僕もさ。	Boku mo sa.
+我也是。
+@@
+この夏、外国旅行ができたらなあ。	Kono natsu, gaikoku ryokō ga dekitara nā.
+今年夏天，如果能去國外旅行就好了。
+@@
+どうかしたの？行けないわけでもあるの？	Dō ka shita no? Ikenai wake demo aru no?
+怎麼了？有什麼原因不能去嗎？
+@@
+祖父が病気で、母の手伝いをしなくちゃならないんだ。	Sofu ga byōki de, haha no tetsudai wo shinakucha naranai n da.
+祖父生病了，必須要幫母親的忙。
+@@
+長雨だね。	Nagaame da ne.
+一直下雨呢！
+@@
+あした晴れるといいな。	Ashita hareru to ii na.
+希望明天能放晴。
+@@
+ビーチまで乗せていってもらえたらいいなあ。	Bīchi made nosete itte moraetara ii nā.
+能不能載我去海邊？
+@@
+一緒においでよ。	Issho ni oide yo.
+一起去吧！
+@@
+わあ、ありがとう。ちょっと持ち物を取ってくるね。	Wā, arigatō. Chotto mochimono wo totte kuru ne.
+哇啊，謝謝。等一下，我拿個東西。
+@@
+どうしてそんなにがっかりしているの？	Dō shite sonna ni gakkari shite iru no?
+你看起來很沒精神，怎麼了嗎？
+@@
+陽子が土曜日のテニスの試合を断ってきたばかりなの。本当に試合をしたかったのよ。	Yōko ga doyōbi no tenisu no shiai wo kotowatte kita bakari na no. Hontō ni shiai wo shitakatta no yo.
+陽子剛拒絕了星期六的網球比賽。我真的很想比賽的。
+@@
+私が相手ではどう？	Watashi ga aite de wa dō?
+我當你的對手如何？
+@@
+そうしてくれる？ほんとう？	Sō shite kureru? Hontō?
+你願意嗎？真的？
+@@
+喜んで。何時にそこへ行ったらいい？	Yorokonde. Nanji ni soko e ittara ii?
+樂意之至。幾點到那裡好？
+@@
+部屋から出てもよろしいですか？気分が悪いのです。	Heya kara dete mo yoroshii desu ka? Kibun ga warui no desu.
+我可以到外面去嗎？我覺得有點不舒服。
+@@
+もちろんです。	Mochiron desu.
+當然可以。
+@@
+お母さん、今晩車を借りてもいい？	Okāsan, konban kuruma wo karite mo ii?
+媽媽，今天晚上車子借我開好嗎？
+@@
+いいわよ。	Ii wa yo.
+好啊。
+@@
+あなたの写真を撮らせてもらえますか？	Anata no shashin wo torasete moraemasu ka?
+我可以幫你照張相嗎？
+@@
+どうぞ。	Dōzo.
+請便。
+@@
+たばこを吸ってもかまいませんか？	Tabako wo sutte mo kamaimasen ka?
+請問我可以抽煙嗎？
+@@
+ええ、いいですよ。	Ē, ii desu yo.
+可以的。
+@@
+今夜美穂と映画に行ってもいい？	Kon'ya Miho to eiga ni itte mo ii?
+今天晚上我可以跟美穗一起去看電影嗎？
+@@
+宿題はすませたの？	Shukudai wa sumaseta no?
+你功課寫好了嗎？
+@@
+うん。	Un.
+寫好了。
+@@
+じゃあ、いいわ。	Jā, ii wa.
+那就去吧。
+@@
+先生、あした学校にもどってもいいでしょうか？	Sensei, ashita gakkō ni modotte mo ii deshō ka?
+醫師，明天我可以回學校上課嗎？
+@@
+いいえ、もう1日寝ていなさい。	Iie, mō ichinichi nete inasai.
+不行，你得在床上多休息一天。
+@@
+先生、テストを受けてもよろしいですか？	Sensei, tesuto wo ukete mo yoroshii desu ka?
+教授，我可以參加考試嗎？
+@@
+いいや、健一郎。あなたはテストをうけられません。授業のサボりすぎです。	Iiya, Kenichirō. Anata wa tesuto wo ukeraremasen. Jugyō no sabori sugi desu.
+不行，健一郎。你沒有辦法參加考試。你曠課太多了。
+@@
+先生、薬を飲んでから運転してもだいじょうぶでしょうか？	Sensei, kusuri wo nonde kara unten shite mo daijōbu deshō ka?
+醫師，吃藥之後可以開車嗎？
+@@
+だめです。その薬を飲むと少し眠くなりますから、運転しないでください。	Dame desu. Sono kusuri wo nomu to sukoshi nemuku narimasu kara, unten shinaide kudasai.
+不行，吃藥之後會有點想睡覺，所以請不要開車。
+@@
+たばこを吸ってもよろしいですか？	Tabako wo sutte mo yoroshii desu ka?
+我可以抽煙嗎？
+@@
+吸わないでください。あそこに「禁煙」の表示があります。	Suwanaide kudasai. Asoko ni 'kin'en' no hyōji ga arimasu.
+不行，那裡有「禁煙」的標示。
+@@
+お願いがあるのですが。	Onegai ga aru no desu ga.
+我有事想拜託你。
+@@
+はい、何でしょうか？	Hai, nan deshō ka?
+好啊，什麼事呢？
+@@
+日本語のレポートを見てもらいたいのです。	Nihongo no repōto wo mite moraitai no desu.
+可以請你幫我看一下日文報告嗎？
+@@
+空港まで乗せていただけますか？	Kūkō made nosete itadakemasu ka?
+您可以送我到機場嗎？
+@@
+喜んで。	Yorokonde.
+我很樂意。
+@@
+私を駅まで連れて行く前に、ちょっと家へ寄ってもいいですか。	Watashi wo eki made tsurete iku mae ni, chotto ie e yotte mo ii desu ka.
+在載我去車站前，可以先回我家一下嗎？
+@@
+はい、分かりました。	Hai, wakarimashita.
+好的，我知道了。
+@@
+チャリティーバザーのために何か料理をしてくださいませんか？	Charitī bazā no tame ni nani ka ryōri wo shite kudasaimasen ka?
+可以請你幫慈善義賣做一些餐點嗎？
+@@
+喜んで。ストローベリーショートケーキを作りましょう。	Yorokonde. Sutorōberī shōto kēki wo tsukurimashō.
+我很樂意。那我就來作草莓蛋糕吧！
+@@
+ちょっとこのテーブルに手を貸していただけますか？動かしたいのです。	Chotto kono tēburu ni te wo kashite itadakemasu ka? Ugokashitai no desu.
+您可以幫我搬這張桌子嗎？我想把它換個位置。
+@@
+いいですよ。じゃあ、どこへ運びますか。	Ii desu yo. Jā, doko e hakobimasu ka.
+當然。您要搬到哪裡呢？
+@@
+美穂、悪いんだけど、また手を貸してくれる？	Miho, warui n dakedo, mata te wo kashite kureru?
+美穗，不好意思，可以再請你幫個忙嗎？
+@@
+いいわよ。どうすればいいの？	Ii wa yo. Dō sureba ii no?
+好啊！要如何幫你呢？
+@@
+すみませんが、道をたずねたいのですが。	Sumimasen ga, michi wo tazunetai no desu ga.
+對不起，可以跟你問個路嗎？
+@@
+いいですよ。どちらへ行きたいのですか？	Ii desu yo. Dochira e ikitai no desu ka?
+好啊！你要去哪裡？
+@@
+新宿駅をさがしているのです。	Shinjuku-eki wo sagashite iru no desu.
+我在找新宿車站。
+@@
+お願いしてもいいですか？	Onegai shite mo ii desu ka?
+可以請你幫個忙嗎？
+@@
+どうぞどうぞ。お手伝いできれば嬉しいですよ。	Dōzo dōzo. Otetsudai dekireba ureshii desu yo.
+好啊！我很樂意能夠幫得上忙。
+@@
+じゃあ。この手紙を書くのを手伝ってくれますか？	Jā. Kono tegami wo kaku no wo tetsudatte kuremasu ka?
+那麼可以幫我寫這封信嗎？
+@@
+陽子、ちょっとアドバイスがほしいんだけど。	Yōko, chotto adobaisu ga hoshii n dakedo.
+陽子，您可以給我一些建議嗎？
+@@
+私でよければね。何か知りたいの？	Watashi de yokereba ne. Nani ka shiritai no?
+我很樂意。您想知道哪方面的事情呢？
+@@
+北海道を旅行するにはどんな方法が一番いいかな？	Hokkaidō wo ryokō suru ni wa donna hōhō ga ichiban ii ka na?
+到北海道旅行用什麼方式最好呢？
+@@
+お父さん、学校の劇には来てくれる？	Otōsan, gakkō no geki ni wa kite kureru?
+爸爸，你會來看學校的話劇嗎？
+@@
+行きたいけど、その日は大事な会議があるんだ。	Ikitai kedo, sono hi wa daiji na kaigi ga aru n da.
+我想去，可是那天有重要的會議。
+@@
+駅まで車で送りましょう。	Eki made kuruma de okurimashō.
+我開車送你到車站吧。
+@@
+いいです。友達に頼んでますから。	Ii desu. Tomodachi ni tanonde masu kara.
+不用了，我已經拜託朋友了。
+@@
+私の日本語の小論文に何かアドバイスをいただけますか？	Watashi no Nihongo no shōronbun ni nani ka adobaisu wo itadakemasu ka?
+可以給我的日文小論文一些建議嗎？
+@@
+喜んでお手伝いしたいんですが。でも次の月曜日までには時間がありません。	Yorokonde otetsudai shitai n desu ga. Demo tsugi no getsuyōbi made ni wa jikan ga arimasen.
+我很樂意幫忙。但是下星期一之前我沒時間。
+@@
+あしたテニスをしないか？	Ashita tenisu wo shinai ka?
+明天要不要打網球？
+@@
+いいね。1時でいいかい？	Ii ne. Ichi-ji de ii kai?
+好啊！1點可以嗎？
+@@
+いいよ。	Ii yo.
+好的。
+@@
+土曜日の晩、夕食に来ませんか？	Doyōbi no ban, yūshoku ni kimasen ka?
+週末晚上要不要來吃晚餐？
+@@
+いいですよ。何時にいけばいいですか？	Ii desu yo. Nanji ni ikeba ii desu ka?
+好啊！什麼時候？
+@@
+6時ごろ来てください。	Roku-ji goro kite kudasai.
+那就約六點吧。
+@@
+一緒にお昼を食べに行きませんか。	Issho ni ohiru wo tabe ni ikimasen ka.
+中午要不要一起去吃飯？
+@@
+もちろん。何時？	Mochiron. Nanji?
+當然，什麼時候？
+@@
+11時45分。ロビーで会おう。	Jūichi-ji yonjūgo-fun. Robī de aō.
+11點45分。大廳見。
+@@
+きょうの午後、私と買い物に行きませんか？	Kyō no gogo, watashi to kaimono ni ikimasen ka?
+今天下午要不要跟我一起去購物？
+@@
+いいわよ。何時に出ますか？	Ii wa yo. Nanji ni demasu ka?
+好啊！什麼時候？
+@@
+昼食後、すぐに行きましょう。	Chūshoku go, sugu ni ikimashō.
+吃完午飯後馬上去。
+@@
+あした町をご案内しましょうか。	Ashita machi wo goannai shimashō ka.
+明天帶你參觀一下這個都市吧！
+@@
+ではお願いします。	De wa onegai shimasu.
+那真是太好了。
+@@
+10時ごろ出かけましょう。	Jū-ji goro dekakemashō.
+那我們10點左右出發吧。
+@@
+駅までお乗りになりませんか？	Eki made onori ni narimasen ka?
+要不要我載你到車站啊？
+@@
+ありがとうございます。ちょうどバスに乗り遅れるところだったのです。	Arigatō gozaimasu. Chōdo basu ni noriokureru tokoro datta no desu.
+太謝謝你了。差點就搭不上公車了。
+@@
+それはよかったです。	Sore wa yokatta desu.
+很高興能幫你。
+@@
+こんどの日曜日に家族とあなたを夕食にお招きしたいのですが。おひまですか。	Kondo no nichiyōbi ni kazoku to anata wo yūshoku ni omaneki shitai no desu ga. Ohima desu ka.
+這星期天我們家想請你吃晚飯。你有空嗎？
+@@
+はい、ぜひうかがいます。	Hai, zehi ukagaimasu.
+有啊，我一定到。
+@@
+それはよかった。6時30分にお待ちしております。	Sore wa yokatta. Roku-ji sanjuppun ni omachi shite orimasu.
+那真是太好了。那就跟你約六點三十分。
+@@
+美術館でエジプト美術展があるんだけど。あした行かない。	Bijutsukan de Ejiputo bijutsuten ga aru n dakedo. Ashita ikanai.
+美術館有個埃及藝術展。明天要不要去？
+@@
+あしたは都合が悪いな。あさってはどう？	Ashita wa tsugō ga warui na. Asatte wa dō?
+明天不行。後天怎樣？
+@@
+ぼくはいいよ。	Boku wa ii yo.
+沒問題。
+@@
+よければ、僕の自転車を使ってもいいよ。	Yokereba, boku no jitensha wo tsukatte mo ii yo.
+如果可以的話，你用我的腳踏車也行。
+@@
+ほんとう？ありがとう。	Hontō? Arigatō.
+真的？謝謝。
+@@
+今週末に映画に行こうよ。	Konshūmatsu ni eiga ni ikō yo.
+這週末去看電影吧。
+@@
+悪いだけど、行けないよ。試験勉強をしなくちゃ。	Warui dakedo, ikenai yo. Shiken benkyō wo shinakucha.
+不好意思，我不能去。得準備考試。
+@@
+今晩ボーリングに行きませんか？	Konban bōringu ni ikimasen ka?
+今晚要不要去打保齡球？
+@@
+誘ってくれてありがとう。でも今夜は遅くまで仕事です。	Sasotte kurete arigatō. Demo kon'ya wa osoku made shigoto desu.
+謝謝你邀請。但是今晚要工作到很晚。
+@@
+仕事のあと、一杯どう？	Shigoto no ato, ippai dō?
+下班後去喝一杯如何？
+@@
+悪いんだけど、きょうはだめなんです。	Warui n dakedo, kyō wa dame na n desu.
+不好意思，今天不行。
+@@
+もう少しスープはどう？	Mō sukoshi sūpu wa dō?
+再來點湯如何？
+@@
+けっこうです。ありがとう。もう十分です。	Kekkō desu. Arigatō. Mō jūbun desu.
+不用了，謝謝。已經夠了。
+@@
+休みの計画はありますか？	Yasumi no keikaku wa arimasu ka?
+你有休假的計畫嗎？
+@@
+いいえ。忙しすぎて考える時間もないのです。	Iie. Isogashi sugite kangaeru jikan mo nai no desu.
+沒有。我忙得連想的時間都沒有。
+@@
+休み中にどこかへお出かけですか？	Yasumi-chū ni doko ka e odekake desu ka?
+休假有想要去哪裡嗎？
+@@
+ええ。友達2、3人と北海道をサイクリングでまわるつもりです。	Ē. Tomodachi ni-san-nin to Hokkaidō wo saikuringu de mawaru tsumori desu.
+是的。我要和二、三個朋友到北海道自行車旅遊。
+@@
+夏休み中に何をする予定ですか？	Natsuyasumi-chū ni nani wo suru yotei desu ka?
+暑假你要作什麼？
+@@
+アルバイトをする予定です。	Arubaito wo suru yotei desu.
+我準備要去打工。
+@@
+ゴールデンウィークの計画は何ですか？	Gōruden wīku no keikaku wa nan desu ka?
+黃金週你有什麼計劃？
+@@
+家族でハワイへ行きます。	Kazoku de Hawai e ikimasu.
+我們全家要去夏威夷。
+@@
+いつハワイへ行くのですか？	Itsu Hawai e iku no desu ka?
+你們什麼時候要去夏威夷？
+@@
+あしたの午後3時30分の飛行機です。	Ashita no gogo san-ji sanjuppun no hikōki desu.
+明天下午3:30的飛機。
+@@
+では、朝のうちに家を出なくてはなりませんね。	De wa, asa no uchi ni ie wo denakute wa narimasen ne.
+那你們不就早上就要出門？
+@@
+そうです。10時に出ようと思っています。	Sō desu. Jū-ji ni deyō to omotte imasu.
+對啊，我們計劃10點就要出門。
+@@
+今年の夏はどこにも行く予定はないよ。働くつもり。	Kotoshi no natsu wa doko ni mo iku yotei wa nai yo. Hataraku tsumori.
+這個夏天我什麼地方也不去。我要工作。
+@@
+どうして？	Dō shite?
+為什麼？
+@@
+冬休みにスキーに行きたいんだ。たくさんお金がかかるからね。	Fuyuyasumi ni sukī ni ikitai n da. Takusan okane ga kakaru kara ne.
+我想在寒假時去滑雪，必須花很多錢。
+@@
+将来の計画はどうですか？	Shōrai no keikaku wa dō desu ka?
+對於未來你有什麼計劃？
+@@
+良い会社に就職して、自分の才能を発揮したいです。	Yoi kaisha ni shūshoku shite, jibun no sainō wo hakki shitai desu.
+我想進一家能夠發揮自己才能的好公司。
+@@
+週末は勉強をしなくちゃならないんだ。君は？	Shūmatsu wa benkyō wo shinakucha naranai n da. Kimi wa?
+這個週末我要唸書，你呢？
+@@
+僕は京都へ行くよ。	Boku wa Kyōto e iku yo.
+我要去京都。
+@@
+どうしてそんなにスピードを出していたのですか？	Dō shite sonna ni supīdo wo dashite ita no desu ka?
+你為什麼開車開那麼快？
+@@
+2時20分に空港で上司を出迎えなくてはならないのです。	Ni-ji nijuppun ni kūkō de jōshi wo demukaenakute wa naranai no desu.
+我必須在2點20到機場去接我老闆。
+@@
+14日のスピーチコンテストには来られますか？	Jūyokka no supīchi kontesuto ni wa koraremasu ka?
+十四號你能來看演講比賽嗎？
+@@
+悪いけど、用事があります。	Warui kedo, yōji ga arimasu.
+抱歉，我另外有事。
+@@
+紀之、どうして僕の提案に賛成してくれなかったの？	Noriyuki, dō shite boku no teian ni sansei shite kurenakatta no?
+紀之，你為什麼不贊成我的提議？
+@@
+お金がかかりすぎると思うから。	Okane ga kakari sugiru to omou kara.
+我認為那太花錢了。
+@@
+遅れるとわかった時、どうして電話してくれなかったのよ？	Okureru to wakatta toki, dō shite denwa shite kurenakatta no yo?
+你知道你會遲到時為什麼不打個電話給我？
+@@
+ごめん。公衆電話が見つからなかったんだ。	Gomen. Kōshū denwa ga mitsukaranakatta n da.
+抱歉，我找不到公共電話。
+@@
+ダークブルーのスーツを着てほしかったのに。	Dāku burū no sūtsu wo kite hoshikatta no ni.
+我希望你穿那件深藍色的西裝。
+@@
+持ってないんだよ。	Motte nai n da yo.
+我沒有啊。
+@@
+まだクリーニング屋さんにあるのさ。	Mada kurīningu-ya-san ni aru no sa.
+還在送洗。
+@@
+健一郎、どうして授業に遅刻したのですか？	Kenichirō, dō shite jugyō ni chikoku shita no desu ka?
+健一郎，為什麼上課遲到？
+@@
+中村先生、うちのネコを動物病院に連れて行かなくてはならなかったのです。	Nakamura sensei, uchi no neko wo dōbutsu byōin ni tsurete ikanakute wa naranakatta no desu.
+中村老師，因為我得帶我家的貓去獸醫院。
+@@
+ばかな！あなたの家にネコがいないってこと、私たちは知っているじゃない。本当の理由は何ですか？	Baka na! Anata no ie ni neko ga inai tte koto, watashitachi wa shitte iru ja nai. Hontō no riyū wa nan desu ka?
+胡說，大家都知道你家沒養貓。真正的理由是什麼？
+@@
+うーん、ねぼうしました。	Ūn, nebō shimashita.
+嗯…我睡過頭了。
+@@
+広伸、経済学を専攻している目的は何？	Hironobu, keizaigaku wo senkō shite iru mokuteki wa nani?
+廣伸，你為什麼想要主修經濟學？
+@@
+うん、有能なビジネスマンになりたいからさ。	Un, yūnō na bijinesuman ni naritai kara sa.
+嗯，我想當一名成功的商人。
+@@
+じゃあ、このことをお父さんには言わないことにしよう。	Jā, kono koto wo otōsan ni wa iwanai koto ni shiyō.
+那麼，這件事就別跟爸爸說吧。
+@@
+お父さんに叱られると思うよ。	Otōsan ni shikarareru to omou yo.
+我覺得會被爸爸罵。
+@@
+この連休に例の海辺へ行くのはどう？	Kono renkyū ni rei no umibe e iku no wa dō?
+這次連續假期照慣例到海邊去，怎麼樣？
+@@
+いいと思うわ。でも私たちいつもあそこに行くわね。今年はほかの所に行きたいの。	Ii to omou wa. Demo watashitachi itsumo asoko ni iku wa ne. Kotoshi wa hoka no tokoro ni ikitai no.
+好啊，可是我們一直都去那裡，今年我想去別的地方。
+@@
+では全て解決しました。	De wa subete kaiketsu shimashita.
+那麼全部都解決了。
+@@
+ちょっと待ってください。あなたは一番大切なことを忘れているようですが。	Chotto matte kudasai. Anata wa ichiban taisetsu na koto wo wasurete iru yō desu ga.
+請等一下，我想你好像忘了最重要的事。
+@@
+僕の考えは、早めに、6時30分ごろに出発して、通勤時間をさけるといいと思う。	Boku no kangae wa, hayame ni, roku-ji sanjuppun goro ni shuppatsu shite, tsūkin jikan wo sakeru to ii to omou.
+我的想法是早一點，在六點半左右出發，就可以避開通勤時間。
+@@
+朝食はどうする。	Chōshoku wa dō suru.
+那早餐怎麼辦？
+@@
+町の外に出てから、どこかで食べましょう。	Machi no soto ni dete kara, doko ka de tabemashō.
+等出了城，在找個地方吃吧！
+@@
+金曜日の夕方、仕事の後に出発しましょう。	Kin'yōbi no yūgata, shigoto no ato ni shuppatsu shimashō.
+星期五晚上下班後就出發吧。
+@@
+それはちょっと、疲れている時に運転することは危険じゃないですか。	Sore wa chotto, tsukarete iru toki ni unten suru koto wa kiken ja nai desu ka.
+不太好吧！在累的時候開車不是很危險嗎？
+@@
+そうですね、オーケー、土曜日の朝に出発しましょう。	Sō desu ne, ōkē, doyōbi no asa ni shuppatsu shimashō.
+也是。那就，星期六早上出發吧！
+@@
+あなたの計画は、不可能ということはないでしょう。でも、私の計画の方が実際的だと思います。	Anata no keikaku wa, fukanō to iu koto wa nai deshō. Demo, watashi no keikaku no hō ga jissaiteki da to omoimasu.
+你的計劃並不是不可行，不過我覺得我的計劃比較實際。
+@@
+じゃあ、我々の計画を結びつけたらどうですか？	Jā, wareware no keikaku wo musubitsuketara dō desu ka?
+那如果把我們的計畫結合呢？
+@@
+ご意見をお聞かせていただきます？	Goiken wo okikasete itadakimasu?
+我洗耳恭聽。
+@@
+先週の金曜日にミュージカルの「ミスサイゴン」を見ました。	Senshū no kin'yōbi ni myūjikaru no 'Misu Saigon' wo mimashita.
+上星期五，我看了「西貢小姐」的音樂劇。
+@@
+それはすごい！どう思いました？	Sore wa sugoi! Dō omoimashita?
+哇，真是太棒了，你覺得怎麼樣？
+@@
+とてもいいミュージカルだと思いました。非常に感動しました。	Totemo ii myūjikaru da to omoimashita. Hijō ni kandō shimashita.
+我覺得是很精采的音樂劇，讓人非常感動。
+@@
+あなたは台湾出身でしょう？	Anata wa Taiwan shusshin deshō?
+你是臺灣出生的吧！
+@@
+はい、そうです。	Hai, sō desu.
+是的。
+@@
+あなたは本当にスカイダイバーですか？	Anata wa hontō ni sukai daibā desu ka?
+你真的是跳傘員嗎？
+@@
+はい、本当です。習いたいですか？	Hai, hontō desu. Naraitai desu ka?
+是的，是真的。想學嗎？
+@@
+紀之の話だと、あなたは京都出身だそうですね。	Noriyuki no hanashi da to, anata wa Kyōto shusshin da sō desu ne.
+紀之告訴我，你是京都出生的。
+@@
+そうです。行ったことはありますか？	Sō desu. Itta koto wa arimasu ka?
+是的。你去過嗎？
+@@
+あなたは模型飛行機を作れそうですね。	Anata wa mokei hikōki wo tsukuresō desu ne.
+聽說你會做模型飛機。
+@@
+もちろんです。子供の時からやっています。	Mochiron desu. Kodomo no toki kara yatte imasu.
+當然，小時候就開始做了。
+@@
+この投資はいい考えだと思いますか？	Kono tōshi wa ii kangae da to omoimasu ka?
+你覺得這個投資是很好的想法嗎？
+@@
+ええ、そう思ってます。	Ē, sō omottemasu.
+是的，我是這樣想的。
+@@
+試験はパスできると思いますか。	Shiken wa pasu dekiru to omoimasu ka.
+你覺得你能通過考試嗎？
+@@
+はい、もちろんです。	Hai, mochiron desu.
+是的，當然。
+@@
+すみませんが、図書館へ行く道を教えてください。	Sumimasen ga, toshokan e iku michi wo oshiete kudasai.
+對不起，請告訴我怎麼去圖書館。
+@@
+図書館の本館ですか？	Toshokan no honkan desu ka?
+是圖書館的本館嗎？
+@@
+あなたはカナダ人ではありませんか。	Anata wa Kanada-jin de wa arimasen ka.
+你不是加拿大人嗎？
+@@
+ええ。カナダに住んでいますが、アメリカ人です。	Ē. Kanada ni sunde imasu ga, Amerika-jin desu.
+是的，我住在加拿大，但我是美國人。
+@@
+あなたのお兄さんは水泳のチャンピョンでしょう。	Anata no oniisan wa suiei no chanpion deshō.
+你哥哥是游泳冠軍嘛！
+@@
+違います。弟です。	Chigaimasu. Otōto desu.
+不是，是我弟弟。
+@@
+あなたは東京大学の学生さんですね？	Anata wa Tōkyō daigaku no gakusei-san desu ne?
+你是東京大學的學生嗎？
+@@
+いいえ。早稲田の学生です。	Iie. Waseda no gakusei desu.
+不是，我是早稻田的學生。
+@@
+あなたのご両親は日本でお生まれになったのでしょう？	Anata no goryōshin wa Nihon de oumare ni natta no deshō?
+你的父母是在日本出生的吧？
+@@
+いいえ、でも祖父母はそうです。	Iie, demo sofubo wa sō desu.
+不是，不過祖父母是在日本生的。
+@@
+本当に「キャッツ」の券が手に入るの？	Hontō ni 'Kyattsu' no ken ga te ni hairu no?
+真的能拿到「Cats」的票嗎？
+@@
+確実ではないけど、手に入られると思うよ。	Kakujitsu de wa nai kedo, te ni irareru to omou yo.
+不是很確定，不過應該可以。
+@@
+この報告書はきょうの午後までに完成できるとおしゃっているのですか？	Kono hōkokusho wa kyō no gogo made ni kansei dekiru to osshatte iru no desu ka?
+你是說這個報告今天下午可以完成嗎？
+@@
+いいや。あしたまで待ってください。	Iiya. Ashita made matte kudasai.
+不是的，明天才會完成。
+@@
+彼女はいい人だけど、少し恥ずかしがり屋だね。	Kanojo wa ii hito dakedo, sukoshi hazukashigari-ya da ne.
+她人不錯，只是有點害羞。
+@@
+うん、本当だね。	Un, hontō da ne.
+嗯！對啊！
+@@
+8時30分に集まって、早めに出よう。	Hachi-ji sanjuppun ni atsumatte, hayame ni deyō.
+我們在8:30集合，早點出發吧！
+@@
+そうだね。それではその時に。	Sō da ne. Sore de wa sono toki ni.
+好主意！到時候見。
+@@
+夜運転すれば、道路もすいているでしょう。	Yoru unten sureba, dōro mo suite iru deshō.
+假如我們晚上開車，車流量會比較少吧！
+@@
+そうだね。	Sō da ne.
+是啊！
+@@
+私たちは負けられません。あしたのストを貫徹しましょう。	Watashitachi wa makeraremasen. Ashita no suto wo kantetsu shimashō.
+我們不能讓步。明天繼續罷工吧！
+@@
+そうだ！	Sō da!
+好！
+@@
+なんてつまらない話なんだろう。ぼくは行くよ。	Nante tsumaranai hanashi nan darō. Boku wa iku yo.
+多無聊的座談！我要走了。
+@@
+僕も。さあ、行こう。	Boku mo. Sā, ikō.
+我也是，我們走吧！
+@@
+あんな映画は最低だ。	Anna eiga wa saitei da.
+那是我看過最爛的電影了。
+@@
+同感！	Dōkan!
+我也有同感。
+@@
+紀之に賛成だな。君はどう？	Noriyuki ni sansei da na. Kimi wa dō?
+我贊成紀之。你覺得呢？
+@@
+いや、僕は違うよ。陽子の意見の方が良いと思う。	Iya, boku wa chigau yo. Yōko no iken no hō ga yoi to omou.
+嗯，我持不同的意見。我覺得陽子的意見比較好。
+@@
+このネクタイはそのグリーンのスーツに合いそうだね。	Kono nekutai wa sono gurīn no sūtsu ni aisō da ne.
+我覺得這條領帶和那套綠色西裝很配。
+@@
+合わないと思うわ。こちらの方がもっといいわよ。	Awanai to omou wa. Kochira no hō ga motto ii wa yo.
+我覺得不配，這條比較適合。
+@@
+これは良い色だわ。そう思わない？	Kore wa yoi iro da wa. Sō omowanai?
+這個顏色不錯，你覺得呢？
+@@
+うん、いいけど、君には合わないと思う。	Un, ii kedo, kimi ni wa awanai to omou.
+是不錯，但我認為它不適合你。
+@@
+僕のアイディアは良いでしょう？	Boku no aidia wa yoi deshō?
+你覺得我的主意不錯吧？
+@@
+悪くはないけど、健一郎の方が良さそうだな。	Waruku wa nai kedo, Kenichirō no hō ga yosasō da na.
+是不錯，不過健一郎的似乎更好。
+@@
+彼の計画は最高だと思わない？	Kare no keikaku wa saikō da to omowanai?
+你不覺得他的計劃很棒嗎？
+@@
+別に。くわしく調べた方がいいよ。	Betsu ni. Kuwashiku shirabeta hō ga ii yo.
+還不知道。我們最好還是仔細研究一下。
+@@
+あっ、すみません。	A', sumimasen.
+啊！對不起。
+@@
+だいじょうぶです。	Daijōbu desu.
+沒關係。
+@@
+すみません。痛かったですか？	Sumimasen. Itakatta desu ka?
+對不起，痛嗎？
+@@
+ああ、すみません。へまをしてしまって。	Ā, sumimasen. Hema wo shite shimatte.
+對不起，不小心出了錯。
+@@
+ご心配なく。だいじょうぶです。	Goshinpai naku. Daijōbu desu.
+不要介意，沒事的。
+@@
+遅れてすみません。道路が渋滞していて。	Okurete sumimasen. Dōro ga jūtai shite ite.
+抱歉，遲到了，因為道路擁擠。
+@@
+大丈夫です。私も着いたばかりです。	Daijōbu desu. Watashi mo tsuita bakari desu.
+沒關係的，我也才剛到。
+@@
+先生、すいません。昨日は授業に出られませんでした。風邪がひどくて、ずっと寝ていました。	Sensei, suimasen. Kinō wa jugyō ni deraremasen deshita. Kaze ga hidokute, zutto nete imashita.
+老師，不好意思，昨天沒辦法來上課，感冒很嚴重，一直在休息。
+@@
+だいじょうぶ。今、体の調子はどう。	Daijōbu. Ima, karada no chōshi wa dō.
+沒關係的。那你現在身體狀況如何？
+@@
+由貴、本当に申し訳ないけど、あなたのパーティに出られないんだ。週末に出かけるんだよ。	Yuki, hontō ni mōshiwake nai kedo, anata no pātī ni derarenai n da. Shūmatsu ni dekakeru n da yo.
+由貴，真的很抱歉，沒辦法去參加你的舞會。我這個週末要出去。
+@@
+それは本当に残念ね。あなたが来るのを楽しみにしていたのだけど。	Sore wa hontō ni zannen ne. Anata ga kuru no wo tanoshimi ni shite ita no dakedo.
+那真是太可惜了！我一直很期望你能來。
+@@
+おかあさん、やったよ！試験に合格したよ。	Okāsan, yatta yo! Shiken ni gōkaku shita yo.
+媽媽，我做到了！我通過考試了！
+@@
+すばらしいわ、紀之。とても嬉しいわ。	Subarashii wa, Noriyuki. Totemo ureshii wa.
+太好了！紀之，我好高興。
+@@
+新しい仕事を見つけたんだって？	Atarashii shigoto wo mitsuketa n datte?
+聽說你找到新工作？
+@@
+そうだよ。見つけたよ。	Sō da yo. Mitsuketa yo.
+對，找到了。
+@@
+それはすばらしい。おめでとう！	Sore wa subarashii. Omedetō!
+那真是太好了。恭喜你！
+@@
+クイズ番組で一等賞を取ったよ！	Kuizu bangumi de ittōshō wo totta yo!
+我得到猜謎節目的頭獎耶！
+@@
+驚きだ！うちでは今まで誰も賞なんて取ったことがないよ。	Odoroki da! Uchi de wa ima made dare mo shō nante totta koto ga nai yo.
+真的嗎？家裡到現在還沒有人拿過什麼獎之類的。
+@@
+必ず「最初」というものがあるさ。	Kanarazu 'saisho' to iu mono ga aru sa.
+凡事總有第一次嘛！
+@@
+あのね。ハワイへのチケットが2枚あたったよ。	Ano ne. Hawai e no chiketto ga ni-mai atatta yo.
+喂！我贏得二張到夏威夷的機票。
+@@
+信じられないわ？うそでしょう。	Shinjirarenai wa? Uso deshō.
+我不信！你在開玩笑吧！
+@@
+ほんとうさ。ここにあるよ。ほら。	Hontō sa. Koko ni aru yo. Hora.
+真的，你看在這裡。
+@@
+わあーい。いつ発つの？	Wā-i. Itsu tatsu no?
+哇…！何時出發？
+@@
+健一郎は行けないと思うよ。きのう足を折ったんだ。	Kenichirō wa ikenai to omou yo. Kinō ashi wo otta n da.
+我想健一郎不能去了，昨天他腿骨折了。
+@@
+それは大変だ。気の毒だね。	Sore wa taihen da. Kinodoku da ne.
+真糟糕。真可憐喲！
+@@
+陽子、きょうは調子がよくなさそうだね。だいじょうぶ？	Yōko, kyō wa chōshi ga yokunasasō da ne. Daijōbu?
+陽子，你今天身體好像不太舒服，還好嗎？
+@@
+だいじょうぶよ。ちょっと気分がふさいでいるの。	Daijōbu yo. Chotto kibun ga fusaide iru no.
+沒關係啦！只是心情有點鬱悶。
+@@
+それはかわいそうに。何か僕にできるかい？	Sore wa kawaisō ni. Nani ka boku ni dekiru kai?
+那太可憐了，有沒有什麼我可以幫忙的？
+@@
+今気分はどうですか。	Ima kibun wa dō desu ka.
+現在心情還好吧？
+@@
+うん。きょうはちょっと落ち込んでるんだ。家族と喧嘩しちゃって。	Un. Kyō wa chotto ochikonderu n da. Kazoku to kenka shichatte.
+嗯。今天心情有點差，跟家裡的人吵了一架。
+@@
+なるほどね。	Naruhodo ne.
+原來如此。
+@@
+圭子はおかあさんが病気になったから一緒に行けないよ。	Keiko wa okāsan ga byōki ni natta kara issho ni ikenai yo.
+圭子因為母親生病不能一起去了。
+@@
+ああ、それは気の毒ですね。	Ā, sore wa kinodoku desu ne.
+唉！那好可惜哦！
+@@
+うん。圭子は旅行をとても楽しみにしていたからね。	Un. Keiko wa ryokō wo totemo tanoshimi ni shite ita kara ne.
+嗯！圭子非常期待這次的旅行。
+@@
+じゃあ、今回またチャンスがあったら、もう一度誘いましょう。	Jā, konkai mata chansu ga attara, mō ichido sasoimashō.
+那下次如果有機會，再邀她一起去吧！
+@@
+お母さんがお亡くなりになったそうで、お気の毒に思います。つらいことでしょう。	Okāsan ga onakunari ni natta sō de, okinodoku ni omoimasu. Tsurai koto deshō.
+聽說令堂過世了，我很難過。一定很難受吧。
+@@
+ええ。とても急だったものですから。	Ē. Totemo kyū datta mono desu kara.
+是的。事情很突然。
+@@
+手術は成功だったわ。母はきっと元気になるわ。	Shujutsu wa seikō datta wa. Haha wa kitto genki ni naru wa.
+手術成功了。母親一定會康復的。
+@@
+ほっとしたよ。とても心配してたんだ。	Hotto shita yo. Totemo shinpai shiteta n da.
+放心了。我很擔心。
+@@
+ねえ、君はよく頑張りました。今はお医者さんにまかせるんだ。	Nē, kimi wa yoku ganbarimashita. Ima wa oisha-san ni makaseru n da.
+嘿，你已經很努力了。現在就交給醫生吧。
+@@
+わかってるわ。でも、何もできなくてとてもはがゆいのよ。	Wakatteru wa. Demo, nani mo dekinakute totemo hagayui no yo.
+我知道。可是什麼都做不了，好著急啊。
+@@
+君の気持ちはよくわかるよ。	Kimi no kimochi wa yoku wakaru yo.
+我很明白你的心情。
+@@
+ああ、泥棒が入ったのは僕のせいだ。窓を調べるべきだった。	Ā, dorobō ga haitta no wa boku no sei da. Mado wo shiraberu beki datta.
+唉，遭小偷是我的錯。我應該檢查窗戶的。
+@@
+ねえ、君自身を責める必要はないよ。君のせいではないよ。	Nē, kimi jishin wo semeru hitsuyō wa nai yo. Kimi no sei de wa nai yo.
+嘿，你不必自責。這不是你的錯。
+@@
+いや、そうだよ。僕のせいさ。	Iya, sō da yo. Boku no sei sa.
+不，就是。是我的錯。
+@@
+きょうは冷えてきたね。	Kyō wa hiete kita ne.
+今天變得好冷喔。
+@@
+うん。午後は雨かもしれないね。	Un. Gogo wa ame kamoshirenai ne.
+嗯，下午可能會下雨。
+@@
+そうでないといいだけど。	Sō de nai to ii dakedo.
+希望不要。
+@@
+いやー、きょうは寒いね。	Iyā, kyō wa samui ne.
+真討厭，今天好冷。
+@@
+うん、それに風も強いよ。	Un, sore ni kaze mo tsuyoi yo.
+是啊，而且風好大。
+@@
+今晩は雪かもしれない。	Konban wa yuki kamoshirenai.
+今天晚上可能會下雪。
+@@
+やあ。きょうは暖かいね。	Yaa. Kyō wa atatakai ne.
+嗨，今天還蠻暖和的嘛！
+@@
+そうだね。冬が終わったみたいだ。	Sō da ne. Fuyu ga owatta mitai da.
+是啊，看來冬天已經過去了。
+@@
+よかったね。	Yokatta ne.
+太好了。
+@@
+このすばらしい天気を見て！テレビでは雨が降るって言ってたのに。	Kono subarashii tenki wo mite! Terebi de wa ame ga furu tte itteta no ni.
+你看，今天天氣真好！電視卻說會下雨。
+@@
+天気予報が信じられないんでしょう？	Tenki yohō ga shinjirarenai n deshō?
+氣象報導能相信嗎？
+@@
+うん、よくはずれるんだ。	Un, yoku hazureru n da.
+嗯，它們經常預測錯誤。
+@@
+すばらしい日だね。	Subarashii hi da ne.
+今天天氣真不錯！
+@@
+うん、よく晴れてる。	Un, yoku hareteru.
+嗯，天氣相當晴朗。
+@@
+こんないい日がしばらく続いてほしいな。	Konna ii hi ga shibaraku tsuzuite hoshii na.
+真希望這種好天氣能持續久一點。
+@@
+やあ、なんて暑い日なんだろう。	Yaa, nante atsui hi nan darō.
+哇！熱死了！
+@@
+うん、たえられないよ。	Un, taerarenai yo.
+是啊，真受不了。
+@@
+異常だね。	Ijō da ne.
+好奇怪啊！
+@@
+なんて長い梅雨なんだろう。	Nante nagai tsuyu nan darō.
+好長的梅雨季啊！
+@@
+まったくだね。新記録にちがいないよ。	Mattaku da ne. Shinkiroku ni chigainai yo.
+不是嗎？一定會創下新記錄。
+@@
+うん、天気予報によると20年ぶりだって。	Un, tenki yohō ni yoru to nijū-nen buri datte.
+是啊！氣象預報說，這是二十年來最長的一次。
+@@
+きょう雨が降るってテレビで聞いたよ。	Kyō ame ga furu tte terebi de kiita yo.
+電視上說今天可能會下雨。
+@@
+ほんとう？雨が降るようにまったく思えないね。	Hontō? Ame ga furu yō ni mattaku omoenai ne.
+真的？看起來不像會下雨啊。
+@@
+でも、カサを持って行きなさい。転ばぬ先の杖だよ。	Demo, kasa wo motte ikinasai. Korobanu saki no tsue da yo.
+不過，還是帶著雨傘吧！未雨綢繆。
+@@
+すみませんが。今何時でしょうか？	Sumimasen ga. Ima nanji deshō ka?
+對不起，請問現在幾點？
+@@
+2時30分です。	Ni-ji sanjuppun desu.
+現在2點半。
+@@
+すみませんが、時間を教えていただけますでしょうか。	Sumimasen ga, jikan wo oshiete itadakemasu deshō ka.
+對不起，可以告訴我時間嗎？
+@@
+1時20分です。	Ichi-ji nijuppun desu.
+1點20分。
+@@
+おじゃまして申しわけありませんが、何時だか教えていただきますか？	Ojama shite mōshiwake arimasen ga, nanji da ka oshiete itadakimasu ka?
+抱歉打擾您一下，您能告訴我現在幾點嗎？
+@@
+いいですよ。11時50分です。	Ii desu yo. Jūichi-ji gojuppun desu.
+沒問題，現在11點50分。
+@@
+時計を合わせたいのですが。正確な時間は何時でしょうか？	Tokei wo awasetai no desu ga. Seikaku na jikan wa nanji deshō ka?
+我想調整我的手錶，現在應該是幾點幾分？
+@@
+ちょうど4時25分です。	Chōdo yo-ji nijūgo-fun desu.
+剛好4點25分。
+@@
+あなたの腕時計は2時30分ですか？	Anata no udedokei wa ni-ji sanjuppun desu ka?
+你的手錶是2點30分嗎？
+@@
+いいえ、2時27分です。	Iie, ni-ji nijūnana-fun desu.
+不是，我的是2點27分。
+@@
+あの時計によると、あなたのは正しいですね。私のは進んでいるに違いありません。	Ano tokei ni yoru to, anata no wa tadashii desu ne. Watashi no wa susunde iru ni chigai arimasen.
+根據那個時鐘的時間，你的錶才是對的，我的太快了。
+@@
+この2、3日で私の腕時計は遅れています。	Kono ni-san-nichi de watashi no udedokei wa okurete imasu.
+這2、3天我的手錶變慢了。
+@@
+たぶん電池を替えた方がいいでしょう。	Tabun denchi wo kaeta hō ga ii deshō.
+也許該換電池了。
+@@
+そうですね。	Sō desu ne.
+好主意。
+@@
+日曜日にドライブに行かない？	Nichiyōbi ni doraibu ni ikanai?
+禮拜天要不要去兜風？
+@@
+それはいいね。何時に出ようか？	Sore wa ii ne. Nanji ni deyō ka?
+好主意，什麼時候出發？
+@@
+9時30分に行こう。	Ku-ji sanjuppun ni ikō.
+那就約9點30分。
+@@
+空港まで乗せて行ってもらえますか？	Kūkō made nosete itte moraemasu ka?
+你能載我去機場嗎？
+@@
+いいですよ。飛行機は何時に出ますか？	Ii desu yo. Hikōki wa nanji ni demasu ka?
+可以啊，飛機什麼時候起飛？
+@@
+10時45分です。	Jū-ji yonjūgo-fun desu.
+10點45分。
+@@
+東京へはいつ発つの？	Tōkyō e wa itsu tatsu no?
+你什麼時候去東京？
+@@
+8月2日に発つ予定です。	Hachi-gatsu futsuka ni tatsu yotei desu.
+我打算8月2日走。
+@@
+春男、生年月日はいつなの？	Haruo, seinengappi wa itsu na no?
+春男，你生日是什麼時候？
+@@
+1965年2月10日だよ。	Sen-kyūhyaku-rokujūgo-nen ni-gatsu tōka da yo.
+1965年2月10日。
+@@
+すみません。上野公園への道を教えてくださいますか？	Sumimasen. Ueno kōen e no michi wo oshiete kudasaimasu ka?
+對不起。能不能告訴我怎麼去上野公園？
+@@
+もちろんです。あと3ブロックまっすぐ行ってください。	Mochiron desu. Ato san-burokku massugu itte kudasai.
+當然可以。再繼續一直走三條街就到了。
+@@
+お手洗いはどちらか教えていただけますか？	Otearai wa dochira ka oshiete itadakemasu ka?
+能不能告訴我洗手間在哪裡？
+@@
+はい。この廊下をまっすぐ行って。エスカレーターのすぐ手前の左手にあります。	Hai. Kono rōka wo massugu itte. Esukarētā no sugu temae no hidarite ni arimasu.
+好。從這走廊直走，就在電扶梯前面的左邊。
+@@
+バス停を探しているのですが。	Basu-tei wo sagashite iru no desu ga.
+我在找公車站牌。
+@@
+ああ、それは簡単です。通りの向こう側です。西口から出なさい。あそこの出口です。	Ā, sore wa kantan desu. Tōri no mukōgawa desu. Nishiguchi kara denasai. Asoko no deguchi desu.
+喔！那很簡單。就在街的對面。從西側出口出去吧！就在出口的地方。
+@@
+どこでタクシーに乗れるか知っていますか？	Doko de takushī ni noreru ka shitte imasu ka?
+你知道在哪裡可以搭得到計程車嗎？
+@@
+ここを横切り、次の信号まで歩くんです。そこにタクシーの乗り場があります。	Koko wo yokogiri, tsugi no shingō made aruku n desu. Soko ni takushī no noriba ga arimasu.
+從這裡穿過去，走到下一個紅綠燈。計程車站就在那裡。
+@@
+地下鉄の入り口の近くですか？	Chikatetsu no iriguchi no chikaku desu ka?
+在靠近地下鐵入口的附近嗎？
+@@
+そうです。そのすぐうしろです。	Sō desu. Sono sugu ushiro desu.
+是的。就在那後面。
+@@
+市立図書館への道を教えてもらえますか？	Shiritsu toshokan e no michi wo oshiete moraemasu ka?
+能不能告訴我怎麼去市立圖書館？
+@@
+ええ。ここからちょっと遠いですよ。10ブロックか12ブロックでしょう。	Ē. Koko kara chotto tōi desu yo. Ju-burokku ka jūni-burokku deshō.
+喔！離這裡蠻遠的喲。大約隔10或12個街。
+@@
+どうしたらいいですか？	Dō shitara ii desu ka?
+你有什麼建議嗎？
+@@
+2番のバスに乗ってください。ちょうどここにバス停がありますから。そして3番目の停留所で降りると、図書館のすぐ前です。	Ni-ban no basu ni notte kudasai. Chōdo koko ni basu-tei ga arimasu kara. Soshite san-banme no teiryūjo de oriru to, toshokan no sugu mae desu.
+坐2路公車。剛好在這裡有站牌。第三站下車就是圖書館前面了。
+@@
+四ツ谷行きの電車はどう乗るのですか？	Yotsuya-yuki no densha wa dō noru no desu ka?
+要去四谷的電車怎麼坐？
+@@
+ここにはとまりません。この電車で次の駅まで行き、降りて、2番線の電車に乗ってください。	Koko ni wa tomarimasen. Kono densha de tsugi no eki made iki, orite, ni-bansen no densha ni notte kudasai.
+這裡不會停。要坐這班電車到下一個車站下車，然後轉坐2號線的電車。
+@@
+次の駅で乗りかえて、2番線の電車に乗りますね？	Tsugi no eki de norikaete, ni-bansen no densha ni norimasu ne?
+在下一個車站坐2號線的電車，對不對？
+@@
+そのとおりです。	Sono tōri desu.
+沒錯。
+@@
+国立銀行へどのように行くのか教えてくださいますか？	Kokuritsu ginkō e dono yō ni iku no ka oshiete kudasaimasu ka?
+能不能告訴我到國立銀行怎麼去？
+@@
+はい。ここから3ブロック北です。左側のおおきなガラスの建物です。見失うことはありませんよ。	Hai. Koko kara san-burokku kita desu. Hidarigawa no ōki na garasu no tatemono desu. Miushinau koto wa arimasen yo.
+好。從這裡向北走3條街。就在左邊的玻璃帷幕大樓裡，一定看得到。
+@@
+すみません、国立西洋美術館はどこか知っていますか？	Sumimasen, kokuritsu seiyō bijutsukan wa doko ka shitte imasu ka?
+對不起，你知道國立西洋美術館在哪裡嗎？
+@@
+すみません。私もこの辺はわからないのです。誰か他の人に聞いたほうがいいですね。	Sumimasen. Watashi mo kono hen wa wakaranai no desu. Dare ka hoka no hito ni kiita hō ga ii desu ne.
+對不起。我對這附近也不清楚。你問別人比較好。
+@@
+はい、ありがとうございます。	Hai, arigatō gozaimasu.
+好，謝謝你。
+@@
+失礼ですが。中正紀念堂へ行くバスはどれか教えてくださいますか？	Shitsurei desu ga. Chūsei kinendō e iku basu wa dore ka oshiete kudasaimasu ka?
+對不起，能告訴我去中正紀念堂搭哪班公車嗎？
+@@
+すみません、ここに住んでいないのです。あそこの警官にたずねたらどうですか？	Sumimasen, koko ni sunde inai no desu. Asoko no keikan ni tazunetara dō desu ka?
+對不起，我不住這裡。你問那邊的警察如何？
+@@
+ありがとうございます。	Arigatō gozaimasu.
+謝謝你。
+@@
+すみません、植物園はどこか知っていますか？	Sumimasen, shokubutsuen wa doko ka shitte imasu ka?
+對不起，你知道植物園在哪裡嗎？
+@@
+すみません、全くわかりません。あそこのガソリンスタンドの店員に聞いてください。	Sumimasen, mattaku wakarimasen. Asoko no gasorin sutando no ten'in ni kiite kudasai.
+對不起，我完全不知道。請問那邊加油站的店員。
+@@
+ああ。分かりました。	Ā. Wakarimashita.
+啊，我知道了。
+@@
+もしもし、春子をお願いします。	Moshimoshi, Haruko wo onegai shimasu.
+喂，請問春子在嗎？
+@@
+私です。	Watashi desu.
+我就是。
+@@
+あら、こんにちは。莉莉です。	Ara, konnichiwa. Riri desu.
+哦！你好。我是莉莉。
+@@
+もしもし、秀樹ですか？	Moshimoshi, Hideki desu ka?
+喂，請問是秀樹嗎？
+@@
+はい、私です。どなたですか？	Hai, watashi desu. Donata desu ka?
+對，我就是。請問是哪位？
+@@
+紀之です。	Noriyuki desu.
+我是紀之。
+@@
+もしもし。山本さんいらっしゃいますか。	Moshimoshi. Yamamoto-san irasshaimasu ka.
+喂，請問山本先生在嗎？
+@@
+失礼ですが、間違い電話のようです。	Shitsurei desu ga, machigai denwa no yō desu.
+對不起，你打錯電話號碼了。
+@@
+もしもし。こちらは中村真一郎です。鉄平と話をしたいのですが。	Moshimoshi. Kochira wa Nakamura Shinichirō desu. Teppei to hanashi wo shitai no desu ga.
+喂，我是中村真一郎，我想找鐵平講話。
+@@
+すみませんね、真一郎。鉄平はここにいないんです。ことづけはありますか？	Sumimasen ne, Shinichirō. Teppei wa koko ni inai n desu. Kotozuke wa arimasu ka?
+真不好意思！真一郎。鐵平現在不在這裡，你有什麼話要轉告嗎？
+@@
+ええ。私に電話をくれるように彼に伝えてください。	Ē. Watashi ni denwa wo kureru yō ni kare ni tsutaete kudasai.
+好的，請轉告他，請他打電話給我。
+@@
+もしもし。木村さんですか？	Moshimoshi. Kimura-san desu ka?
+喂，請問是木村先生嗎？
+@@
+いいえ。少々お待ちください。	Iie. Shōshō omachi kudasai.
+不是的，請稍待一下。
+@@
+もしもし。こちらは鈴木純です。中井さんと話をしたいのですが。	Moshimoshi. Kochira wa Suzuki Jun desu. Nakai-san to hanashi wo shitai no desu ga.
+喂，我是鈴木純。我想和中井先生講話。
+@@
+ちょっとお待ちください。もしもし。すみませんが、中井は会議中です。こちらから電話を差し上げいただきますでしょうか。	Chotto omachi kudasai. Moshimoshi. Sumimasen ga, Nakai wa kaigi-chū desu. Kochira kara denwa wo sashiage itadakimasu deshō ka.
+請等一下。喂，對不起，中井正在開會，等一下請他打電話給你好嗎？
+@@
+はい。私の電話番号は483-2265です。	Hai. Watashi no denwa bangō wa yon-hachi-san no ni-ni-roku-go desu.
+好的，我的電話號碼是483-2265。
+@@
+もしもし。こちらは俊彦です。祐二と話をしたいのですが。	Moshimoshi. Kochira wa Toshihiko desu. Yūji to hanashi wo shitai no desu ga.
+喂，我是俊彥。請問裕二在嗎？
+@@
+すみません。彼は今出かけています。あとでまた電話してくださいますか？	Sumimasen. Kare wa ima dekakete imasu. Ato de mata denwa shite kudasaimasu ka?
+對不起，他現在外出不在家，晚點請再打來好嗎？
+@@
+わかりました。	Wakarimashita.
+好的。
+@@
+もしもし。加藤さんをお願いします。	Moshimoshi. Katō-san wo onegai shimasu.
+喂，請問加藤在嗎？
+@@
+すみません、彼は今電話中です。どちら様でしょうか？	Sumimasen, kare wa ima denwa-chū desu. Dochira-sama deshō ka?
+對不起，他現在講電話中。請問是哪位？
+@@
+斎藤圭子です。電話は長くなりそうですか？	Saitō Keiko desu. Denwa wa nagaku narisō desu ka?
+我是齊藤圭子。電話會很久嗎？
+@@
+圭子さん、すぐ終わると思います。ちょっとそのままお待ちいただけますか？	Keiko-san, sugu owaru to omoimasu. Chotto sono mama omachi itadakemasu ka?
+圭子小姐，應該快講完了。可以稍等一下嗎？
+@@
+はい。ありがとうございます。	Hai. Arigatō gozaimasu.
+好的，謝謝你。
+@@
+もしもし。	Moshimoshi.
+喂。
+@@
+もしもし。前田さんのお宅ですか？	Moshimoshi. Maeda-san no otaku desu ka?
+喂，請問是前田先生家嗎？
+@@
+はい。前田です。	Hai. Maeda desu.
+是的，我是前田。
+@@
+木村ですが。	Kimura desu ga.
+我姓木村。
+@@
+木村さんはいらっしゃいますか？伊藤健一です。	Kimura-san wa irasshaimasu ka? Itō Kenichi desu.
+木村先生在嗎？我是伊藤健一。
+@@
+はい、おります。ちょっとお待ちください。	Hai, orimasu. Chotto omachi kudasai.
+在，請稍等一下。
+@@
+安藤病院です。おはようございます。	Andō byōin desu. Ohayō gozaimasu.
+安藤醫院。早安。
+@@
+もしもし。菊池忍と申します。きょう予約ができますか？	Moshimoshi. Kikuchi Shinobu to mōshimasu. Kyō yoyaku ga dekimasu ka?
+喂，我叫菊池忍。今天可以預約嗎？
+@@
+そうですね。今日の午後2時15分でいかがでしょうか？	Sō desu ne. Kyō no gogo ni-ji jūgo-fun de ikaga deshō ka?
+嗯，今天下午2點15分如何？
+@@
+先週末は手伝ってくれてどうもありがとう。	Senshūmatsu wa tetsudatte kurete dōmo arigatō.
+上週末多謝你幫忙。
+@@
+どういたしまして。できて嬉しかったです。	Dō itashimashite. Dekite ureshikatta desu.
+不客氣。能夠幫上忙我也很高興。
+@@
+ところで、8日にバーベキューをするのですが。あなたと圭子は一緒に来ない？	Tokoro de, yōka ni bābekyū wo suru no desu ga. Anata to Keiko wa issho ni konai?
+對了！我們8號要烤肉，你和圭子要不要一起來？
+@@
+いいね。行きます。	Ii ne. Ikimasu.
+好啊，我們會去。
+@@
+冗談をやめて、どうしても手伝ってほしいことがあります。土曜日の朝に2時間をあけてもらえませんか？	Jōdan wo yamete, dō shite mo tetsudatte hoshii koto ga arimasu. Doyōbi no asa ni ni-jikan wo akete moraemasen ka?
+嗯…玩笑說到此。我需要幫忙。可否撥給我禮拜六早上兩個鐘頭的時間？
+@@
+今週の土曜日？いいですよ。	Konshū no doyōbi? Ii desu yo.
+這禮拜六？可以。
+@@
+ねえ、主任が僕の提案を認めてくれました。	Nē, shunin ga boku no teian wo mitomete kuremashita.
+喂，老闆認同我的提案了。
+@@
+おめでとう！そうだ、話が変わるけど、きょう片岡太郎に会った？	Omedetō! Sō da, hanashi ga kawaru kedo, kyō Kataoka Tarō ni atta?
+恭喜你！對了，換個話題。今天和片岡太郎見了面沒有？
+@@
+その問題は春男が専門ですが、彼は今日外出しています。	Sono mondai wa Haruo ga senmon desu ga, kare wa kyō gaishutsu shite imasu.
+那些問題是春男的專長，但他今天外出不在。
+@@
+あの、正直に言いますと、あなたと話をしたかったのです。ちょっと時間をいただけますか？	Ano, shōjiki ni iimasu to, anata to hanashi wo shitakatta no desu. Chotto jikan wo itadakemasu ka?
+嗯，老實說，希望能跟你談一談。可以打擾你一下嗎？
+@@
+いいですよ。	Ii desu yo.
+當然可以。
+@@
+高校の劇公演のときに会えますね？	Kōkō no geki kōen no toki ni aemasu ne?
+高中話劇公演時你會來吧？
+@@
+必ず行きます。そうだ、チャリティーコンサートに興味ある。	Kanarazu ikimasu. Sō da, charitī konsāto ni kyōmi aru.
+我一定不會錯過的，那倒提醒我，你是否對慈善演唱會有興趣？
+@@
+うん、行きます。	Un, ikimasu.
+好啊！我要去。
+@@
+素晴らしい旅行でしたね。家族を連れて行くといいわね。	Subarashii ryokō deshita ne. Kazoku wo tsurete iku to ii wa ne.
+真的是很棒的旅行耶！你該帶家人去的。
+@@
+ええ、そうだね。で、この前の日曜日にはいていたきれいな靴はどこで買ったの？	Ē, sō da ne. De, kono mae no nichiyōbi ni haite ita kirei na kutsu wa doko de katta no?
+嗯！我也這樣想。對了！上禮拜天你穿的鞋子很漂亮，在哪裡買的？
+@@
+いい靴でしょう。デパートで見つけたの。	Ii kutsu deshō. Depāto de mitsuketa no.
+很好看吧？在百貨公司找到的。
+@@
+どのようにして奨学金をもらったらいいのかわかる？	Dono yō ni shite shōgakukin wo morattara ii no ka wakaru?
+你知不知道要怎樣才能拿到獎學金？
+@@
+うーん、そうね。	Ūn, sō ne.
+嗯……我想想看。
+@@
+パーティーには何人参加したの？	Pātī ni wa nannin sanka shita no?
+有多少人參加舞會？
+@@
+ええと。15人ぐらいだと思うよ。	Ēto. Jūgo-nin gurai da to omou yo.
+嗯……我想想看，大概有15個人。
+@@
+箱根には1回行ったことがあります。	Hakone ni wa ikkai itta koto ga arimasu.
+我去過箱根一次。
+@@
+ああ、そうですか。それは知りませんでした。いつそこに行きましたか？	Ā, sō desu ka. Sore wa shirimasen deshita. Itsu soko ni ikimashita ka?
+喔！真的。我不知道耶，你什麼時候去的？
+@@
+きのう軽井沢に行きました。	Kinō Karuizawa ni ikimashita.
+我昨天去了輕井澤。
+@@
+へえ、そうですか。いかがでしたか？	Hē, sō desu ka. Ikaga deshita ka?
+喔，是這樣啊？你覺得怎樣？
+@@
+宮澤首相は、私が話をしたことのあるただ1人の有名人です。	Miyazawa shushō wa, watashi ga hanashi wo shita koto no aru tada hitori no yūmeijin desu.
+宮澤首相是我唯一交談過的名人。
+@@
+まさか！本当の話なの？彼はどんな人ですか？	Masaka! Hontō no hanashi na no? Kare wa donna hito desu ka?
+不是開玩笑吧？你真的和他講過話？他人怎麼樣？
+@@
+当日往復なら、ちょっと疲れるでしょう。	Tōjitsu ōfuku nara, chotto tsukareru deshō.
+當天往返的話，會很累吧！
+@@
+そうだね。じゃあ、夜はどこに泊ったらいいかな？	Sō da ne. Jā, yoru wa doko ni tomattara ii ka na?
+也對，那你想我們應該在哪裡過夜？
+@@
+申請すれば許可がもらえるんじゃないかな。	Shinsei sureba kyoka ga moraeru n ja nai ka na.
+假如我們提出申請的話，應該可以獲得許可吧！
+@@
+でも問題は誰か申請しますか。	Demo mondai wa dare ka shinsei shimasu ka.
+可是那要誰去申請呢？
+@@
+有給休暇をとりたいですが。	Yūkyū kyūka wo toritai desu ga.
+我想要請年假。
+@@
+まぁ、いつも仕事頑張っていますから、取れるでしょう。	Mā, itsumo shigoto ganbatte imasu kara, toreru deshō.
+平常你很認真工作，應該請得到吧！
+@@
+僕の友達はみんなジャイアンツを応援してるけど、僕は阪神タイガースのファンなんだ。	Boku no tomodachi wa minna Jaiantsu wo ōen shiteru kedo, boku wa Hanshin Taigāsu no fan nan da.
+我所有的朋友都是巨人隊的球迷，只有我是阪神老虎隊的球迷。
+@@
+それは驚きだ！僕もそうだよ。今年、優勝すると思う？	Sore wa odoroki da! Boku mo sō da yo. Kotoshi, yūshō suru to omou?
+真的！我也是。你覺得他們今年會得冠軍嗎？
+@@
+学校をやめるつもり？	Gakkō wo yameru tsumori?
+你打算休學？
+@@
+いや、そういうわけではありません。私の言いたかったのは、学校を続けながら働きたいと考えてるの。	Iya, sō iu wake de wa arimasen. Watashi no iitakatta no wa, gakkō wo tsuzukenagara hatarakitai to kangaeteru no.
+不，我不是這個意思。我是想要一面唸書一面工作。
+@@
+ああ、アルバイトをするということですか。	Ā, arubaito wo suru to iu koto desu ka.
+喔，你是說打工啊！

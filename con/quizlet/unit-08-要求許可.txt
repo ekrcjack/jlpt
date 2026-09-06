@@ -1,0 +1,59 @@
+部屋から出てもよろしいですか？気分が悪いのです。	Heya kara dete mo yoroshii desu ka? Kibun ga warui no desu.
+我可以到外面去嗎？我覺得有點不舒服。
+@@
+もちろんです。	Mochiron desu.
+當然可以。
+@@
+お母さん、今晩車を借りてもいい？	Okāsan, konban kuruma wo karite mo ii?
+媽媽，今天晚上車子借我開好嗎？
+@@
+いいわよ。	Ii wa yo.
+好啊。
+@@
+あなたの写真を撮らせてもらえますか？	Anata no shashin wo torasete moraemasu ka?
+我可以幫你照張相嗎？
+@@
+どうぞ。	Dōzo.
+請便。
+@@
+たばこを吸ってもかまいませんか？	Tabako wo sutte mo kamaimasen ka?
+請問我可以抽煙嗎？
+@@
+ええ、いいですよ。	Ē, ii desu yo.
+可以的。
+@@
+今夜美穂と映画に行ってもいい？	Kon'ya Miho to eiga ni itte mo ii?
+今天晚上我可以跟美穗一起去看電影嗎？
+@@
+宿題はすませたの？	Shukudai wa sumaseta no?
+你功課寫好了嗎？
+@@
+うん。	Un.
+寫好了。
+@@
+じゃあ、いいわ。	Jā, ii wa.
+那就去吧。
+@@
+先生、あした学校にもどってもいいでしょうか？	Sensei, ashita gakkō ni modotte mo ii deshō ka?
+醫師，明天我可以回學校上課嗎？
+@@
+いいえ、もう1日寝ていなさい。	Iie, mō ichinichi nete inasai.
+不行，你得在床上多休息一天。
+@@
+先生、テストを受けてもよろしいですか？	Sensei, tesuto wo ukete mo yoroshii desu ka?
+教授，我可以參加考試嗎？
+@@
+いいや、健一郎。あなたはテストをうけられません。授業のサボりすぎです。	Iiya, Kenichirō. Anata wa tesuto wo ukeraremasen. Jugyō no sabori sugi desu.
+不行，健一郎。你沒有辦法參加考試。你曠課太多了。
+@@
+先生、薬を飲んでから運転してもだいじょうぶでしょうか？	Sensei, kusuri wo nonde kara unten shite mo daijōbu deshō ka?
+醫師，吃藥之後可以開車嗎？
+@@
+だめです。その薬を飲むと少し眠くなりますから、運転しないでください。	Dame desu. Sono kusuri wo nomu to sukoshi nemuku narimasu kara, unten shinaide kudasai.
+不行，吃藥之後會有點想睡覺，所以請不要開車。
+@@
+たばこを吸ってもよろしいですか？	Tabako wo sutte mo yoroshii desu ka?
+我可以抽煙嗎？
+@@
+吸わないでください。あそこに「禁煙」の表示があります。	Suwanaide kudasai. Asoko ni 'kin'en' no hyōji ga arimasu.
+不行，那裡有「禁煙」的標示。

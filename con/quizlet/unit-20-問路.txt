@@ -1,0 +1,86 @@
+すみません。上野公園への道を教えてくださいますか？	Sumimasen. Ueno kōen e no michi wo oshiete kudasaimasu ka?
+對不起。能不能告訴我怎麼去上野公園？
+@@
+もちろんです。あと3ブロックまっすぐ行ってください。	Mochiron desu. Ato san-burokku massugu itte kudasai.
+當然可以。再繼續一直走三條街就到了。
+@@
+お手洗いはどちらか教えていただけますか？	Otearai wa dochira ka oshiete itadakemasu ka?
+能不能告訴我洗手間在哪裡？
+@@
+はい。この廊下をまっすぐ行って。エスカレーターのすぐ手前の左手にあります。	Hai. Kono rōka wo massugu itte. Esukarētā no sugu temae no hidarite ni arimasu.
+好。從這走廊直走，就在電扶梯前面的左邊。
+@@
+バス停を探しているのですが。	Basu-tei wo sagashite iru no desu ga.
+我在找公車站牌。
+@@
+ああ、それは簡単です。通りの向こう側です。西口から出なさい。あそこの出口です。	Ā, sore wa kantan desu. Tōri no mukōgawa desu. Nishiguchi kara denasai. Asoko no deguchi desu.
+喔！那很簡單。就在街的對面。從西側出口出去吧！就在出口的地方。
+@@
+どこでタクシーに乗れるか知っていますか？	Doko de takushī ni noreru ka shitte imasu ka?
+你知道在哪裡可以搭得到計程車嗎？
+@@
+ここを横切り、次の信号まで歩くんです。そこにタクシーの乗り場があります。	Koko wo yokogiri, tsugi no shingō made aruku n desu. Soko ni takushī no noriba ga arimasu.
+從這裡穿過去，走到下一個紅綠燈。計程車站就在那裡。
+@@
+地下鉄の入り口の近くですか？	Chikatetsu no iriguchi no chikaku desu ka?
+在靠近地下鐵入口的附近嗎？
+@@
+そうです。そのすぐうしろです。	Sō desu. Sono sugu ushiro desu.
+是的。就在那後面。
+@@
+市立図書館への道を教えてもらえますか？	Shiritsu toshokan e no michi wo oshiete moraemasu ka?
+能不能告訴我怎麼去市立圖書館？
+@@
+ええ。ここからちょっと遠いですよ。10ブロックか12ブロックでしょう。	Ē. Koko kara chotto tōi desu yo. Ju-burokku ka jūni-burokku deshō.
+喔！離這裡蠻遠的喲。大約隔10或12個街。
+@@
+どうしたらいいですか？	Dō shitara ii desu ka?
+你有什麼建議嗎？
+@@
+2番のバスに乗ってください。ちょうどここにバス停がありますから。そして3番目の停留所で降りると、図書館のすぐ前です。	Ni-ban no basu ni notte kudasai. Chōdo koko ni basu-tei ga arimasu kara. Soshite san-banme no teiryūjo de oriru to, toshokan no sugu mae desu.
+坐2路公車。剛好在這裡有站牌。第三站下車就是圖書館前面了。
+@@
+四ツ谷行きの電車はどう乗るのですか？	Yotsuya-yuki no densha wa dō noru no desu ka?
+要去四谷的電車怎麼坐？
+@@
+ここにはとまりません。この電車で次の駅まで行き、降りて、2番線の電車に乗ってください。	Koko ni wa tomarimasen. Kono densha de tsugi no eki made iki, orite, ni-bansen no densha ni notte kudasai.
+這裡不會停。要坐這班電車到下一個車站下車，然後轉坐2號線的電車。
+@@
+次の駅で乗りかえて、2番線の電車に乗りますね？	Tsugi no eki de norikaete, ni-bansen no densha ni norimasu ne?
+在下一個車站坐2號線的電車，對不對？
+@@
+そのとおりです。	Sono tōri desu.
+沒錯。
+@@
+国立銀行へどのように行くのか教えてくださいますか？	Kokuritsu ginkō e dono yō ni iku no ka oshiete kudasaimasu ka?
+能不能告訴我到國立銀行怎麼去？
+@@
+はい。ここから3ブロック北です。左側のおおきなガラスの建物です。見失うことはありませんよ。	Hai. Koko kara san-burokku kita desu. Hidarigawa no ōki na garasu no tatemono desu. Miushinau koto wa arimasen yo.
+好。從這裡向北走3條街。就在左邊的玻璃帷幕大樓裡，一定看得到。
+@@
+すみません、国立西洋美術館はどこか知っていますか？	Sumimasen, kokuritsu seiyō bijutsukan wa doko ka shitte imasu ka?
+對不起，你知道國立西洋美術館在哪裡嗎？
+@@
+すみません。私もこの辺はわからないのです。誰か他の人に聞いたほうがいいですね。	Sumimasen. Watashi mo kono hen wa wakaranai no desu. Dare ka hoka no hito ni kiita hō ga ii desu ne.
+對不起。我對這附近也不清楚。你問別人比較好。
+@@
+はい、ありがとうございます。	Hai, arigatō gozaimasu.
+好，謝謝你。
+@@
+失礼ですが。中正紀念堂へ行くバスはどれか教えてくださいますか？	Shitsurei desu ga. Chūsei kinendō e iku basu wa dore ka oshiete kudasaimasu ka?
+對不起，能告訴我去中正紀念堂搭哪班公車嗎？
+@@
+すみません、ここに住んでいないのです。あそこの警官にたずねたらどうですか？	Sumimasen, koko ni sunde inai no desu. Asoko no keikan ni tazunetara dō desu ka?
+對不起，我不住這裡。你問那邊的警察如何？
+@@
+ありがとうございます。	Arigatō gozaimasu.
+謝謝你。
+@@
+すみません、植物園はどこか知っていますか？	Sumimasen, shokubutsuen wa doko ka shitte imasu ka?
+對不起，你知道植物園在哪裡嗎？
+@@
+すみません、全くわかりません。あそこのガソリンスタンドの店員に聞いてください。	Sumimasen, mattaku wakarimasen. Asoko no gasorin sutando no ten'in ni kiite kudasai.
+對不起，我完全不知道。請問那邊加油站的店員。
+@@
+ああ。分かりました。	Ā. Wakarimashita.
+啊，我知道了。

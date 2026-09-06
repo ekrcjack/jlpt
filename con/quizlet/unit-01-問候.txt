@@ -1,0 +1,146 @@
+やあ、陽子。元気？	Yaa, Yōko. Genki?
+嗨！陽子，你好嗎？
+@@
+元気よ。あなたは？	Genki yo. Anata wa?
+我很好，你呢？
+@@
+絶好調さ。	Zekkōchō sa.
+再好不過了！
+@@
+おはよう、紀之。	Ohayō, Noriyuki.
+早啊，紀之。
+@@
+やあ、いい日だね。	Yaa, ii hi da ne.
+哈囉，天氣真好啊！不是嗎？
+@@
+本当だね。	Hontō da ne.
+是啊！
+@@
+元気？	Genki?
+過得如何？
+@@
+うん、ありがとう。君は？	Un, arigatō. Kimi wa?
+很好，謝謝。你呢？
+@@
+元気だよ。	Genki da yo.
+我很好。
+@@
+調子はどうだい？	Chōshi wa dō dai?
+過得如何？
+@@
+まあまあだよ。君は？	Maa maa da yo. Kimi wa?
+普普通通啦！你呢？
+@@
+まあまあさ。	Maa maa sa.
+還可以啦。
+@@
+こんばんは、久美子。	Konbanwa, Kumiko.
+晚安！久美子。
+@@
+こんばんは、莉莉。きれいなドレスね。	Konbanwa, Riri. Kirei na doresu ne.
+晚安，莉莉。你的晚禮服好漂亮。
+@@
+ありがとう。	Arigatō.
+謝謝。
+@@
+会えてうれしいよ、健一郎。	Aete ureshii yo, Kenichirō.
+健一郎，見到你真高興。
+@@
+久しぶりだね。	Hisashiburi da ne.
+好久不見了。
+@@
+どうしてた？	Dō shiteta?
+過得如何？
+@@
+元気だったよ。	Genki datta yo.
+我很好。
+@@
+さようなら。	Sayōnara.
+再見。
+@@
+またね。	Mata ne.
+改天見。
+@@
+じゃあね。火曜日にまた。	Jā ne. Kayōbi ni mata.
+拜拜！星期二見。
+@@
+うん。元気でね。	Un. Genki de ne.
+好，要保重喔。
+@@
+ええと、もう行かなくては。	Ēto, mō ikanakute wa.
+呃，我該走了。
+@@
+ああそう。じゃあね。	Ā sō. Jā ne.
+啊這樣。那再見。
+@@
+さようなら。元気でね。	Sayōnara. Genki de ne.
+再見。要保重。
+@@
+ああ、もうこんな時間だ！もう行かなくては。	Ā, mō konna jikan da! Mō ikanakute wa.
+哎呀！這麼晚了。我該走了。
+@@
+お話できてたのしかったです。元気でね。	Ohanashi dekite tanoshikatta desu. Genki de ne.
+跟你聊天真是愉快。要保重啊。
+@@
+おやすみなさい。また会いましょう。	Oyasuminasai. Mata aimashō.
+晚安。改天再見囉！
+@@
+よい週末を。	Yoi shūmatsu wo.
+週末愉快！
+@@
+ありがとう。君もね。	Arigatō. Kimi mo ne.
+謝謝。你也一樣。
+@@
+紀之によろしく。	Noriyuki ni yoroshiku.
+代我向紀之問好。
+@@
+オーケー。わかった。	Ōkē. Wakatta.
+好，沒問題。
+@@
+こんにちは。私の名前は渡辺春男です。	Konnichiwa. Watashi no namae wa Watanabe Haruo desu.
+你好，我叫渡邊春男。
+@@
+こんにちは。私は陳淑恵です。	Konnichiwa. Watashi wa Chin Shukukei desu.
+你好，我叫陳淑惠。
+@@
+はじめまして。	Hajimemashite.
+初次見面。
+@@
+お会いできてうれしいです。	Oai dekite ureshii desu.
+很高興認識你。
+@@
+私の名前は小林君枝です。	Watashi no namae wa Kobayashi Kimie desu.
+我叫小林君枝。
+@@
+お会いできてうれしいです。私は王莉莉です。	Oai dekite ureshii desu. Watashi wa Ō Riri desu.
+很高興認識你。我叫王莉莉。
+@@
+お会いできてうれしいです。	Oai dekite ureshii desu.
+很高興認識你。
+@@
+こんにちは、ぼくの名前は張建邦です。	Konnichiwa, boku no namae wa Chō Kenpō desu.
+你好，我叫張建邦。
+@@
+こんにちは。私は木村春子です。	Konnichiwa. Watashi wa Kimura Haruko desu.
+你好，我叫木村春子。
+@@
+会えてうれしいです。	Aete ureshii desu.
+很高興認識你。
+@@
+井上が姓です。井上俊成です。	Inoue ga sei desu. Inoue Toshinari desu.
+我姓井上。井上俊成。
+@@
+初めまして。李大成です。	Hajimemashite. Ri Taisei desu.
+初次見面。我叫李大成。
+@@
+李さん、お会いできてうれしいです。	Ri-san, oai dekite ureshii desu.
+李先生，很高興認識你。
+@@
+莉莉、お会いできてよかったわ。	Riri, oai dekite yokatta wa.
+莉莉，能認識你真好。
+@@
+きみえ、たのしかったわ。	Kimie, tanoshikatta wa.
+君枝，很愉快。
+@@
+また会いましょう。	Mata aimashō.
+改天再見。

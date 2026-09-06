@@ -1,0 +1,83 @@
+ちょっと失礼します。新宿通りはどこか教えていただけますか？	Chotto shitsurei shimasu. Shinjuku-dōri wa doko ka oshiete itadakemasu ka?
+對不起，請問一下新宿街怎麼走？
+@@
+すみません。このあたりはあまり詳しくありません。	Sumimasen. Kono atari wa amari kuwashiku arimasen.
+抱歉，我對這附近也不熟。
+@@
+ああ、そうですか。	Ā, sō desu ka.
+哦，這樣子啊！
+@@
+失礼ですが、アメリカ大使館はどこかご存じですか？	Shitsurei desu ga, Amerika taishikan wa doko ka gozonji desu ka?
+對不起，請問美國大使館在哪裡？
+@@
+ええ、まっすぐ行ってください。ほんの2ブロック先です。	Ē, massugu itte kudasai. Honno ni-burokku saki desu.
+嗯，請直走，就在隔兩條街的地方。
+@@
+ありがとうございました。	Arigatō gozaimashita.
+謝謝！
+@@
+あのー、ハンカチを落としましたよ。	Anō, hankachi wo otoshimashita yo.
+那個，你的手帕掉了。
+@@
+あら、どうもすみません。	Ara, dōmo sumimasen.
+真是謝謝你。
+@@
+この席はどなたかいらっしゃいますか。	Kono seki wa donata ka irasshaimasu ka.
+這個位子有人坐嗎？
+@@
+いいえ。どうぞ。	Iie. Dōzo.
+沒有，請坐。
+@@
+ありがとう。	Arigatō.
+謝謝！
+@@
+すみませんが、ここは私の席です。	Sumimasen ga, koko wa watashi no seki desu.
+對不起，這是我的位子。
+@@
+ああ、すみません。	Ā, sumimasen.
+啊，對不起！
+@@
+ウェーターさん。	Wētā-san.
+服務生。
+@@
+はい、お客さま。	Hai, okyakusama.
+您好，客人。
+@@
+メニューを見せていただけませんか？	Menyū wo misete itadakemasen ka?
+可以給我看菜單嗎？
+@@
+ウェーターさん。	Wētā-san.
+服務生！
+@@
+いらっしゃいませ。	Irasshaimase.
+歡迎光臨！
+@@
+注文をとっていただけますか？	Chūmon wo totte itadakemasu ka?
+可以幫我點菜嗎？
+@@
+すみませんが。	Sumimasen ga.
+對不起。
+@@
+はい。何がよろしいでしょうか？	Hai. Nani ga yoroshii deshō ka?
+您好，需要什麼嗎？
+@@
+シルクのブラウスを見たいのですが。	Shiruku no burausu wo mitai no desu ga.
+我想看看絲質的罩衫。
+@@
+すみません。	Sumimasen.
+對不起。
+@@
+はい。何かご用でしょうか？	Hai. Nani ka goyō deshō ka?
+您好，需要什麼嗎？
+@@
+黒のカーディガンはありますか？	Kuro no kādigan wa arimasu ka?
+有黑色的毛線衣嗎？
+@@
+すみませんが。	Sumimasen ga.
+對不起。
+@@
+はい。何かご用でしょうか？	Hai. Nani ka goyō deshō ka?
+您好，需要什麼嗎？
+@@
+このセーターでLサイズはありますか？	Kono sētā de L saizu wa arimasu ka?
+這件毛衣有沒有L size的？

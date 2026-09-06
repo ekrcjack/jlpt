@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>い-な形容詞 </title>
+<style>
+:root{
+  --ink:#16233B;
+  --ink-soft:#5A6880;
+  --paper:#EDEFF3;
+  --card:#FFFFFF;
+  --rule:#D3D8E2;
+  --i-accent:#B3122B;      /* 朱 — い形容詞語尾 */
+  --i-wash:#FBEDEF;
+  --na-accent:#12695C;     /* 松葉 — な形容詞語尾 */
+  --na-wash:#E9F2F0;
+  --mincho:"Hiragino Mincho ProN","Yu Mincho","YuMincho","Noto Serif JP","Songti TC","MS Mincho",serif;
+  --sans:"PingFang TC","Hiragino Sans","Noto Sans TC","Microsoft JhengHei",-apple-system,system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--paper);
+  color:var(--ink);
+  font-family:var(--sans);
+  line-height:1.6;
+  padding-bottom:64px;
+}
+
+/* ── 版首 ── */
+header{
+  background:var(--ink);
+  color:#fff;
+  padding:34px 20px 30px;
+}
+.head-in{max-width:980px;margin:0 auto}
+.eyebrow{
+  font-size:11px;letter-spacing:.22em;text-transform:uppercase;
+  color:#96A3BC;margin-bottom:14px;
+}
+h1{
+  font-family:var(--mincho);
+  font-weight:600;
+  font-size:clamp(28px,7vw,44px);
+  line-height:1.25;
+  letter-spacing:.02em;
+}
+h1 .tail-i{color:#FF7C8E}
+h1 .tail-na{color:#5FD3BE}
+.sub{color:#B7C2D6;font-size:14px;margin-top:12px;max-width:46em}
+
+/* ── 對照表 ── */
+.compare{max-width:980px;margin:26px auto 0;padding:0 16px}
+.compare h2{
+  font-family:var(--mincho);font-size:17px;font-weight:600;
+  margin-bottom:12px;
+}
+.ctable{
+  background:var(--card);border:1px solid var(--rule);border-radius:4px;
+  overflow-x:auto;
+}
+table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:520px}
+th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--rule)}
+thead th{
+  background:#F6F7FA;font-size:11px;letter-spacing:.1em;
+  color:var(--ink-soft);font-weight:600;text-transform:uppercase;
+}
+tbody tr:last-child td{border-bottom:none}
+td:first-child{color:var(--ink-soft);white-space:nowrap;width:22%}
+.jp{font-family:var(--mincho)}
+.t-i{color:var(--i-accent);font-weight:600}
+.t-na{color:var(--na-accent);font-weight:600}
+
+/* ── 控制列 ── */
+.controls{
+  position:sticky;top:0;z-index:20;
+  background:rgba(237,239,243,.94);
+  backdrop-filter:blur(8px);
+  border-bottom:1px solid var(--rule);
+  padding:12px 16px;
+  margin-top:30px;
+}
+.controls-in{
+  max-width:980px;margin:0 auto;
+  display:flex;gap:10px;align-items:center;flex-wrap:wrap;
+}
+.tabs{display:flex;gap:6px}
+.tab{
+  font:inherit;font-size:13px;
+  background:transparent;border:1px solid var(--rule);
+  color:var(--ink-soft);
+  padding:7px 14px;border-radius:2px;cursor:pointer;
+  transition:background .18s,color .18s,border-color .18s;
+}
+.tab:hover{border-color:var(--ink-soft)}
+.tab[aria-selected="true"]{background:var(--ink);border-color:var(--ink);color:#fff}
+.search{
+  flex:1;min-width:150px;
+  font:inherit;font-size:13px;
+  padding:8px 12px;border:1px solid var(--rule);border-radius:2px;
+  background:var(--card);color:var(--ink);
+}
+.search:focus{outline:2px solid var(--ink);outline-offset:1px}
+.count{font-size:12px;color:var(--ink-soft);white-space:nowrap}
+
+/* ── 群組標題 ── */
+.group{max-width:980px;margin:0 auto;padding:0 16px}
+.group-head{
+  display:flex;align-items:baseline;gap:12px;
+  margin:30px 0 14px;padding-bottom:8px;
+  border-bottom:2px solid var(--ink);
+}
+.group-head .mark{
+  font-family:var(--mincho);font-size:26px;line-height:1;
+}
+.group-i .mark{color:var(--i-accent)}
+.group-na .mark{color:var(--na-accent)}
+.group-head .name{font-family:var(--mincho);font-size:19px;font-weight:600}
+.group-head .rule{font-size:12.5px;color:var(--ink-soft);margin-left:auto;text-align:right}
+
+/* ── 卡片 ── */
+.grid{display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:820px){.grid{grid-template-columns:1fr 1fr}}
+.card{
+  background:var(--card);border:1px solid var(--rule);border-radius:4px;
+  padding:18px;
+}
+.card.hide{display:none}
+.kana{font-family:var(--mincho);font-size:12.5px;color:var(--ink-soft);letter-spacing:.08em}
+.word{
+  font-family:var(--mincho);font-size:30px;font-weight:600;line-height:1.2;
+  margin:2px 0 4px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+}
+.gloss{font-size:13px;color:var(--ink-soft)}
+.irr{
+  font-size:10.5px;letter-spacing:.06em;
+  background:#FFF4D6;color:#7A5A00;border:1px solid #E8D49B;
+  padding:2px 7px;border-radius:2px;vertical-align:middle;
+  font-family:var(--sans);font-weight:600;
+}
+
+/* 活用軸（招牌元件） */
+.spine{
+  margin:14px 0 4px;padding:12px 0 4px;
+  border-top:1px dashed var(--rule);border-bottom:1px dashed var(--rule);
+  display:grid;grid-template-columns:repeat(auto-fill,minmax(96px,1fr));gap:10px 8px;
+}
+.form{background:none;border:none;padding:0;text-align:left;cursor:pointer;font:inherit;width:100%}
+.form .lab{
+  display:block;font-size:10px;letter-spacing:.08em;color:var(--ink-soft);
+  margin-bottom:2px;
+}
+.form .val{font-family:var(--mincho);font-size:16px;line-height:1.35;display:block}
+.form:hover .val{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+.form:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.card-i .tail{color:var(--i-accent);font-weight:600}
+.card-na .tail{color:var(--na-accent);font-weight:600}
+
+/* 例句 */
+.ex{padding:13px 0;border-bottom:1px solid #EEF0F4}
+.ex:last-child{border-bottom:none;padding-bottom:0}
+.ex-line{display:flex;gap:9px;align-items:flex-start}
+.ex-jp{font-family:var(--mincho);font-size:16.5px;line-height:1.55;flex:1}
+.romaji,.ex-ro{
+  font-family:var(--sans);font-size:12px;letter-spacing:.02em;
+  color:var(--ink-soft);font-style:italic;
+}
+.ex-ro{margin-top:2px}
+.form .ro{
+  display:block;font-family:var(--sans);font-size:10.5px;font-style:italic;
+  color:var(--ink-soft);margin-top:1px;letter-spacing:.01em;
+}
+.ctable .ro{
+  display:block;font-family:var(--sans);font-size:10.5px;font-style:italic;
+  color:var(--ink-soft);margin-top:1px;
+}
+.qword + .romaji{margin-bottom:2px}
+.ex-zh{font-size:13px;color:var(--ink-soft);margin-top:3px}
+.note{
+  margin-top:7px;font-size:12.5px;line-height:1.55;
+  padding:7px 10px;border-left:2px solid;
+}
+.card-i .note{background:var(--i-wash);border-color:var(--i-accent)}
+.card-na .note{background:var(--na-wash);border-color:var(--na-accent)}
+.note b{font-weight:600}
+
+/* 發音鈕 */
+.say{
+  flex-shrink:0;width:27px;height:27px;margin-top:2px;
+  border:1px solid var(--rule);background:var(--card);border-radius:50%;
+  cursor:pointer;color:var(--ink-soft);
+  display:grid;place-items:center;
+  transition:background .15s,color .15s,border-color .15s;
+}
+.say svg{width:13px;height:13px;fill:currentColor}
+.say:hover{border-color:var(--ink);color:var(--ink)}
+.say.on{background:var(--ink);border-color:var(--ink);color:#fff}
+.say:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.allbtn{
+  margin-top:14px;font:inherit;font-size:12px;letter-spacing:.05em;padding:6px 12px;
+  border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);
+  cursor:pointer;border-radius:3px;
+  transition:background .15s,color .15s,border-color .15s;
+}
+.allbtn:hover{border-color:var(--ink);color:var(--ink)}
+.card-i .allbtn.on{background:var(--i-accent);border-color:var(--i-accent);color:#fff}
+.card-na .allbtn.on{background:var(--na-accent);border-color:var(--na-accent);color:#fff}
+.allbtn:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+
+/* ── 測驗 ── */
+.qbar{
+  display:flex;align-items:center;gap:14px;
+  font-size:12.5px;color:var(--ink-soft);margin-bottom:12px;
+}
+.qreset{
+  margin-left:auto;font:inherit;font-size:12px;
+  background:none;border:1px solid var(--rule);color:var(--ink-soft);
+  padding:5px 11px;border-radius:2px;cursor:pointer;
+}
+.qreset:hover{border-color:var(--ink);color:var(--ink)}
+.qcard{
+  background:var(--card);border:1px solid var(--rule);border-radius:4px;
+  padding:22px 18px;max-width:620px;
+}
+.qword{font-family:var(--mincho);font-size:34px;font-weight:600;line-height:1.2;margin:2px 0 4px}
+.qask{
+  font-size:13.5px;color:var(--ink-soft);
+  margin:18px 0 12px;padding-top:14px;border-top:1px dashed var(--rule);
+}
+.qask b{color:var(--ink);font-weight:600}
+.opts{display:grid;gap:8px}
+.opt{
+  font:inherit;font-family:var(--mincho);font-size:18px;text-align:left;
+  background:var(--card);border:1px solid var(--rule);border-radius:3px;
+  padding:12px 14px;cursor:pointer;color:var(--ink);
+  transition:border-color .15s,background .15s;
+}
+.opt:hover:not(:disabled){border-color:var(--ink)}
+.opt:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.opt:disabled{cursor:default}
+.opt.right{background:var(--na-wash);border-color:var(--na-accent);font-weight:600}
+.opt.wrong{background:var(--i-wash);border-color:var(--i-accent);text-decoration:line-through}
+.qfb{
+  margin-top:16px;padding:12px 14px;font-size:13px;line-height:1.65;
+  border-left:2px solid var(--ink);background:#F6F7FA;
+}
+.qfb .verdict{font-family:var(--sans);font-weight:600;display:block;margin-bottom:4px}
+.qfb .ok{color:var(--na-accent)}
+.qfb .no{color:var(--i-accent)}
+.qfb .jp{font-family:var(--mincho);font-size:15px}
+.qnext{
+  margin-top:16px;font:inherit;font-size:14px;
+  background:var(--ink);color:#fff;border:none;border-radius:3px;
+  padding:11px 22px;cursor:pointer;
+}
+.qnext:hover{background:#0E1729}
+
+.empty{
+  max-width:980px;margin:40px auto;padding:0 16px;
+  color:var(--ink-soft);font-size:14px;
+}
+.empty.hide{display:none}
+.warn{
+  max-width:980px;margin:14px auto 0;padding:10px 14px;
+  background:#FFF4D6;border:1px solid #E8D49B;color:#7A5A00;
+  font-size:12.5px;border-radius:3px;
+}
+.warn.hide{display:none}
+footer{
+  max-width:980px;margin:38px auto 0;padding:18px 16px 0;
+  border-top:1px solid var(--rule);
+  font-size:12px;color:var(--ink-soft);
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+
+/* 回到最上面 */
+.fab{
+  position:fixed;right:22px;bottom:24px;z-index:60;
+  width:46px;height:46px;border:none;border-radius:50%;cursor:pointer;
+  background:var(--ink);color:#fff;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 6px 18px rgba(0,0,0,.22);
+  opacity:0;visibility:hidden;transform:translateY(10px);
+  transition:opacity .25s,transform .25s,visibility .25s,box-shadow .15s;
+}
+.fab.show{opacity:1;visibility:visible;transform:translateY(0);}
+.fab:hover{box-shadow:0 8px 22px rgba(0,0,0,.3);}
+.fab:active{transform:scale(.92);}
+.fab:focus-visible{outline:2px solid #fff;outline-offset:2px;}
+.fab svg{width:20px;height:20px;fill:currentColor;}
+@media(max-width:640px){.fab{right:14px;bottom:16px;width:42px;height:42px;}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="head-in">
+    <div class="eyebrow">JLPT N5 · 形容詞</div>
+    <h1>形容<span class="tail-i">い</span>・形容<span class="tail-na">な</span></h1>
+    <p class="sub">日文形容詞分兩類，差別全在語尾如何變化。下方每個字都附活用軸與三個例句，每句標出使用到的文法點。點任何語尾或例句即可聽發音。</p>
+  </div>
+</header>
+
+<div id="ttsWarn" class="warn hide">此瀏覽器不支援日文語音朗讀，例句仍可正常閱讀。建議使用 Chrome、Edge 或 Safari。</div>
+
+<section class="compare">
+  <h2>兩類變化對照</h2>
+  <div class="ctable">
+    <table>
+      <thead>
+        <tr><th>活用</th><th>い形容詞（高い）</th><th>な形容詞（静か）</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>修飾名詞</td>
+          <td class="jp">高<span class="t-i">い</span>山<span class="ro">takai yama</span></td>
+          <td class="jp">静か<span class="t-na">な</span>部屋<span class="ro">shizuka na heya</span></td></tr>
+        <tr><td>現在肯定</td>
+          <td class="jp">高<span class="t-i">いです</span><span class="ro">takai desu</span></td>
+          <td class="jp">静か<span class="t-na">です</span><span class="ro">shizuka desu</span></td></tr>
+        <tr><td>現在否定</td>
+          <td class="jp">高<span class="t-i">くないです</span><span class="ro">takakunai desu</span></td>
+          <td class="jp">静か<span class="t-na">ではありません</span><span class="ro">shizuka dewa arimasen</span></td></tr>
+        <tr><td>過去肯定</td>
+          <td class="jp">高<span class="t-i">かったです</span><span class="ro">takakatta desu</span></td>
+          <td class="jp">静か<span class="t-na">でした</span><span class="ro">shizuka deshita</span></td></tr>
+        <tr><td>過去否定</td>
+          <td class="jp">高<span class="t-i">くなかったです</span><span class="ro">takakunakatta desu</span></td>
+          <td class="jp">静か<span class="t-na">ではありませんでした</span><span class="ro">shizuka dewa arimasen deshita</span></td></tr>
+        <tr><td>副詞化</td>
+          <td class="jp">高<span class="t-i">く</span>なる<span class="ro">takaku naru</span></td>
+          <td class="jp">静か<span class="t-na">に</span>なる<span class="ro">shizuka ni naru</span></td></tr>
+        <tr><td>連接下句</td>
+          <td class="jp">高<span class="t-i">くて</span>…<span class="ro">takakute…</span></td>
+          <td class="jp">静か<span class="t-na">で</span>…<span class="ro">shizuka de…</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<div class="controls">
+  <div class="controls-in">
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" aria-selected="true" data-f="all">全部</button>
+      <button class="tab" role="tab" aria-selected="false" data-f="i">い形容詞</button>
+      <button class="tab" role="tab" aria-selected="false" data-f="na">な形容詞</button>
+      <button class="tab" role="tab" aria-selected="false" data-f="quiz">測驗</button>
+    </div>
+    <input id="q" class="search" type="search" placeholder="搜尋：漢字、假名、羅馬拼音或中文" aria-label="搜尋形容詞">
+    <span class="count" id="count"></span>
+  </div>
+</div>
+
+<section class="group group-i" id="sec-i">
+  <div class="group-head">
+    <span class="mark">い</span>
+    <span class="name">い形容詞</span>
+    <span class="rule">語尾必為「い」，變化時「い」本身改變</span>
+  </div>
+  <div class="grid" id="grid-i"></div>
+</section>
+
+<section class="group group-na" id="sec-na">
+  <div class="group-head">
+    <span class="mark">な</span>
+    <span class="name">な形容詞</span>
+    <span class="rule">語幹像名詞，修飾名詞時加「な」</span>
+  </div>
+  <div class="grid" id="grid-na"></div>
+</section>
+
+<section class="group" id="sec-quiz" hidden>
+  <div class="group-head">
+    <span class="mark">問</span>
+    <span class="name">活用測驗</span>
+    <span class="rule">選出正確的活用形，錯誤選項都是常見誤用</span>
+  </div>
+
+  <div class="qbar">
+    <span id="qCount">第 1 題</span>
+    <span id="qScore">答對 0 / 0</span>
+    <button class="qreset" id="qReset">重新開始</button>
+  </div>
+
+  <div class="qcard" id="qCard">
+    <div class="kana" id="qKana"></div>
+    <div class="qword" id="qWord"></div>
+    <div class="romaji" id="qRo"></div>
+    <div class="gloss" id="qGloss"></div>
+    <p class="qask">請選出 <b id="qTarget"></b> 的正確形式</p>
+    <div class="opts" id="qOpts"></div>
+    <div class="qfb" id="qFb" hidden></div>
+    <button class="qnext" id="qNext" hidden>下一題</button>
+  </div>
+</section>
+
+<p class="empty hide" id="empty">找不到符合的形容詞，換個關鍵字試試。</p>
+
+<footer>共 <span id="total"></span> 個形容詞，每字 3 句例句與文法說明。發音由瀏覽器內建日文語音朗讀。</footer>
+
+<script>
+/* ─────────── 資料 ─────────── */
+const I_ADJ = [
+ {w:'新しい',k:'あたらしい',ro:'atarashii',g:'新的',ex:[
+   {jp:'新しいスマホを買いました。',r:'atarashii sumaho o kaimashita.',zh:'買了新手機。',n:'<b>修飾名詞</b>：い形容詞原形直接接名詞，不加「の」。'},
+   {jp:'この店は新しくないです。',r:'kono mise wa atarashikunai desu.',zh:'這家店不新。',n:'<b>現在否定</b>：い → くない（＋です）。'},
+   {jp:'去年までは新しかった。',r:'kyonen made wa atarashikatta.',zh:'到去年還很新。',n:'<b>過去肯定</b>：い → かった。'}]},
+ {w:'古い',k:'ふるい',ro:'furui',g:'舊的',ex:[
+   {jp:'古い写真が好きです。',r:'furui shashin ga suki desu.',zh:'我喜歡舊照片。',n:'<b>〜が好きです</b>：喜歡的對象用「が」標示。'},
+   {jp:'この家は古くて寒いです。',r:'kono ie wa furukute samui desu.',zh:'這房子又舊又冷。',n:'<b>くて</b>：連接兩個形容詞，也可表原因。'},
+   {jp:'当時は古くなかった。',r:'tōji wa furukunakatta.',zh:'當時並不舊。',n:'<b>過去否定</b>：い → くなかった。'}]},
+ {w:'大きい',k:'おおきい',ro:'ōkii',g:'大的',ex:[
+   {jp:'大きい荷物ですね。',r:'ōkii nimotsu desu ne.',zh:'行李真大呢。',n:'<b>〜ですね</b>：句尾「ね」尋求對方同意。'},
+   {jp:'声を大きくしてください。',r:'koe o ōkiku shite kudasai.',zh:'請把聲音放大。',n:'<b>くする</b>：い → く＋する＝使變得…。'},
+   {jp:'あまり大きくないです。',r:'amari ōkikunai desu.',zh:'不太大。',n:'<b>あまり〜ない</b>：固定搭配否定，意為「不太…」。'}]},
+ {w:'小さい',k:'ちいさい',ro:'chiisai',g:'小的',ex:[
+   {jp:'小さい町に住んでいます。',r:'chiisai machi ni sunde imasu.',zh:'住在小鎮上。',n:'<b>に住んでいる</b>：居住地點用「に」。'},
+   {jp:'字が小さくて読めません。',r:'ji ga chiisakute yomemasen.',zh:'字太小看不清。',n:'<b>くて</b>：此處表原因，後接無法做到的結果。'},
+   {jp:'昔は小さかったです。',r:'mukashi wa chiisakatta desu.',zh:'以前很小。',n:'<b>昔は＋過去形</b>：時間詞與時態需一致。'}]},
+ {w:'高い',k:'たかい',ro:'takai',g:'高的／貴的',ex:[
+   {jp:'高い山に登りたいです。',r:'takai yama ni noboritai desu.',zh:'想爬高山。',n:'<b>〜たい</b>：表達自己的願望。'},
+   {jp:'値段が高すぎます。',r:'nedan ga takasugimasu.',zh:'價格太貴了。',n:'<b>すぎる</b>：去掉「い」＋すぎる＝過於…。'},
+   {jp:'思ったより高くなかった。',r:'omotta yori takakunakatta.',zh:'比想像中便宜。',n:'<b>〜より</b>：比較基準；此句用過去否定。'}]},
+ {w:'安い',k:'やすい',ro:'yasui',g:'便宜的',ex:[
+   {jp:'安いホテルを探しています。',r:'yasui hoteru o sagashite imasu.',zh:'正在找便宜的旅館。',n:'<b>〜ています</b>：動作正在進行中。'},
+   {jp:'こちらの方が安いです。',r:'kochira no hō ga yasui desu.',zh:'這邊比較便宜。',n:'<b>〜の方が</b>：兩者比較時指出較…的一方。'},
+   {jp:'安ければ買います。',r:'yasukereba kaimasu.',zh:'便宜的話就買。',n:'<b>假定形</b>：い → ければ＝如果…的話。'}]},
+ {w:'低い',k:'ひくい',ro:'hikui',g:'低的',ex:[
+   {jp:'低い声で話しました。',r:'hikui koe de hanashimashita.',zh:'用低沉的聲音說話。',n:'<b>で</b>：表示方式、手段。'},
+   {jp:'この部屋は天井が低いです。',r:'kono heya wa tenjō ga hikui desu.',zh:'這房間天花板很低。',n:'<b>〜は〜が</b>：大主題＋小主語的雙重結構。'},
+   {jp:'気温が低くなりました。',r:'kion ga hikuku narimashita.',zh:'氣溫變低了。',n:'<b>くなる</b>：い → く＋なる＝變得…。'}]},
+ {w:'長い',k:'ながい',ro:'nagai',g:'長的',ex:[
+   {jp:'長い間ありがとう。',r:'nagai aida arigatō.',zh:'長久以來謝謝你。',n:'<b>長い間</b>：慣用表現，指一段長時間。'},
+   {jp:'話が長すぎます。',r:'hanashi ga nagasugimasu.',zh:'話講得太長了。',n:'<b>すぎる</b>：程度超過合理範圍。'},
+   {jp:'そんなに長くないです。',r:'sonna ni nagakunai desu.',zh:'沒那麼長。',n:'<b>そんなに〜ない</b>：沒有那麼…。'}]},
+ {w:'短い',k:'みじかい',ro:'mijikai',g:'短的',ex:[
+   {jp:'髪を短く切りました。',r:'kami o mijikaku kirimashita.',zh:'把頭髮剪短了。',n:'<b>く＋動詞</b>：副詞化後修飾動作。'},
+   {jp:'短い時間でしたが、楽しかったです。',r:'mijikai jikan deshita ga, tanoshikatta desu.',zh:'雖然時間短，但很開心。',n:'<b>〜が</b>：逆接，相當於「雖然…但…」。'},
+   {jp:'思ったほど短くありません。',r:'omotta hodo mijikaku arimasen.',zh:'沒有想像中那麼短。',n:'<b>くありません</b>：比「くないです」更正式的否定。'}]},
+ {w:'速い',k:'はやい',ro:'hayai',g:'快的（速度）',ex:[
+   {jp:'彼は足が速いです。',r:'kare wa ashi ga hayai desu.',zh:'他跑得很快。',n:'<b>〜は〜が</b>：主題「彼」＋屬性主語「足」。'},
+   {jp:'もっと速く走ってください。',r:'motto hayaku hashitte kudasai.',zh:'請跑快一點。',n:'<b>く＋て形</b>：副詞化修飾動作＋請求。'},
+   {jp:'思ったほど速くなかった。',r:'omotta hodo hayakunakatta.',zh:'沒想像中那麼快。',n:'<b>〜ほど＋否定</b>：沒有到…的程度。'}]},
+ {w:'遅い',k:'おそい',ro:'osoi',g:'慢的／晚的',ex:[
+   {jp:'今日は電車が遅いです。',r:'kyō wa densha ga osoi desu.',zh:'今天電車很慢。',n:'現在狀態直接用「〜いです」，不需加助動詞。'},
+   {jp:'遅くなってすみません。',r:'osoku natte sumimasen.',zh:'抱歉來晚了。',n:'<b>くなって</b>：くなる的て形，接後續說明。'},
+   {jp:'遅くても行きます。',r:'osokute mo ikimasu.',zh:'即使晚了也要去。',n:'<b>くても</b>：逆接假定＝即使…也。'}]},
+ {w:'暑い',k:'あつい',ro:'atsui',g:'熱的（天氣）',ex:[
+   {jp:'今日は暑いですね。',r:'kyō wa atsui desu ne.',zh:'今天很熱呢。',n:'「暑い」限用於氣候，物體用「熱い」。'},
+   {jp:'昨日はもっと暑かったです。',r:'kinō wa motto atsukatta desu.',zh:'昨天更熱。',n:'<b>もっと＋過去形</b>：程度副詞＋過去。'},
+   {jp:'部屋は暑くないです。',r:'heya wa atsukunai desu.',zh:'房間不熱。',n:'<b>否定</b>：い → くない。'}]},
+ {w:'寒い',k:'さむい',ro:'samui',g:'冷的（天氣）',ex:[
+   {jp:'寒い朝でした。',r:'samui asa deshita.',zh:'是個寒冷的早晨。',n:'名詞句過去用「でした」，形容詞保持原形修飾。'},
+   {jp:'寒くなってきましたね。',r:'samuku natte kimashita ne.',zh:'漸漸變冷了呢。',n:'<b>くなってきた</b>：變化正逐步發生。'},
+   {jp:'寒かったら言ってください。',r:'samukattara itte kudasai.',zh:'冷的話請說。',n:'<b>かったら</b>：過去形＋ら＝條件句。'}]},
+ {w:'熱い',k:'あつい',ro:'atsui',g:'燙的（物體）',ex:[
+   {jp:'熱いお茶をどうぞ。',r:'atsui ocha o dōzo.',zh:'請喝熱茶。',n:'同音不同漢字：物體溫度用「熱い」。'},
+   {jp:'スープが熱くて飲めません。',r:'sūpu ga atsukute nomemasen.',zh:'湯太燙喝不了。',n:'<b>くて</b>＋可能否定：因為…所以無法。'},
+   {jp:'熱くないですか。',r:'atsukunai desu ka.',zh:'不燙嗎？',n:'<b>否定疑問</b>：くないですか＝確認對方感受。'}]},
+ {w:'冷たい',k:'つめたい',ro:'tsumetai',g:'冰涼的',ex:[
+   {jp:'冷たい水をください。',r:'tsumetai mizu o kudasai.',zh:'請給我冰水。',n:'<b>をください</b>：請求給予某物。'},
+   {jp:'手が冷たくなりました。',r:'te ga tsumetaku narimashita.',zh:'手變冰了。',n:'<b>くなる</b>：狀態變化。'},
+   {jp:'冷たくておいしいです。',r:'tsumetakute oishii desu.',zh:'冰涼又好喝。',n:'<b>くて</b>：並列兩個正面評價。'}]},
+ {w:'甘い',k:'あまい',ro:'amai',g:'甜的',ex:[
+   {jp:'甘いものが好きです。',r:'amai mono ga suki desu.',zh:'喜歡甜食。',n:'<b>形容詞＋もの</b>：「〜的東西」。'},
+   {jp:'少し甘すぎます。',r:'sukoshi amasugimasu.',zh:'有點太甜。',n:'<b>少し＋すぎる</b>：緩和過度的語氣。'},
+   {jp:'甘くないコーヒーを飲みます。',r:'amakunai kōhī o nomimasu.',zh:'喝不甜的咖啡。',n:'<b>否定形修飾名詞</b>：くない可直接接名詞。'}]},
+ {w:'辛い',k:'からい',ro:'karai',g:'辣的',ex:[
+   {jp:'辛いカレーが食べたいです。',r:'karai karē ga tabetai desu.',zh:'想吃辣的咖哩。',n:'<b>〜が〜たい</b>：想要的對象常用「が」。'},
+   {jp:'もう少し辛くしてください。',r:'mō sukoshi karaku shite kudasai.',zh:'請再辣一點。',n:'<b>くする</b>：要求改變狀態。'},
+   {jp:'そんなに辛くなかったです。',r:'sonna ni karakunakatta desu.',zh:'沒那麼辣。',n:'<b>過去否定</b>：くなかった。'}]},
+ {w:'おいしい',k:'おいしい',ro:'oishii',g:'好吃的',ex:[
+   {jp:'おいしい店を知っています。',r:'oishii mise o shitte imasu.',zh:'我知道一家好吃的店。',n:'<b>を知っています</b>：表示已具備的知識。'},
+   {jp:'とてもおいしかったです。',r:'totemo oishikatta desu.',zh:'非常好吃。',n:'<b>過去肯定</b>：用餐後的標準感想句。'},
+   {jp:'味がおいしくなりました。',r:'aji ga oishiku narimashita.',zh:'味道變好了。',n:'<b>くなる</b>：味道的變化。'}]},
+ {w:'楽しい',k:'たのしい',ro:'tanoshii',g:'快樂的',ex:[
+   {jp:'楽しい一日でした。',r:'tanoshii ichinichi deshita.',zh:'是快樂的一天。',n:'形容詞修飾名詞後，句尾以「でした」表過去。'},
+   {jp:'旅行は楽しかったですか。',r:'ryokō wa tanoshikatta desu ka.',zh:'旅行開心嗎？',n:'<b>過去疑問</b>：かったですか。'},
+   {jp:'楽しくないなら、やめましょう。',r:'tanoshikunai nara, yamemashō.',zh:'不開心的話就別做了。',n:'<b>くないなら</b>：否定＋條件「如果不…」。'}]},
+ {w:'難しい',k:'むずかしい',ro:'muzukashii',g:'困難的',ex:[
+   {jp:'難しい漢字ですね。',r:'muzukashii kanji desu ne.',zh:'是很難的漢字呢。',n:'原形修飾名詞，加「ですね」表共感。'},
+   {jp:'試験は難しくなかったです。',r:'shiken wa muzukashikunakatta desu.',zh:'考試不難。',n:'<b>過去否定</b>：くなかった＋です。'},
+   {jp:'難しくても諦めません。',r:'muzukashikute mo akiramemasen.',zh:'即使難也不放棄。',n:'<b>くても</b>：即使…也。'}]},
+ {w:'忙しい',k:'いそがしい',ro:'isogashii',g:'忙的',ex:[
+   {jp:'忙しい人ですね。',r:'isogashii hito desu ne.',zh:'真是個忙人。',n:'形容詞可直接修飾指人的名詞。'},
+   {jp:'今週は忙しくて休めません。',r:'konshū wa isogashikute yasumemasen.',zh:'這週太忙沒法休息。',n:'<b>くて</b>表原因＋可能形否定。'},
+   {jp:'忙しかったら、また今度で。',r:'isogashikattara, mata kondo de.',zh:'忙的話，那就下次吧。',n:'<b>かったら</b>：條件句常見於體貼的提議。'}]},
+ {w:'いい / 良い',k:'いい／よい',ro:'ii / yoi',g:'好的',irr:'不規則',
+   custom:[['修飾名詞','いい','＋名詞','ii + noun'],['現在','いい','です','ii desu'],['否定','よ','くないです','yokunai desu'],['過去','よ','かったです','yokatta desu'],['過去否定','よ','くなかったです','yokunakatta desu'],['副詞','よ','く','yoku']],
+   ex:[
+   {jp:'いい天気ですね。',r:'ii tenki desu ne.',zh:'天氣真好。',n:'<b>修飾名詞</b>用「いい」，不用「よい」也可，語氣較口語。'},
+   {jp:'昨日は天気がよかったです。',r:'kinō wa tenki ga yokatta desu.',zh:'昨天天氣很好。',n:'<b>不規則</b>：過去用「よかった」，沒有「いかった」。'},
+   {jp:'あまりよくないです。',r:'amari yokunai desu.',zh:'不太好。',n:'<b>不規則</b>：否定用「よくない」，不說「いくない」。'}]}
+];
+
+const NA_ADJ = [
+ {w:'元気',k:'げんき',ro:'genki',g:'有精神的',ex:[
+   {jp:'元気な子どもですね。',r:'genki na kodomo desu ne.',zh:'真是有活力的孩子。',n:'<b>修飾名詞必加「な」</b>：元気な＋名詞。'},
+   {jp:'お元気ですか。',r:'o-genki desu ka.',zh:'你好嗎？／身體好嗎？',n:'當述語時語幹後直接接「です」，不加「な」。'},
+   {jp:'元気になりました。',r:'genki ni narimashita.',zh:'恢復精神了。',n:'<b>になる</b>：な形容詞的變化用「に」。'}]},
+ {w:'きれい / 綺麗',k:'きれい',ro:'kirei',g:'漂亮的／乾淨的',irr:'易混淆',ex:[
+   {jp:'きれいな花が咲いています。',r:'kirei na hana ga saite imasu.',zh:'漂亮的花正開著。',n:'<b>陷阱字</b>：雖以「い」結尾，卻是な形容詞。'},
+   {jp:'部屋をきれいにしました。',r:'heya o kirei ni shimashita.',zh:'把房間整理乾淨了。',n:'<b>にする</b>：把某物弄成某狀態。'},
+   {jp:'あまりきれいではありません。',r:'amari kirei dewa arimasen.',zh:'不太乾淨。',n:'<b>正式否定</b>：ではありません。'}]},
+ {w:'親切',k:'しんせつ',ro:'shinsetsu',g:'親切的',ex:[
+   {jp:'親切な店員さんでした。',r:'shinsetsu na tenin-san deshita.',zh:'是位親切的店員。',n:'「な」修飾名詞，句尾「でした」表過去。'},
+   {jp:'親切にしてくれてありがとう。',r:'shinsetsu ni shite kurete arigatō.',zh:'謝謝你的親切對待。',n:'<b>にする＋てくれる</b>：他人為我做某事。'},
+   {jp:'親切じゃない人もいます。',r:'shinsetsu ja nai hito mo imasu.',zh:'也有不親切的人。',n:'<b>じゃない</b>：ではない的口語形，可直接修飾名詞。'}]},
+ {w:'有名',k:'ゆうめい',ro:'yūmei',g:'有名的',ex:[
+   {jp:'有名なラーメン屋です。',r:'yūmei na rāmen-ya desu.',zh:'是有名的拉麵店。',n:'固定用法「有名な＋店名／人名」。'},
+   {jp:'この町で有名です。',r:'kono machi de yūmei desu.',zh:'在這個鎮上很有名。',n:'<b>で</b>：表示範圍「在…之中」。'},
+   {jp:'昔はもっと有名でした。',r:'mukashi wa motto yūmei deshita.',zh:'以前更有名。',n:'<b>過去肯定</b>：です → でした。'}]},
+ {w:'静か',k:'しずか',ro:'shizuka',g:'安靜的',ex:[
+   {jp:'静かな部屋がいいです。',r:'shizuka na heya ga ii desu.',zh:'安靜的房間比較好。',n:'<b>〜がいい</b>：表示偏好、選擇。'},
+   {jp:'少し静かにしてください。',r:'sukoshi shizuka ni shite kudasai.',zh:'請稍微安靜一點。',n:'<b>にする</b>：要求改變狀態，常用於禮貌請求。'},
+   {jp:'夜はとても静かでした。',r:'yoru wa totemo shizuka deshita.',zh:'晚上非常安靜。',n:'時間主題「夜は」＋過去述語「でした」。'}]},
+ {w:'にぎやか / 賑やか',k:'にぎやか',ro:'nigiyaka',g:'熱鬧的',ex:[
+   {jp:'にぎやかな商店街です。',r:'nigiyaka na shōtengai desu.',zh:'是熱鬧的商店街。',n:'な形容詞修飾名詞的基本形。'},
+   {jp:'週末は特ににぎやかです。',r:'shūmatsu wa toku ni nigiyaka desu.',zh:'週末特別熱鬧。',n:'<b>特に</b>：副詞，強調程度。'},
+   {jp:'にぎやかで楽しい町ですね。',r:'nigiyaka de tanoshii machi desu ne.',zh:'是個熱鬧又愉快的城鎮。',n:'<b>で</b>：な形容詞的連接形，相當於い形容詞的「くて」。'}]},
+ {w:'丁寧',k:'ていねい',ro:'teinei',g:'客氣的／仔細的',ex:[
+   {jp:'丁寧な説明でした。',r:'teinei na setsumei deshita.',zh:'是很仔細的說明。',n:'「な」修飾名詞。'},
+   {jp:'もっと丁寧に書いてください。',r:'motto teinei ni kaite kudasai.',zh:'請寫得更仔細一點。',n:'<b>に＋動詞</b>：な形容詞副詞化用「に」。'},
+   {jp:'あの対応は丁寧じゃなかった。',r:'ano taiō wa teinei ja nakatta.',zh:'那個處理不夠客氣。',n:'<b>過去否定（口語）</b>：じゃなかった。'}]},
+ {w:'簡単',k:'かんたん',ro:'kantan',g:'簡單的',ex:[
+   {jp:'簡単な問題です。',r:'kantan na mondai desu.',zh:'是簡單的問題。',n:'基本修飾形「簡単な＋名詞」。'},
+   {jp:'試験は簡単ではありませんでした。',r:'shiken wa kantan dewa arimasen deshita.',zh:'考試並不簡單。',n:'<b>過去否定（正式）</b>：ではありませんでした。'},
+   {jp:'簡単にできますよ。',r:'kantan ni dekimasu yo.',zh:'可以輕鬆做到喔。',n:'<b>に＋動詞</b>＋語尾「よ」提供資訊。'}]},
+ {w:'複雑',k:'ふくざつ',ro:'fukuzatsu',g:'複雜的',ex:[
+   {jp:'複雑な気持ちです。',r:'fukuzatsu na kimochi desu.',zh:'心情很複雜。',n:'抽象名詞也用「な」修飾。'},
+   {jp:'話が複雑になりました。',r:'hanashi ga fukuzatsu ni narimashita.',zh:'事情變複雜了。',n:'<b>になる</b>：狀態變化。'},
+   {jp:'そんなに複雑ではないです。',r:'sonna ni fukuzatsu dewa nai desu.',zh:'沒那麼複雜。',n:'<b>ではないです</b>：介於口語與正式之間的否定。'}]},
+ {w:'便利',k:'べんり',ro:'benri',g:'方便的',ex:[
+   {jp:'便利なアプリですね。',r:'benri na apuri desu ne.',zh:'是很方便的 App 呢。',n:'外來語名詞同樣用「な」修飾。'},
+   {jp:'駅が近くて便利です。',r:'eki ga chikakute benri desu.',zh:'車站很近很方便。',n:'い形容詞「近くて」接な形容詞述語，跨類連接。'},
+   {jp:'ここは便利じゃないです。',r:'koko wa benri ja nai desu.',zh:'這裡不方便。',n:'<b>じゃないです</b>：日常會話最常用的否定。'}]},
+ {w:'不便',k:'ふべん',ro:'fuben',g:'不方便的',ex:[
+   {jp:'不便な場所に住んでいます。',r:'fuben na basho ni sunde imasu.',zh:'住在不方便的地方。',n:'「な」修飾地點名詞。'},
+   {jp:'車がないと不便です。',r:'kuruma ga nai to fuben desu.',zh:'沒車就不方便。',n:'<b>〜ないと</b>：不…的話（會…）。'},
+   {jp:'昔はもっと不便でした。',r:'mukashi wa motto fuben deshita.',zh:'以前更不方便。',n:'<b>過去肯定</b>：でした。'}]},
+ {w:'大切',k:'たいせつ',ro:'taisetsu',g:'重要的',ex:[
+   {jp:'大切な人がいます。',r:'taisetsu na hito ga imasu.',zh:'有重要的人。',n:'<b>がいます</b>：人或動物的存在。'},
+   {jp:'健康が一番大切です。',r:'kenkō ga ichiban taisetsu desu.',zh:'健康最重要。',n:'<b>一番</b>：最高級的表達。'},
+   {jp:'大切にしてください。',r:'taisetsu ni shite kudasai.',zh:'請好好珍惜。',n:'<b>にする</b>：此處為慣用語「珍惜對待」。'}]},
+ {w:'大変',k:'たいへん',ro:'taihen',g:'辛苦的／非常',ex:[
+   {jp:'大変な仕事でした。',r:'taihen na shigoto deshita.',zh:'是辛苦的工作。',n:'「な」修飾名詞時意為「辛苦的」。'},
+   {jp:'毎日大変です。',r:'mainichi taihen desu.',zh:'每天都很辛苦。',n:'述語用法，直接接「です」。'},
+   {jp:'大変おいしいです。',r:'taihen oishii desu.',zh:'非常好吃。',n:'<b>副詞用法</b>：置於形容詞前意為「非常」，此時不加「な」。'}]},
+ {w:'上手',k:'じょうず',ro:'jōzu',g:'擅長的（誇他人）',ex:[
+   {jp:'日本語が上手ですね。',r:'nihongo ga jōzu desu ne.',zh:'你日文很好呢。',n:'<b>〜が上手</b>：能力對象用「が」；通常不用來說自己。'},
+   {jp:'上手な絵ですね。',r:'jōzu na e desu ne.',zh:'畫得真好。',n:'修飾名詞加「な」。'},
+   {jp:'もっと上手になりたいです。',r:'motto jōzu ni naritai desu.',zh:'想變得更擅長。',n:'<b>になりたい</b>：になる＋たい。'}]},
+ {w:'下手',k:'へた',ro:'heta',g:'不擅長的',ex:[
+   {jp:'料理が下手です。',r:'ryōri ga heta desu.',zh:'我不擅長做菜。',n:'<b>〜が下手</b>：談自己的弱項時使用。'},
+   {jp:'下手でもいいです。',r:'heta demo ii desu.',zh:'不擅長也沒關係。',n:'<b>でも</b>：な形容詞的「即使…也」。'},
+   {jp:'下手な字ですみません。',r:'heta na ji de sumimasen.',zh:'抱歉字寫得不好。',n:'「な」修飾名詞＋道歉句型。'}]},
+ {w:'好き',k:'すき',ro:'suki',g:'喜歡的',ex:[
+   {jp:'好きな音楽は何ですか。',r:'suki na ongaku wa nan desu ka.',zh:'你喜歡什麼音樂？',n:'<b>好きな＋名詞</b>：喜歡的某物。'},
+   {jp:'猫が好きです。',r:'neko ga suki desu.',zh:'我喜歡貓。',n:'<b>が，不是を</b>：喜好對象用「が」。'},
+   {jp:'あまり好きではありません。',r:'amari suki dewa arimasen.',zh:'不太喜歡。',n:'<b>婉轉否定</b>：比「嫌い」更客氣的說法。'}]},
+ {w:'嫌い',k:'きらい',ro:'kirai',g:'討厭的',irr:'易混淆',ex:[
+   {jp:'嫌いな食べ物はありますか。',r:'kirai na tabemono wa arimasu ka.',zh:'有討厭的食物嗎？',n:'<b>陷阱字</b>：以「い」結尾但屬な形容詞。'},
+   {jp:'虫が嫌いです。',r:'mushi ga kirai desu.',zh:'我討厭蟲。',n:'<b>が</b>：厭惡對象同樣用「が」。'},
+   {jp:'嫌いじゃないです。',r:'kirai ja nai desu.',zh:'不討厭。',n:'雙重否定的委婉語氣，接近「還可以」。'}]},
+ {w:'暇',k:'ひま',ro:'hima',g:'有空的',ex:[
+   {jp:'暇な時に読みます。',r:'hima na toki ni yomimasu.',zh:'有空的時候會讀。',n:'<b>暇な時</b>：「な」＋時＝…的時候。'},
+   {jp:'今日は暇です。',r:'kyō wa hima desu.',zh:'今天有空。',n:'述語用法。'},
+   {jp:'昨日は暇じゃなかった。',r:'kinō wa hima ja nakatta.',zh:'昨天沒空。',n:'<b>過去否定（口語）</b>：じゃなかった。'}]},
+ {w:'安全',k:'あんぜん',ro:'anzen',g:'安全的',ex:[
+   {jp:'安全な場所へ行きましょう。',r:'anzen na basho e ikimashō.',zh:'去安全的地方吧。',n:'<b>へ</b>表方向＋<b>ましょう</b>提議。'},
+   {jp:'ここは安全です。',r:'koko wa anzen desu.',zh:'這裡很安全。',n:'述語直接接「です」。'},
+   {jp:'夜は安全ではありません。',r:'yoru wa anzen dewa arimasen.',zh:'晚上不安全。',n:'<b>正式否定</b>：ではありません。'}]},
+ {w:'危険',k:'きけん',ro:'kiken',g:'危險的',ex:[
+   {jp:'危険な作業です。',r:'kiken na sagyō desu.',zh:'是危險的作業。',n:'「な」修飾名詞。'},
+   {jp:'雨の日は危険になります。',r:'ame no hi wa kiken ni narimasu.',zh:'雨天會變得危險。',n:'<b>になる</b>：狀態變化。'},
+   {jp:'危険ではないですか。',r:'kiken dewa nai desu ka.',zh:'不危險嗎？',n:'<b>否定疑問</b>：ではないですか＝確認。'}]},
+ {w:'自由',k:'じゆう',ro:'jiyū',g:'自由的',ex:[
+   {jp:'自由な時間が欲しいです。',r:'jiyū na jikan ga hoshii desu.',zh:'想要自由的時間。',n:'<b>が欲しい</b>：想要某物。'},
+   {jp:'服装は自由です。',r:'fukusō wa jiyū desu.',zh:'服裝不限。',n:'述語用法，常見於通知文。'},
+   {jp:'自由に使ってください。',r:'jiyū ni tsukatte kudasai.',zh:'請自由使用。',n:'<b>に＋動詞</b>：副詞化修飾動作。'}]},
+ {w:'同じ',k:'おなじ',ro:'onaji',g:'相同的',irr:'不規則',noNa:true,ex:[
+   {jp:'私たちは同じクラスです。',r:'watashitachi wa onaji kurasu desu.',zh:'我們同班。',n:'<b>例外</b>：修飾名詞不加「な」，直接「同じ＋名詞」。'},
+   {jp:'意見が同じでした。',r:'iken ga onaji deshita.',zh:'意見相同。',n:'述語時活用與一般な形容詞相同。'},
+   {jp:'色は同じではありません。',r:'iro wa onaji dewa arimasen.',zh:'顏色不一樣。',n:'<b>否定</b>：ではありません。'}]}
+];
+
+/* ─────────── 活用軸生成 ─────────── */
+const I_TAILS = [
+  ['現在','い'],['否定','くない'],['過去','かった'],
+  ['過去否定','くなかった'],['副詞','く'],['接續','くて']
+];
+const NA_TAILS = [
+  ['修飾名詞','な'],['現在','です'],['否定','ではない'],
+  ['過去','でした'],['過去否定','ではなかった'],['副詞','に'],['接續','で']
+];
+
+const I_TAIL_RO = {'い':'i','くない':'kunai','かった':'katta','くなかった':'kunakatta','く':'ku','くて':'kute'};
+const NA_TAIL_RO = {'な':'na','です':'desu','ではない':'dewa nai','でした':'deshita','ではなかった':'dewa nakatta','に':'ni','で':'de'};
+
+function iSpine(a){
+  if(a.custom) return a.custom.map(([lab,stem,tail,ro])=>[lab,stem,tail,ro]);
+  const stem = a.w.slice(0,-1);
+  const stemRo = a.ro.slice(0,-1);
+  return I_TAILS.map(([lab,t])=>[lab,stem,t,stemRo+I_TAIL_RO[t]]);
+}
+function naSpine(a){
+  return NA_TAILS.map(([lab,t])=>{
+    if(a.noNa && lab==='修飾名詞') return [lab,a.w,'＋名詞',a.ro+' + noun'];
+    if(lab==='修飾名詞') return [lab,a.w,t,a.ro+' na + noun'];
+    return [lab,a.w,t,a.ro+' '+NA_TAIL_RO[t]];
+  });
+}
+
+/* ─────────── 渲染 ─────────── */
+const ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4zM14 1.2v2.1a8.7 8.7 0 0 1 0 17.4v2.1a10.8 10.8 0 0 0 0-21.6z"/></svg>';
+
+function esc(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
+
+function cardHTML(a,type,idx){
+  const spine = type==='i' ? iSpine(a) : naSpine(a);
+  const spineHTML = spine.map(([lab,stem,tail,ro])=>{
+    const say = (stem+tail).replace('＋名詞','');
+    return `<button class="form" data-say="${esc(say)}">
+      <span class="lab">${lab}</span>
+      <span class="val">${esc(stem)}<span class="tail">${esc(tail)}</span></span>
+      <span class="ro">${esc(ro||'')}</span>
+    </button>`;
+  }).join('');
+
+  const exHTML = a.ex.map(e=>`
+    <div class="ex">
+      <div class="ex-line">
+        <div>
+          <div class="ex-jp">${esc(e.jp)}</div>
+          <div class="ex-ro">${esc(e.r||'')}</div>
+          <div class="ex-zh">${esc(e.zh)}</div>
+        </div>
+        <button class="say" data-say="${esc(e.jp)}" aria-label="朗讀例句">${ICON}</button>
+      </div>
+      <div class="note">${e.n}</div>
+    </div>`).join('');
+
+  const search = [a.w,a.k,a.g,a.ro].join(' ');
+  return `<article class="card card-${type}" data-search="${esc(search)}">
+    <div class="kana">${esc(a.k)}</div>
+    <h3 class="word">${esc(a.w)}
+      ${a.irr?`<span class="irr">${a.irr}</span>`:''}
+      <button class="say" data-say="${esc(a.w.split(' / ')[0])}" aria-label="朗讀單字">${ICON}</button>
+    </h3>
+    <div class="romaji">${esc(a.ro)}</div>
+    <div class="gloss">${esc(a.g)}</div>
+    <div class="spine">${spineHTML}</div>
+    ${exHTML}
+    <button class="allbtn" data-type="${type}" data-idx="${idx}" data-label="▶ 播放全部 ${a.ex.length} 句" title="連續播放「${esc(a.w)}」的全部例句">▶ 播放全部 ${a.ex.length} 句</button>
+  </article>`;
+}
+
+document.getElementById('grid-i').innerHTML  = I_ADJ.map((a,i)=>cardHTML(a,'i',i)).join('');
+document.getElementById('grid-na').innerHTML = NA_ADJ.map((a,i)=>cardHTML(a,'na',i)).join('');
+document.getElementById('total').textContent = I_ADJ.length + NA_ADJ.length;
+
+/* ─────────── 語音 ─────────── */
+let jaVoice = null, current = null;
+const synth = window.speechSynthesis;
+
+function pickVoice(){
+  if(!synth) return;
+  const vs = synth.getVoices();
+  if(!vs.length) return;
+  jaVoice = vs.find(v=>v.lang==='ja-JP') || vs.find(v=>/^ja/i.test(v.lang)) || null;
+}
+if(synth){
+  pickVoice();
+  synth.onvoiceschanged = pickVoice;
+}else{
+  document.getElementById('ttsWarn').classList.remove('hide');
+}
+
+function speak(text, btn){
+  if(!synth){document.getElementById('ttsWarn').classList.remove('hide');return}
+
+  // 同一顆鈕再按 = 停止
+  if(current && current.btn===btn && synth.speaking){ stopAll(); return }
+  stopAll();
+
+  const u = new SpeechSynthesisUtterance(text);
+  u.lang = 'ja-JP';
+  if(jaVoice) u.voice = jaVoice;
+  u.rate = 0.85;
+  u.onend = u.onerror = ()=>{ if(btn) btn.classList.remove('on'); current=null };
+  if(btn) btn.classList.add('on');
+  current = {btn};
+
+  // cancel 後需短暫延遲，否則部分 Chrome / Samsung 版本會吞掉第一句
+  setTimeout(()=>synth.speak(u), 60);
+}
+/* 連續播放：整個形容詞的例句 */
+let seqBtn = null, seqTimer = null;
+function stopSeq(){
+  if(seqTimer){ clearTimeout(seqTimer); seqTimer = null }
+  if(seqBtn){ seqBtn.classList.remove("on"); seqBtn.textContent = seqBtn.dataset.label; seqBtn = null }
+}
+function playAll(texts, btn){
+  if(!synth){ document.getElementById("ttsWarn").classList.remove("hide"); return }
+  const same = (seqBtn === btn);
+  stopAll();                       // 內含 stopSeq，也會停掉單句播放
+  if(same) return;                 // 再按一次＝停止
+  seqBtn = btn;
+  btn.classList.add("on");
+  btn.textContent = "■ 停止播放";
+  let i = 0;
+  const next = ()=>{
+    if(seqBtn !== btn) return;      // 已被其他操作中斷
+    if(i >= texts.length){ stopSeq(); return }
+    const u = new SpeechSynthesisUtterance(texts[i++]);
+    u.lang = "ja-JP";
+    if(jaVoice) u.voice = jaVoice;
+    u.rate = 0.85;
+    u.onend = u.onerror = ()=>{ if(seqBtn === btn) seqTimer = setTimeout(next, 320) };
+    synth.speak(u);
+  };
+  setTimeout(next, 60);
+}
+
+function stopAll(){
+  stopSeq();
+  if(!synth) return;
+  synth.cancel();
+  document.querySelectorAll('.say.on').forEach(b=>b.classList.remove('on'));
+  current = null;
+}
+
+document.addEventListener('click', e=>{
+  const all = e.target.closest('.allbtn');
+  if(all){
+    const arr = all.dataset.type === 'i' ? I_ADJ : NA_ADJ;
+    playAll(arr[+all.dataset.idx].ex.map(x=>x.jp), all);
+    return;
+  }
+  const t = e.target.closest('[data-say]');
+  if(!t) return;
+  speak(t.dataset.say, t.classList.contains('say') ? t : null);
+});
+
+/* ─────────── 篩選與搜尋 ─────────── */
+const tabs = [...document.querySelectorAll('.tab')];
+const secI = document.getElementById('sec-i');
+const secNa = document.getElementById('sec-na');
+const qBox = document.getElementById('q');
+const countEl = document.getElementById('count');
+const emptyEl = document.getElementById('empty');
+let filter = 'all';
+
+const secQuiz = document.getElementById('sec-quiz');
+const compareSec = document.querySelector('.compare');
+
+function apply(){
+  if(filter==='quiz'){
+    secI.style.display='none'; secNa.style.display='none';
+    compareSec.style.display='none';
+    qBox.style.display='none'; countEl.textContent='';
+    emptyEl.classList.add('hide');
+    secQuiz.hidden = false;
+    if(!asked) nextQ();
+    return;
+  }
+  secQuiz.hidden = true;
+  compareSec.style.display='';
+  qBox.style.display='';
+
+  const q = qBox.value.trim().toLowerCase();
+  let shown = 0;
+
+  document.querySelectorAll('.card').forEach(c=>{
+    const inType = filter==='all' || c.classList.contains('card-'+filter);
+    const inQ = !q || c.dataset.search.toLowerCase().includes(q);
+    const ok = inType && inQ;
+    c.classList.toggle('hide', !ok);
+    if(ok) shown++;
+  });
+
+  const iLeft  = secI.querySelectorAll('.card:not(.hide)').length;
+  const naLeft = secNa.querySelectorAll('.card:not(.hide)').length;
+  secI.style.display  = iLeft  ? '' : 'none';
+  secNa.style.display = naLeft ? '' : 'none';
+
+  countEl.textContent = `顯示 ${shown} 個`;
+  emptyEl.classList.toggle('hide', shown>0);
+}
+
+tabs.forEach(t=>t.addEventListener('click',()=>{
+  tabs.forEach(x=>x.setAttribute('aria-selected', String(x===t)));
+  filter = t.dataset.f;
+  stopAll();
+  apply();
+}));
+qBox.addEventListener('input', apply);
+
+/* ─────────── 測驗 ─────────── */
+const TARGETS = ['修飾名詞','現在肯定','現在否定','過去肯定','過去否定'];
+
+const RULE_I = {
+  '修飾名詞':'い形容詞原形直接接名詞，<b>不加「な」</b>。',
+  '現在肯定':'語幹＋<b>いです</b>。',
+  '現在否定':'い → <b>くない</b>（くないです／くありません）。',
+  '過去肯定':'い → <b>かった</b>（＋です）。絕不用「いでした」。',
+  '過去否定':'い → <b>くなかった</b>（＋です）。'
+};
+const RULE_NA = {
+  '修飾名詞':'語幹＋<b>な</b>＋名詞。（「同じ」為例外，直接接名詞）',
+  '現在肯定':'語幹＋<b>です</b>，不加「い」。',
+  '現在否定':'語幹＋<b>ではありません</b>（口語：じゃないです）。',
+  '過去肯定':'です → <b>でした</b>。絕不用「かった」。',
+  '過去否定':'語幹＋<b>ではありませんでした</b>。'
+};
+
+function buildI(a,target){
+  const S = a.w.slice(0,-1);
+  const right = {
+    '修飾名詞':S+'い＋名詞','現在肯定':S+'いです','現在否定':S+'くないです',
+    '過去肯定':S+'かったです','過去否定':S+'くなかったです'
+  }[target];
+  const wrong = {
+    '修飾名詞':[S+'な＋名詞',S+'いな＋名詞',S+'で＋名詞'],
+    '現在肯定':[S+'です',S+'いだです',S+'くです'],
+    '現在否定':[S+'ではありません',S+'いじゃないです',S+'いくないです'],
+    '過去肯定':[S+'いでした',S+'いかったです',S+'でした'],
+    '過去否定':[S+'いではありませんでした',S+'くなかったでした',S+'ではありませんでした']
+  }[target];
+  const R = a.ro.slice(0,-1);
+  const rightRo = {
+    '修飾名詞':R+'i + noun','現在肯定':R+'i desu','現在否定':R+'kunai desu',
+    '過去肯定':R+'katta desu','過去否定':R+'kunakatta desu'
+  }[target];
+  return {right,wrong,rightRo,rule:RULE_I[target]};
+}
+function buildNa(a,target){
+  const S = a.w;
+  const right = {
+    '修飾名詞':(a.noNa?S+'＋名詞':S+'な＋名詞'),'現在肯定':S+'です',
+    '現在否定':S+'ではありません','過去肯定':S+'でした',
+    '過去否定':S+'ではありませんでした'
+  }[target];
+  const wrong = {
+    '修飾名詞':(a.noNa?[S+'な＋名詞',S+'い＋名詞',S+'の＋名詞']:[S+'い＋名詞',S+'の＋名詞',S+'くて＋名詞']),
+    '現在肯定':[S+'いです',S+'だです',S+'くです'],
+    '現在否定':[S+'くないです',S+'いではありません',S+'ないです'],
+    '過去肯定':[S+'かったです',S+'いでした',S+'でしたです'],
+    '過去否定':[S+'くなかったです',S+'ではなかったでした',S+'いませんでした']
+  }[target];
+  const R = a.ro;
+  const rightRo = {
+    '修飾名詞':(a.noNa?R+' + noun':R+' na + noun'),'現在肯定':R+' desu',
+    '現在否定':R+' dewa arimasen','過去肯定':R+' deshita',
+    '過去否定':R+' dewa arimasen deshita'
+  }[target];
+  return {right,wrong,rightRo,rule:RULE_NA[target]};
+}
+
+const POOL = [
+  ...I_ADJ.filter(a=>!a.custom).map(a=>({a,type:'i'})),
+  ...NA_ADJ.map(a=>({a,type:'na'}))
+];
+
+let asked = 0, correctCount = 0, cur = null;
+const shuffle = arr => arr.map(v=>[Math.random(),v]).sort((x,y)=>x[0]-y[0]).map(p=>p[1]);
+const pick = arr => arr[Math.floor(Math.random()*arr.length)];
+
+const el = id => document.getElementById(id);
+
+function nextQ(){
+  const item = pick(POOL);
+  const target = pick(TARGETS);
+  const built = item.type==='i' ? buildI(item.a,target) : buildNa(item.a,target);
+  cur = {...item, target, ...built, done:false};
+
+  el('qKana').textContent = item.a.k;
+  el('qWord').textContent = item.a.w;
+  el('qRo').textContent = item.a.ro;
+  el('qGloss').textContent = item.a.g + '　／　' + (item.type==='i'?'い形容詞':'な形容詞');
+  el('qTarget').textContent = target;
+  el('qCount').textContent = `第 ${asked+1} 題`;
+  el('qFb').hidden = true;
+  el('qNext').hidden = true;
+
+  const opts = shuffle([built.right, ...shuffle(built.wrong).slice(0,3)]);
+  el('qOpts').innerHTML = opts.map(o=>
+    `<button class="opt" data-v="${esc(o)}">${esc(o)}</button>`).join('');
+}
+
+function answer(btn){
+  if(cur.done) return;
+  cur.done = true;
+  asked++;
+  const chosen = btn.dataset.v;
+  const ok = chosen === cur.right;
+  if(ok) correctCount++;
+
+  [...el('qOpts').children].forEach(b=>{
+    b.disabled = true;
+    if(b.dataset.v === cur.right) b.classList.add('right');
+    else if(b === btn) b.classList.add('wrong');
+  });
+
+  el('qFb').innerHTML =
+    `<span class="verdict ${ok?'ok':'no'}">${ok?'正確':'再看一次'}</span>` +
+    `正解：<span class="jp">${esc(cur.right)}</span>　<span class="ex-ro">${esc(cur.rightRo||'')}</span>　`+
+    `<button class="say" data-say="${esc(cur.right.replace('＋名詞',''))}" aria-label="朗讀正解">${ICON}</button>` +
+    `<br>${cur.rule}`;
+  el('qFb').hidden = false;
+  el('qNext').hidden = false;
+  el('qScore').textContent = `答對 ${correctCount} / ${asked}`;
+  el('qCount').textContent = `第 ${asked} 題`;
+}
+
+el('qOpts').addEventListener('click', e=>{
+  const b = e.target.closest('.opt');
+  if(b) answer(b);
+});
+el('qNext').addEventListener('click', nextQ);
+el('qReset').addEventListener('click', ()=>{
+  asked = 0; correctCount = 0;
+  el('qScore').textContent = '答對 0 / 0';
+  nextQ();
+});
+
+apply();
+</script>
+
+<button class="fab" id="toTop" aria-label="回到最上面" title="回到最上面">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4l-8 8h5v8h6v-8h5z"/></svg>
+</button>
+<script>
+(function(){
+  var b=document.getElementById('toTop');
+  function sync(){
+    var y=window.scrollY||document.documentElement.scrollTop||0;
+    b.classList.toggle('show', y>320);
+  }
+  window.addEventListener('scroll',sync,{passive:true});
+  sync();
+  b.addEventListener('click',function(){
+    var smooth=!window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo(smooth?{top:0,behavior:'smooth'}:{top:0});
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+休みの計画はありますか？	Yasumi no keikaku wa arimasu ka?
+你有休假的計畫嗎？
+@@
+いいえ。忙しすぎて考える時間もないのです。	Iie. Isogashi sugite kangaeru jikan mo nai no desu.
+沒有。我忙得連想的時間都沒有。
+@@
+休み中にどこかへお出かけですか？	Yasumi-chū ni doko ka e odekake desu ka?
+休假有想要去哪裡嗎？
+@@
+ええ。友達2、3人と北海道をサイクリングでまわるつもりです。	Ē. Tomodachi ni-san-nin to Hokkaidō wo saikuringu de mawaru tsumori desu.
+是的。我要和二、三個朋友到北海道自行車旅遊。
+@@
+夏休み中に何をする予定ですか？	Natsuyasumi-chū ni nani wo suru yotei desu ka?
+暑假你要作什麼？
+@@
+アルバイトをする予定です。	Arubaito wo suru yotei desu.
+我準備要去打工。
+@@
+ゴールデンウィークの計画は何ですか？	Gōruden wīku no keikaku wa nan desu ka?
+黃金週你有什麼計劃？
+@@
+家族でハワイへ行きます。	Kazoku de Hawai e ikimasu.
+我們全家要去夏威夷。
+@@
+いつハワイへ行くのですか？	Itsu Hawai e iku no desu ka?
+你們什麼時候要去夏威夷？
+@@
+あしたの午後3時30分の飛行機です。	Ashita no gogo san-ji sanjuppun no hikōki desu.
+明天下午3:30的飛機。
+@@
+では、朝のうちに家を出なくてはなりませんね。	De wa, asa no uchi ni ie wo denakute wa narimasen ne.
+那你們不就早上就要出門？
+@@
+そうです。10時に出ようと思っています。	Sō desu. Jū-ji ni deyō to omotte imasu.
+對啊，我們計劃10點就要出門。
+@@
+今年の夏はどこにも行く予定はないよ。働くつもり。	Kotoshi no natsu wa doko ni mo iku yotei wa nai yo. Hataraku tsumori.
+這個夏天我什麼地方也不去。我要工作。
+@@
+どうして？	Dō shite?
+為什麼？
+@@
+冬休みにスキーに行きたいんだ。たくさんお金がかかるからね。	Fuyuyasumi ni sukī ni ikitai n da. Takusan okane ga kakaru kara ne.
+我想在寒假時去滑雪，必須花很多錢。
+@@
+将来の計画はどうですか？	Shōrai no keikaku wa dō desu ka?
+對於未來你有什麼計劃？
+@@
+良い会社に就職して、自分の才能を発揮したいです。	Yoi kaisha ni shūshoku shite, jibun no sainō wo hakki shitai desu.
+我想進一家能夠發揮自己才能的好公司。
+@@
+週末は勉強をしなくちゃならないんだ。君は？	Shūmatsu wa benkyō wo shinakucha naranai n da. Kimi wa?
+這個週末我要唸書，你呢？
+@@
+僕は京都へ行くよ。	Boku wa Kyōto e iku yo.
+我要去京都。

@@ -1,0 +1,104 @@
+ああ、のどがかわいた。何か冷たい物がほしいな。	Ā, nodo ga kawaita. Nani ka tsumetai mono ga hoshii na.
+啊，口好渴，真想喝個涼的啊！
+@@
+オレンジジュースはどう？	Orenji jūsu wa dō?
+來杯柳橙汁怎麼樣？
+@@
+はい、いただきます。	Hai, itadakimasu.
+好，謝謝。
+@@
+夕食、何がいいですか？	Yūshoku, nani ga ii desu ka?
+晚餐吃什麼好呢？
+@@
+ピザが食べたい気分です。	Piza ga tabetai kibun desu.
+我想吃披薩。
+@@
+じゃあ、イタリア料理の店に行きましょう。	Jā, Itaria ryōri no mise ni ikimashō.
+那我們去吃義大利料理！
+@@
+ご注文はお決まりですか。	Gochūmon wa okimari desu ka.
+決定好要點什麼了嗎？
+@@
+はい。オニオンスープとステーキディナーをお願いします。	Hai. Onion sūpu to sutēki dinā wo onegai shimasu.
+是的，我要洋蔥湯和牛排。
+@@
+オニオンスープとステーキディナーですね。かしこまりました。	Onion sūpu to sutēki dinā desu ne. Kashikomarimashita.
+洋蔥湯和牛排。好的。
+@@
+他に何かいりますか。	Hoka ni nani ka irimasu ka.
+其他還需要些什麼嗎？
+@@
+はい、デザートをお願いします。	Hai, dezāto wo onegai shimasu.
+是的，我要點心。
+@@
+こちらがメニューです。	Kochira ga menyū desu.
+請看菜單。
+@@
+いらっしゃいませ。	Irasshaimase.
+歡迎光臨。
+@@
+予約をしたはずなのですが。	Yoyaku wo shita hazu na no desu ga.
+我應該有訂位。
+@@
+はい、こちらへどうぞ。	Hai, kochira e dōzo.
+好的，這邊請。
+@@
+大きくなったら何になりたいの？	Ōkiku nattara nani ni naritai no?
+你長大了想做什麼？
+@@
+レーサーになりたいです。	Rēsā ni naritai desu.
+想當一名賽車手。
+@@
+今日は何をしたいの？	Kyō wa nani wo shitai no?
+今天想做什麼？
+@@
+釣りに行こうかと思っていたんだ。一緒に行かない。	Tsuri ni ikō ka to omotte ita n da. Issho ni ikanai.
+想去釣魚。要一起去嗎？
+@@
+おもしろそうだね。	Omoshirosō da ne.
+好像很有趣呢！
+@@
+東京大学の入学試験に受かればいいなあ。	Tōkyō daigaku no nyūgaku shiken ni ukareba ii nā.
+希望能通過東京大學的入學考試。
+@@
+僕もさ。	Boku mo sa.
+我也是。
+@@
+この夏、外国旅行ができたらなあ。	Kono natsu, gaikoku ryokō ga dekitara nā.
+今年夏天，如果能去國外旅行就好了。
+@@
+どうかしたの？行けないわけでもあるの？	Dō ka shita no? Ikenai wake demo aru no?
+怎麼了？有什麼原因不能去嗎？
+@@
+祖父が病気で、母の手伝いをしなくちゃならないんだ。	Sofu ga byōki de, haha no tetsudai wo shinakucha naranai n da.
+祖父生病了，必須要幫母親的忙。
+@@
+長雨だね。	Nagaame da ne.
+一直下雨呢！
+@@
+あした晴れるといいな。	Ashita hareru to ii na.
+希望明天能放晴。
+@@
+ビーチまで乗せていってもらえたらいいなあ。	Bīchi made nosete itte moraetara ii nā.
+能不能載我去海邊？
+@@
+一緒においでよ。	Issho ni oide yo.
+一起去吧！
+@@
+わあ、ありがとう。ちょっと持ち物を取ってくるね。	Wā, arigatō. Chotto mochimono wo totte kuru ne.
+哇啊，謝謝。等一下，我拿個東西。
+@@
+どうしてそんなにがっかりしているの？	Dō shite sonna ni gakkari shite iru no?
+你看起來很沒精神，怎麼了嗎？
+@@
+陽子が土曜日のテニスの試合を断ってきたばかりなの。本当に試合をしたかったのよ。	Yōko ga doyōbi no tenisu no shiai wo kotowatte kita bakari na no. Hontō ni shiai wo shitakatta no yo.
+陽子剛拒絕了星期六的網球比賽。我真的很想比賽的。
+@@
+私が相手ではどう？	Watashi ga aite de wa dō?
+我當你的對手如何？
+@@
+そうしてくれる？ほんとう？	Sō shite kureru? Hontō?
+你願意嗎？真的？
+@@
+喜んで。何時にそこへ行ったらいい？	Yorokonde. Nanji ni soko e ittara ii?
+樂意之至。幾點到那裡好？

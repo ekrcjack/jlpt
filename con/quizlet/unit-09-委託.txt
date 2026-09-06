@@ -1,0 +1,83 @@
+お願いがあるのですが。	Onegai ga aru no desu ga.
+我有事想拜託你。
+@@
+はい、何でしょうか？	Hai, nan deshō ka?
+好啊，什麼事呢？
+@@
+日本語のレポートを見てもらいたいのです。	Nihongo no repōto wo mite moraitai no desu.
+可以請你幫我看一下日文報告嗎？
+@@
+空港まで乗せていただけますか？	Kūkō made nosete itadakemasu ka?
+您可以送我到機場嗎？
+@@
+喜んで。	Yorokonde.
+我很樂意。
+@@
+私を駅まで連れて行く前に、ちょっと家へ寄ってもいいですか。	Watashi wo eki made tsurete iku mae ni, chotto ie e yotte mo ii desu ka.
+在載我去車站前，可以先回我家一下嗎？
+@@
+はい、分かりました。	Hai, wakarimashita.
+好的，我知道了。
+@@
+チャリティーバザーのために何か料理をしてくださいませんか？	Charitī bazā no tame ni nani ka ryōri wo shite kudasaimasen ka?
+可以請你幫慈善義賣做一些餐點嗎？
+@@
+喜んで。ストローベリーショートケーキを作りましょう。	Yorokonde. Sutorōberī shōto kēki wo tsukurimashō.
+我很樂意。那我就來作草莓蛋糕吧！
+@@
+ちょっとこのテーブルに手を貸していただけますか？動かしたいのです。	Chotto kono tēburu ni te wo kashite itadakemasu ka? Ugokashitai no desu.
+您可以幫我搬這張桌子嗎？我想把它換個位置。
+@@
+いいですよ。じゃあ、どこへ運びますか。	Ii desu yo. Jā, doko e hakobimasu ka.
+當然。您要搬到哪裡呢？
+@@
+美穂、悪いんだけど、また手を貸してくれる？	Miho, warui n dakedo, mata te wo kashite kureru?
+美穗，不好意思，可以再請你幫個忙嗎？
+@@
+いいわよ。どうすればいいの？	Ii wa yo. Dō sureba ii no?
+好啊！要如何幫你呢？
+@@
+すみませんが、道をたずねたいのですが。	Sumimasen ga, michi wo tazunetai no desu ga.
+對不起，可以跟你問個路嗎？
+@@
+いいですよ。どちらへ行きたいのですか？	Ii desu yo. Dochira e ikitai no desu ka?
+好啊！你要去哪裡？
+@@
+新宿駅をさがしているのです。	Shinjuku-eki wo sagashite iru no desu.
+我在找新宿車站。
+@@
+お願いしてもいいですか？	Onegai shite mo ii desu ka?
+可以請你幫個忙嗎？
+@@
+どうぞどうぞ。お手伝いできれば嬉しいですよ。	Dōzo dōzo. Otetsudai dekireba ureshii desu yo.
+好啊！我很樂意能夠幫得上忙。
+@@
+じゃあ。この手紙を書くのを手伝ってくれますか？	Jā. Kono tegami wo kaku no wo tetsudatte kuremasu ka?
+那麼可以幫我寫這封信嗎？
+@@
+陽子、ちょっとアドバイスがほしいんだけど。	Yōko, chotto adobaisu ga hoshii n dakedo.
+陽子，您可以給我一些建議嗎？
+@@
+私でよければね。何か知りたいの？	Watashi de yokereba ne. Nani ka shiritai no?
+我很樂意。您想知道哪方面的事情呢？
+@@
+北海道を旅行するにはどんな方法が一番いいかな？	Hokkaidō wo ryokō suru ni wa donna hōhō ga ichiban ii ka na?
+到北海道旅行用什麼方式最好呢？
+@@
+お父さん、学校の劇には来てくれる？	Otōsan, gakkō no geki ni wa kite kureru?
+爸爸，你會來看學校的話劇嗎？
+@@
+行きたいけど、その日は大事な会議があるんだ。	Ikitai kedo, sono hi wa daiji na kaigi ga aru n da.
+我想去，可是那天有重要的會議。
+@@
+駅まで車で送りましょう。	Eki made kuruma de okurimashō.
+我開車送你到車站吧。
+@@
+いいです。友達に頼んでますから。	Ii desu. Tomodachi ni tanonde masu kara.
+不用了，我已經拜託朋友了。
+@@
+私の日本語の小論文に何かアドバイスをいただけますか？	Watashi no Nihongo no shōronbun ni nani ka adobaisu wo itadakemasu ka?
+可以給我的日文小論文一些建議嗎？
+@@
+喜んでお手伝いしたいんですが。でも次の月曜日までには時間がありません。	Yorokonde otetsudai shitai n desu ga. Demo tsugi no getsuyōbi made ni wa jikan ga arimasen.
+我很樂意幫忙。但是下星期一之前我沒時間。

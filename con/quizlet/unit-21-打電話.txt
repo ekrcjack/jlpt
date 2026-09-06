@@ -1,0 +1,104 @@
+もしもし、春子をお願いします。	Moshimoshi, Haruko wo onegai shimasu.
+喂，請問春子在嗎？
+@@
+私です。	Watashi desu.
+我就是。
+@@
+あら、こんにちは。莉莉です。	Ara, konnichiwa. Riri desu.
+哦！你好。我是莉莉。
+@@
+もしもし、秀樹ですか？	Moshimoshi, Hideki desu ka?
+喂，請問是秀樹嗎？
+@@
+はい、私です。どなたですか？	Hai, watashi desu. Donata desu ka?
+對，我就是。請問是哪位？
+@@
+紀之です。	Noriyuki desu.
+我是紀之。
+@@
+もしもし。山本さんいらっしゃいますか。	Moshimoshi. Yamamoto-san irasshaimasu ka.
+喂，請問山本先生在嗎？
+@@
+失礼ですが、間違い電話のようです。	Shitsurei desu ga, machigai denwa no yō desu.
+對不起，你打錯電話號碼了。
+@@
+ああ、すみません。	Ā, sumimasen.
+哦！對不起。
+@@
+もしもし。こちらは中村真一郎です。鉄平と話をしたいのですが。	Moshimoshi. Kochira wa Nakamura Shinichirō desu. Teppei to hanashi wo shitai no desu ga.
+喂，我是中村真一郎，我想找鐵平講話。
+@@
+すみませんね、真一郎。鉄平はここにいないんです。ことづけはありますか？	Sumimasen ne, Shinichirō. Teppei wa koko ni inai n desu. Kotozuke wa arimasu ka?
+真不好意思！真一郎。鐵平現在不在這裡，你有什麼話要轉告嗎？
+@@
+ええ。私に電話をくれるように彼に伝えてください。	Ē. Watashi ni denwa wo kureru yō ni kare ni tsutaete kudasai.
+好的，請轉告他，請他打電話給我。
+@@
+もしもし。木村さんですか？	Moshimoshi. Kimura-san desu ka?
+喂，請問是木村先生嗎？
+@@
+いいえ。少々お待ちください。	Iie. Shōshō omachi kudasai.
+不是的，請稍待一下。
+@@
+もしもし。こちらは鈴木純です。中井さんと話をしたいのですが。	Moshimoshi. Kochira wa Suzuki Jun desu. Nakai-san to hanashi wo shitai no desu ga.
+喂，我是鈴木純。我想和中井先生講話。
+@@
+ちょっとお待ちください。もしもし。すみませんが、中井は会議中です。こちらから電話を差し上げいただきますでしょうか。	Chotto omachi kudasai. Moshimoshi. Sumimasen ga, Nakai wa kaigi-chū desu. Kochira kara denwa wo sashiage itadakimasu deshō ka.
+請等一下。喂，對不起，中井正在開會，等一下請他打電話給你好嗎？
+@@
+はい。私の電話番号は483-2265です。	Hai. Watashi no denwa bangō wa yon-hachi-san no ni-ni-roku-go desu.
+好的，我的電話號碼是483-2265。
+@@
+もしもし。こちらは俊彦です。祐二と話をしたいのですが。	Moshimoshi. Kochira wa Toshihiko desu. Yūji to hanashi wo shitai no desu ga.
+喂，我是俊彥。請問裕二在嗎？
+@@
+すみません。彼は今出かけています。あとでまた電話してくださいますか？	Sumimasen. Kare wa ima dekakete imasu. Ato de mata denwa shite kudasaimasu ka?
+對不起，他現在外出不在家，晚點請再打來好嗎？
+@@
+わかりました。	Wakarimashita.
+好的。
+@@
+もしもし。加藤さんをお願いします。	Moshimoshi. Katō-san wo onegai shimasu.
+喂，請問加藤在嗎？
+@@
+すみません、彼は今電話中です。どちら様でしょうか？	Sumimasen, kare wa ima denwa-chū desu. Dochira-sama deshō ka?
+對不起，他現在講電話中。請問是哪位？
+@@
+斎藤圭子です。電話は長くなりそうですか？	Saitō Keiko desu. Denwa wa nagaku narisō desu ka?
+我是齊藤圭子。電話會很久嗎？
+@@
+圭子さん、すぐ終わると思います。ちょっとそのままお待ちいただけますか？	Keiko-san, sugu owaru to omoimasu. Chotto sono mama omachi itadakemasu ka?
+圭子小姐，應該快講完了。可以稍等一下嗎？
+@@
+はい。ありがとうございます。	Hai. Arigatō gozaimasu.
+好的，謝謝你。
+@@
+もしもし。	Moshimoshi.
+喂。
+@@
+もしもし。前田さんのお宅ですか？	Moshimoshi. Maeda-san no otaku desu ka?
+喂，請問是前田先生家嗎？
+@@
+はい。前田です。	Hai. Maeda desu.
+是的，我是前田。
+@@
+木村ですが。	Kimura desu ga.
+我姓木村。
+@@
+木村さんはいらっしゃいますか？伊藤健一です。	Kimura-san wa irasshaimasu ka? Itō Kenichi desu.
+木村先生在嗎？我是伊藤健一。
+@@
+はい、おります。ちょっとお待ちください。	Hai, orimasu. Chotto omachi kudasai.
+在，請稍等一下。
+@@
+安藤病院です。おはようございます。	Andō byōin desu. Ohayō gozaimasu.
+安藤醫院。早安。
+@@
+もしもし。菊池忍と申します。きょう予約ができますか？	Moshimoshi. Kikuchi Shinobu to mōshimasu. Kyō yoyaku ga dekimasu ka?
+喂，我叫菊池忍。今天可以預約嗎？
+@@
+そうですね。今日の午後2時15分でいかがでしょうか？	Sō desu ne. Kyō no gogo ni-ji jūgo-fun de ikaga deshō ka?
+嗯，今天下午2點15分如何？
+@@
+はい。ありがとうございます。	Hai. Arigatō gozaimasu.
+好的，謝謝你。

@@ -1,0 +1,80 @@
+すみませんが、もう一度お願いします。	Sumimasen ga, mō ichido onegai shimasu.
+對不起，請再說一遍。
+@@
+上野公園はどちらか教えていただけますか。	Ueno kōen wa dochira ka oshiete itadakemasu ka.
+能告訴我上野公園在哪裡嗎？
+@@
+ああ、いいですよ。まっすぐ行ってください。	Ā, ii desu yo. Massugu itte kudasai.
+啊，好的，請直走。
+@@
+すみませんが、何とおっしゃいましたか？	Sumimasen ga, nan to osshaimashita ka?
+對不起，你說什麼？
+@@
+お母さんはいかがですか。	Okāsan wa ikaga desu ka.
+你母親好嗎？
+@@
+ああ、母は先週退院いたしまして、元気です。	Ā, haha wa senshū taiin itashimashite, genki desu.
+啊，我母親上個禮拜出院了，她很好。
+@@
+圭子、もう一度言ってくれる？	Keiko, mō ichido itte kureru?
+圭子，再說一遍好嗎？
+@@
+次の週末の予定を聞いてたのよ。	Tsugi no shūmatsu no yotei wo kiiteta no yo.
+我是問你下週末有什麼計畫。
+@@
+ああ、別に決まっていないけど。何か考えがあるの？	Ā, betsu ni kimatte inai kedo. Nani ka kangae ga aru no?
+啊，還沒決定，你有什麼想法嗎？
+@@
+あなたのおっしゃったことが聞き取れなかったのですが。もう少しゆっくり話してくださいませんか？	Anata no osshatta koto ga kikitorenakatta no desu ga. Mō sukoshi yukkuri hanashite kudasaimasen ka?
+我聽不清楚你說的話，能不能再說慢一點呢？
+@@
+いいですよ。いいながめですね、と言いました。	Ii desu yo. Ii nagame desu ne, to iimashita.
+好的，我說『視野真好啊』。
+@@
+あなたの姓をもう一度おっしゃってくださいませんか？	Anata no sei wo mō ichido osshatte kudasaimasen ka?
+請再一次告訴我你的姓好嗎？
+@@
+はい、古川と申します。	Hai, Furukawa to mōshimasu.
+好的，我姓古川。
+@@
+古川さんですね。どうもありがとうございます。	Furukawa-san desu ne. Dōmo arigatō gozaimasu.
+古川先生，謝謝你。
+@@
+私の名前は若林禎彦です。	Watashi no namae wa Wakabayashi Yoshihiko desu.
+我的名字叫若林禎彥。
+@@
+ええと……禎彦、何さんですか？	Ēto…… Yoshihiko, nan-san desu ka?
+嗯，是……禎彥先生嗎？那姓什麼？
+@@
+若林。若林禎彦です。	Wakabayashi. Wakabayashi Yoshihiko desu.
+若林，是若林禎彥。
+@@
+私は東京の高田馬場駅の近くに住んでいます。	Watashi wa Tōkyō no Takadanobaba-eki no chikaku ni sunde imasu.
+我住在東京的高田馬場車站附近。
+@@
+どちらに住んでいるんですか？	Dochira ni sunde iru n desu ka?
+你剛說你住在哪裡？
+@@
+高田馬場駅の近くです。東京にあります。	Takadanobaba-eki no chikaku desu. Tōkyō ni arimasu.
+高田馬場車站的附近。在東京。
+@@
+ああ、そうですか！	Ā, sō desu ka!
+啊，是這樣啊！
+@@
+「スト」とはどういう意味ですか？	'Suto' to wa dō iu imi desu ka?
+「スト」是什麼意思？
+@@
+英語で「ストライキ」のことです。	Eigo de 'sutoraiki' no koto desu.
+是英文『strike（罷工）』的意思。
+@@
+ああ、わかりました。	Ā, wakarimashita.
+啊，我明白了。
+@@
+もし質問がありましたら、紀之に聞いてください。彼は我々のプロです。	Moshi shitsumon ga arimashitara, Noriyuki ni kiite kudasai. Kare wa wareware no puro desu.
+如果有問題的話，請教紀之，他是我們的專家（puro）。
+@@
+すみません、「プロ」とはどういう意味ですか？	Sumimasen, 'puro' to wa dō iu imi desu ka?
+對不起，puro是什麼意思？
+@@
+「専門家」ということです。	'Senmonka' to iu koto desu.
+就是「專家」的意思。

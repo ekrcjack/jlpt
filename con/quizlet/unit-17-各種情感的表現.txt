@@ -1,0 +1,104 @@
+おかあさん、やったよ！試験に合格したよ。	Okāsan, yatta yo! Shiken ni gōkaku shita yo.
+媽媽，我做到了！我通過考試了！
+@@
+すばらしいわ、紀之。とても嬉しいわ。	Subarashii wa, Noriyuki. Totemo ureshii wa.
+太好了！紀之，我好高興。
+@@
+新しい仕事を見つけたんだって？	Atarashii shigoto wo mitsuketa n datte?
+聽說你找到新工作？
+@@
+そうだよ。見つけたよ。	Sō da yo. Mitsuketa yo.
+對，找到了。
+@@
+それはすばらしい。おめでとう！	Sore wa subarashii. Omedetō!
+那真是太好了。恭喜你！
+@@
+クイズ番組で一等賞を取ったよ！	Kuizu bangumi de ittōshō wo totta yo!
+我得到猜謎節目的頭獎耶！
+@@
+驚きだ！うちでは今まで誰も賞なんて取ったことがないよ。	Odoroki da! Uchi de wa ima made dare mo shō nante totta koto ga nai yo.
+真的嗎？家裡到現在還沒有人拿過什麼獎之類的。
+@@
+必ず「最初」というものがあるさ。	Kanarazu 'saisho' to iu mono ga aru sa.
+凡事總有第一次嘛！
+@@
+あのね。ハワイへのチケットが2枚あたったよ。	Ano ne. Hawai e no chiketto ga ni-mai atatta yo.
+喂！我贏得二張到夏威夷的機票。
+@@
+信じられないわ？うそでしょう。	Shinjirarenai wa? Uso deshō.
+我不信！你在開玩笑吧！
+@@
+ほんとうさ。ここにあるよ。ほら。	Hontō sa. Koko ni aru yo. Hora.
+真的，你看在這裡。
+@@
+わあーい。いつ発つの？	Wā-i. Itsu tatsu no?
+哇…！何時出發？
+@@
+健一郎は行けないと思うよ。きのう足を折ったんだ。	Kenichirō wa ikenai to omou yo. Kinō ashi wo otta n da.
+我想健一郎不能去了，昨天他腿骨折了。
+@@
+それは大変だ。気の毒だね。	Sore wa taihen da. Kinodoku da ne.
+真糟糕。真可憐喲！
+@@
+そうだね。	Sō da ne.
+是啊！
+@@
+陽子、きょうは調子がよくなさそうだね。だいじょうぶ？	Yōko, kyō wa chōshi ga yokunasasō da ne. Daijōbu?
+陽子，你今天身體好像不太舒服，還好嗎？
+@@
+だいじょうぶよ。ちょっと気分がふさいでいるの。	Daijōbu yo. Chotto kibun ga fusaide iru no.
+沒關係啦！只是心情有點鬱悶。
+@@
+それはかわいそうに。何か僕にできるかい？	Sore wa kawaisō ni. Nani ka boku ni dekiru kai?
+那太可憐了，有沒有什麼我可以幫忙的？
+@@
+今気分はどうですか。	Ima kibun wa dō desu ka.
+現在心情還好吧？
+@@
+うん。きょうはちょっと落ち込んでるんだ。家族と喧嘩しちゃって。	Un. Kyō wa chotto ochikonderu n da. Kazoku to kenka shichatte.
+嗯。今天心情有點差，跟家裡的人吵了一架。
+@@
+なるほどね。	Naruhodo ne.
+原來如此。
+@@
+圭子はおかあさんが病気になったから一緒に行けないよ。	Keiko wa okāsan ga byōki ni natta kara issho ni ikenai yo.
+圭子因為母親生病不能一起去了。
+@@
+ああ、それは気の毒ですね。	Ā, sore wa kinodoku desu ne.
+唉！那好可惜哦！
+@@
+うん。圭子は旅行をとても楽しみにしていたからね。	Un. Keiko wa ryokō wo totemo tanoshimi ni shite ita kara ne.
+嗯！圭子非常期待這次的旅行。
+@@
+じゃあ、今回またチャンスがあったら、もう一度誘いましょう。	Jā, konkai mata chansu ga attara, mō ichido sasoimashō.
+那下次如果有機會，再邀她一起去吧！
+@@
+お母さんがお亡くなりになったそうで、お気の毒に思います。つらいことでしょう。	Okāsan ga onakunari ni natta sō de, okinodoku ni omoimasu. Tsurai koto deshō.
+聽說令堂過世了，我很難過。一定很難受吧。
+@@
+ええ。とても急だったものですから。	Ē. Totemo kyū datta mono desu kara.
+是的。事情很突然。
+@@
+手術は成功だったわ。母はきっと元気になるわ。	Shujutsu wa seikō datta wa. Haha wa kitto genki ni naru wa.
+手術成功了。母親一定會康復的。
+@@
+ほっとしたよ。とても心配してたんだ。	Hotto shita yo. Totemo shinpai shiteta n da.
+放心了。我很擔心。
+@@
+ねえ、君はよく頑張りました。今はお医者さんにまかせるんだ。	Nē, kimi wa yoku ganbarimashita. Ima wa oisha-san ni makaseru n da.
+嘿，你已經很努力了。現在就交給醫生吧。
+@@
+わかってるわ。でも、何もできなくてとてもはがゆいのよ。	Wakatteru wa. Demo, nani mo dekinakute totemo hagayui no yo.
+我知道。可是什麼都做不了，好著急啊。
+@@
+君の気持ちはよくわかるよ。	Kimi no kimochi wa yoku wakaru yo.
+我很明白你的心情。
+@@
+ああ、泥棒が入ったのは僕のせいだ。窓を調べるべきだった。	Ā, dorobō ga haitta no wa boku no sei da. Mado wo shiraberu beki datta.
+唉，遭小偷是我的錯。我應該檢查窗戶的。
+@@
+ねえ、君自身を責める必要はないよ。君のせいではないよ。	Nē, kimi jishin wo semeru hitsuyō wa nai yo. Kimi no sei de wa nai yo.
+嘿，你不必自責。這不是你的錯。
+@@
+いや、そうだよ。僕のせいさ。	Iya, sō da yo. Boku no sei sa.
+不，就是。是我的錯。

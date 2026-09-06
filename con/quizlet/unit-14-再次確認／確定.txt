@@ -1,0 +1,80 @@
+あなたは台湾出身でしょう？	Anata wa Taiwan shusshin deshō?
+你是臺灣出生的吧！
+@@
+はい、そうです。	Hai, sō desu.
+是的。
+@@
+あなたは本当にスカイダイバーですか？	Anata wa hontō ni sukai daibā desu ka?
+你真的是跳傘員嗎？
+@@
+はい、本当です。習いたいですか？	Hai, hontō desu. Naraitai desu ka?
+是的，是真的。想學嗎？
+@@
+紀之の話だと、あなたは京都出身だそうですね。	Noriyuki no hanashi da to, anata wa Kyōto shusshin da sō desu ne.
+紀之告訴我，你是京都出生的。
+@@
+そうです。行ったことはありますか？	Sō desu. Itta koto wa arimasu ka?
+是的。你去過嗎？
+@@
+あなたは模型飛行機を作れそうですね。	Anata wa mokei hikōki wo tsukuresō desu ne.
+聽說你會做模型飛機。
+@@
+もちろんです。子供の時からやっています。	Mochiron desu. Kodomo no toki kara yatte imasu.
+當然，小時候就開始做了。
+@@
+この投資はいい考えだと思いますか？	Kono tōshi wa ii kangae da to omoimasu ka?
+你覺得這個投資是很好的想法嗎？
+@@
+ええ、そう思ってます。	Ē, sō omottemasu.
+是的，我是這樣想的。
+@@
+試験はパスできると思いますか。	Shiken wa pasu dekiru to omoimasu ka.
+你覺得你能通過考試嗎？
+@@
+はい、もちろんです。	Hai, mochiron desu.
+是的，當然。
+@@
+すみませんが、図書館へ行く道を教えてください。	Sumimasen ga, toshokan e iku michi wo oshiete kudasai.
+對不起，請告訴我怎麼去圖書館。
+@@
+図書館の本館ですか？	Toshokan no honkan desu ka?
+是圖書館的本館嗎？
+@@
+はい、そうです。	Hai, sō desu.
+是的。
+@@
+あなたはカナダ人ではありませんか。	Anata wa Kanada-jin de wa arimasen ka.
+你不是加拿大人嗎？
+@@
+ええ。カナダに住んでいますが、アメリカ人です。	Ē. Kanada ni sunde imasu ga, Amerika-jin desu.
+是的，我住在加拿大，但我是美國人。
+@@
+あなたのお兄さんは水泳のチャンピョンでしょう。	Anata no oniisan wa suiei no chanpion deshō.
+你哥哥是游泳冠軍嘛！
+@@
+違います。弟です。	Chigaimasu. Otōto desu.
+不是，是我弟弟。
+@@
+あなたは東京大学の学生さんですね？	Anata wa Tōkyō daigaku no gakusei-san desu ne?
+你是東京大學的學生嗎？
+@@
+いいえ。早稲田の学生です。	Iie. Waseda no gakusei desu.
+不是，我是早稻田的學生。
+@@
+あなたのご両親は日本でお生まれになったのでしょう？	Anata no goryōshin wa Nihon de oumare ni natta no deshō?
+你的父母是在日本出生的吧？
+@@
+いいえ、でも祖父母はそうです。	Iie, demo sofubo wa sō desu.
+不是，不過祖父母是在日本生的。
+@@
+本当に「キャッツ」の券が手に入るの？	Hontō ni 'Kyattsu' no ken ga te ni hairu no?
+真的能拿到「Cats」的票嗎？
+@@
+確実ではないけど、手に入られると思うよ。	Kakujitsu de wa nai kedo, te ni irareru to omou yo.
+不是很確定，不過應該可以。
+@@
+この報告書はきょうの午後までに完成できるとおしゃっているのですか？	Kono hōkokusho wa kyō no gogo made ni kansei dekiru to osshatte iru no desu ka?
+你是說這個報告今天下午可以完成嗎？
+@@
+いいや。あしたまで待ってください。	Iiya. Ashita made matte kudasai.
+不是的，明天才會完成。
