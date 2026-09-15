@@ -7,12 +7,12 @@
 - [17. Numbers 1-10](#17-numbers-1-10)（11 個重點）
 - [18. Numbers 11-99](#18-numbers-11-99)（13 個重點）
 - [19. Numbers 100 - 9,999](#19-numbers-100---9999)（33 個重點）
-- [20. Bigger numbers](#20-bigger-numbers)（6 個重點）
+- [20. Bigger numbers](#20-bigger-numbers)（8 個重點）
 - [23. Time](#23-time)（24 個重點）
-- [26. XはYです](#26-xはyです)（16 個重點）
+- [26. XはYです](#26-xはyです)（17 個重點）
 - [27. Question](#27-question)（18 個重點）
 - [28. Question 2](#28-question-2)（14 個重點）
-- [29. Noun1 の Noun2](#29-noun1-の-noun2)（21 個重點）
+- [29. Noun1 の Noun2](#29-noun1-の-noun2)（23 個重點）
 - [30. Nounも](#30-nounも)（16 個重點）
 - [31. Negative sentences - Present](#31-negative-sentences---present)（11 個重點）
 - [32. Negative sentences - Past](#32-negative-sentences---past)（10 個重點）
@@ -25,8 +25,8 @@
 - [45. U-verb](#45-u-verb)（9 個重點）
 - [46. Irregular verb](#46-irregular-verb)（9 個重點）
 - [47. Verb types and the Present Tense](#47-verb-types-and-the-present-tense)（19 個重點）
-- [48. Past tense](#48-past-tense)（7 個重點）
-- [53. Basic particles](#53-basic-particles)（13 個重點）
+- [48. Past tense](#48-past-tense)（5 個重點）
+- [53. Basic particles](#53-basic-particles)（14 個重點）
 - [54. Basic Particles Practice](#54-basic-particles-practice)（8 個重點）
 - [55. Time reference](#55-time-reference)（12 個重點）
 - [56. The topic particle は](#56-the-topic-particle-は)（16 個重點）
@@ -36,16 +36,16 @@
 - [60. Particle や](#60-particle-や)（5 個重點）
 - [61. Particle で](#61-particle-で)（14 個重點）
 - [62. Frequency Adverbs](#62-frequency-adverbs)（16 個重點）
-- [65. 〜ませんか](#65-ませんか)（11 個重點）
-- [66. 〜ましょう](#66-ましょう)（8 個重點）
-- [68. Xがあります](#68-xがあります)（21 個重點）
-- [69. Xがいます](#69-xがいます)（9 個重點）
-- [70. Describing where things are](#70-describing-where-things-are)（31 個重點）
+- [65. 〜ませんか(Shall we)](#65-ませんかshall-we)（11 個重點）
+- [66. 〜ましょう(Let's...!)](#66-ましょうlets)（5 個重點）
+- [68. Xがあります(There is 非生物)](#68-xがありますthere-is-非生物)（21 個重點）
+- [69. Xがいます(There is 有生命)](#69-xがいますthere-is-有生命)（9 個重點）
+- [70. Describing where things are(前後左右上下)](#70-describing-where-things-are前後左右上下)（31 個重點）
 - [74. い Adjectives](#74-い-adjectives)（14 個重點）
-- [75. な Adjectives](#75-な-adjectives)（9 個重點）
+- [75. な Adjectives](#75-な-adjectives)（11 個重點）
 - [76. Irregular Adjectives](#76-irregular-adjectives)（6 個重點）
 - [77. すきな、きらいな](#77-すきなきらいな)（23 個重點）
-- [78. Degree Expressions](#78-degree-expressions)（6 個重點）
+- [78. Degree Expressions](#78-degree-expressions)（5 個重點）
 - [83. Te-form rules (Ru-verbs)](#83-te-form-rules-ru-verbs)（8 個重點）
 - [84. Te-form rules (U-verbs)](#84-te-form-rules-u-verbs)（18 個重點）
 - [86. Te-form Usage 1](#86-te-form-usage-1)（14 個重點）
@@ -85,6 +85,37 @@
 - [166. It seems someone wants to do](#166-it-seems-someone-wants-to-do)（12 個重點）
 - [184. 〜なくちゃいけません](#184-なくちゃいけません)（18 個重點）
 - [186. 〜でしょう](#186-でしょう)（26 個重點）
+- [196. あげる・くれる](#196-あげるくれる)（12 個重點）
+- [197. もらう](#197-もらう)（16 個重點）
+- [198. 〜たらどうですか](#198-たらどうですか)（14 個重點）
+- [199. Number + もしか](#199-number--もしか)（16 個重點）
+- [202. Volitional form](#202-volitional-form)（12 個重點）
+- [203. 〜ておく](#203-ておく)（13 個重點）
+- [204. Using Sentences to Qualify Nouns](#204-using-sentences-to-qualify-nouns)（13 個重點）
+- [206. 〜してあげる](#206-してあげる)（16 個重點）
+- [207. 〜してくれる](#207-してくれる)（12 個重點）
+- [208. 〜してもらう](#208-してもらう)（12 個重點）
+- [209. 〜ていただけませんか](#209-ていただけませんか)（11 個重點）
+- [210. 〜といい](#210-といい)（11 個重點）
+- [211. 〜時（とき）1](#211-時とき1)（20 個重點）
+- [212. 〜時（とき）2](#212-時とき2)（8 個重點）
+- [213. 時Practice](#213-時practice)（18 個重點）
+- [214. 〜てすみませんでした](#214-てすみませんでした)（15 個重點）
+- [217. 〜そうです](#217-そうです)（11 個重點）
+- [218. 〜って](#218-って)（11 個重點）
+- [219. 〜たら 1 - If A, then B](#219-たら-1---if-a-then-b)（14 個重點）
+- [220. 〜たら 2 - Events and Activities in a Temporal Sequence](#220-たら-2---events-and-activities-in-a-temporal-sequence)（11 個重點）
+- [256. Causative Sentences 1](#256-causative-sentences-1)（18 個重點）
+- [257. Causative Sentences 2](#257-causative-sentences-2)（14 個重點）
+- [258. Verb Stem + なさい (Command)](#258-verb-stem--なさい-command)（11 個重點）
+- [259. 〜ば (Conditional Statement)](#259-ば-conditional-statement)（16 個重點）
+- [260. 〜のに (Even though...)](#260-のに-even-though)（16 個重點）
+- [261. 〜のような・〜のように (Like...)](#261-のようなのように-like)（15 個重點）
+- [262. Causative-Passive Sentences](#262-causative-passive-sentences)（17 個重點）
+- [263. 〜ても](#263-ても)（18 個重點）
+- [264. 〜ことにする](#264-ことにする)（16 個重點）
+- [265. 〜まで](#265-まで)（15 個重點）
+- [266. 〜方（かた）](#266-方かた)（18 個重點）
 
 ---
 
