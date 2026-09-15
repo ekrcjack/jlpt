@@ -4,122 +4,122 @@
 
 ## 目錄
 
-- [17. Numbers 1-10](#17-numbers-1-10)（11 個重點）
-- [18. Numbers 11-99](#18-numbers-11-99)（13 個重點）
-- [19. Numbers 100 - 9,999](#19-numbers-100---9999)（33 個重點）
-- [20. Bigger numbers](#20-bigger-numbers)（8 個重點）
-- [23. Time](#23-time)（24 個重點）
-- [26. XはYです](#26-xはyです)（17 個重點）
-- [27. Question](#27-question)（18 個重點）
-- [28. Question 2](#28-question-2)（14 個重點）
-- [29. Noun1 の Noun2](#29-noun1-の-noun2)（23 個重點）
-- [30. Nounも](#30-nounも)（16 個重點）
-- [31. Negative sentences - Present](#31-negative-sentences---present)（11 個重點）
-- [32. Negative sentences - Past](#32-negative-sentences---past)（10 個重點）
-- [37. これ-それ-あれ-どれ](#37-これ-それ-あれ-どれ)（18 個重點）
-- [38. この-その-あの-どの](#38-この-その-あの-どの)（17 個重點）
-- [39. だれの noun](#39-だれの-noun)（11 個重點）
-- [40. ここ-そこ-あそこ-どこ](#40-ここ-そこ-あそこ-どこ)（18 個重點）
-- [41. Writing Practice](#41-writing-practice)（12 個重點）
-- [44. Ru-verb](#44-ru-verb)（8 個重點）
-- [45. U-verb](#45-u-verb)（9 個重點）
-- [46. Irregular verb](#46-irregular-verb)（9 個重點）
-- [47. Verb types and the Present Tense](#47-verb-types-and-the-present-tense)（19 個重點）
-- [48. Past tense](#48-past-tense)（5 個重點）
-- [53. Basic particles](#53-basic-particles)（14 個重點）
-- [54. Basic Particles Practice](#54-basic-particles-practice)（8 個重點）
-- [55. Time reference](#55-time-reference)（12 個重點）
-- [56. The topic particle は](#56-the-topic-particle-は)（16 個重點）
-- [57. Particle が](#57-particle-が)（6 個重點）
-- [58. Particle も](#58-particle-も)（15 個重點）
-- [59. Particle と](#59-particle-と)（12 個重點）
-- [60. Particle や](#60-particle-や)（5 個重點）
-- [61. Particle で](#61-particle-で)（14 個重點）
-- [62. Frequency Adverbs](#62-frequency-adverbs)（16 個重點）
-- [65. 〜ませんか(Shall we)](#65-ませんかshall-we)（11 個重點）
-- [66. 〜ましょう(Let's...!)](#66-ましょうlets)（5 個重點）
-- [68. Xがあります(There is 非生物)](#68-xがありますthere-is-非生物)（21 個重點）
-- [69. Xがいます(There is 有生命)](#69-xがいますthere-is-有生命)（9 個重點）
-- [70. Describing where things are(前後左右上下)](#70-describing-where-things-are前後左右上下)（31 個重點）
-- [74. い Adjectives](#74-い-adjectives)（14 個重點）
-- [75. な Adjectives](#75-な-adjectives)（11 個重點）
-- [76. Irregular Adjectives](#76-irregular-adjectives)（6 個重點）
-- [77. すきな、きらいな](#77-すきなきらいな)（23 個重點）
-- [78. Degree Expressions](#78-degree-expressions)（5 個重點）
-- [83. Te-form rules (Ru-verbs)](#83-te-form-rules-ru-verbs)（8 個重點）
-- [84. Te-form rules (U-verbs)](#84-te-form-rules-u-verbs)（18 個重點）
-- [86. Te-form Usage 1](#86-te-form-usage-1)（14 個重點）
-- [87. Te-form Usage 2](#87-te-form-usage-2)（12 個重點）
-- [93. 〜ている](#93-ている)（18 個重點）
-- [94. 〜ている 2](#94-ている-2)（15 個重點）
-- [98. Te form for joining sentences](#98-te-form-for-joining-sentences)（16 個重點）
-- [99. Writing Practice](#99-writing-practice)（17 個重點）
-- [102. (Body part)が(adjective)です](#102-body-partがadjectiveです)（21 個重點）
-- [106. Verb stem + にいく](#106-verb-stem--にいく)（14 個重點）
-- [107. Writing Practice](#107-writing-practice)（7 個重點）
-- [108. Listening Practice](#108-listening-practice)（7 個重點）
-- [110. たくさん](#110-たくさん)（10 個重點）
-- [112. 1時間](#112-1時間)（21 個重點）
-- [115. Present tense Short form - Affirmative Conjugation](#115-present-tense-short-form---affirmative-conjugation)（13 個重點）
-- [116. Present tense Short form - Short form Negative Conjugation](#116-present-tense-short-form---short-form-negative-conjugation)（16 個重點）
-- [117. Usage of short forms 1 - Quotation](#117-usage-of-short-forms-1---quotation)（10 個重點）
-- [118. Usage of short forms 2 - Casual conversation](#118-usage-of-short-forms-2---casual-conversation)（21 個重點）
-- [119. Usage of short forms 3 - Please don't do](#119-usage-of-short-forms-3---please-dont-do)（12 個重點）
-- [120. Usage of short forms 4 - I like doing](#120-usage-of-short-forms-4---i-like-doing)（15 個重點）
-- [124. Past tense short forms - Affirmative Conjugation](#124-past-tense-short-forms---affirmative-conjugation)（15 個重點）
-- [125. Past tense short forms - Negative Conjugation](#125-past-tense-short-forms---negative-conjugation)（22 個重點）
-- [126. Past tense short forms - Usage](#126-past-tense-short-forms---usage)（9 個重點）
-- [130. Something and Anything](#130-something-and-anything)（12 個重點）
-- [131. Some and Any for places, person and things](#131-some-and-any-for-places-person-and-things)（16 個重點）
-- [135. Qualifying Nouns with Verbs and Adjectives](#135-qualifying-nouns-with-verbs-and-adjectives)（15 個重點）
-- [143. Because 1 〜から](#143-because-1-から)（17 個重點）
-- [144. Because 2 〜ので](#144-because-2-ので)（31 個重點）
-- [146. Comparison 1 - A is more (property) than B](#146-comparison-1---a-is-more-property-than-b)（19 個重點）
-- [147. Comparison 2 - Between A and B, which is more (property)](#147-comparison-2---between-a-and-b-which-is-more-property)（8 個重點）
-- [148. Comparison 3 - A is the most (property) among (category)](#148-comparison-3---a-is-the-most-property-among-category)（12 個重點）
-- [149. Comparison 4 - Among (Category), what is the most (Property)](#149-comparison-4---among-category-what-is-the-most-property)（15 個重點）
-- [156. つもりだ](#156-つもりだ)（16 個重點）
-- [159. Adjective + なる](#159-adjective--なる)（12 個重點）
-- [164. I want to do](#164-i-want-to-do)（14 個重點）
-- [165. Someone said he wants to do](#165-someone-said-he-wants-to-do)（9 個重點）
-- [166. It seems someone wants to do](#166-it-seems-someone-wants-to-do)（12 個重點）
-- [184. 〜なくちゃいけません](#184-なくちゃいけません)（18 個重點）
-- [186. 〜でしょう](#186-でしょう)（26 個重點）
-- [196. あげる・くれる](#196-あげるくれる)（12 個重點）
-- [197. もらう](#197-もらう)（16 個重點）
-- [198. 〜たらどうですか](#198-たらどうですか)（14 個重點）
-- [199. Number + もしか](#199-number--もしか)（16 個重點）
-- [202. Volitional form](#202-volitional-form)（12 個重點）
-- [203. 〜ておく](#203-ておく)（13 個重點）
-- [204. Using Sentences to Qualify Nouns](#204-using-sentences-to-qualify-nouns)（13 個重點）
-- [206. 〜してあげる](#206-してあげる)（16 個重點）
-- [207. 〜してくれる](#207-してくれる)（12 個重點）
-- [208. 〜してもらう](#208-してもらう)（12 個重點）
-- [209. 〜ていただけませんか](#209-ていただけませんか)（11 個重點）
-- [210. 〜といい](#210-といい)（11 個重點）
-- [211. 〜時（とき）1](#211-時とき1)（20 個重點）
-- [212. 〜時（とき）2](#212-時とき2)（8 個重點）
-- [213. 時Practice](#213-時practice)（18 個重點）
-- [214. 〜てすみませんでした](#214-てすみませんでした)（15 個重點）
-- [217. 〜そうです](#217-そうです)（11 個重點）
-- [218. 〜って](#218-って)（11 個重點）
-- [219. 〜たら 1 - If A, then B](#219-たら-1---if-a-then-b)（14 個重點）
-- [220. 〜たら 2 - Events and Activities in a Temporal Sequence](#220-たら-2---events-and-activities-in-a-temporal-sequence)（11 個重點）
-- [256. Causative Sentences 1](#256-causative-sentences-1)（18 個重點）
-- [257. Causative Sentences 2](#257-causative-sentences-2)（14 個重點）
-- [258. Verb Stem + なさい (Command)](#258-verb-stem--なさい-command)（11 個重點）
-- [259. 〜ば (Conditional Statement)](#259-ば-conditional-statement)（16 個重點）
-- [260. 〜のに (Even though...)](#260-のに-even-though)（16 個重點）
-- [261. 〜のような・〜のように (Like...)](#261-のようなのように-like)（15 個重點）
-- [262. Causative-Passive Sentences](#262-causative-passive-sentences)（17 個重點）
-- [263. 〜ても](#263-ても)（18 個重點）
-- [264. 〜ことにする](#264-ことにする)（16 個重點）
-- [265. 〜まで](#265-まで)（15 個重點）
-- [266. 〜方（かた）](#266-方かた)（18 個重點）
+- [17. Numbers 1-10（數字 1～10）](#17-numbers-1-10數字-110)（11 個重點）
+- [18. Numbers 11-99（數字 11～99）](#18-numbers-11-99數字-1199)（13 個重點）
+- [19. Numbers 100 - 9,999（數字 100～9,999）](#19-numbers-100---9999數字-1009999)（33 個重點）
+- [20. Bigger numbers（更大的數字：萬以上單位）](#20-bigger-numbers更大的數字萬以上單位)（8 個重點）
+- [23. Time（時間的說法）](#23-time時間的說法)（24 個重點）
+- [26. XはYです（X 是 Y：名詞肯定句）](#26-xはyですx-是-y名詞肯定句)（17 個重點）
+- [27. Question（疑問句：〜か）](#27-question疑問句か)（18 個重點）
+- [28. Question 2（疑問句 2：疑問詞）](#28-question-2疑問句-2疑問詞)（14 個重點）
+- [29. Noun1 の Noun2（名詞 1 の 名詞 2：所屬與修飾）](#29-noun1-の-noun2名詞-1-の-名詞-2所屬與修飾)（23 個重點）
+- [30. Nounも（名詞＋も：也）](#30-nounも名詞も也)（16 個重點）
+- [31. Negative sentences - Present（否定句：現在式）](#31-negative-sentences---present否定句現在式)（11 個重點）
+- [32. Negative sentences - Past（否定句：過去式）](#32-negative-sentences---past否定句過去式)（10 個重點）
+- [37. これ-それ-あれ-どれ（這個・那個・哪個：指示事物）](#37-これ-それ-あれ-どれ這個那個哪個指示事物)（18 個重點）
+- [38. この-その-あの-どの（這個…・那個…・哪個…：修飾名詞）](#38-この-その-あの-どの這個那個哪個修飾名詞)（17 個重點）
+- [39. だれの noun（だれの＋名詞：誰的…）](#39-だれの-nounだれの名詞誰的)（11 個重點）
+- [40. ここ-そこ-あそこ-どこ（這裡・那裡・哪裡：指示場所）](#40-ここ-そこ-あそこ-どこ這裡那裡哪裡指示場所)（18 個重點）
+- [41. Writing Practice（寫作練習）](#41-writing-practice寫作練習)（12 個重點）
+- [44. Ru-verb（る動詞：第二類動詞）](#44-ru-verbる動詞第二類動詞)（8 個重點）
+- [45. U-verb（う動詞：第一類動詞）](#45-u-verbう動詞第一類動詞)（9 個重點）
+- [46. Irregular verb（不規則動詞：する・来る）](#46-irregular-verb不規則動詞する来る)（9 個重點）
+- [47. Verb types and the Present Tense（動詞分類與現在式）](#47-verb-types-and-the-present-tense動詞分類與現在式)（19 個重點）
+- [48. Past tense（過去式）](#48-past-tense過去式)（5 個重點）
+- [53. Basic particles（基本助詞）](#53-basic-particles基本助詞)（14 個重點）
+- [54. Basic Particles Practice（基本助詞練習）](#54-basic-particles-practice基本助詞練習)（8 個重點）
+- [55. Time reference（時間表達與助詞）](#55-time-reference時間表達與助詞)（12 個重點）
+- [56. The topic particle は（主題助詞 は）](#56-the-topic-particle-は主題助詞-は)（16 個重點）
+- [57. Particle が（助詞 が）](#57-particle-が助詞-が)（6 個重點）
+- [58. Particle も（助詞 も）](#58-particle-も助詞-も)（15 個重點）
+- [59. Particle と（助詞 と）](#59-particle-と助詞-と)（12 個重點）
+- [60. Particle や（助詞 や）](#60-particle-や助詞-や)（5 個重點）
+- [61. Particle で（助詞 で）](#61-particle-で助詞-で)（14 個重點）
+- [62. Frequency Adverbs（頻率副詞）](#62-frequency-adverbs頻率副詞)（16 個重點）
+- [65. 〜ませんか(Shall we)（邀約：要不要一起…）](#65-ませんかshall-we邀約要不要一起)（11 個重點）
+- [66. 〜ましょう(Let's...!)（提議：一起…吧）](#66-ましょうlets提議一起吧)（5 個重點）
+- [68. Xがあります(There is 非生物)（非生物的存在：有…）](#68-xがありますthere-is-非生物非生物的存在有)（21 個重點）
+- [69. Xがいます(There is 有生命)（生物的存在：有…）](#69-xがいますthere-is-有生命生物的存在有)（9 個重點）
+- [70. Describing where things are(前後左右上下)（位置的描述：前後左右上下）](#70-describing-where-things-are前後左右上下位置的描述前後左右上下)（31 個重點）
+- [74. い Adjectives（い形容詞）](#74-い-adjectivesい形容詞)（14 個重點）
+- [75. な Adjectives（な形容詞）](#75-な-adjectivesな形容詞)（11 個重點）
+- [76. Irregular Adjectives（不規則形容詞：いい 系）](#76-irregular-adjectives不規則形容詞いい-系)（6 個重點）
+- [77. すきな、きらいな（喜歡與討厭）](#77-すきなきらいな喜歡與討厭)（23 個重點）
+- [78. Degree Expressions（程度副詞）](#78-degree-expressions程度副詞)（5 個重點）
+- [83. Te-form rules (Ru-verbs)（て形變化規則：る動詞）](#83-te-form-rules-ru-verbsて形變化規則る動詞)（8 個重點）
+- [84. Te-form rules (U-verbs)（て形變化規則：う動詞）](#84-te-form-rules-u-verbsて形變化規則う動詞)（18 個重點）
+- [86. Te-form Usage 1（て形用法 1：請求與並列）](#86-te-form-usage-1て形用法-1請求與並列)（14 個重點）
+- [87. Te-form Usage 2（て形用法 2：許可與禁止）](#87-te-form-usage-2て形用法-2許可與禁止)（12 個重點）
+- [93. 〜ている（進行與持續狀態）](#93-ている進行與持續狀態)（18 個重點）
+- [94. 〜ている 2（瞬間變化動詞的狀態）](#94-ている-2瞬間變化動詞的狀態)（15 個重點）
+- [98. Te form for joining sentences（て形連接句子）](#98-te-form-for-joining-sentencesて形連接句子)（16 個重點）
+- [99. Writing Practice（寫作練習）](#99-writing-practice寫作練習)（17 個重點）
+- [102. (Body part)が(adjective)です（描述身體特徵）](#102-body-partがadjectiveです描述身體特徵)（21 個重點）
+- [106. Verb stem + にいく（動詞語幹＋に行く：去做…）](#106-verb-stem--にいく動詞語幹に行く去做)（14 個重點）
+- [107. Writing Practice（寫作練習）](#107-writing-practice寫作練習)（7 個重點）
+- [108. Listening Practice（聽力練習）](#108-listening-practice聽力練習)（7 個重點）
+- [110. たくさん（很多：たくさん 的位置）](#110-たくさん很多たくさん-的位置)（10 個重點）
+- [112. 1時間（時間長度的說法）](#112-1時間時間長度的說法)（21 個重點）
+- [115. Present tense Short form - Affirmative Conjugation（現在式常體：肯定變化）](#115-present-tense-short-form---affirmative-conjugation現在式常體肯定變化)（13 個重點）
+- [116. Present tense Short form - Short form Negative Conjugation（現在式常體：否定變化）](#116-present-tense-short-form---short-form-negative-conjugation現在式常體否定變化)（16 個重點）
+- [117. Usage of short forms 1 - Quotation（常體用法 1：引用）](#117-usage-of-short-forms-1---quotation常體用法-1引用)（10 個重點）
+- [118. Usage of short forms 2 - Casual conversation（常體用法 2：日常會話）](#118-usage-of-short-forms-2---casual-conversation常體用法-2日常會話)（21 個重點）
+- [119. Usage of short forms 3 - Please don't do（常體用法 3：請不要做…）](#119-usage-of-short-forms-3---please-dont-do常體用法-3請不要做)（12 個重點）
+- [120. Usage of short forms 4 - I like doing（常體用法 4：喜歡做…）](#120-usage-of-short-forms-4---i-like-doing常體用法-4喜歡做)（15 個重點）
+- [124. Past tense short forms - Affirmative Conjugation（過去式常體：肯定變化）](#124-past-tense-short-forms---affirmative-conjugation過去式常體肯定變化)（15 個重點）
+- [125. Past tense short forms - Negative Conjugation（過去式常體：否定變化）](#125-past-tense-short-forms---negative-conjugation過去式常體否定變化)（22 個重點）
+- [126. Past tense short forms - Usage（過去式常體：用法）](#126-past-tense-short-forms---usage過去式常體用法)（9 個重點）
+- [130. Something and Anything（何か・何も：某物與什麼都沒有）](#130-something-and-anything何か何も某物與什麼都沒有)（12 個重點）
+- [131. Some and Any for places, person and things（場所、人、事物的 some／any）](#131-some-and-any-for-places-person-and-things場所人事物的-someany)（16 個重點）
+- [135. Qualifying Nouns with Verbs and Adjectives（用動詞與形容詞修飾名詞）](#135-qualifying-nouns-with-verbs-and-adjectives用動詞與形容詞修飾名詞)（15 個重點）
+- [143. Because 1 〜から（原因理由 1：因為…）](#143-because-1-から原因理由-1因為)（17 個重點）
+- [144. Because 2 〜ので（原因理由 2：因為…）](#144-because-2-ので原因理由-2因為)（31 個重點）
+- [146. Comparison 1 - A is more (property) than B（比較 1：A 比 B 更…）](#146-comparison-1---a-is-more-property-than-b比較-1a-比-b-更)（19 個重點）
+- [147. Comparison 2 - Between A and B, which is more (property)（比較 2：A 和 B 哪個比較…）](#147-comparison-2---between-a-and-b-which-is-more-property比較-2a-和-b-哪個比較)（8 個重點）
+- [148. Comparison 3 - A is the most (property) among (category)（比較 3：在…之中 A 最…）](#148-comparison-3---a-is-the-most-property-among-category比較-3在之中-a-最)（12 個重點）
+- [149. Comparison 4 - Among (Category), what is the most (Property)（比較 4：在…之中哪個最…）](#149-comparison-4---among-category-what-is-the-most-property比較-4在之中哪個最)（15 個重點）
+- [156. つもりだ（打算做…）](#156-つもりだ打算做)（16 個重點）
+- [159. Adjective + なる（形容詞＋なる：變得…）](#159-adjective--なる形容詞なる變得)（12 個重點）
+- [164. I want to do（想要做…）](#164-i-want-to-do想要做)（14 個重點）
+- [165. Someone said he wants to do（引用他人的願望）](#165-someone-said-he-wants-to-do引用他人的願望)（9 個重點）
+- [166. It seems someone wants to do（看起來某人想做…）](#166-it-seems-someone-wants-to-do看起來某人想做)（12 個重點）
+- [184. 〜なくちゃいけません（不得不做…）](#184-なくちゃいけません不得不做)（18 個重點）
+- [186. 〜でしょう（推測：大概…吧）](#186-でしょう推測大概吧)（26 個重點）
+- [196. あげる・くれる（授受動詞：給予）](#196-あげるくれる授受動詞給予)（12 個重點）
+- [197. もらう（授受動詞：得到）](#197-もらう授受動詞得到)（16 個重點）
+- [198. 〜たらどうですか（建議：…如何？）](#198-たらどうですか建議如何)（14 個重點）
+- [199. Number + もしか（數量詞＋も／しか：數量的多寡）](#199-number--もしか數量詞もしか數量的多寡)（16 個重點）
+- [202. Volitional form（意向形：〜よう／〜おう）](#202-volitional-form意向形ようおう)（12 個重點）
+- [203. 〜ておく（事先做好、維持原狀）](#203-ておく事先做好維持原狀)（13 個重點）
+- [204. Using Sentences to Qualify Nouns（用句子修飾名詞）](#204-using-sentences-to-qualify-nouns用句子修飾名詞)（13 個重點）
+- [206. 〜してあげる（為別人做…）](#206-してあげる為別人做)（16 個重點）
+- [207. 〜してくれる（別人為我做…）](#207-してくれる別人為我做)（12 個重點）
+- [208. 〜してもらう（請別人為我做…）](#208-してもらう請別人為我做)（12 個重點）
+- [209. 〜ていただけませんか（客氣請求：能否請您…）](#209-ていただけませんか客氣請求能否請您)（11 個重點）
+- [210. 〜といい（希望…就好了）](#210-といい希望就好了)（11 個重點）
+- [211. 〜時（とき）1（…的時候 1）](#211-時とき1的時候-1)（20 個重點）
+- [212. 〜時（とき）2（…的時候 2）](#212-時とき2的時候-2)（8 個重點）
+- [213. 時Practice（〜時（とき）練習）](#213-時practice時とき練習)（18 個重點）
+- [214. 〜てすみませんでした（為…道歉）](#214-てすみませんでした為道歉)（15 個重點）
+- [217. 〜そうです（傳聞：據說…）](#217-そうです傳聞據說)（11 個重點）
+- [218. 〜って（口語引用）](#218-って口語引用)（11 個重點）
+- [219. 〜たら 1 - If A, then B（如果 A 就 B）](#219-たら-1---if-a-then-b如果-a-就-b)（14 個重點）
+- [220. 〜たら 2 - Events and Activities in a Temporal Sequence（事情的先後順序）](#220-たら-2---events-and-activities-in-a-temporal-sequence事情的先後順序)（11 個重點）
+- [256. Causative Sentences 1（使役句 1：讓／叫某人做…）](#256-causative-sentences-1使役句-1讓叫某人做)（18 個重點）
+- [257. Causative Sentences 2（使役句 2：使役的應用）](#257-causative-sentences-2使役句-2使役的應用)（14 個重點）
+- [258. Verb Stem + なさい (Command)（命令語氣：給我做…）](#258-verb-stem--なさい-command命令語氣給我做)（11 個重點）
+- [259. 〜ば (Conditional Statement)（條件形）](#259-ば-conditional-statement條件形)（16 個重點）
+- [260. 〜のに (Even though...)（明明…卻…）](#260-のに-even-though明明卻)（16 個重點）
+- [261. 〜のような・〜のように (Like...)（像…一樣）](#261-のようなのように-like像一樣)（15 個重點）
+- [262. Causative-Passive Sentences（使役被動：被迫做…）](#262-causative-passive-sentences使役被動被迫做)（17 個重點）
+- [263. 〜ても（即使…也…）](#263-ても即使也)（18 個重點）
+- [264. 〜ことにする（決定做…）](#264-ことにする決定做)（16 個重點）
+- [265. 〜まで（到…為止）](#265-まで到為止)（15 個重點）
+- [266. 〜方（かた）（做…的方法）](#266-方かた做的方法)（18 個重點）
 
 ---
 
-## 17. Numbers 1-10
+## 17. Numbers 1-10（數字 1～10）
 
 **日文的數字有幾種書寫/唸法系統？分別是什麼？**
 
@@ -183,7 +183,7 @@
 
 ---
 
-## 18. Numbers 11-99
+## 18. Numbers 11-99（數字 11～99）
 
 **【規則】日文的「十位數」（20, 30, 40...90）怎麼組成？**
 
@@ -260,7 +260,7 @@ nijuu yon
 
 ---
 
-## 19. Numbers 100 - 9,999
+## 19. Numbers 100 - 9,999（數字 100～9,999）
 
 **百位數（100的倍數）怎麼組成？  
 規則是什麼？**
@@ -448,7 +448,7 @@ nijuu yon
 
 ---
 
-## 20. Bigger numbers
+## 20. Bigger numbers（更大的數字：萬以上單位）
 
 **英文和日文計算數字的「基本單位」不同。  
 兩者各自以什麼作為1個單位來計數？**
@@ -501,7 +501,7 @@ nijuu yon
 
 ---
 
-## 23. Time
+## 23. Time（時間的說法）
 
 **午前**
 
@@ -632,7 +632,7 @@ Midnight（午夜12點）
 
 ---
 
-## 26. XはYです
+## 26. XはYです（X 是 Y：名詞肯定句）
 
 **「我」和「我們」的日文怎麼說？**
 
@@ -735,7 +735,7 @@ X（今日＝今天）＋ は ＋ Y（月曜日＝星期一）＋ です（現�
 
 ---
 
-## 27. Question
+## 27. Question（疑問句：〜か）
 
 **學生（がくせい）的日文？**
 
@@ -861,7 +861,7 @@ anata no okaasan wa isha deshita ka?
 
 ---
 
-## 28. Question 2
+## 28. Question 2（疑問句 2：疑問詞）
 
 **疑問詞：What**
 
@@ -941,7 +941,7 @@ anata no sukina kashu wa dare desuka?
 
 ---
 
-## 29. Noun1 の Noun2
+## 29. Noun1 の Noun2（名詞 1 の 名詞 2：所屬與修飾）
 
 **お母さん**
 
@@ -1075,7 +1075,7 @@ Noun3：予定（よてい-yotei）＝計畫
 
 ---
 
-## 30. Nounも
+## 30. Nounも（名詞＋も：也）
 
 **文法規則：助詞「も」在此的意思是什麼？**
 
@@ -1199,7 +1199,7 @@ satoshi mo gakusei deshitaka?
 
 ---
 
-## 31. Negative sentences - Present
+## 31. Negative sentences - Present（否定句：現在式）
 
 **警察官 是什麼意思？怎麼念？**
 
@@ -1277,7 +1277,7 @@ Step 2 把「です」換成「じゃありません」：
 
 ---
 
-## 32. Negative sentences - Past
+## 32. Negative sentences - Past（否定句：過去式）
 
 **日文如何表達「X（過去）不是Y」（X was not Y）？**
 
@@ -1355,7 +1355,7 @@ kashu
 
 ---
 
-## 37. これ-それ-あれ-どれ
+## 37. これ-それ-あれ-どれ（這個・那個・哪個：指示事物）
 
 **これ、それ、あれ、どれ 的用法區別是什麼？**
 
@@ -1447,7 +1447,7 @@ kashu
 
 ---
 
-## 38. この-その-あの-どの
+## 38. この-その-あの-どの（這個…・那個…・哪個…：修飾名詞）
 
 **友達（ともだち）是什麼意思？**
 
@@ -1559,7 +1559,7 @@ Ano josei wa Mikiko jaarimasen.
 
 ---
 
-## 39. だれの noun
+## 39. だれの noun（だれの＋名詞：誰的…）
 
 **「包包」的日文怎麼說？**
 
@@ -1634,7 +1634,7 @@ Ano josei wa Mikiko jaarimasen.
 
 ---
 
-## 40. ここ-そこ-あそこ-どこ
+## 40. ここ-そこ-あそこ-どこ（這裡・那裡・哪裡：指示場所）
 
 **Library**
 
@@ -1736,7 +1736,7 @@ Ano josei wa Mikiko jaarimasen.
 
 ---
 
-## 41. Writing Practice
+## 41. Writing Practice（寫作練習）
 
 **(Pointing at a car in front of you.)  
 "This is my car."**
@@ -1804,7 +1804,7 @@ ano ie wa dareno ie desuka?
 
 ---
 
-## 44. Ru-verb
+## 44. Ru-verb（る動詞：第二類動詞）
 
 **日文動詞會變化成哪三種形態？**
 
@@ -1866,7 +1866,7 @@ ano ie wa dareno ie desuka?
 
 ---
 
-## 45. U-verb
+## 45. U-verb（う動詞：第一類動詞）
 
 **什麼是 U-verb（U動詞）？**
 
@@ -1941,7 +1941,7 @@ ano ie wa dareno ie desuka?
 
 ---
 
-## 46. Irregular verb
+## 46. Irregular verb（不規則動詞：する・来る）
 
 **日文中有幾個不規則動詞？分別是什麼？**
 
@@ -2013,7 +2013,7 @@ ano ie wa dareno ie desuka?
 
 ---
 
-## 47. Verb types and the Present Tense
+## 47. Verb types and the Present Tense（動詞分類與現在式）
 
 **よく  
 (yoku)**
@@ -2150,7 +2150,7 @@ Home / house（家）
 
 ---
 
-## 48. Past tense
+## 48. Past tense（過去式）
 
 \***\*動詞ます形**的過去**肯定形**怎麼變？\*\*
 
@@ -2218,7 +2218,7 @@ Home / house（家）
 
 ---
 
-## 53. Basic particles
+## 53. Basic particles（基本助詞）
 
 **日文句子中的名詞後面通常會接什麼？它的作用是什麼？**
 
@@ -2305,7 +2305,7 @@ To sleep（睡覺）
 
 ---
 
-## 54. Basic Particles Practice
+## 54. Basic Particles Practice（基本助詞練習）
 
 **音楽**
 
@@ -2372,7 +2372,7 @@ To sleep（睡覺）
 
 ---
 
-## 55. Time reference
+## 55. Time reference（時間表達與助詞）
 
 **毎日**
 
@@ -2465,7 +2465,7 @@ itsu toshokan ni ikimasu ka?
 
 ---
 
-## 56. The topic particle は
+## 56. The topic particle は（主題助詞 は）
 
 **文法規則：助詞「は」通常接在句子的什麼成分後面？除此之外還能怎麼用？**
 
@@ -2584,7 +2584,7 @@ About movies, what is your favourite movie?
 
 ---
 
-## 57. Particle が
+## 57. Particle が（助詞 が）
 
 **が的兩個主要功能是什麼？**
 
@@ -2646,7 +2646,7 @@ About movies, what is your favourite movie?
 
 ---
 
-## 58. Particle も
+## 58. Particle も（助詞 も）
 
 **靴（くつ）**
 
@@ -2767,7 +2767,7 @@ B: 日曜日（にちようび）**にも** パーティーに 行（い）き�
 
 ---
 
-## 59. Particle と
+## 59. Particle と（助詞 と）
 
 **助詞「と」的第一個用法是什麼？**
 
@@ -2845,7 +2845,7 @@ South Korea
 
 ---
 
-## 60. Particle や
+## 60. Particle や（助詞 や）
 
 **文法：**や** 的用法是什麼？和 **と** 有什麼不同？**
 
@@ -2892,7 +2892,7 @@ Taku wa nihongo ya furansugo o hanashimasu.
 
 ---
 
-## 61. Particle で
+## 61. Particle で（助詞 で）
 
 **「Chopsticks」的日文是？**
 
@@ -2991,7 +2991,7 @@ kazoku to supeingo de hanashimasuka?
 
 ---
 
-## 62. Frequency Adverbs
+## 62. Frequency Adverbs（頻率副詞）
 
 **頻度副詞（Frequency Adverbs）在句子中的位置規則？**
 
@@ -3127,7 +3127,7 @@ kazoku to supeingo de hanashimasuka?
 
 ---
 
-## 65. 〜ませんか(Shall we)
+## 65. 〜ませんか(Shall we)（邀約：要不要一起…）
 
 **昼ごはん（ひるごはん）**
 
@@ -3208,7 +3208,7 @@ sake
 
 ---
 
-## 66. 〜ましょう(Let's...!)
+## 66. 〜ましょう(Let's...!)（提議：一起…吧）
 
 **「〜ましょう」「〜ましょうか」的文法規則是什麼？**
 
@@ -3260,7 +3260,7 @@ Step2：把「ます」換成「**ましょう**」或「**ましょうか？**�
 
 ---
 
-## 68. Xがあります(There is 非生物)
+## 68. Xがあります(There is 非生物)（非生物的存在：有…）
 
 **文法規則：**Xがあります** 是什麼意思？助詞「が」在此扮演什麼角色？**
 
@@ -3396,7 +3396,7 @@ Time（時間）
 
 ---
 
-## 69. Xがいます(There is 有生命)
+## 69. Xがいます(There is 有生命)（生物的存在：有…）
 
 **什麼時候要用「います」，而不是「あります」？**
 
@@ -3451,7 +3451,7 @@ Time（時間）
 
 ---
 
-## 70. Describing where things are(前後左右上下)
+## 70. Describing where things are(前後左右上下)（位置的描述：前後左右上下）
 
 **「家の前に車があります。」是什麼意思？**
 
@@ -3607,7 +3607,7 @@ I will wait (for you) inside the station.
 
 ---
 
-## 74. い Adjectives
+## 74. い Adjectives（い形容詞）
 
 **日文形容詞分為哪兩種？名稱從何而來？**
 
@@ -3706,7 +3706,7 @@ I will wait (for you) inside the station.
 
 ---
 
-## 75. な Adjectives
+## 75. な Adjectives（な形容詞）
 
 **な形容詞的現在/過去・肯定/否定要怎麼變化？  
 （跟い形容詞有什麼不同？）**
@@ -3820,7 +3820,7 @@ Convenient
 
 ---
 
-## 76. Irregular Adjectives
+## 76. Irregular Adjectives（不規則形容詞：いい 系）
 
 **不規則形容詞的規則**  
 い形容詞的活用基本上是規則的，但有一個例外形容詞，它的變化規則是什麼？
@@ -3879,7 +3879,7 @@ Convenient
 
 ---
 
-## 77. すきな、きらいな
+## 77. すきな、きらいな（喜歡與討厭）
 
 **春**
 
@@ -4021,7 +4021,7 @@ Convenient
 
 ---
 
-## 78. Degree Expressions
+## 78. Degree Expressions（程度副詞）
 
 **日文中表示「非常」和「稍微/一點點」的**程度副詞**是什麼？放置規則是什麼？**
 
@@ -4070,7 +4070,7 @@ Convenient
 
 ---
 
-## 83. Te-form rules (Ru-verbs)
+## 83. Te-form rules (Ru-verbs)（て形變化規則：る動詞）
 
 **て形(te-form)在日語文法中有哪4種用法？**
 
@@ -4130,7 +4130,7 @@ Te-form：**見（み）て** mite
 
 ---
 
-## 84. Te-form rules (U-verbs)
+## 84. Te-form rules (U-verbs)（て形變化規則：う動詞）
 
 **什麼是「Te-form」？**
 
@@ -4260,7 +4260,7 @@ Te-form：話して（はなして / hanashite）
 
 ---
 
-## 86. Te-form Usage 1
+## 86. Te-form Usage 1（て形用法 1：請求與並列）
 
 **日文的 Te-form（て形）有哪 4 種主要用法？**
 
@@ -4371,7 +4371,7 @@ Te-form：寝（ね）て（nete）
 
 ---
 
-## 87. Te-form Usage 2
+## 87. Te-form Usage 2（て形用法 2：許可與禁止）
 
 **水（みず）**
 
@@ -4489,7 +4489,7 @@ Te-form：**開けて**（あけて / akete）
 
 ---
 
-## 93. 〜ている
+## 93. 〜ている（進行與持續狀態）
 
 **料理する（りょうりする）**
 
@@ -4621,7 +4621,7 @@ Ken wa tegami wo kaite imasu.
 
 ---
 
-## 94. 〜ている 2
+## 94. 〜ている 2（瞬間變化動詞的狀態）
 
 **94課新單字整理（〜ている 2）**
 
@@ -4728,7 +4728,7 @@ Tシャツ（Tしゃつ）- T恤
 
 ---
 
-## 98. Te form for joining sentences
+## 98. Te form for joining sentences（て形連接句子）
 
 **安い（やすい - yasui）**
 
@@ -4865,7 +4865,7 @@ Funny, Fun, Interesting（有趣的、好玩的）
 
 ---
 
-## 99. Writing Practice
+## 99. Writing Practice（寫作練習）
 
 **「可愛(かわい)い」（kawaii，可愛的）的て形肯定形（Te-form Affirmative）怎麼寫？**
 
@@ -5016,7 +5016,7 @@ Funny, Fun, Interesting（有趣的、好玩的）
 
 ---
 
-## 102. (Body part)が(adjective)です
+## 102. (Body part)が(adjective)です（描述身體特徵）
 
 **日文如何表達「某人有某種身體特徵」？  
 例如：Tom has long hair.**
@@ -5130,7 +5130,7 @@ akane wa me ga chiisakunaidesu.
 
 ---
 
-## 106. Verb stem + にいく
+## 106. Verb stem + にいく（動詞語幹＋に行く：去做…）
 
 **デパート（でぱーと / depa-to）**
 
@@ -5233,7 +5233,7 @@ Aunt（阿姨）
 
 ---
 
-## 107. Writing Practice
+## 107. Writing Practice（寫作練習）
 
 本單元是寫作練習題，每一題都先給一句英文句子和幾個提示單字（HINT），要求練習寫出對應的日文句子。7 題全部都在練習同一個句型：「動詞ます形（去掉ます）＋に＋行く／来る／帰る」，用來表達「為了做某事而去／來（某地）」，並依句意變化行く・来る的時態（現在/過去）與肯定/否定/疑問形。
 
@@ -5309,7 +5309,7 @@ Aunt（阿姨）
 
 ---
 
-## 108. Listening Practice
+## 108. Listening Practice（聽力練習）
 
 這個章節是「聽力／閱讀理解」練習：畫面先給一句日文句子（有的標題是 Reading Practice，用眼睛讀；有的標題是 Listening Practice，用耳朵聽），下方列出三個英文選項，要選出跟日文句子意思相符的那一個（正確答案在截圖中以紅字標示）。以下每一題都整理成：中文提問、英文原題（三個選項全部保留、正確答案標註）、日文原文（含假名／羅馬拼音）、中文翻譯、文法說明。
 
@@ -5429,7 +5429,7 @@ Aunt（阿姨）
 
 ---
 
-## 110. たくさん
+## 110. たくさん（很多：たくさん 的位置）
 
 **「たくさん」(takusan，很多)加在句子的受詞上時，可以放在哪兩個位置？**
 
@@ -5501,7 +5501,7 @@ Aunt（阿姨）
 
 ---
 
-## 112. 1時間
+## 112. 1時間（時間長度的說法）
 
 **Second（時間單位）**
 
@@ -5618,7 +5618,7 @@ Doyoubi hon o yojikan yomimashita.
 
 ---
 
-## 115. Present tense Short form - Affirmative Conjugation
+## 115. Present tense Short form - Affirmative Conjugation（現在式常體：肯定變化）
 
 這一課要學一種新的活用形式，叫做「短形（short form／普通形）」，用來跟之前學過的「長形（long form，也就是ます形）」做對照。短形是日文口語、日記、文法句型（例如「から」、「ので」等）常常會用到的基礎形式，所以每一種詞類（動詞、い形容詞、な形容詞、名詞+です）都要分別記住它的短形肯定變化規則。
 
@@ -5742,7 +5742,7 @@ Group B（な形容詞、名詞+です）：把長形句尾的「です」換成
 
 ---
 
-## 116. Present tense Short form - Short form Negative Conjugation
+## 116. Present tense Short form - Short form Negative Conjugation（現在式常體：否定變化）
 
 **な形容詞、い形容詞、以及「名詞＋です」的現在式短形否定，共同規則是什麼？（Group C）**
 
@@ -5886,7 +5886,7 @@ U動詞：去掉字尾母音「u」加「anai」。例：書（か）く→書�
 
 ---
 
-## 117. Usage of short forms 1 - Quotation
+## 117. Usage of short forms 1 - Quotation（常體用法 1：引用）
 
 常體短形除了本身可以當作句子的結尾之外，還有另外四種特別的用法：(1) 引用「某人説…」、「我覺得…」；(2) 用在朋友間輕鬆的對話中，表示親密感；(3) 用於委婉的否定請求（「請不要…」）；(4) 用於表達喜好或擅長（「我喜歡做…」、「我擅長做…」）。本章只介紹第一種用法：引用。
 
@@ -5988,7 +5988,7 @@ U動詞：去掉字尾母音「u」加「anai」。例：書（か）く→書�
 
 ---
 
-## 118. Usage of short forms 2 - Casual conversation
+## 118. Usage of short forms 2 - Casual conversation（常體用法 2：日常會話）
 
 **文法：常體短形（short forms）總共有哪4種用法？這一課要學哪一種？**
 
@@ -6173,7 +6173,7 @@ Delicious（好吃、美味）
 
 ---
 
-## 119. Usage of short forms 3 - Please don't do
+## 119. Usage of short forms 3 - Please don't do（常體用法 3：請不要做…）
 
 常體短形（short form）常見有4種用法：(1) 用在引述、轉述他人說的話或想法（quoted speech，例如「我覺得…」「她說…」）；(2) 用在輕鬆、隨意的對話中，作為關係親近的象徵；(3) 用來表達「請不要做…」的否定請求；(4) 用來表達想法，例如「我喜歡做…」或「我擅長做…」。本課要學的是第(3)種用法。
 
@@ -6307,7 +6307,7 @@ Negative short form（ない形）＋でください ＝ 請不要做…
 
 ---
 
-## 120. Usage of short forms 4 - I like doing
+## 120. Usage of short forms 4 - I like doing（常體用法 4：喜歡做…）
 
 常体短形（普通形）一共有 4 種常見用法：(1) 表示轉述、引用別人說的話或自己的想法（「我覺得…」「她說…」）；(2) 用在關係親密的朋友之間的輕鬆對話；(3) 用來表達否定的請求（「請不要…」）；(4) 用來表達「我喜歡做…」「我擅長做…」這一類把動作當作名詞來談論的句子。本課只講第 (4) 種用法。
 
@@ -6491,7 +6491,7 @@ Negative short form（ない形）＋でください ＝ 請不要做…
 
 ---
 
-## 124. Past tense short forms - Affirmative Conjugation
+## 124. Past tense short forms - Affirmative Conjugation（過去式常體：肯定變化）
 
 **日文的過去式肯定短形（普通形）依詞性可以分成哪三大類？**
 
@@ -6633,7 +6633,7 @@ Negative short form（ない形）＋でください ＝ 請不要做…
 
 ---
 
-## 125. Past tense short forms - Negative Conjugation
+## 125. Past tense short forms - Negative Conjugation（過去式常體：否定變化）
 
 **過去式否定短形（普通体）的變化規則是什麼？動詞、い形容詞、な形容詞、名詞＋です分別怎麼變？**
 
@@ -6792,7 +6792,7 @@ Negative short form（ない形）＋でください ＝ 請不要做…
 
 ---
 
-## 126. Past tense short forms - Usage
+## 126. Past tense short forms - Usage（過去式常體：用法）
 
 本課接續常體（短形）的討論，說明過去式常體的三種變化規則（Group A/B/C），以及這些過去式常體實際上會在什麼場合被使用（轉述句、日常會話）。
 
@@ -6867,7 +6867,7 @@ su- wa nihongo o benkyoushiteiru to itteimashita.
 
 ---
 
-## 130. Something and Anything
+## 130. Something and Anything（何か・何も：某物與什麼都沒有）
 
 **猫**
 
@@ -6947,7 +6947,7 @@ ie de nanika tabemasu.
 
 ---
 
-## 131. Some and Any for places, person and things
+## 131. Some and Any for places, person and things（場所、人、事物的 some／any）
 
 **日文中要表達「某事/某物」(something) 和「什麼事都不」(not...anything) 時，是怎麼構成的？**
 
@@ -7068,7 +7068,7 @@ Person：誰か**（肯定/疑問）／誰**も（否定）
 
 ---
 
-## 135. Qualifying Nouns with Verbs and Adjectives
+## 135. Qualifying Nouns with Verbs and Adjectives（用動詞與形容詞修飾名詞）
 
 **日文中，動詞的短型（辭書形、ない形、た形等）可以用來做什麼？請舉一個例句說明。**
 
@@ -7182,7 +7182,7 @@ Person：誰か**（肯定/疑問）／誰**も（否定）
 
 ---
 
-## 143. Because 1 〜から
+## 143. Because 1 〜から（原因理由 1：因為…）
 
 **今晩（こんばん / konban）**
 
@@ -7328,7 +7328,7 @@ Step 3：依照下面其中一種句子結構組合起來：
 
 ---
 
-## 144. Because 2 〜ので
+## 144. Because 2 〜ので（原因理由 2：因為…）
 
 **「〜ので」是什麼意思？跟「〜から」相比，語意和語氣上有什麼不同？**
 
@@ -7520,7 +7520,7 @@ Birthday（生日）
 
 ---
 
-## 146. Comparison 1 - A is more (property) than B
+## 146. Comparison 1 - A is more (property) than B（比較 1：A 比 B 更…）
 
 **「の」作為代名詞的用法是什麼？什麼時候可以使用？**
 
@@ -7686,7 +7686,7 @@ Noun1 の Noun2 ⇒ Noun1 の＿＿＿
 
 ---
 
-## 147. Comparison 2 - Between A and B, which is more (property)
+## 147. Comparison 2 - Between A and B, which is more (property)（比較 2：A 和 B 哪個比較…）
 
 **日語形容詞在比較句中會不會像英文一樣產生詞形變化（例如 great → greater）？**
 
@@ -7771,7 +7771,7 @@ Tom和凱之間，哪一個比較年輕？
 
 ---
 
-## 148. Comparison 3 - A is the most (property) among (category)
+## 148. Comparison 3 - A is the most (property) among (category)（比較 3：在…之中 A 最…）
 
 日文的形容詞在「非比較句」和「比較句」中形狀完全一樣，不會像英文 great → greatest 那樣產生詞形變化；比較的概念完全是靠在被比較的名詞後面加上特定的助詞（のなかで、が）與副詞（いちばん）來表達，形容詞本身維持原形。
 
@@ -7881,7 +7881,7 @@ Tom和凱之間，哪一個比較年輕？
 
 ---
 
-## 149. Comparison 4 - Among (Category), what is the most (Property)
+## 149. Comparison 4 - Among (Category), what is the most (Property)（比較 4：在…之中哪個最…）
 
 **在日文中，「在（範疇）之中，哪一個最（性質）？」這個句型該怎麼說？**
 
@@ -8027,7 +8027,7 @@ Tom和凱之間，哪一個比較年輕？
 
 ---
 
-## 156. つもりだ
+## 156. つもりだ（打算做…）
 
 **「つもりです」是什麼意思？用來表達什麼語氣？**
 
@@ -8165,7 +8165,7 @@ Tom和凱之間，哪一個比較年輕？
 
 ---
 
-## 159. Adjective + なる
+## 159. Adjective + なる（形容詞＋なる：變得…）
 
 **なる怎麼變化（敬體的現在／過去、肯定／否定）？**
 
@@ -8299,7 +8299,7 @@ Tom和凱之間，哪一個比較年輕？
 
 ---
 
-## 164. I want to do
+## 164. I want to do（想要做…）
 
 **日文要怎麼表達「我想要做…」？**
 
@@ -8439,7 +8439,7 @@ Tom和凱之間，哪一個比較年輕？
 
 ---
 
-## 165. Someone said he wants to do
+## 165. Someone said he wants to do（引用他人的願望）
 
 **〜たい的基本用法是什麼？**
 
@@ -8532,7 +8532,7 @@ Tom和凱之間，哪一個比較年輕？
 
 ---
 
-## 166. It seems someone wants to do
+## 166. It seems someone wants to do（看起來某人想做…）
 
 **複習：「〜たい」是用來表達什麼？**
 
@@ -8664,7 +8664,7 @@ Tom和凱之間，哪一個比較年輕？
 
 ---
 
-## 184. 〜なくちゃいけません
+## 184. 〜なくちゃいけません（不得不做…）
 
 **辞める（やめる / yameru）**
 
@@ -8778,7 +8778,7 @@ To clean up（打掃、清掃）
 
 ---
 
-## 186. 〜でしょう
+## 186. 〜でしょう（推測：大概…吧）
 
 **雨が降る（あめがふる）**
 
@@ -8988,7 +8988,7 @@ wakaru
 
 ---
 
-## 196. あげる・くれる
+## 196. あげる・くれる（授受動詞：給予）
 
 **花（はな）**
 
@@ -9055,7 +9055,7 @@ shoutaijou
 
 ---
 
-## 197. もらう
+## 197. もらう（授受動詞：得到）
 
 **辞書（じしょ）**
 
@@ -9135,7 +9135,7 @@ nanika
 
 ---
 
-## 198. 〜たらどうですか
+## 198. 〜たらどうですか（建議：…如何？）
 
 **薬（くすり）**
 
@@ -9206,7 +9206,7 @@ kaban
 
 ---
 
-## 199. Number + もしか
+## 199. Number + もしか（數量詞＋も／しか：數量的多寡）
 
 **猫（ねこ）**
 
@@ -9287,7 +9287,7 @@ dai
 
 ---
 
-## 202. Volitional form
+## 202. Volitional form（意向形：〜よう／〜おう）
 
 **結婚する（けっこんする）**
 
@@ -9347,7 +9347,7 @@ Ru-verb（一段動詞）：去掉語尾「る」，加上「よう」（食べ�
 
 ---
 
-## 203. 〜ておく
+## 203. 〜ておく（事先做好、維持原狀）
 
 **ストーブ（すとーぶ）**
 
@@ -9414,7 +9414,7 @@ mitsukeru
 
 ---
 
-## 204. Using Sentences to Qualify Nouns
+## 204. Using Sentences to Qualify Nouns（用句子修飾名詞）
 
 **彼氏（かれし）**
 
@@ -9481,7 +9481,7 @@ terebi bangumi
 
 ---
 
-## 206. 〜してあげる
+## 206. 〜してあげる（為別人做…）
 
 **貸す（かす）**
 
@@ -9561,7 +9561,7 @@ ko-hi-
 
 ---
 
-## 207. 〜してくれる
+## 207. 〜してくれる（別人為我做…）
 
 **送る（おくる）**
 
@@ -9622,7 +9622,7 @@ ryouri suru
 
 ---
 
-## 208. 〜してもらう
+## 208. 〜してもらう（請別人為我做…）
 
 **知らない人（しらないひと）**
 
@@ -9683,7 +9683,7 @@ shashin
 
 ---
 
-## 209. 〜ていただけませんか
+## 209. 〜ていただけませんか（客氣請求：能否請您…）
 
 **待つ（まつ）**
 
@@ -9739,7 +9739,7 @@ honyaku suru
 
 ---
 
-## 210. 〜といい
+## 210. 〜といい（希望…就好了）
 
 **アルバイト（あるばいと）**
 
@@ -9795,7 +9795,7 @@ noru
 
 ---
 
-## 211. 〜時（とき）1
+## 211. 〜時（とき）1（…的時候 1）
 
 **チベット（ちべっと）**
 
@@ -9894,7 +9894,7 @@ hashiru
 
 ---
 
-## 212. 〜時（とき）2
+## 212. 〜時（とき）2（…的時候 2）
 
 **ウーロン茶（うーろんちゃ）**
 
@@ -9936,7 +9936,7 @@ ofuro ni hairu
 
 ---
 
-## 213. 時Practice
+## 213. 時Practice（〜時（とき）練習）
 
 **案内する（あんないする）**
 
@@ -10029,7 +10029,7 @@ A晚於／同時於B → A用現在式；A早於B（A先完成，B才發生）�
 
 ---
 
-## 214. 〜てすみませんでした
+## 214. 〜てすみませんでした（為…道歉）
 
 **汚い言葉（きたないことば）**
 
@@ -10105,7 +10105,7 @@ ibento
 
 ---
 
-## 217. 〜そうです
+## 217. 〜そうです（傳聞：據說…）
 
 **新聞（しんぶん）**
 
@@ -10161,7 +10161,7 @@ eigakan
 
 ---
 
-## 218. 〜って
+## 218. 〜って（口語引用）
 
 **忙しい（いそがしい）**
 
@@ -10218,7 +10218,7 @@ kaigi
 
 ---
 
-## 219. 〜たら 1 - If A, then B
+## 219. 〜たら 1 - If A, then B（如果 A 就 B）
 
 **散歩（さんぽ）**
 
@@ -10290,7 +10290,7 @@ kanashii
 
 ---
 
-## 220. 〜たら 2 - Events and Activities in a Temporal Sequence
+## 220. 〜たら 2 - Events and Activities in a Temporal Sequence（事情的先後順序）
 
 **掃除（そうじ）**
 
@@ -10347,7 +10347,7 @@ owaru
 
 ---
 
-## 256. Causative Sentences 1
+## 256. Causative Sentences 1（使役句 1：讓／叫某人做…）
 
 **泣く（なく）**
 
@@ -10438,7 +10438,7 @@ tsukau
 
 ---
 
-## 257. Causative Sentences 2
+## 257. Causative Sentences 2（使役句 2：使役的應用）
 
 **両親（りょうしん）**
 
@@ -10510,7 +10510,7 @@ shigoto
 
 ---
 
-## 258. Verb Stem + なさい (Command)
+## 258. Verb Stem + なさい (Command)（命令語氣：給我做…）
 
 **起きる（おきる）**
 
@@ -10567,7 +10567,7 @@ ireru
 
 ---
 
-## 259. 〜ば (Conditional Statement)
+## 259. 〜ば (Conditional Statement)（條件形）
 
 **鍵をかける（かぎをかける）**
 
@@ -10649,7 +10649,7 @@ kansei suru
 
 ---
 
-## 260. 〜のに (Even though...)
+## 260. 〜のに (Even though...)（明明…卻…）
 
 **会社（かいしゃ）**
 
@@ -10730,7 +10730,7 @@ katsu
 
 ---
 
-## 261. 〜のような・〜のように (Like...)
+## 261. 〜のような・〜のように (Like...)（像…一樣）
 
 **鎌倉（かまくら）**
 
@@ -10808,7 +10808,7 @@ yuumei na
 
 ---
 
-## 262. Causative-Passive Sentences
+## 262. Causative-Passive Sentences（使役被動：被迫做…）
 
 **兄（あに）**
 
@@ -10895,7 +10895,7 @@ pan
 
 ---
 
-## 263. 〜ても
+## 263. 〜ても（即使…也…）
 
 **雨が降る（あめがふる）**
 
@@ -10987,7 +10987,7 @@ taikutsu na
 
 ---
 
-## 264. 〜ことにする
+## 264. 〜ことにする（決定做…）
 
 **車（くるま）**
 
@@ -11068,7 +11068,7 @@ waruguchi o iu
 
 ---
 
-## 265. 〜まで
+## 265. 〜まで（到…為止）
 
 **晴れる（はれる）**
 
@@ -11145,7 +11145,7 @@ yamu
 
 ---
 
-## 266. 〜方（かた）
+## 266. 〜方（かた）（做…的方法）
 
 **漢字（かんじ）**
 
