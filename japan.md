@@ -105,6 +105,35 @@
 - [218. 〜って（口語引用）](#218-って口語引用)（11 個重點）
 - [219. 〜たら 1 - If A, then B（如果 A 就 B）](#219-たら-1---if-a-then-b如果-a-就-b)（14 個重點）
 - [220. 〜たら 2 - Events and Activities in a Temporal Sequence（事情的先後順序）](#220-たら-2---events-and-activities-in-a-temporal-sequence事情的先後順序)（11 個重點）
+- [221. 〜たら 3 - Hypothetical Condition and its Probable Result（純粹假設的條件與結果）](#221-たら-3---hypothetical-condition-and-its-probable-result純粹假設的條件與結果)（29 個重點）
+- [222. 〜なくてもいいです (Don't need to do....)（不需要做…）](#222-なくてもいいです-dont-need-to-do不需要做)（17 個重點）
+- [223. 〜みたいです (A resembles B)（像…一樣／似乎…）](#223-みたいです-a-resembles-b像一樣似乎)（15 個重點）
+- [224. 〜前に (Before doing ...)（做…之前）](#224-前に-before-doing-做之前)（23 個重點）
+- [225. 〜てから (After doing ...)（做了…之後）](#225-てから-after-doing-做了之後)（22 個重點）
+- [227. Transitivity Pairs（他動詞・自動詞配對）](#227-transitivity-pairs他動詞自動詞配對)（43 個重點）
+- [228. 〜てしまう (To complete doing something, and to regret doing something)（做完／不小心做了…）](#228-てしまう-to-complete-doing-something-and-to-regret-doing-something做完不小心做了)（27 個重點）
+- [229. 〜と (Whenever A, B)（每當A就B）](#229-と-whenever-a-b每當a就b)（34 個重點）
+- [230. 〜ながら (While doing...)（一邊…一邊…）](#230-ながら-while-doing一邊一邊)（35 個重點）
+- [231. 〜ばよかったです (I shouldn't have done...)（早知道就該／不該做…）](#231-ばよかったです-i-shouldnt-have-done早知道就該不該做)（22 個重點）
+- [234. Honorific Verbs 1（尊敬語動詞 1）](#234-honorific-verbs-1尊敬語動詞-1)（26 個重點）
+- [235. Honorific Verbs 2（尊敬語動詞 2）](#235-honorific-verbs-2尊敬語動詞-2)（36 個重點）
+- [236. Giving Respectful Advice（恭敬地建議、指示）](#236-giving-respectful-advice恭敬地建議指示)（28 個重點）
+- [237. 〜てくれてありがとう（謝謝你做了…）](#237-てくれてありがとう謝謝你做了)（24 個重點）
+- [238. 〜てよかったです（很高興是這樣的結果）](#238-てよかったです很高興是這樣的結果)（14 個重點）
+- [239. 〜はずです（應該是…）](#239-はずです應該是)（30 個重點）
+- [241. Extra- Modest Expressions（丁重語）](#241-extra--modest-expressions丁重語)（34 個重點）
+- [242. Humble Expressions 1（謙讓語 1）](#242-humble-expressions-1謙讓語-1)（20 個重點）
+- [243. Humble Expressions 2（謙讓語 2）](#243-humble-expressions-2謙讓語-2)（34 個重點）
+- [244. 〜ないで（不做…而做…）](#244-ないで不做而做)（27 個重點）
+- [245. Questions within Larger Sentences（疑問句包進句子裡）](#245-questions-within-larger-sentences疑問句包進句子裡)（30 個重點）
+- [246. name という item（叫做…的人事物）](#246-name-という-item叫做的人事物)（19 個重點）
+- [247. 〜やすい 〜にくい（容易～／難以～）](#247-やすい-にくい容易難以)（33 個重點）
+- [250. Passive Sentences 1（被動句 1）](#250-passive-sentences-1被動句-1)（38 個重點）
+- [251. Passive Sentences 2（被動句 2）](#251-passive-sentences-2被動句-2)（36 個重點）
+- [252. 〜てある（狀態的維持）](#252-てある狀態的維持)（27 個重點）
+- [253. 〜間に（…的期間）](#253-間に的期間)（30 個重點）
+- [254. Adjective +する（使…變成…）](#254-adjective-する使變成)（31 個重點）
+- [255. 〜てほしい（希望某人做…）](#255-てほしい希望某人做)（31 個重點）
 - [256. Causative Sentences 1（使役句 1：讓／叫某人做…）](#256-causative-sentences-1使役句-1讓叫某人做)（18 個重點）
 - [257. Causative Sentences 2（使役句 2：使役的應用）](#257-causative-sentences-2使役句-2使役的應用)（14 個重點）
 - [258. Verb Stem + なさい (Command)（命令語氣：給我做…）](#258-verb-stem--なさい-command命令語氣給我做)（11 個重點）
@@ -10379,6 +10408,4136 @@ owaru
 
 家(いえ)の掃除(そうじ)が終(お)わったら、本(ほん)を読(よ)みます。  
 (Ie no souji ga owattara, hon o yomimasu.)
+
+---
+
+## 221. 〜たら 3 - Hypothetical Condition and its Probable Result（純粹假設的條件與結果）
+
+**猫（ねこ）**
+
+neko  
+意思：貓 (cat)
+
+**寝る（ねる）**
+
+neru  
+意思：睡覺 (to sleep)
+
+**一日中（いちにちじゅう）**
+
+ichinichijuu  
+意思：一整天 (all day long)
+
+**お金（かね）**
+
+okane  
+意思：錢 (money)
+
+**車（くるま）**
+
+kuruma  
+意思：車子 (car)
+
+**買う（かう）**
+
+kau  
+意思：買 (to buy)
+
+**来週（らいしゅう）**
+
+raishuu  
+意思：下週 (next week)
+
+**試験（しけん）**
+
+shiken  
+意思：考試 (exam)
+
+**今週末（こんしゅうまつ）**
+
+konshuumatsu  
+意思：這個週末 (this weekend)
+
+**勉強する（べんきょうする）**
+
+benkyou suru  
+意思：讀書、學習 (to study)
+
+**結婚する（けっこんする）**
+
+kekkon suru  
+意思：結婚 (to get married)
+
+**食べる（たべる）**
+
+taberu  
+意思：吃 (to eat)
+
+**毎日（まいにち）**
+
+mainichi  
+意思：每天 (every day)
+
+**日本人（にほんじん）**
+
+nihonjin  
+意思：日本人 (Japanese person)
+
+**寿司（すし）**
+
+sushi  
+意思：壽司 (sushi)
+
+**若い（わかい）**
+
+wakai  
+意思：年輕的 (young)
+
+**始める（はじめる）**
+
+hajimeru  
+意思：開始 (to start)
+
+**サーフィン**
+
+saafin  
+意思：衝浪 (surfing)
+
+**なる**
+
+naru  
+意思：變成 (to become)
+
+**何（なに）**
+
+nani  
+意思：什麼 (what)
+
+**〜たら 除了基本假設與先後順序，還有第三種用法是什麼？**
+
+這裡要學的是「純粹假設的條件與其可能結果」，句型為「もし A たら、可能會 B」（若真的發生A，大概就會B），接續方式為「[A的過去式常體]＋ら，[B]」。
+
+**這種用法有什麼限制？**
+
+有兩個限制：一是B所描述的事情不能發生在A之前；二是たら只能描述A與B之間自然成立的條件關係，不能用來表達「即使A，B仍然成立」這種讓步語氣。
+
+**「If I were a cat, I would probably sleep all day.」的日文怎麼說？**
+
+私(わたし)が猫(ねこ)だったら、一日中(いちにちじゅう)寝(ね)ているでしょう。  
+(Watashi ga neko dattara, ichinichijuu nete iru deshou.)
+
+**「If I had money, I would buy a car.」的日文怎麼說？**
+
+お金(かね)があったら、車(くるま)を買(か)うんですけど。  
+(Okane ga attara, kuruma o kaun desu kedo.)
+
+**「If you have an exam next week, you should study this weekend.」的日文怎麼說？**
+
+来週(らいしゅう)試験(しけん)があったら、今週末(こんしゅうまつ)勉強(べんきょう)したほうがいいです。  
+(Raishuu shiken ga attara, konshuumatsu benkyou shita hou ga ii desu.)
+
+**「Even if you want to get married, I will not marry you.」的日文怎麼說？**
+
+あなたが結婚(けっこん)したかったら、私(わたし)は結婚(けっこん)しません。  
+(Anata ga kekkon shitakattara, watashi wa kekkon shimasen.)
+
+**「If I were Japanese, I would eat sushi every day.」的日文怎麼說？**
+
+日本人(にほんじん)だったら、毎日(まいにち)寿司(すし)を食(た)べます。  
+(Nihonjin dattara, mainichi sushi o tabemasu.)
+
+**「If I were young, I would start surfing.」的日文怎麼說？**
+
+若(わか)かったら、サーフィンを始(はじ)めます。  
+(Wakakattara, saafin o hajimemasu.)
+
+**「If you could become anything, what would you want to become?」的日文怎麼說？**
+
+何(なに)にでもなれたら、何(なに)になりたいですか？  
+(Nani ni demo naretara, nani ni naritai desu ka?)
+
+---
+
+## 222. 〜なくてもいいです (Don't need to do....)（不需要做…）
+
+**靴（くつ）**
+
+kutsu  
+意思：鞋子 (shoes)
+
+**脱ぐ（ぬぐ）**
+
+nugu  
+意思：脫掉 (to take off)
+
+**予約する（よやくする）**
+
+yoyaku suru  
+意思：預約 (to reserve)
+
+**持ってくる（もってくる）**
+
+motte kuru  
+意思：帶來 (to bring)
+
+**食べ物（たべもの）**
+
+tabemono  
+意思：食物 (food)
+
+**パーティー**
+
+paatii  
+意思：派對、聚會 (party)
+
+**勉強する（べんきょうする）**
+
+benkyou suru  
+意思：讀書、學習 (to study)
+
+**今晩（こんばん）**
+
+konban  
+意思：今晚 (tonight)
+
+**掃除する（そうじする）**
+
+souji suru  
+意思：打掃 (to clean)
+
+**2階（にかい）**
+
+nikai  
+意思：二樓 (second floor)
+
+**〜なくてもいいです 是什麼意思？怎麼接？**
+
+表示「不需要做某件事」，是「必須做」句型的相反。做法是先把句子改成動詞（或形容詞）的「ない形」，去掉最後的い，再加上「くてもいいです」。若是い形容詞，則把語尾的い去掉後加「くなくてもいいです」。整體結構可記為：[ない形去い]＋くてもいいです。
+
+**「You don't need to take off your shoes.」的日文怎麼說？**
+
+靴(くつ)をぬがなくてもいいです。  
+(Kutsu o nuganakute mo ii desu.)
+
+**「The present doesn't need to be expensive.」的日文怎麼說？**
+
+プレゼントは高(たか)くなくてもいいです。  
+(Purezento wa takakunakute mo ii desu.)
+
+**「You don't need to make a reservation.」的日文怎麼說？**
+
+予約(よやく)しなくてもいいです。  
+(Yoyaku shinakute mo ii desu.)
+
+**「You don't need to bring food to the party.」的日文怎麼說？**
+
+パーティーに食(た)べ物(もの)を持(も)ってこなくてもいいです。  
+(Paatii ni tabemono o motte konakute mo ii desu.)
+
+**「I don't need to study tonight.」的日文怎麼說？**
+
+今晩(こんばん)勉強(べんきょう)しなくてもいいです。  
+(Konban benkyou shinakute mo ii desu.)
+
+**「You don't need to clean the second floor.」的日文怎麼說？**
+
+2階(にかい)を掃除(そうじ)しなくてもいいです。  
+(Nikai o souji shinakute mo ii desu.)
+
+---
+
+## 223. 〜みたいです (A resembles B)（像…一樣／似乎…）
+
+**ゴリラ**
+
+gorira  
+意思：大猩猩 (gorilla)
+
+**卒業する（そつぎょうする）**
+
+sotsugyou suru  
+意思：畢業 (to graduate)
+
+**大学（だいがく）**
+
+daigaku  
+意思：大學 (university)
+
+**お母さん（おかあさん）**
+
+okaasan  
+意思：媽媽 (mother)
+
+**来年（らいねん）**
+
+rainen  
+意思：明年 (next year)
+
+**〜みたいです 有哪兩種用法？**
+
+第一種接在名詞後面，表示「某人/某物看起來很像名詞所描述的人事物」，句型為「A は [人/物] みたいです」。第二種接在動詞普通形之後，表示「某件事情看起來是如此／似乎發生了某事」，句型為「[動詞普通形] みたいです」。
+
+**みたいです 怎麼變成否定？**
+
+否定時「みたい」變化為「みたいじゃないです」。
+
+**「My older brother is like my father.」的日文怎麼說？**
+
+私(わたし)の兄(あに)は私(わたし)のお父(とう)さんみたいです。  
+(Watashi no ani wa watashi no otousan mitai desu.)
+
+**「That person is like a gorilla.」的日文怎麼說？**
+
+あの人(ひと)はゴリラみたいです。  
+(Ano hito wa gorira mitai desu.)
+
+**「It seems like it rained.」的日文怎麼說？**
+
+雨(あめ)が降(ふ)ったみたいです。  
+(Ame ga futta mitai desu.)
+
+**「It seems like Maki isn't coming to school tomorrow.」的日文怎麼說？**
+
+まきは明日(あした)学校(がっこう)に来(こ)ないみたいです。  
+(Maki wa ashita gakkou ni konai mitai desu.)
+
+**「Kotomi is like my mother.」的日文怎麼說？**
+
+ことみは私(わたし)のお母(かあ)さんみたいです。  
+(Kotomi wa watashi no okaasan mitai desu.)
+
+**「Do I seem like Mary?」的日文怎麼說？**
+
+私(わたし)はメアリーみたいですか？  
+(Watashi wa Mearii mitai desu ka?)
+
+**「Takeshi isn't like Ken.」的日文怎麼說？**
+
+たけしはけんみたいじゃないです。  
+(Takeshi wa Ken mitai ja nai desu.)
+
+**「It seems like Taka will graduate from university next year.」的日文怎麼說？**
+
+たかは来年(らいねん)大学(だいがく)を卒業(そつぎょう)するみたいです。  
+(Taka wa rainen daigaku o sotsugyou suru mitai desu.)
+
+---
+
+## 224. 〜前に (Before doing ...)（做…之前）
+
+**もう一度（もういちど）**
+
+mou ichido  
+意思：再一次 (once more)
+
+**学期（がっき）**
+
+gakki  
+意思：學期 (semester)
+
+**磨く（みがく）**
+
+migaku  
+意思：刷、磨 (to brush/polish)
+
+**歯（は）**
+
+ha  
+意思：牙齒 (tooth)
+
+**観る（みる）**
+
+miru  
+意思：看 (to watch)
+
+**テレビ**
+
+terebi  
+意思：電視 (television)
+
+**する**
+
+suru  
+意思：做 (to do)
+
+**宿題（しゅくだい）**
+
+shukudai  
+意思：功課、作業 (homework)
+
+**行く（いく）**
+
+iku  
+意思：去 (to go)
+
+**中国（ちゅうごく）**
+
+Chuugoku  
+意思：中國 (China)
+
+**来る（くる）**
+
+kuru  
+意思：來 (to come)
+
+**カフェ**
+
+kafe  
+意思：咖啡廳 (café)
+
+**飲む（のむ）**
+
+nomu  
+意思：喝 (to drink)
+
+**コーヒー**
+
+koohii  
+意思：咖啡 (coffee)
+
+**寝る（ねる）**
+
+neru  
+意思：睡覺 (to sleep)
+
+**〜前に 是什麼意思？怎麼接？**
+
+用來表示「在做A這個動作/事件之前，先做B」，句型結構為「動詞A（辭書形）＋前に＋動詞B」，意思是「B在A之前」。
+
+**前に 前面的動詞要用什麼時態？**
+
+無論整句話最終使用的是現在式還是過去式，前面接在「前に」之前的動詞A永遠都要用現在式（辭書形），這是這個文法最需要注意的重點。
+
+**「Before I go back to America, I will go to Tokyo one more time.」的日文怎麼說？**
+
+アメリカに帰(かえ)る前(まえ)に、もう一度(いちど)東京(とうきょう)に行(い)きます。  
+(Amerika ni kaeru mae ni, mou ichido Toukyou ni ikimasu.)
+
+**「Before coming to Japan, I studied Japanese for one semester.」的日文怎麼說？**
+
+日本(にほん)に来(く)る前(まえ)に、一学期(いちがっき)日本語(にほんご)を勉強(べんきょう)しました。  
+(Nihon ni kuru mae ni, ichi gakki nihongo o benkyou shimashita.)
+
+**「Before watching TV, I do my homework.」的日文怎麼說？**
+
+テレビを観(み)る前(まえ)に、宿題(しゅくだい)をします。  
+(Terebi o miru mae ni, shukudai o shimasu.)
+
+**「Before coming to Japan, I went to China.」的日文怎麼說？**
+
+日本(にほん)に来(く)る前(まえ)に、中国(ちゅうごく)に行(い)きました。  
+(Nihon ni kuru mae ni, Chuugoku ni ikimashita.)
+
+**「Mary didn't drink coffee before going to the café.」的日文怎麼說？**
+
+メアリーはカフェに行(い)く前(まえ)にコーヒーを飲(の)みませんでした。  
+(Mearii wa kafe ni iku mae ni koohii o nomimasen deshita.)
+
+**「Did you brush your teeth before going to bed?」的日文怎麼說？**
+
+寝(ね)る前(まえ)に歯(は)を磨(みが)きましたか？  
+(Neru mae ni ha o migakimashita ka?)
+
+---
+
+## 225. 〜てから (After doing ...)（做了…之後）
+
+**会う（あう）**
+
+au  
+意思：見面 (to meet)
+
+**来る（くる）**
+
+kuru  
+意思：來 (to come)
+
+**死ぬ（しぬ）**
+
+shinu  
+意思：死亡 (to die)
+
+**寂しい（さびしい）**
+
+sabishii  
+意思：寂寞的 (lonely)
+
+**行く（いく）**
+
+iku  
+意思：去 (to go)
+
+**ジム**
+
+jimu  
+意思：健身房 (gym)
+
+**家（いえ）**
+
+ie  
+意思：家 (house)
+
+**お店（おみせ）**
+
+omise  
+意思：店 (store)
+
+**学校（がっこう）**
+
+gakkou  
+意思：學校 (school)
+
+**祈る（いのる）**
+
+inoru  
+意思：祈禱 (to pray)
+
+**食べる（たべる）**
+
+taberu  
+意思：吃 (to eat)
+
+**テニス**
+
+tenisu  
+意思：網球 (tennis)
+
+**日本語（にほんご）**
+
+nihongo  
+意思：日文 (Japanese language)
+
+**〜てから 是什麼意思？**
+
+用於描述「做完A之後才做B」，意思是「A之後，B」，結構為：A的動詞て形＋から＋B。
+
+**〜てから 還有什麼延伸用法？**
+
+「AてからB」也可以用來描述「自從A發生後，B這個狀態就一直持續到現在」，強調狀態的延續性（例如自從貓過世後就一直很寂寞）。
+
+**「After studying, I met Kai.」的日文怎麼說？**
+
+勉強(べんきょう)してから、かいに会(あ)いました。  
+(Benkyou shite kara, Kai ni aimashita.)
+
+**「Let's eat after Ken comes.」的日文怎麼說？**
+
+けんがきてから、食(た)べましょう。  
+(Ken ga kite kara, tabemashou.)
+
+**「I've been very lonely since my cat died.」的日文怎麼說？**
+
+猫(ねこ)が死(し)んでから、とても寂(さび)しいです。  
+(Neko ga shinde kara, totemo sabishii desu.)
+
+**「After cleaning the house, I will go to the gym.」的日文怎麼說？**
+
+家(いえ)を掃除(そうじ)してから、ジムに行(い)きます。  
+(Ie o souji shite kara, jimu ni ikimasu.)
+
+**「Mika came to school after going to the store.」的日文怎麼說？**
+
+みかはお店(みせ)に行(い)ってから、学校(がっこう)にきました。  
+(Mika wa mise ni itte kara, gakkou ni kimashita.)
+
+**「Do you eat after praying?」的日文怎麼說？**
+
+祈(いの)ってから、ご飯(はん)を食(た)べますか？  
+(Inotte kara, gohan o tabemasu ka?)
+
+**「After playing tennis, I studied Japanese.」的日文怎麼說？**
+
+テニスをしてから、日本語(にほんご)を勉強(べんきょう)しました。  
+(Tenisu o shite kara, nihongo o benkyou shimashita.)
+
+---
+
+## 227. Transitivity Pairs（他動詞・自動詞配對）
+
+**電気（でんき）**
+
+denki  
+意思：電、電燈 (electricity/light)
+
+**窓（まど）**
+
+mado  
+意思：窗戶 (window)
+
+**かご**
+
+kago  
+意思：籃子 (basket)
+
+**ろうそく**
+
+rousoku  
+意思：蠟燭 (candle)
+
+**洋服（ようふく）**
+
+youfuku  
+意思：衣服 (clothes)
+
+**靴（くつ）**
+
+kutsu  
+意思：鞋子 (shoes)
+
+**開ける（あける）**
+
+akeru  
+意思：打開某物（他動詞） (to open (something))
+
+**開く（ひらく）**
+
+hiraku  
+意思：某物打開（自動詞） (to open (by itself))
+
+**閉める（しめる）**
+
+shimeru  
+意思：關上某物（他動詞） (to close (something))
+
+**閉まる（しまる）**
+
+shimaru  
+意思：某物關上（自動詞） (to be closed)
+
+**入れる（いれる）**
+
+ireru  
+意思：把某物放入（他動詞） (to put in)
+
+**入る（はいる）**
+
+hairu  
+意思：某物進入（自動詞） (to enter)
+
+**出す（だす）**
+
+dasu  
+意思：把某物拿出（他動詞） (to take out)
+
+**出る（でる）**
+
+deru  
+意思：某物出去（自動詞） (to go out)
+
+**つける**
+
+tsukeru  
+意思：打開（開關，他動詞） (to turn on)
+
+**つく**
+
+tsuku  
+意思：自動打開（自動詞） (to turn on (by itself))
+
+**消す（けす）**
+
+kesu  
+意思：關掉某物（他動詞） (to turn off)
+
+**消える（きえる）**
+
+kieru  
+意思：某物熄滅（自動詞） (to go off)
+
+**壊す（こわす）**
+
+kowasu  
+意思：弄壞某物（他動詞） (to break (something))
+
+**壊れる（こわれる）**
+
+kowareru  
+意思：某物壞掉（自動詞） (to break (by itself))
+
+**汚す（よごす）**
+
+yogosu  
+意思：把某物弄髒（他動詞） (to make dirty)
+
+**汚れる（よごれる）**
+
+yogoreru  
+意思：某物變髒（自動詞） (to get dirty)
+
+**落とす（おとす）**
+
+otosu  
+意思：把某物弄掉（他動詞） (to drop)
+
+**落ちる（おちる）**
+
+ochiru  
+意思：某物掉落（自動詞） (to fall)
+
+**沸かす（わかす）**
+
+wakasu  
+意思：把水煮沸（他動詞） (to boil (something))
+
+**沸く（わく）**
+
+waku  
+意思：水煮沸了（自動詞） (to come to a boil)
+
+**他動詞和自動詞有什麼不同？**
+
+他動詞（transitive verb）描述人對某事物做出的動作，句中會同時出現主詞與受詞（用「を」標示受詞），例如「開ける」（打開某物）；自動詞（intransitive verb）描述事物本身發生的變化，句中只會出現主詞（用「が」標示），例如「開く」（某物自己打開了）。許多常用動詞會成對出現。
+
+**他動詞和自動詞接上「ている」時，意思有什麼不同？**
+
+他動詞＋ている表示動作正在進行中；自動詞＋ている則表示變化發生後所形成、持續存在的狀態。
+
+**「Takeshi turned on the light.」的日文怎麼說？**
+
+たけしが電気(でんき)をつけました。  
+(Takeshi ga denki o tsukemashita.)
+
+**「The light turned on.」的日文怎麼說？**
+
+電気(でんき)がつきました。  
+(Denki ga tsukimashita.)
+
+**「I put the apple in the basket.」的日文怎麼說？**
+
+りんごをかごに入(い)れました。  
+(Ringo o kago ni iremashita.)
+
+**「The apple went into the basket.」的日文怎麼說？**
+
+りんごがかごに入(はい)りました。  
+(Ringo ga kago ni hairimashita.)
+
+**「Sue is talking with her mother.」的日文怎麼說？**
+
+すーはお母(かあ)さんと話(はな)しています。  
+(Suu wa okaasan to hanashite imasu.)
+
+**「Tom is married.」的日文怎麼說？**
+
+トムは結婚(けっこん)しています。  
+(Tomu wa kekkon shite imasu.)
+
+**「Ken is opening the window.」的日文怎麼說？**
+
+けんは窓(まど)を開(あ)けています。  
+(Ken wa mado o akete imasu.)
+
+**「The window is open.」的日文怎麼說？**
+
+窓(まど)が開(あ)いています。  
+(Mado ga aite imasu.)
+
+**「Tomo is turning off the light.」的日文怎麼說？**
+
+ともは電気(でんき)を消(け)しています。  
+(Tomo wa denki o keshite imasu.)
+
+**「The light is off.」的日文怎麼說？**
+
+電気(でんき)が消(き)えています。  
+(Denki ga kiete imasu.)
+
+**「I will close the door.」的日文怎麼說？**
+
+ドアを閉(し)めます。  
+(Doa o shimemasu.)
+
+**「The door is closed.」的日文怎麼說？**
+
+ドアが閉(し)まっています。  
+(Doa ga shimatte imasu.)
+
+**「Please blow out the candle.」的日文怎麼說？**
+
+ろうそくを消(け)してください。  
+(Rousoku o keshite kudasai.)
+
+**「I got my clothes dirty.」的日文怎麼說？**
+
+洋服(ようふく)を汚(よご)しました。  
+(Youfuku o yogoshimashita.)
+
+**「My shoes didn't get dirty.」的日文怎麼說？**
+
+靴(くつ)が汚(よご)れませんでした。  
+(Kutsu ga yogoremasen deshita.)
+
+---
+
+## 228. 〜てしまう (To complete doing something, and to regret doing something)（做完／不小心做了…）
+
+**怒る（おこる）**
+
+okoru  
+意思：生氣、發怒 (to get angry)
+
+**エッセイ（えっせい）**
+
+essei  
+意思：隨筆、散文 (essay)
+
+**失くす（なくす）**
+
+nakusu  
+意思：遺失、弄丟 (to lose)
+
+**読む（よむ）**
+
+yomu  
+意思：閱讀 (to read)
+
+**食べる（たべる）**
+
+taberu  
+意思：吃 (to eat)
+
+**忘れる（わすれる）**
+
+wasureru  
+意思：忘記 (to forget)
+
+**教科書（きょうかしょ）**
+
+kyoukasho  
+意思：教科書 (textbook)
+
+**書く（かく）**
+
+kaku  
+意思：寫 (to write)
+
+**家（いえ）**
+
+ie  
+意思：家 (house)
+
+**鍵（かぎ）**
+
+kagi  
+意思：鑰匙 (key)
+
+**死ぬ（しぬ）**
+
+shinu  
+意思：死亡 (to die)
+
+**犬（いぬ）**
+
+inu  
+意思：狗 (dog)
+
+**昨日（きのう）**
+
+kinou  
+意思：昨天 (yesterday)
+
+**遊ぶ（あそぶ）**
+
+asobu  
+意思：玩 (to play)
+
+**〜てしまう 有哪兩種語感？**
+
+第一種是表示「刻意地、堅決地把事情做完」，強調把某件事徹底完成、做到底；第二種是表示「非出於本意、無法控制事態發展」，通常帶有「後悔」的語氣，表示發生了令人遺憾的事。
+
+**〜てしまう 在口語中怎麼縮約？**
+
+口語中「〜てしまう／〜でしまう」常縮約為「〜ちゃう／〜じゃう」，過去式則為「〜ちゃった／〜じゃった」。由於しまう只能接在て形（肯定形）之後，因此無法用しまう表達「沒有發生」這種否定的懊悔語意。
+
+**「I finished reading the book.」的日文怎麼說？**
+
+本(ほん)を読(よ)んでしまいました。  
+(Hon o yonde shimaimashita.)
+
+**「I ate the whole cake.」的日文怎麼說？**
+
+ケーキを食(た)べてしまいました。  
+(Keeki o tabete shimaimashita.)
+
+**「I accidentally forgot my textbook.」的日文怎麼說？**
+
+教科書(きょうかしょ)を忘(わす)れてしまいました。  
+(Kyoukasho o wasurete shimaimashita.)
+
+**「Miki couldn't help getting angry.」的日文怎麼說？**
+
+みきは怒(おこ)ってしまいました。  
+(Miki wa okotte shimaimashita.)
+
+**「I forgot my textbook.」的日文怎麼說？**
+
+教科書(きょうかしょ)を忘(わす)れちゃった。  
+(Kyoukasho o wasurechatta.)
+
+**「I finished writing the essay.」的日文怎麼說？**
+
+エッセイを書(か)いてしまいました。  
+(Essei o kaite shimaimashita.)
+
+**「I finished writing the essay.」的日文怎麼說？**
+
+エッセイを書(か)いちゃった。  
+(Essei o kaichatta.)
+
+**「I unfortunately lost my house key.」的日文怎麼說？**
+
+家(いえ)の鍵(かぎ)を失(な)くしてしまいました。  
+(Ie no kagi o nakushite shimaimashita.)
+
+**「I lost my house key.」的日文怎麼說？**
+
+家(いえ)の鍵(かぎ)を失(な)くしちゃった。  
+(Ie no kagi o nakushichatta.)
+
+**「Yesterday, my dog sadly passed away.」的日文怎麼說？**
+
+昨日(きのう)、犬(いぬ)が死(し)んでしまいました。  
+(Kinou, inu ga shinde shimaimashita.)
+
+**「Yesterday, my dog passed away.」的日文怎麼說？**
+
+昨日(きのう)、犬(いぬ)が死(し)んじゃった。  
+(Kinou, inu ga shinjatta.)
+
+---
+
+## 229. 〜と (Whenever A, B)（每當A就B）
+
+**混む（こむ）**
+
+komu  
+意思：擁擠、壅塞 (to be crowded)
+
+**風邪をひく（かぜをひく）**
+
+kaze o hiku  
+意思：感冒 (to catch a cold)
+
+**木（き）**
+
+ki  
+意思：樹 (tree)
+
+**花（はな）**
+
+hana  
+意思：花 (flower)
+
+**咲く（さく）**
+
+saku  
+意思：開花 (to bloom)
+
+**話す（はなす）**
+
+hanasu  
+意思：説話 (to talk)
+
+**元気になる（げんきになる）**
+
+genki ni naru  
+意思：變得有精神、振作起來 (to become energetic)
+
+**道（みち）**
+
+michi  
+意思：道路 (road)
+
+**時間がかかる（じかんがかかる）**
+
+jikan ga kakaru  
+意思：花時間 (to take time)
+
+**帰る（かえる）**
+
+kaeru  
+意思：回去 (to go home)
+
+**寂しくなる（さびしくなる）**
+
+sabishiku naru  
+意思：變得寂寞 (to become lonely)
+
+**子供（こども）**
+
+kodomo  
+意思：小孩 (child)
+
+**冬（ふゆ）**
+
+fuyu  
+意思：冬天 (winter)
+
+**秋（あき）**
+
+aki  
+意思：秋天 (autumn)
+
+**赤い（あかい）**
+
+akai  
+意思：紅色的 (red)
+
+**手紙（てがみ）**
+
+tegami  
+意思：信 (letter)
+
+**くる**
+
+kuru  
+意思：來 (to come)
+
+**悲しい（かなしい）**
+
+kanashii  
+意思：悲傷的 (sad)
+
+**食べすぎる（たべすぎる）**
+
+tabesugiru  
+意思：吃太多 (to overeat)
+
+**病気（びょうき）**
+
+byouki  
+意思：生病 (sick)
+
+**春（はる）**
+
+haru  
+意思：春天 (spring)
+
+**〜と 是什麼意思？怎麼接？**
+
+句型為「[子句A]と[子句B]」，其中A必須以現在式常體結尾，意思是「每當A所描述的情況成立時，B就會發生」，表示一種普遍、自然成立的因果關係。
+
+**と 前後子句的時態有什麼限制？**
+
+と前面的子句永遠是現在式，但後面的子句可以是現在式或過去式；此外B所描述的事情必須發生在A之後，若B其實發生在A之前，就不能用と，而應該改用「とき」。
+
+**第二子句要表達「變化」時怎麼說？**
+
+通常會用い形容詞語幹＋くなる，或な形容詞語幹＋になる來表示狀態的轉變。
+
+**「When I talk with Tomo, I feel energized.」的日文怎麼說？**
+
+ともと話(はな)すと、元気(げんき)になります。  
+(Tomo to hanasu to, genki ni narimasu.)
+
+**「When the road is congested, it takes more time.」的日文怎麼說？**
+
+道(みち)が混(こ)んでいると、時間(じかん)がかかる。  
+(Michi ga konde iru to, jikan ga kakaru.)
+
+**「When Mary goes back to America, we get lonely.」的日文怎麼說？**
+
+メアリーがアメリカに帰(かえ)ると、寂(さび)しくなります。  
+(Mearii ga Amerika ni kaeru to, sabishiku narimasu.)
+
+**「When I was a child, I would catch a cold whenever winter came.」的日文怎麼說？**
+
+子供(こども)の時(とき)、冬(ふゆ)になると風邪(かぜ)をひきました。  
+(Kodomo no toki, fuyu ni naru to kaze o hikimashita.)
+
+**「Whenever I talk with Kana, we go to a café.」的日文怎麼說？**
+
+かなと話(はな)すとカフェに行(い)きます。  
+(Kana to hanasu to kafe ni ikimasu.)
+
+**「When autumn comes, the trees turn red.」的日文怎麼說？**
+
+秋(あき)になると、木(き)が赤(あか)くなります。  
+(Aki ni naru to, ki ga akaku narimasu.)
+
+**「If letters don't arrive, I feel sad.」的日文怎麼說？**
+
+手紙(てがみ)がこないと、悲(かな)しくなります。  
+(Tegami ga konai to, kanashiku narimasu.)
+
+**「If you eat too much, you'll get sick.」的日文怎麼說？**
+
+食(た)べすぎると、病気(びょうき)になります。  
+(Tabesugiru to, byouki ni narimasu.)
+
+**「Whenever Ken comes to Japan, we eat sushi.」的日文怎麼說？**
+
+けんが日本(にほん)にくると、すしを食(た)べます。  
+(Ken ga Nihon ni kuru to, sushi o tabemasu.)
+
+**「When spring comes, the flowers bloom.」的日文怎麼說？**
+
+春(はる)になると、花(はな)が咲(さ)きます。  
+(Haru ni naru to, hana ga sakimasu.)
+
+---
+
+## 230. 〜ながら (While doing...)（一邊…一邊…）
+
+**音楽（おんがく）**
+
+ongaku  
+意思：音樂 (music)
+
+**聴く（きく）**
+
+kiku  
+意思：聽 (to listen)
+
+**勉強する（べんきょうする）**
+
+benkyou suru  
+意思：學習、唸書 (to study)
+
+**歌（うた）**
+
+uta  
+意思：歌 (song)
+
+**歌う（うたう）**
+
+utau  
+意思：唱歌 (to sing)
+
+**洗濯する（せんたくする）**
+
+sentaku suru  
+意思：洗衣服 (to do laundry)
+
+**アルバイト**
+
+arubaito  
+意思：打工 (part-time job)
+
+**学校（がっこう）**
+
+gakkou  
+意思：學校 (school)
+
+**行く（いく）**
+
+iku  
+意思：去 (to go)
+
+**大変（たいへん）**
+
+taihen  
+意思：辛苦、不容易 (tough)
+
+**する**
+
+suru  
+意思：做 (to do)
+
+**宿題（しゅくだい）**
+
+shukudai  
+意思：作業、功課 (homework)
+
+**観る（みる）**
+
+miru  
+意思：觀看（電視） (to watch)
+
+**テレビ**
+
+terebi  
+意思：電視 (television)
+
+**歩く（あるく）**
+
+aruku  
+意思：走路 (to walk)
+
+**食べる（たべる）**
+
+taberu  
+意思：吃 (to eat)
+
+**ほうがいいです**
+
+hou ga ii desu  
+意思：…比較好 (had better...)
+
+**飲む（のむ）**
+
+nomu  
+意思：喝 (to drink)
+
+**ワイン**
+
+wain  
+意思：紅酒 (wine)
+
+**料理する（りょうりする）**
+
+ryouri suru  
+意思：做菜、烹飪 (to cook)
+
+**好きな（すきな）**
+
+sukina  
+意思：喜歡的 (favorite/likable)
+
+**考える（かんがえる）**
+
+kangaeru  
+意思：思考 (to think)
+
+**話す（はなす）**
+
+hanasu  
+意思：說、講 (to speak)
+
+**難しい（むずかしい）**
+
+muzukashii  
+意思：困難的 (difficult)
+
+**英語（えいご）**
+
+eigo  
+意思：英語 (English)
+
+**日本語（にほんご）**
+
+nihongo  
+意思：日語 (Japanese)
+
+**〜ながら 是什麼意思？怎麼接？**
+
+用來連接兩個動詞，表示「同一個人」同時進行兩個動作，意思是「一邊做…一邊做…」。文型為【動作1（動詞ます形去ます）＋ながら＋動作2】，句子的重點動作是動作2，動作1是伴隨進行的次要動作。
+
+**使用 ながら 時要注意什麼？**
+
+ながら前後的兩個動作必須是同一個人做的，不能用來描述「某人做某事的同時，另一個人做別的事」。
+
+**「I always study Japanese while listening to music.」的日文怎麼說？**
+
+いつも音楽(おんがく)を聴(き)きながら日本語(にほんご)を勉強(べんきょう)します。  
+(Itsumo ongaku o kikinagara nihongo o benkyou shimasu.)
+
+**「Takeshi is doing laundry while singing.」的日文怎麼說？**
+
+たけしは歌(うた)を歌(うた)いながら洗濯(せんたく)しています。  
+(Takeshi wa uta o utainagara sentaku shite imasu.)
+
+**「Going to school while working a part-time job is tough.」的日文怎麼說？**
+
+アルバイトをしながら学校(がっこう)に行(い)くのは大変(たいへん)です。  
+(Arubaito o shinagara gakkou ni iku no wa taihen desu.)
+
+**「I did my homework while watching TV.」的日文怎麼說？**
+
+テレビを観(み)ながら宿題(しゅくだい)をしました。  
+(Terebi o minagara shukudai o shimashita.)
+
+**「You shouldn't eat while walking.」的日文怎麼說？**
+
+歩(ある)きながら食(た)べないほうがいいです。  
+(Arukinagara tabenai hou ga ii desu.)
+
+**「I like drinking wine while cooking.」的日文怎麼說？**
+
+料理(りょうり)しながら、ワインを飲(の)むのが好(す)きです。  
+(Ryouri shinagara, wain o nomu no ga suki desu.)
+
+**「It's difficult to think in Japanese while speaking English.」的日文怎麼說？**
+
+英語(えいご)を話(はな)しながら、日本語(にほんご)で考(かんが)えるのはむずかしいです。  
+(Eigo o hanashinagara, nihongo de kangaeru no wa muzukashii desu.)
+
+---
+
+## 231. 〜ばよかったです (I shouldn't have done...)（早知道就該／不該做…）
+
+**食べる（たべる）**
+
+taberu  
+意思：吃 (to eat)
+
+**読む（よむ）**
+
+yomu  
+意思：讀 (to read)
+
+**する**
+
+suru  
+意思：做 (to do)
+
+**買う（かう）**
+
+kau  
+意思：買 (to buy)
+
+**ドレス**
+
+doresu  
+意思：洋裝 (dress)
+
+**飲む（のむ）**
+
+nomu  
+意思：喝 (to drink)
+
+**ビール**
+
+biiru  
+意思：啤酒 (beer)
+
+**カメラ**
+
+kamera  
+意思：相機 (camera)
+
+**行く（いく）**
+
+iku  
+意思：去 (to go)
+
+**パーティー**
+
+paatii  
+意思：派對 (party)
+
+**来る（くる）**
+
+kuru  
+意思：來 (to come)
+
+**早く（はやく）**
+
+hayaku  
+意思：早一點、快點 (early/quickly)
+
+**〜ばよかったです 是什麼意思？**
+
+用來表達「早知道就該做…」或「早知道就不該做…」的懊悔語氣，用於描述一個自己當初沒有選擇、但事後感到後悔的替代做法。
+
+**動詞的ば形怎麼變化？**
+
+肯定形是將辭書形字尾的「u」去掉，改成「eba」（例如 食べる→食べれば）；否定形則是將現在否定形（ない形）字尾的「い」去掉，改成「ければ」（例如 食べない→食べなければ）。句型為【ば形肯定】＋よかったです，或【ば形否定】＋よかったです。
+
+**「I should have bought the dress.」的日文怎麼說？**
+
+ドレスを買(か)えばよかったです。  
+(Doresu o kaeba yokatta desu.)
+
+**「I shouldn't have drunk beer.」的日文怎麼說？**
+
+ビールを飲(の)まなければよかったです。  
+(Biiru o nomanakereba yokatta desu.)
+
+**「I should have bought the camera.」的日文怎麼說？**
+
+カメラを買(か)えばよかったです。  
+(Kamera o kaeba yokatta desu.)
+
+**「I shouldn't have bought the camera.」的日文怎麼說？**
+
+カメラを買(か)わなければよかったです。  
+(Kamera o kawanakereba yokatta desu.)
+
+**「I should have gone to the party.」的日文怎麼說？**
+
+パーティーに行(い)けばよかったです。  
+(Paatii ni ikeba yokatta desu.)
+
+**「I shouldn't have gone to the party.」的日文怎麼說？**
+
+パーティーに行(い)かなければよかったです。  
+(Paatii ni ikanakereba yokatta desu.)
+
+**「I should have come earlier.」的日文怎麼說？**
+
+早(はや)くくればよかったです。  
+(Hayaku kureba yokatta desu.)
+
+**「I shouldn't have come early.」的日文怎麼說？**
+
+早(はや)くこなければよかったです。  
+(Hayaku konakereba yokatta desu.)
+
+---
+
+## 234. Honorific Verbs 1（尊敬語動詞 1）
+
+**先生（せんせい）**
+
+sensei  
+意思：老師、教授 (teacher)
+
+**学校（がっこう）**
+
+gakkou  
+意思：學校 (school)
+
+**料理（りょうり）**
+
+ryouri  
+意思：做菜、料理 (cooking)
+
+**心配（しんぱい）**
+
+shinpai  
+意思：擔心 (worry)
+
+**テレビ**
+
+terebi  
+意思：電視 (television)
+
+**映画（えいが）**
+
+eiga  
+意思：電影 (movie)
+
+**観る（みる）**
+
+miru  
+意思：看（電影等） (to watch)
+
+**毎朝（まいあさ）**
+
+maiasa  
+意思：每天早上 (every morning)
+
+**パン**
+
+pan  
+意思：麵包 (bread)
+
+**本（ほん）**
+
+hon  
+意思：書 (book)
+
+**お母さん（おかあさん）**
+
+okaasan  
+意思：母親 (mother)
+
+**テニス**
+
+tenisu  
+意思：網球 (tennis)
+
+**尊敬語是什麼？可以用在自己身上嗎？**
+
+尊敬語是用來描述「你所尊敬的人」所做動作的特殊動詞，藉此表達對該人物的敬意；絕不能用來描述自己的動作。
+
+**尊敬語動詞怎麼變化？**
+
+大部分尊敬語屬於五段動詞變化規則，但いらっしゃる、おっしゃる、なさる、くださる及〜ていらっしゃる屬於不規則變化：其禮貌形（ます形）是把語尾的る換成います，再依此變化現在肯定／否定、過去肯定／否定。
+
+**尊敬語什麼時候使用？常見對照有哪些？**
+
+用於描述：(1)社會地位比自己高的人，或(2)不太熟識、需要直接稱呼、表示禮貌的對象所做的動作。常見對照：いる／行く／来る→いらっしゃる、見る→ご覧になる、言う→おっしゃる、する→なさる、食べる／飲む→召し上がる、くれる→くださる、寝る→お休みになる、〜ている→〜ていらっしゃる。
+
+**「The teacher is not at school.」的日文怎麼說？**
+
+先生(せんせい)は学校(がっこう)にいらっしゃいません。  
+(Sensei wa gakkou ni irasshaimasen.)
+
+**「What will you have?」的日文怎麼說？**
+
+何(なに)を召(め)し上(あ)がりますか？  
+(Nani o meshiagarimasu ka?)
+
+**「Miki's mother gave me this book.」的日文怎麼說？**
+
+みきのお母(かあ)さんがこの本(ほん)をくださいました。  
+(Miki no okaasan ga kono hon o kudasaimashita.)
+
+**「I heard the teacher cooks.」的日文怎麼說？**
+
+先生(せんせい)は料理(りょうり)なさるそうです。  
+(Sensei wa ryouri nasaru sou desu.)
+
+**「Please don't worry.」的日文怎麼說？**
+
+心配(しんぱい)なさらないでください。  
+(Shinpai nasaranaide kudasai.)
+
+**「The teacher is watching TV.」的日文怎麼說？**
+
+先生(せんせい)はテレビをご覧(らん)になっています。  
+(Sensei wa terebi o goran ni natte imasu.)
+
+**「Ms. Suzuki eats bread every morning.」的日文怎麼說？**
+
+すずきさんは毎朝(まいあさ)パンを召(め)し上(あ)がります。  
+(Suzuki-san wa maiasa pan o meshiagarimasu.)
+
+**「Did you watch the movie?」的日文怎麼說？**
+
+映画(えいが)をご覧(らん)になりましたか？  
+(Eiga o goran ni narimashita ka?)
+
+**「Ms. Sato did not come to school.」的日文怎麼說？**
+
+さとうさんは学校(がっこう)にいらっしゃいませんでした。  
+(Satou-san wa gakkou ni irasshaimasen deshita.)
+
+**「What did Mr. Kato say?」的日文怎麼說？**
+
+かとうさんは何(なん)とおっしゃいましたか？  
+(Katou-san wa nan to osshaimashita ka?)
+
+**「The teacher played tennis.」的日文怎麼說？**
+
+先生(せんせい)はテニスをなさいました。  
+(Sensei wa tenisu o nasaimashita.)
+
+---
+
+## 235. Honorific Verbs 2（尊敬語動詞 2）
+
+**結婚する（けっこんする）**
+
+kekkon suru  
+意思：結婚 (to marry)
+
+**～さん**
+
+-san  
+意思：敬稱 ((honorific title))
+
+**食べる（たべる）**
+
+taberu  
+意思：吃 (to eat)
+
+**召し上がる（めしあがる）**
+
+meshiagaru  
+意思：「吃」的尊敬語 (to eat (honorific))
+
+**話す（はなす）**
+
+hanasu  
+意思：說、講 (to speak)
+
+**待つ（まつ）**
+
+matsu  
+意思：等待 (to wait)
+
+**先生（せんせい）**
+
+sensei  
+意思：老師 (teacher)
+
+**～の前（まえ）**
+
+no mae  
+意思：～的前面 (in front of)
+
+**駅（えき）**
+
+eki  
+意思：車站 (station)
+
+**音楽（おんがく）**
+
+ongaku  
+意思：音樂 (music)
+
+**聞く（きく）**
+
+kiku  
+意思：聽 (to listen)
+
+**疲れる（つかれる）**
+
+tsukareru  
+意思：疲累 (to get tired)
+
+**手紙（てがみ）**
+
+tegami  
+意思：信 (letter)
+
+**書く（かく）**
+
+kaku  
+意思：寫 (to write)
+
+**帰る（かえる）**
+
+kaeru  
+意思：回家 (to go home)
+
+**読む（よむ）**
+
+yomu  
+意思：讀、閱讀 (to read)
+
+**使う（つかう）**
+
+tsukau  
+意思：使用 (to use)
+
+**英語（えいご）**
+
+eigo  
+意思：英文 (English)
+
+**沒有專屬尊敬語動詞的一般動詞，要怎麼改成尊敬語？**
+
+有兩種作法。第一種：若句子含有補助動詞「ている」，把「いる」換成「いらっしゃる」，即「[て形]＋いらっしゃる」。第二種：其餘大多數情況，把動詞ます形的語幹前後夾上「お」與「になる」，即「お＋[動詞ます形語幹]＋になる」。
+
+**「(Someone) is listening to music.」的日文怎麼說？**
+
+音楽(おんがく)を聞(き)いています。  
+(Ongaku o kiite imasu.)
+
+**「(Someone) is respectfully listening to music.」的日文怎麼說？**
+
+音楽(おんがく)を聞(き)いていらっしゃいます。  
+(Ongaku o kiite irasshaimasu.)
+
+**「(Someone) is tired.」的日文怎麼說？**
+
+疲(つか)れています。  
+(Tsukarete imasu.)
+
+**「(Someone) is tired (respectful).」的日文怎麼說？**
+
+疲(つか)れていらっしゃいます。  
+(Tsukarete irasshaimasu.)
+
+**「It looks like (someone) is writing a letter.」的日文怎麼說？**
+
+手紙(てがみ)を書(か)いているみたいです。  
+(Tegami o kaite iru mitai desu.)
+
+**「It looks like (someone) is respectfully writing a letter.」的日文怎麼說？**
+
+手紙(てがみ)を書(か)いていらっしゃるみたいです。  
+(Tegami o kaite irassharu mitai desu.)
+
+**「(Someone) went home.」的日文怎麼說？**
+
+帰(かえ)りました。  
+(Kaerimashita.)
+
+**「(Someone) respectfully went home.」的日文怎麼說？**
+
+お帰(かえ)りになりました。  
+(Okaeri ni narimashita.)
+
+**「(Someone) will read it.」的日文怎麼說？**
+
+読(よ)みます。  
+(Yomimasu.)
+
+**「(Someone) will respectfully read it.」的日文怎麼說？**
+
+お読(よ)みになります。  
+(Oyomi ni narimasu.)
+
+**「Please use it.」的日文怎麼說？**
+
+使(つか)ってください。  
+(Tsukatte kudasai.)
+
+**「Please use it (respectfully).」的日文怎麼說？**
+
+お使(つか)いになってください。  
+(Otsukai ni natte kudasai.)
+
+**「Ms. Suzuki is married.」的日文怎麼說？**
+
+すずきさんは結婚(けっこん)していらっしゃいます。  
+(Suzuki-san wa kekkon shite irasshaimasu.)
+
+**「Mr. Tanaka is eating sushi.」的日文怎麼說？**
+
+たなかさんはすしを召(め)し上(あ)がっています。  
+(Tanaka-san wa sushi o meshiagatte imasu.)
+
+**「Ms. Sasaki speaks English.」的日文怎麼說？**
+
+ささきさんは英語(えいご)をお話(はな)しになります。  
+(Sasaki-san wa eigo o ohanashi ni narimasu.)
+
+**「The teacher will wait in front of the station.」的日文怎麼說？**
+
+先生(せんせい)は駅(えき)の前(まえ)でお待(ま)ちになります。  
+(Sensei wa eki no mae de omachi ni narimasu.)
+
+**「The teacher is waiting in front of the station.」的日文怎麼說？**
+
+先生(せんせい)は駅(えき)の前(まえ)で待(ま)っていらっしゃいます。  
+(Sensei wa eki no mae de matte irasshaimasu.)
+
+---
+
+## 236. Giving Respectful Advice（恭敬地建議、指示）
+
+**整理券（せいりけん）**
+
+seiriken  
+意思：號碼牌／號碼票 (numbered ticket)
+
+**説明（せつめい）**
+
+setsumei  
+意思：說明、解說 (explanation)
+
+**塩（しお）**
+
+shio  
+意思：鹽 (salt)
+
+**注意する（ちゅういする）**
+
+chuui suru  
+意思：小心、留意 (to be careful)
+
+**準備する（じゅんびする）**
+
+junbi suru  
+意思：準備 (to prepare)
+
+**名前（なまえ）**
+
+namae  
+意思：名字 (name)
+
+**書く（かく）**
+
+kaku  
+意思：寫 (to write)
+
+**観る／見る（みる）**
+
+miru  
+意思：看 (to look/watch)
+
+**お寺（おてら）**
+
+otera  
+意思：寺廟 (temple)
+
+**待つ（まつ）**
+
+matsu  
+意思：等待 (to wait)
+
+**座る（すわる）**
+
+suwaru  
+意思：坐下 (to sit)
+
+**着席する（ちゃくせきする）**
+
+chakuseki suru  
+意思：就座、入座 (to take one's seat)
+
+**お＋動詞ます形語幹＋ください 是什麼意思？**
+
+意思是「請您～」，用於恭敬地建議或指示對方做某事，常見於公共廣播、店員對客人說話等場合。雖然句尾以「ください」結尾，但本質上是一種禮貌包裝過的「命令」，因此不能用來替自己謀取好處而要求對方做事。
+
+**する複合動詞和有特殊敬語動詞的字要怎麼變化？**
+
+若動詞是「する」複合動詞，規則改為「ご＋する前的名詞＋ください」（例：ご注意ください）。具有特殊敬語動詞的字（如「見る→ご覧になる」）則用「敬語動詞去掉になる＋ください」的形式（例：ご覧ください）。因為變化不規則性很高，建議以背誦常見固定用法為主。
+
+**「Please take a number ticket.」的日文怎麼說？**
+
+整理券(せいりけん)をお取(と)りください。  
+(Seiriken o otori kudasai.)
+
+**「Please read the instructions.」的日文怎麼說？**
+
+説明(せつめい)をお読(よ)みください。  
+(Setsumei o oyomi kudasai.)
+
+**「Please pass the salt.」的日文怎麼說？**
+
+塩(しお)をお取(と)りください。  
+(Shio o otori kudasai.)
+
+**「Please pass me the salt.」的日文怎麼說？**
+
+塩(しお)を取(と)ってください。  
+(Shio o totte kudasai.)
+
+**「Please be careful.」的日文怎麼說？**
+
+ご注意(ちゅうい)ください。  
+(Gochuui kudasai.)
+
+**「Please get ready.」的日文怎麼說？**
+
+ご準備(じゅんび)ください。  
+(Gojunbi kudasai.)
+
+**「Please take a look.」的日文怎麼說？**
+
+ご覧(らん)ください。  
+(Goran kudasai.)
+
+**「Please get some rest.」的日文怎麼說？**
+
+お休(やす)みください。  
+(Oyasumi kudasai.)
+
+**「Please help yourself.」的日文怎麼說？**
+
+お召(め)し上(あ)がりください。  
+(Omeshiagari kudasai.)
+
+**「Please write down your name.」的日文怎麼說？**
+
+名前(なまえ)をお書(か)きください。  
+(Namae o okaki kudasai.)
+
+**「Please look at that temple.」的日文怎麼說？**
+
+あのお寺(てら)をご覧(らん)ください。  
+(Ano otera o goran kudasai.)
+
+**「Please wait here.」的日文怎麼說？**
+
+ここでお待(ま)ちください。  
+(Koko de omachi kudasai.)
+
+**「Please have a seat.」的日文怎麼說？**
+
+お座(すわ)りください。  
+(Osuwari kudasai.)
+
+**「Please take your seats.」的日文怎麼說？**
+
+ご着席(ちゃくせき)ください。  
+(Gochakuseki kudasai.)
+
+---
+
+## 237. 〜てくれてありがとう（謝謝你做了…）
+
+**手伝う（てつだう）**
+
+tetsudau  
+意思：幫忙 (to help)
+
+**友達（ともだち）**
+
+tomodachi  
+意思：朋友 (friend)
+
+**推薦状（すいせんじょう）**
+
+suisenjou  
+意思：推薦信 (recommendation letter)
+
+**書く（かく）**
+
+kaku  
+意思：寫 (to write)
+
+**紹介する（しょうかいする）**
+
+shoukai suru  
+意思：介紹 (to introduce)
+
+**招待する（しょうたいする）**
+
+shoutai suru  
+意思：邀請 (to invite)
+
+**教える（おしえる）**
+
+oshieru  
+意思：教 (to teach)
+
+**数学（すうがく）**
+
+suugaku  
+意思：數學 (math)
+
+**奢る（おごる）**
+
+ogoru  
+意思：請客 (to treat (someone))
+
+**夜ご飯（よるごはん）**
+
+yorugohan  
+意思：晚餐 (dinner)
+
+**貸す（かす）**
+
+kasu  
+意思：借出 (to lend)
+
+**お金（かね）**
+
+okane  
+意思：錢 (money)
+
+**お母さん（おかあさん）**
+
+okaasan  
+意思：媽媽 (mother)
+
+**〜てくれてありがとう 怎麼用？**
+
+用「て形＋くれてありがとう」表達「謝謝你做了（某個具體動作）」，用來感謝對方為自己做的事。若要感謝對方「是這樣的一個人／處於某種狀態」，可用「でいる」取代「です」再接「くれてありがとう」。
+
+**對長輩或不熟的人要怎麼表達感謝？**
+
+當對象需要用敬語對待（不熟或地位較高的人）時，改用「て形＋くださってありがとうございました」表達正式的感謝。
+
+**「Thank you for helping me.」的日文怎麼說？**
+
+手伝(てつだ)ってくれてありがとう。  
+(Tetsudatte kurete arigatou.)
+
+**「Thank you for being a good friend.」的日文怎麼說？**
+
+いい友達(ともだち)でいてくれてありがとう。  
+(Ii tomodachi de ite kurete arigatou.)
+
+**「Thank you very much for writing the recommendation letter.」的日文怎麼說？**
+
+推薦状(すいせんじょう)を書(か)いてくださってありがとうございました。  
+(Suisenjou o kaite kudasatte arigatou gozaimashita.)
+
+**「Thank you for introducing me to your friend.」的日文怎麼說？**
+
+友達(ともだち)を紹介(しょうかい)してくれてありがとう。  
+(Tomodachi o shoukai shite kurete arigatou.)
+
+**「Thank you for inviting me.」的日文怎麼說？**
+
+招待(しょうたい)してくれてありがとう。  
+(Shoutai shite kurete arigatou.)
+
+**「Thank you for teaching me math.」的日文怎麼說？**
+
+数学(すうがく)を教(おし)えてくれてありがとう。  
+(Suugaku o oshiete kurete arigatou.)
+
+**「Thank you very much for treating me to dinner.」的日文怎麼說？**
+
+夜(よる)ご飯(はん)を奢(おご)ってくださってありがとうございます。  
+(Yorugohan o ogotte kudasatte arigatou gozaimasu.)
+
+**「Thank you very much for lending me money.」的日文怎麼說？**
+
+お金(かね)を貸(か)してくださってありがとうございます。  
+(Okane o kashite kudasatte arigatou gozaimasu.)
+
+**「Thank you for being a good mother.」的日文怎麼說？**
+
+いいお母(かあ)さんでいてくれてありがとう。  
+(Ii okaasan de ite kurete arigatou.)
+
+---
+
+## 238. 〜てよかったです（很高興是這樣的結果）
+
+**勉強する（べんきょうする）**
+
+benkyou suru  
+意思：學習 (to study)
+
+**尊敬語（そんけいご）**
+
+sonkeigo  
+意思：敬語 (honorific language)
+
+**雨が降る（あめがふる）**
+
+ame ga furu  
+意思：下雨 (to rain)
+
+**貯金する（ちょきんする）**
+
+chokin suru  
+意思：存錢 (to save money)
+
+**諦める（あきらめる）**
+
+akirameru  
+意思：放棄 (to give up)
+
+**〜てよかったです 是什麼意思？**
+
+用「て形＋よかったです」表達「很高興（某件事）是這樣的結果／狀態」，用來對已發生的事實表示慶幸、放心。
+
+**要描述否定情況時怎麼接？**
+
+若要描述的內容是否定的情況，前面須接續否定て形「〜なくて」再加「よかったです」。
+
+**「I'm glad I studied Japanese.」的日文怎麼說？**
+
+日本語(にほんご)を勉強(べんきょう)してよかったです。  
+(Nihongo o benkyou shite yokatta desu.)
+
+**「I'm glad Mary got better.」的日文怎麼說？**
+
+メアリーが元気(げんき)になってよかったです。  
+(Mearii ga genki ni natte yokatta desu.)
+
+**「I'm glad I didn't go to the party.」的日文怎麼說？**
+
+パーティーに行(い)かなくてよかったです。  
+(Paatii ni ikanakute yokatta desu.)
+
+**「I'm glad I studied honorific language.」的日文怎麼說？**
+
+尊敬語(そんけいご)を勉強(べんきょう)してよかったです。  
+(Sonkeigo o benkyou shite yokatta desu.)
+
+**「I'm glad it didn't rain.」的日文怎麼說？**
+
+雨(あめ)が降(ふ)らなくてよかったです。  
+(Ame ga furanakute yokatta desu.)
+
+**「I'm glad I had been saving money.」的日文怎麼說？**
+
+貯金(ちょきん)していてよかったです。  
+(Chokin shite ite yokatta desu.)
+
+**「I'm glad I didn't give up.」的日文怎麼說？**
+
+諦(あきら)めないでよかったです。  
+(Akiramenaide yokatta desu.)
+
+---
+
+## 239. 〜はずです（應該是…）
+
+**勉強する（べんきょうする）**
+
+benkyou suru  
+意思：讀書、學習 (to study)
+
+**今夜（こんや）**
+
+kon'ya  
+意思：今晚 (tonight)
+
+**試験（しけん）**
+
+shiken  
+意思：考試 (exam)
+
+**今日（きょう）**
+
+kyou  
+意思：今天 (today)
+
+**料理する（りょうりする）**
+
+ryouri suru  
+意思：做菜、烹飪 (to cook)
+
+**帰る（かえる）**
+
+kaeru  
+意思：回去、回家 (to go home)
+
+**家（いえ）**
+
+ie  
+意思：家 (house)
+
+**カナダ**
+
+Kanada  
+意思：加拿大 (Canada)
+
+**アメリカ**
+
+Amerika  
+意思：美國 (America)
+
+**大きい（おおきい）**
+
+ookii  
+意思：大的 (big)
+
+**面白い（おもしろい）**
+
+omoshiroi  
+意思：有趣的 (interesting)
+
+**元気（げんき）**
+
+genki  
+意思：有精神、健康 (well/healthy)
+
+**学生（がくせい）**
+
+gakusei  
+意思：學生 (student)
+
+**電話（でんわ）**
+
+denwa  
+意思：電話 (phone call)
+
+**銀行（ぎんこう）**
+
+ginkou  
+意思：銀行 (bank)
+
+**〜はずです 是什麼意思？**
+
+接在句子的普通形之後，用來表達「應該是…、按理說是…」，也就是說話者根據常理、已知情況或推論，相信某件事是真實或可能的，但並沒有確鑿的證據。它不能用於表達「因為義務、責任而必須做」的意思。
+
+**はずです 有哪些時態變化？**
+
+可依時態變化：現在肯定／現在否定／過去肯定／過去否定，也可以轉為過去式「はずでした」，表示原本以為理應如此，結果卻並非如此（事與願違）。
+
+**形容詞、名詞要怎麼接？**
+
+い形容詞辭書形＋はずです、な形容詞＋なはずです、名詞＋の＋はずです。
+
+**「The bank should be closed.」的日文怎麼說？**
+
+銀行(ぎんこう)はしまっているはずです。  
+(Ginkou wa shimatte iru hazu desu.)
+
+**「The bank shouldn't be closed.」的日文怎麼說？**
+
+銀行(ぎんこう)はしまっていないはずです。  
+(Ginkou wa shimatte inai hazu desu.)
+
+**「The bank should have been closed.」的日文怎麼說？**
+
+銀行(ぎんこう)はしまっていたはずです。  
+(Ginkou wa shimatte ita hazu desu.)
+
+**「The bank shouldn't have been closed.」的日文怎麼說？**
+
+銀行(ぎんこう)はしまっていなかったはずです。  
+(Ginkou wa shimatte inakatta hazu desu.)
+
+**「I was supposed to get a call, but there was no call.」的日文怎麼說？**
+
+電話(でんわ)をもらうはずでしたが、電話(でんわ)がありませんでした。  
+(Denwa o morau hazu deshita ga, denwa ga arimasen deshita.)
+
+**「It should be interesting.」的日文怎麼說？**
+
+面白(おもしろ)いはずです。  
+(Omoshiroi hazu desu.)
+
+**「(Someone) should be fine.」的日文怎麼說？**
+
+元気(げんき)なはずです。  
+(Genki na hazu desu.)
+
+**「(Someone) should be a student.」的日文怎麼說？**
+
+学生(がくせい)のはずです。  
+(Gakusei no hazu desu.)
+
+**「Sue should be studying.」的日文怎麼說？**
+
+スーは勉強(べんきょう)するはずです。  
+(Suu wa benkyou suru hazu desu.)
+
+**「There shouldn't be an exam today.」的日文怎麼說？**
+
+今日(きょう)試験(しけん)がないはずです。  
+(Kyou shiken ga nai hazu desu.)
+
+**「When I got home, Taka should have been cooking.」的日文怎麼說？**
+
+家(いえ)に帰(かえ)ったとき、たかは料理(りょうり)していたはずです。  
+(Ie ni kaetta toki, Taka wa ryouri shite ita hazu desu.)
+
+**「Canada should be bigger than America.」的日文怎麼說？**
+
+カナダのほうがアメリカより大(おお)きいはずです。  
+(Kanada no hou ga Amerika yori ookii hazu desu.)
+
+---
+
+## 241. Extra- Modest Expressions（丁重語）
+
+**来年（らいねん）**
+
+rainen  
+意思：明年 (next year)
+
+**卒業する（そつぎょうする）**
+
+sotsugyou suru  
+意思：畢業 (to graduate)
+
+**今年（ことし）**
+
+kotoshi  
+意思：今年 (this year)
+
+**文化（ぶんか）**
+
+bunka  
+意思：文化 (culture)
+
+**お手洗い（おてあらい）**
+
+otearai  
+意思：洗手間、廁所 (restroom)
+
+**私（わたくし）**
+
+watakushi  
+意思：我（較正式） (I (formal))
+
+**飲む（のむ）**
+
+nomu  
+意思：喝 (to drink)
+
+**お茶（おちゃ）**
+
+ocha  
+意思：茶 (tea)
+
+**行く（いく）**
+
+iku  
+意思：去 (to go)
+
+**事務所（じむしょ）**
+
+jimusho  
+意思：事務所、辦公室 (office)
+
+**午前（ごぜん）**
+
+gozen  
+意思：上午 (a.m.)
+
+**妹（いもうと）**
+
+imouto  
+意思：妹妹 (younger sister)
+
+**住む（すむ）**
+
+sumu  
+意思：居住 (to live)
+
+**父（ちち）**
+
+chichi  
+意思：父親（自己的） ((my) father)
+
+**興味（きょうみ）**
+
+kyoumi  
+意思：興趣 (interest)
+
+**母（はは）**
+
+haha  
+意思：母親（自己的） ((my) mother)
+
+**医者（いしゃ）**
+
+isha  
+意思：醫生 (doctor)
+
+**電車（でんしゃ）**
+
+densha  
+意思：電車 (train)
+
+**学校（がっこう）**
+
+gakkou  
+意思：學校 (school)
+
+**明日（あした）**
+
+ashita  
+意思：明天 (tomorrow)
+
+**丁重語（extra-modest expressions）是什麼？**
+
+用來謙虛地描述自己（或自己家人、自己所屬公司）的動作，藉此對聽者表達更高程度的敬意，常搭配較正式的第一人稱「私（わたくし）」，常見於面試自我介紹、公共場所廣播等正式場合。
+
+**丁重語為什麼不能用在對方身上？常見對照有哪些？**
+
+因為丁重語的效果是把「動作的主體」放低姿態表示謙遜，所以不能用來描述聽話對象或非自己團體的人的動作。常見對照：いる→おります、行く／来る→参ります、言う→申します、する→致します、食べる／飲む→いただきます、ある→ございます、〜ている→〜ております、〜です→〜でございます。
+
+**「I will be in Japan next year as well.」的日文怎麼說？**
+
+私(わたくし)は来年(らいねん)も日本(にほん)におります。  
+(Watakushi wa rainen mo Nihon ni orimasu.)
+
+**「I graduated from university this past June.」的日文怎麼說？**
+
+私(わたくし)は今年(ことし)の6月(ろくがつ)に大学(だいがく)を卒業(そつぎょう)いたしました。  
+(Watakushi wa kotoshi no rokugatsu ni daigaku o sotsugyou itashimashita.)
+
+**「I have been studying Japanese for one year.」的日文怎麼說？**
+
+私(わたくし)は1年間(いちねんかん)日本語(にほんご)を勉強(べんきょう)しております。  
+(Watakushi wa ichinenkan nihongo o benkyou shite orimasu.)
+
+**「I have an interest in Japanese culture.」的日文怎麼說？**
+
+私(わたくし)は日本(にほん)の文化(ぶんか)に興味(きょうみ)がございます。  
+(Watakushi wa Nihon no bunka ni kyoumi ga gozaimasu.)
+
+**「My mother is a doctor.」的日文怎麼說？**
+
+私(わたくし)の母(はは)は医者(いしゃ)でございます。  
+(Watakushi no haha wa isha de gozaimasu.)
+
+**「The train is arriving.」的日文怎麼說？**
+
+電車(でんしゃ)が参(まい)ります。  
+(Densha ga mairimasu.)
+
+**「The restroom is on the second floor.」的日文怎麼說？**
+
+お手洗(てあら)いは2階(にかい)でございます。  
+(Otearai wa nikai de gozaimasu.)
+
+**「Will you be coming to school tomorrow?」的日文怎麼說？**
+
+明日(あした)学校(がっこう)にいらっしゃいますか？  
+(Ashita gakkou ni irasshaimasu ka?)
+
+**「I will have some tea.」的日文怎麼說？**
+
+お茶(ちゃ)をいただきます。  
+(Ocha o itadakimasu.)
+
+**「I will arrive at the office at 10am.」的日文怎麼說？**
+
+午前(ごぜん)10時(じ)に事務所(じむしょ)に参(まい)ります。  
+(Gozen juuji ni jimusho ni mairimasu.)
+
+**「I have a younger sister.」的日文怎麼說？**
+
+妹(いもうと)がおります。  
+(Imouto ga orimasu.)
+
+**「My father lives in Tokyo.」的日文怎麼說？**
+
+父(ちち)は東京(とうきょう)に住(す)んでおります。  
+(Chichi wa Toukyou ni sunde orimasu.)
+
+---
+
+## 242. Humble Expressions 1（謙讓語 1）
+
+**会う（あう）**
+
+au  
+意思：見面 (to meet)
+
+**貸す（かす）**
+
+kasu  
+意思：借出（借給別人） (to lend)
+
+**借りる（かりる）**
+
+kariru  
+意思：借入（向別人借） (to borrow)
+
+**送る（おくる）**
+
+okuru  
+意思：寄送、寄出 (to send)
+
+**手紙（てがみ）**
+
+tegami  
+意思：信 (letter)
+
+**返す（かえす）**
+
+kaesu  
+意思：歸還 (to return (something))
+
+**辞書（じしょ）**
+
+jisho  
+意思：字典 (dictionary)
+
+**紹介する（しょうかいする）**
+
+shoukai suru  
+意思：介紹 (to introduce)
+
+**案内する（あんないする）**
+
+annai suru  
+意思：帶路、導覽 (to guide)
+
+**説明する（せつめいする）**
+
+setsumei suru  
+意思：說明 (to explain)
+
+**電話する（でんわする）**
+
+denwa suru  
+意思：打電話 (to call)
+
+**謙讓語「お＋動詞ます形語幹＋する」怎麼用？**
+
+用於「因尊敬對方而為對方做某件事」時，可用此形式表達自己謙卑地做某動作，例如「見面」「借出」「借入」等場合都常這樣使用（並非所有動詞都能套用，建議只使用自己實際聽過的固定用法）。
+
+**する複合動詞要怎麼變成謙讓語？**
+
+「する複合動詞」（如紹介する、案内する、説明する、電話する）並不套用「お＋語幹＋する」的公式，而是直接在動詞前加上「ご」或「お」前綴，例如「ご紹介する」「ご案内する」「ご説明する」「お電話する」。
+
+**「I met with the teacher yesterday.」的日文怎麼說？**
+
+昨日(きのう)、先生(せんせい)にお会(あ)いしました。  
+(Kinou, sensei ni oai shimashita.)
+
+**「I plan to lend the teacher a book.」的日文怎麼說？**
+
+先生(せんせい)に本(ほん)をお貸(か)しするつもりです。  
+(Sensei ni hon o okashi suru tsumori desu.)
+
+**「I borrowed a dictionary from the teacher.」的日文怎麼說？**
+
+先生(せんせい)に辞書(じしょ)をお借(か)りしました。  
+(Sensei ni jisho o okari shimashita.)
+
+**「I sent Ms. Suzuki a letter.」的日文怎麼說？**
+
+すずきさんに手紙(てがみ)をお送(おく)りしました。  
+(Suzuki-san ni tegami o ookuri shimashita.)
+
+**「I returned the dictionary to Mr. Aoki.」的日文怎麼說？**
+
+あおきさんに辞書(じしょ)をお返(かえ)ししました。  
+(Aoki-san ni jisho o okaeshi shimashita.)
+
+**「I will introduce my mother to Ms. Tanaka.」的日文怎麼說？**
+
+たなかさんに母(はは)をご紹介(しょうかい)します。  
+(Tanaka-san ni haha o goshoukai shimasu.)
+
+**「I called Mr. Nishida.」的日文怎麼說？**
+
+にしださんにお電話(でんわ)しました。  
+(Nishida-san ni odenwa shimashita.)
+
+---
+
+## 243. Humble Expressions 2（謙讓語 2）
+
+**もらう**
+
+morau  
+意思：領受、得到 (to receive)
+
+**あげる**
+
+ageru  
+意思：給、贈送 (to give)
+
+**いただく**
+
+itadaku  
+意思：「もらう」的謙讓語 (to receive (humble))
+
+**差し上げる（さしあげる）**
+
+sashiageru  
+意思：「あげる」的謙讓語 (to give (humble))
+
+**見せる（みせる）**
+
+miseru  
+意思：給…看、出示 (to show)
+
+**つける**
+
+tsukeru  
+意思：打開（開關） (to turn on)
+
+**テレビ**
+
+terebi  
+意思：電視 (television)
+
+**感謝状（かんしゃじょう）**
+
+kanshajou  
+意思：感謝狀 (certificate of appreciation)
+
+**校長先生（こうちょうせんせい）**
+
+kouchou sensei  
+意思：校長 (principal)
+
+**連れて行く（つれていく）**
+
+tsurete iku  
+意思：帶（某人）去 (to take (someone) along)
+
+**病院（びょういん）**
+
+byouin  
+意思：醫院 (hospital)
+
+**地図（ちず）**
+
+chizu  
+意思：地圖 (map)
+
+**プレゼント**
+
+purezento  
+意思：禮物 (present)
+
+**ケーキ**
+
+keeki  
+意思：蛋糕 (cake)
+
+**本（ほん）**
+
+hon  
+意思：書 (book)
+
+**先生（せんせい）**
+
+sensei  
+意思：老師 (teacher)
+
+**申す（もうす）**
+
+mousu  
+意思：「言う」的丁重語 (to say (humble))
+
+**返す（かえす）**
+
+kaesu  
+意思：歸還 (to return)
+
+**いらっしゃる**
+
+irassharu  
+意思：「来る／いる／行く」的尊敬語 (to be/come/go (honorific))
+
+**帰る（かえる）**
+
+kaeru  
+意思：回去 (to go home)
+
+**もらう和あげる的謙讓語是什麼？**
+
+もらう的謙讓語是「いただく」，あげる的謙讓語是「差し上げる（さしあげる）」，用於恭敬地敘述「我方領受」或「我方給予」對方（尊長）東西或恩惠。
+
+**「て形＋さしあげる」為什麼不建議使用？**
+
+很多母語人士認為聽起來像在暗示自己在施恩，較不禮貌，因此建議改用「お＋動詞ます形語幹＋する（します）」的謙讓句型來表達「我為您（謙遜地）做…」。
+
+**謙讓語和丁重語有什麼不同？**
+
+丁重語是對「聽話者」表示尊敬，謙讓語則是對「話題／情境中出現的另一人」表示尊敬（貶低自己、抬高對方）。
+
+**「I received this book from the teacher.」的日文怎麼說？**
+
+先生(せんせい)にこの本(ほん)をいただきました。  
+(Sensei ni kono hon o itadakimashita.)
+
+**「The teacher was kind enough to teach me kanji.」的日文怎麼說？**
+
+先生(せんせい)に漢字(かんじ)を教(おし)えていただきました。  
+(Sensei ni kanji o oshiete itadakimashita.)
+
+**「I will give the teacher a present.」的日文怎麼說？**
+
+先生(せんせい)にプレゼントをさしあげます。  
+(Sensei ni purezento o sashiagemasu.)
+
+**「I showed the teacher the map.」的日文怎麼說？**
+
+先生(せんせい)に地図(ちず)をお見(み)せしました。  
+(Sensei ni chizu o omise shimashita.)
+
+**「Let me turn on the TV for you.」的日文怎麼說？**
+
+テレビをおつけしましょう。  
+(Terebi o otsuke shimashou.)
+
+**「The teacher arrived.」的日文怎麼說？**
+
+先生(せんせい)がいらっしゃいました。  
+(Sensei ga irasshaimashita.)
+
+**「My name is Mary.」的日文怎麼說？**
+
+私(わたし)はメアリーと申(もう)します。  
+(Watashi wa Mearii to moushimasu.)
+
+**「I returned the book to the teacher.」的日文怎麼說？**
+
+私(わたし)は先生(せんせい)に本(ほん)をお返(かえ)ししました。  
+(Watashi wa sensei ni hon o okaeshi shimashita.)
+
+**「I received a certificate of appreciation from the principal.」的日文怎麼說？**
+
+校長先生(こうちょうせんせい)に感謝状(かんしゃじょう)をいただきました。  
+(Kouchou sensei ni kanshajou o itadakimashita.)
+
+**「Ms. Nonaka was kind enough to take me to the hospital.」的日文怎麼說？**
+
+のなかさんに病院(びょういん)に連(つ)れて行(い)っていただきました。  
+(Nonaka-san ni byouin ni tsurete itte itadakimashita.)
+
+**「I will give this cake to Mr. Nakao.」的日文怎麼說？**
+
+このケーキをなかおさんに差(さ)し上(あ)げます。  
+(Kono keeki o Nakao-san ni sashiagemasu.)
+
+---
+
+## 244. 〜ないで（不做…而做…）
+
+**辞書（じしょ）**
+
+jisho  
+意思：字典 (dictionary)
+
+**使う（つかう）**
+
+tsukau  
+意思：使用 (to use)
+
+**新聞（しんぶん）**
+
+shinbun  
+意思：報紙 (newspaper)
+
+**読む（よむ）**
+
+yomu  
+意思：讀 (to read)
+
+**出かける（でかける）**
+
+dekakeru  
+意思：出門 (to go out)
+
+**確認する（かくにんする）**
+
+kakunin suru  
+意思：確認 (to check)
+
+**天気予報（てんきよほう）**
+
+tenki yohou  
+意思：天氣預報 (weather forecast)
+
+**買う（かう）**
+
+kau  
+意思：買 (to buy)
+
+**高い（たかい）**
+
+takai  
+意思：貴的 (expensive)
+
+**時計（とけい）**
+
+tokei  
+意思：手錶、時鐘 (watch/clock)
+
+**考える（かんがえる）**
+
+kangaeru  
+意思：思考 (to think)
+
+**本（ほん）**
+
+hon  
+意思：書 (book)
+
+**旅行する（りょこうする）**
+
+ryokou suru  
+意思：旅行 (to travel)
+
+**予約する（よやくする）**
+
+yoyaku suru  
+意思：預約 (to reserve)
+
+**ホテル**
+
+hoteru  
+意思：飯店 (hotel)
+
+**食べる（たべる）**
+
+taberu  
+意思：吃 (to eat)
+
+**クッキー**
+
+kukkii  
+意思：餅乾 (cookie)
+
+**洗う（あらう）**
+
+arau  
+意思：洗 (to wash)
+
+**手（て）**
+
+te  
+意思：手 (hand)
+
+**〜ないで 是什麼意思？怎麼接？**
+
+用來表示「沒有做某個動作，就做了另一件事」，也就是「不…而…」的意思。文型是【動詞ない形＋で】。
+
+**描述過去的事情時，動詞要用什麼時態？**
+
+即使描述的是過去發生的事情，也一律使用現在式的ない形（〜ない），不需改成過去否定形。
+
+**「I read the newspaper without using a dictionary.」的日文怎麼說？**
+
+辞書(じしょ)を使(つか)わないで新聞(しんぶん)を読(よ)みます。  
+(Jisho o tsukawaide shinbun o yomimasu.)
+
+**「I went out without checking the weather forecast.」的日文怎麼說？**
+
+天気予報(てんきよほう)を確認(かくにん)しないで、出(で)かけました。  
+(Tenki yohou o kakunin shinaide, dekakemashita.)
+
+**「I bought an expensive watch without thinking.」的日文怎麼說？**
+
+考(かんが)えないで、高(たか)い時計(とけい)を買(か)いました。  
+(Kangaenaide, takai tokei o kaimashita.)
+
+**「Can you read a Japanese book without using a dictionary?」的日文怎麼說？**
+
+辞書(じしょ)を使(つか)わないで、日本語(にほんご)の本(ほん)を読(よ)めますか？  
+(Jisho o tsukawaide, nihongo no hon o yomemasu ka?)
+
+**「Have you ever traveled without booking a hotel?」的日文怎麼說？**
+
+ホテルを予約(よやく)しないで、旅行(りょこう)したことがありますか？  
+(Hoteru o yoyaku shinaide, ryokou shita koto ga arimasu ka?)
+
+**「I ate cookies without washing my hands.」的日文怎麼說？**
+
+手(て)を洗(あら)わないで、クッキーを食(た)べました。  
+(Te o arawaide, kukkii o tabemashita.)
+
+---
+
+## 245. Questions within Larger Sentences（疑問句包進句子裡）
+
+**食べる（たべる）**
+
+taberu  
+意思：吃 (to eat)
+
+**住む（すむ）**
+
+sumu  
+意思：住 (to live)
+
+**行く（いく）**
+
+iku  
+意思：去 (to go)
+
+**学生（がくせい）**
+
+gakusei  
+意思：學生 (student)
+
+**上手（じょうず）**
+
+jouzu  
+意思：擅長、厲害 (skillful)
+
+**かかる**
+
+kakaru  
+意思：（時間）花費 (to take (time))
+
+**どのくらい**
+
+dono kurai  
+意思：多久、大約多少 (how long/how much)
+
+**空港（くうこう）**
+
+kuukou  
+意思：機場 (airport)
+
+**知る（しる）**
+
+shiru  
+意思：知道 (to know)
+
+**なる**
+
+naru  
+意思：成為 (to become)
+
+**弁護士（べんごし）**
+
+bengoshi  
+意思：律師 (lawyer)
+
+**どんな**
+
+donna  
+意思：什麼樣的 (what kind of)
+
+**人（ひと）**
+
+hito  
+意思：人 (person)
+
+**隣の部屋（となりのへや）**
+
+tonari no heya  
+意思：隔壁房間 (the next room)
+
+**趣味（しゅみ）**
+
+shumi  
+意思：興趣、嗜好 (hobby)
+
+**怎麼把一個疑問句包進較長的句子裡？**
+
+用來表達「不知道／不記得……」這類意思。若子句中含有疑問詞（如「誰」「何」），句型為「［疑問詞疑問句・短形］＋か＋わかりません／覚えていません」；若子句中不含疑問詞（是非問句），句型則為「［是非問句・短形］＋かどうか＋わかりません／覚えていません」。
+
+**子句本身有什麼變化規則？**
+
+被包進去的疑問句要用普通形。當子句句尾是な形容詞或名詞的現在肯定短形「だ」時，通常會把「だ」省略。此外，子句內的主詞常用「が」取代原本的「は」。
+
+**「I don't remember what he ate yesterday.」的日文怎麼說？**
+
+昨日(きのう)何(なに)を食(た)べたか覚(おぼ)えていません。  
+(Kinou nani o tabeta ka oboete imasen.)
+
+**「Do you know where Mary lives?」的日文怎麼說？**
+
+メアリーがどこに住(す)んでいるか知(し)っていますか？  
+(Mearii ga doko ni sunde iru ka shitte imasu ka?)
+
+**「I don't know whether I'll go to school tomorrow.」的日文怎麼說？**
+
+明日(あした)学校(がっこう)に行(い)くかどうかわかりません。  
+(Ashita gakkou ni iku ka dou ka wakarimasen.)
+
+**「I don't know who is the best.」的日文怎麼說？**
+
+誰(だれ)が一番(いちばん)上手(じょうず)かわかりません。  
+(Dare ga ichiban jouzu ka wakarimasen.)
+
+**「I don't know who was the best.」的日文怎麼說？**
+
+誰(だれ)が一番(いちばん)上手(じょうず)だったかわかりません。  
+(Dare ga ichiban jouzu datta ka wakarimasen.)
+
+**「I don't know whether Ken is a student.」的日文怎麼說？**
+
+けんが学生(がくせい)かどうかわかりません。  
+(Ken ga gakusei ka dou ka wakarimasen.)
+
+**「I don't know whether Ken was a student.」的日文怎麼說？**
+
+けんが学生(がくせい)だったかどうかわかりません。  
+(Ken ga gakusei datta ka dou ka wakarimasen.)
+
+**「I don't know what Takeshi ate.」的日文怎麼說？**
+
+たけしが何(なに)を食(た)べたか知(し)りません。  
+(Takeshi ga nani o tabeta ka shirimasen.)
+
+**「I don't know how long it takes to get to the airport.」的日文怎麼說？**
+
+空港(くうこう)までどのくらいかかるか知(し)りません。  
+(Kuukou made dono kurai kakaru ka shirimasen.)
+
+**「I don't know whether I can become a lawyer.」的日文怎麼說？**
+
+弁護士(べんごし)になれるかどうかわかりません。  
+(Bengoshi ni nareru ka dou ka wakarimasen.)
+
+**「Do you know what kind of person lives in the room next door?」的日文怎麼說？**
+
+隣(となり)の部屋(へや)にどんな人(ひと)が住(す)んでいるか知(し)っていますか？  
+(Tonari no heya ni donna hito ga sunde iru ka shitte imasu ka?)
+
+**「I don't know what kind of person lives in the room next door.」的日文怎麼說？**
+
+隣(となり)の部屋(へや)にどんな人(ひと)が住(す)んでいるか知(し)りません。  
+(Tonari no heya ni donna hito ga sunde iru ka shirimasen.)
+
+**「Do you know what Mary's hobby is?」的日文怎麼說？**
+
+メアリーの趣味(しゅみ)が何(なに)か知(し)っていますか？  
+(Mearii no shumi ga nani ka shitte imasu ka?)
+
+---
+
+## 246. name という item（叫做…的人事物）
+
+**犬（いぬ）**
+
+inu  
+意思：狗 (dog)
+
+**飼う（かう）**
+
+kau  
+意思：飼養 (to keep (a pet))
+
+**歌（うた）**
+
+uta  
+意思：歌曲 (song)
+
+**歌う（うたう）**
+
+utau  
+意思：唱歌 (to sing)
+
+**読む（よむ）**
+
+yomu  
+意思：閱讀 (to read)
+
+**本（ほん）**
+
+hon  
+意思：書 (book)
+
+**なる**
+
+naru  
+意思：變成、成為 (to become)
+
+**友達（ともだち）**
+
+tomodachi  
+意思：朋友 (friend)
+
+**人（ひと）**
+
+hito  
+意思：人 (person)
+
+**バイトする（ばいとする）**
+
+baito suru  
+意思：打工 (to work part-time)
+
+**レストラン**
+
+resutoran  
+意思：餐廳 (restaurant)
+
+**弟（おとうと）**
+
+otouto  
+意思：弟弟 (younger brother)
+
+**〜という 是什麼意思？**
+
+當要提到某個具有特定名稱的人或事物，但認為對方（聽者）並不熟悉這個名稱時，可使用此句型，結構為「[名稱]という[事物/人]」，意思是「叫做『名稱』的（事物/人）」，用來為聽者補充說明這個人事物的名稱。
+
+**「I used to keep a dog named Pochi.」的日文怎麼說？**
+
+ぽちという犬(いぬ)を飼(か)っていました。  
+(Pochi to iu inu o katte imashita.)
+
+**「I sang a song called "Hana."」的日文怎麼說？**
+
+花(はな)という歌(うた)を歌(うた)いました。  
+(Hana to iu uta o utaimashita.)
+
+**「I will read a book called "Tomodachi."」的日文怎麼說？**
+
+ともだちという本(ほん)を読(よ)みます。  
+(Tomodachi to iu hon o yomimasu.)
+
+**「I became friends with a person named Tomo.」的日文怎麼說？**
+
+ともという人(ひと)と友達(ともだち)になりました。  
+(Tomo to iu hito to tomodachi ni narimashita.)
+
+**「I worked part-time at a restaurant called Sukiya.」的日文怎麼說？**
+
+すきやというレストランでバイトしました。  
+(Sukiya to iu resutoran de baito shimashita.)
+
+**「Is the person named Daiki your younger brother?」的日文怎麼說？**
+
+だいきという人(ひと)はあなたの弟(おとうと)ですか？  
+(Daiki to iu hito wa anata no otouto desu ka?)
+
+---
+
+## 247. 〜やすい 〜にくい（容易～／難以～）
+
+**使う（つかう）**
+
+tsukau  
+意思：使用 (to use)
+
+**読む（よむ）**
+
+yomu  
+意思：閱讀 (to read)
+
+**座る（すわる）**
+
+suwaru  
+意思：坐 (to sit)
+
+**難しい（むずかしい）**
+
+muzukashii  
+意思：困難的 (difficult)
+
+**買う（かう）**
+
+kau  
+意思：買 (to buy)
+
+**雑誌（ざっし）**
+
+zasshi  
+意思：雜誌 (magazine)
+
+**住む（すむ）**
+
+sumu  
+意思：居住 (to live)
+
+**物価（ぶっか）**
+
+bukka  
+意思：物價 (prices)
+
+**安い（やすい）**
+
+yasui  
+意思：便宜的 (cheap)
+
+**国（くに）**
+
+kuni  
+意思：國家 (country)
+
+**曲がり角（まがりかど）**
+
+magarikado  
+意思：轉角 (corner)
+
+**狭い（せまい）**
+
+semai  
+意思：狹窄的 (narrow)
+
+**曲がる（まがる）**
+
+magaru  
+意思：轉彎 (to turn)
+
+**優しい（やさしい）**
+
+yasashii  
+意思：溫柔的 (gentle)
+
+**親切な（しんせつな）**
+
+shinsetsuna  
+意思：親切的 (kind)
+
+**話す（はなす）**
+
+hanasu  
+意思：說話 (to speak)
+
+**文字（もじ）**
+
+moji  
+意思：文字 (characters/letters)
+
+**小さい（ちいさい）**
+
+chiisai  
+意思：小的 (small)
+
+**〜やすい／〜にくい 是什麼意思？怎麼接？**
+
+在動詞ます形的語幹後面加上「やすい」，表達「容易做～」；加上「にくい」則表達「難以做～、不容易做～」。兩者都依い形容詞規則變化，主詞除了人以外，也常常是場所或工具。
+
+**やすい／にくい 和「〜のは＋簡単／難しい」有什麼不同？**
+
+「やすい／にくい」著重的是「心理上」感受到的容易或困難程度；如果談的是「物理上、客觀成功率上」的難易，則應改用「〜のは＋簡単／難しい」句型。
+
+**「This computer is easy to use.」的日文怎麼說？**
+
+このパソコンは使(つか)いやすいです。  
+(Kono pasokon wa tsukaiyasui desu.)
+
+**「This book wasn't easy to read.」的日文怎麼說？**
+
+この本(ほん)は読(よ)みやすくなかったです。  
+(Kono hon wa yomiyasukunakatta desu.)
+
+**「The fish is hard to eat.」的日文怎麼說？**
+
+魚(さかな)は食(た)べにくいです。  
+(Sakana wa tabenikui desu.)
+
+**「This town is very easy to live in.」的日文怎麼說？**
+
+この町(まち)はとても住(す)みやすいです。  
+(Kono machi wa totemo sumiyasui desu.)
+
+**「This cup is hard to drink from.」的日文怎麼說？**
+
+このコップは飲(の)みにくいです。  
+(Kono koppu wa nominikui desu.)
+
+**「This chair is uncomfortable to sit on.」的日文怎麼說？**
+
+このいすは座(すわ)りにくい。  
+(Kono isu wa suwarinikui.)
+
+**「It's difficult to get a seat on this chair.」的日文怎麼說？**
+
+このいすに座(すわ)るのは難(むずか)しい。  
+(Kono isu ni suwaru no wa muzukashii.)
+
+**「It's embarrassing to buy this magazine.」的日文怎麼說？**
+
+この雑誌(ざっし)は買(か)いにくい。  
+(Kono zasshi wa kainikui.)
+
+**「It's difficult to get hold of this magazine.」的日文怎麼說？**
+
+この雑誌(ざっし)を買(か)うのは難(むずか)しい。  
+(Kono zasshi o kau no wa muzukashii.)
+
+**「Since prices are low, this country is easy to live in.」的日文怎麼說？**
+
+物価(ぶっか)が安(やす)いから、この国(くに)は住(す)みやすいです。  
+(Bukka ga yasui kara, kono kuni wa sumiyasui desu.)
+
+**「That corner is narrow, so it's hard to turn there.」的日文怎麼說？**
+
+あそこの曲(ま)がり角(かど)は狭(せま)いから、曲(ま)がりにくいです。  
+(Asoko no magarikado wa semai kara, magarinikui desu.)
+
+**「Mary is gentle and kind, so she's easy to talk to.」的日文怎麼說？**
+
+メアリーは優(やさ)しくて親切(しんせつ)だから、話(はな)しやすいです。  
+(Mearii wa yasashikute shinsetsu dakara, hanashiyasui desu.)
+
+**「The letters are small, so this book is hard to read.」的日文怎麼說？**
+
+文字(もじ)が小(ちい)さいから、この本(ほん)は読(よ)みにくいです。  
+(Moji ga chiisai kara, kono hon wa yominikui desu.)
+
+---
+
+## 250. Passive Sentences 1（被動句 1）
+
+**友達（ともだち）**
+
+tomodachi  
+意思：朋友 (friend)
+
+**車（くるま）**
+
+kuruma  
+意思：車子 (car)
+
+**使う（つかう）→使われる**
+
+tsukau/tsukawareru  
+意思：使用／被使用 (to use/be used)
+
+**食べる（たべる）→食べられる**
+
+taberu/taberareru  
+意思：吃／被吃 (to eat/be eaten)
+
+**見る（みる）→見られる**
+
+miru/miraeru  
+意思：看／被看 (to see/be seen)
+
+**着る（きる）→着られる**
+
+kiru/kirareru  
+意思：穿／被穿 (to wear/be worn)
+
+**行く（いく）→行かれる**
+
+iku/ikareru  
+意思：去／被去 (to go (passive))
+
+**読む（よむ）→読まれる**
+
+yomu/yomareru  
+意思：讀／被讀 (to read/be read)
+
+**買う（かう）→買われる**
+
+kau/kawareru  
+意思：買／被買 (to buy/be bought)
+
+**する→される**
+
+suru/sareru  
+意思：做／被做 (to do/be done)
+
+**来る（くる）→こられる**
+
+kuru/korareru  
+意思：來／被來 (to come (passive))
+
+**私（わたし）**
+
+watashi  
+意思：我 (I/me)
+
+**タバコを吸う（たばこをすう）→吸われる**
+
+tabako o suu/suwareru  
+意思：抽菸／被抽菸波及 (to smoke/be affected by smoking)
+
+**盗む（ぬすむ）→盗まれる**
+
+nusumu/nusumareru  
+意思：偷／被偷 (to steal/be stolen)
+
+**パスワード**
+
+pasuwaado  
+意思：密碼 (password)
+
+**笑う（わらう）→笑われる**
+
+warau/warawareru  
+意思：嘲笑／被嘲笑 (to laugh/be laughed at)
+
+**苦情を言う（くじょうをいう）→言われる**
+
+kujou o iu/iwareru  
+意思：抱怨／被抱怨 (to complain/be complained to)
+
+**客さん（きゃくさん）**
+
+kyakusan  
+意思：客人 (customer)
+
+**カバン**
+
+kaban  
+意思：包包 (bag)
+
+**泥棒（どろぼう）**
+
+dorobou  
+意思：小偷 (thief)
+
+**招待する（しょうたいする）→招待される**
+
+shoutai suru/sareru  
+意思：邀請／被邀請 (to invite/be invited)
+
+**パーティー**
+
+paatii  
+意思：派對 (party)
+
+**撮る（とる）→撮られる**
+
+toru/torareru  
+意思：拍／被拍（照） (to take/have taken (a photo))
+
+**写真（しゃしん）**
+
+shashin  
+意思：照片 (photo)
+
+**知らない人（しらないひと）**
+
+shiranai hito  
+意思：陌生人 (stranger)
+
+**蹴る（ける）→蹴られる**
+
+keru/kerareru  
+意思：踢／被踢 (to kick/be kicked)
+
+**被動句（受動態）用在什麼情境？**
+
+用來表達「當自己因為別人做的事而感到困擾、生氣或難過時」，表達不滿的心情，句型結構是【[受害者]は（或が）[加害者]に[動詞的被動形]】。
+
+**被動形怎麼變化？**
+
+Ru動詞把語尾る換成られる；U動詞把語尾u換成areru（う結尾的動詞中間加w，變成われる）；不規則動詞する→される、来る→こられる。
+
+**「My friend used the car.」的日文怎麼說？**
+
+友達(ともだち)が車(くるま)を使(つか)いました。  
+(Tomodachi ga kuruma o tsukaimashita.)
+
+**「My car was used by my friend, and I wasn't happy about it.」的日文怎麼說？**
+
+友達(ともだち)に車(くるま)を使(つか)われました。  
+(Tomodachi ni kuruma o tsukawaremashita.)
+
+**「I was bothered by Masa smoking near me.」的日文怎麼說？**
+
+私(わたし)はまさにタバコを吸(す)われました。  
+(Watashi wa Masa ni tabako o suwaremashita.)
+
+**「I heard Taka's password was stolen by someone.」的日文怎麼說？**
+
+たかは誰(だれ)かにパスワードを盗(ぬす)まれたそうです。  
+(Taka wa dareka ni pasuwaado o nusumareta sou desu.)
+
+**「Takeshi is often laughed at by Mary.」的日文怎麼說？**
+
+たけしはメアリーによく笑(わら)われます。  
+(Takeshi wa Mearii ni yoku warawaremasu.)
+
+**「Kai was complained to by a customer.」的日文怎麼說？**
+
+かいはお客(きゃく)さんに苦情(くじょう)を言(い)われました。  
+(Kai wa okyakusan ni kujou o iwaremashita.)
+
+**「Maki had her bag stolen by a thief.」的日文怎麼說？**
+
+まきは泥棒(どろぼう)にカバンを盗(ぬす)まれました。  
+(Maki wa dorobou ni kaban o nusumaremashita.)
+
+**「I wasn't invited to the party by Ken.」的日文怎麼說？**
+
+私(わたし)はけんにパーティーに招待(しょうたい)されませんでした。  
+(Watashi wa Ken ni paatii ni shoutai saremasen deshita.)
+
+**「Do strangers take your picture without permission?」的日文怎麼說？**
+
+あなたは知(し)らない人(ひと)に写真(しゃしん)を撮(と)られますか？  
+(Anata wa shiranai hito ni shashin o toraremasu ka?)
+
+**「Have you ever been kicked by Taro?」的日文怎麼說？**
+
+たろうに蹴(け)られたことがありますか？  
+(Tarou ni kerareta koto ga arimasu ka?)
+
+---
+
+## 251. Passive Sentences 2（被動句 2）
+
+**食べる（たべる）→食べられる**
+
+taberu/taberareru  
+意思：吃／被吃 (to eat/be eaten)
+
+**見る（みる）→見られる**
+
+miru/miraeru  
+意思：看／被看 (to see/be seen)
+
+**着る（きる）→着られる**
+
+kiru/kirareru  
+意思：穿／被穿 (to wear/be worn)
+
+**行く（いく）→行かれる**
+
+iku/ikareru  
+意思：去／被去 (to go (passive))
+
+**読む（よむ）→読まれる**
+
+yomu/yomareru  
+意思：讀／被讀 (to read/be read)
+
+**買う（かう）→買われる**
+
+kau/kawareru  
+意思：買／被買 (to buy/be bought)
+
+**する→される**
+
+suru/sareru  
+意思：做／被做 (to do/be done)
+
+**来る（くる）→来られる**
+
+kuru/korareru  
+意思：來／被來 (to come (passive))
+
+**誘う（さそう）→誘われる**
+
+sasou/sasowareru  
+意思：邀約／被邀約 (to invite out/be invited out)
+
+**紹介する（しょうかいする）→紹介される**
+
+shoukai suru/sareru  
+意思：介紹／被介紹 (to introduce/be introduced)
+
+**呼ぶ（よぶ）→呼ばれる**
+
+yobu/yobareru  
+意思：叫、邀請／被叫、被邀請 (to call/be called)
+
+**尊敬する（そんけいする）→尊敬される**
+
+sonkei suru/sareru  
+意思：尊敬／被尊敬 (to respect/be respected)
+
+**建てる（たてる）→建てられる**
+
+tateru/taterareru  
+意思：建造／被建造 (to build/be built)
+
+**降る（ふる）→降られる**
+
+furu/furareru  
+意思：（雨等）下／被淋 (to rain/get caught in rain)
+
+**発表する（はっぴょうする）→発表される**
+
+happyou suru/sareru  
+意思：發表／被發表 (to announce/be announced)
+
+**詳細（しょうさい）**
+
+shousai  
+意思：詳細內容 (details)
+
+**イベント**
+
+ibento  
+意思：活動 (event)
+
+**世界中（せかいじゅう）**
+
+sekaijuu  
+意思：全世界 (all over the world)
+
+**会議（かいぎ）**
+
+kaigi  
+意思：會議 (meeting)
+
+**名前（なまえ）**
+
+namae  
+意思：名字 (name)
+
+**電話する（でんわする）**
+
+denwa suru  
+意思：打電話 (to call)
+
+**公園（こうえん）**
+
+kouen  
+意思：公園 (park)
+
+**被動句和てもらう有什麼不同？**
+
+被動句的結構是「[受害者]は[加害者]に[被動動詞]」，用來表達「某人因他人的行為而蒙受困擾／影響」；てもらう的語感則是正面、主動請人幫忙做有利自己的事，兩者恰好相對照。
+
+**被動句一定帶有負面情緒嗎？**
+
+也有一類被動句語感中立、不帶負面情緒，多用於書面語中描述非人稱主語的事物（如建築物興建、消息發表等）。由於被動只能加在動詞上，無法用來表達對形容詞狀況的困擾，也不能對已經是否定形的動詞再加被動。
+
+**「My diary was read by Aki, and it bothered me.」的日文怎麼說？**
+
+私(わたし)はあきに日記(にっき)を読(よ)まれました。  
+(Watashi wa Aki ni nikki o yomaremashita.)
+
+**「I had Aki read my diary for me.」的日文怎麼說？**
+
+私(わたし)はあきに日記(にっき)を読(よ)んでもらいました。  
+(Watashi wa Aki ni nikki o yonde moraimashita.)
+
+**「I was asked out on a date by that person.」的日文怎麼說？**
+
+私(わたし)はその人(ひと)にデートに誘(さそ)われました。  
+(Watashi wa sono hito ni deeto ni sasowaremashita.)
+
+**「I was introduced to someone by my older brother's friend.」的日文怎麼說？**
+
+私(わたし)は兄(あに)の友達(ともだち)に紹介(しょうかい)されました。  
+(Watashi wa ani no tomodachi ni shoukai saremashita.)
+
+**「I wasn't invited to the party by Mako.」的日文怎麼說？**
+
+私(わたし)はまこにパーティーに呼(よ)ばれませんでした。  
+(Watashi wa Mako ni paatii ni yobaremasen deshita.)
+
+**「Ken is respected by everyone.」的日文怎麼說？**
+
+けんはみんなに尊敬(そんけい)されています。  
+(Ken wa minna ni sonkei sarete imasu.)
+
+**「I got caught in the rain.」的日文怎麼說？**
+
+私(わたし)は雨(あめ)に降(ふ)られました。  
+(Watashi wa ame ni furaremashita.)
+
+**「This park was built ten years ago.」的日文怎麼說？**
+
+この公園(こうえん)は10年前(じゅうねんまえ)に建(た)てられました。  
+(Kono kouen wa juunen mae ni tateraremashita.)
+
+**「The details of the event were not announced.」的日文怎麼說？**
+
+イベントの詳細(しょうさい)は発表(はっぴょう)されませんでした。  
+(Ibento no shousai wa happyou saremasen deshita.)
+
+**「Is this book read all over the world?」的日文怎麼說？**
+
+この本(ほん)は世界中(せかいじゅう)で読(よ)まれますか？  
+(Kono hon wa sekaijuu de yomaremasu ka?)
+
+**「Do you want to be invited to the meeting?」的日文怎麼說？**
+
+会議(かいぎ)に招待(しょうたい)されたいですか？  
+(Kaigi ni shoutai saretai desu ka?)
+
+**「While I was on the phone with my mother, my name was called.」的日文怎麼說？**
+
+お母(かあ)さんに電話(でんわ)しているとき、名前(なまえ)が呼(よ)ばれました。  
+(Okaasan ni denwa shite iru toki, namae ga yobaremashita.)
+
+---
+
+## 252. 〜てある（狀態的維持）
+
+**ストーブ**
+
+sutoobu  
+意思：暖爐、暖氣機 (heater/stove)
+
+**予約（よやく）**
+
+yoyaku  
+意思：預約 (reservation)
+
+**パン**
+
+pan  
+意思：麵包 (bread)
+
+**窓（まど）**
+
+mado  
+意思：窗戶 (window)
+
+**閉める（しめる）**
+
+shimeru  
+意思：關（他動詞） (to close)
+
+**閉まる（しまる）**
+
+shimaru  
+意思：關閉、關上（自動詞） (to be closed)
+
+**夜ご飯（よるごはん）**
+
+yorugohan  
+意思：晚餐 (dinner)
+
+**作る（つくる）**
+
+tsukuru  
+意思：製作、做 (to make)
+
+**食べる（たべる）**
+
+taberu  
+意思：吃 (to eat)
+
+**ヒーター**
+
+hiitaa  
+意思：暖氣機 (heater)
+
+**つける**
+
+tsukeru  
+意思：打開（開關） (to turn on)
+
+**消す（けす）**
+
+kesu  
+意思：關掉、熄滅 (to turn off)
+
+**電気（でんき）**
+
+denki  
+意思：電燈、電力 (light/electricity)
+
+**〜てある 是什麼意思？**
+
+由「動詞て形＋ある」構成，用來描述「某個不具名的人特意造成、並維持至今的狀態」，句型結構為「〔某物〕が〔動詞て形〕あります」。
+
+**〜てある 和 〜ておきます 有什麼關係？**
+
+「〜ておきました」描述過去為了某個目的所做的準備動作，而該動作的結果若持續到現在，就用「〜てあります」來表達現在的狀態。「てある」幾乎只與他動詞搭配，且通常會把原本用「を」標示的受詞改標為「が」（或「は」）。
+
+**〜てある 和 〜ている 有什麼差異？**
+
+「ている」搭配自動詞，單純描述現在的狀態，不一定意味著有人為介入；而「てある」搭配他動詞，明確暗示「有人刻意做了這個動作，並讓結果保持至今」。
+
+**「Since it's cold, the heater has been left on.」的日文怎麼說？**
+
+寒(さむ)いので、ストーブがつけてあります。  
+(Samui node, sutoobu ga tsukete arimasu.)
+
+**「There is a book placed on the table.」的日文怎麼說？**
+
+テーブルの上(うえ)に本(ほん)が置(お)いてあります。  
+(Teeburu no ue ni hon ga oite arimasu.)
+
+**「The restaurant reservation has been made.」的日文怎麼說？**
+
+レストランの予約(よやく)がしてあります。  
+(Resutoran no yoyaku ga shite arimasu.)
+
+**「I made a reservation in advance.」的日文怎麼說？**
+
+予約(よやく)をしておきました。  
+(Yoyaku o shite okimashita.)
+
+**「Bread has been bought and is ready.」的日文怎麼說？**
+
+パンが買(か)ってあります。  
+(Pan ga katte arimasu.)
+
+**「I bought bread in advance.」的日文怎麼說？**
+
+パンを買(か)っておきました。  
+(Pan o katte okimashita.)
+
+**「The window has been closed and left that way.」的日文怎麼說？**
+
+窓(まど)が閉(し)めてあります。  
+(Mado ga shimete arimasu.)
+
+**「The window is closed.」的日文怎麼說？**
+
+窓(まど)が閉(し)まっています。  
+(Mado ga shimatte imasu.)
+
+**「Dinner has been made. Let's eat!」的日文怎麼說？**
+
+夜(よる)ご飯(はん)が作(つく)ってあります。食(た)べましょう！  
+(Yorugohan ga tsukutte arimasu. Tabemashou!)
+
+**「It's cold, isn't it? Has the heater been turned on?」的日文怎麼說？**
+
+寒(さむ)いですね。ヒーターはつけてありますか？  
+(Samui desu ne. Hiitaa wa tsukete arimasu ka?)
+
+**「It looks like the light has been turned off.」的日文怎麼說？**
+
+電気(でんき)が消(け)してあるみたいです。  
+(Denki ga keshite aru mitai desu.)
+
+---
+
+## 253. 〜間に（…的期間）
+
+**間に（あいだに）**
+
+aida ni  
+意思：…的時候、在…期間 (while (a moment during))
+
+**間（あいだ）**
+
+aida  
+意思：…的（整段）期間 (the whole time)
+
+**お風呂に入る（おふろにはいる）**
+
+ofuro ni hairu  
+意思：洗澡 (to take a bath)
+
+**電話（でんわ）**
+
+denwa  
+意思：電話 (phone call)
+
+**地震（じしん）**
+
+jishin  
+意思：地震 (earthquake)
+
+**寝る（ねる）**
+
+neru  
+意思：睡覺 (to sleep)
+
+**母（はは）**
+
+haha  
+意思：家母 ((my) mother)
+
+**日本（にほん）**
+
+Nihon  
+意思：日本 (Japan)
+
+**連れて行く（つれていく）**
+
+tsurete iku  
+意思：帶去 (to take (someone) along)
+
+**留守（るす）**
+
+rusu  
+意思：不在家、外出 (being out/away)
+
+**友達（ともだち）**
+
+tomodachi  
+意思：朋友 (friend)
+
+**パソコン**
+
+pasokon  
+意思：電腦 (computer)
+
+**使う（つかう）**
+
+tsukau  
+意思：使用 (to use)
+
+**待つ（まつ）**
+
+matsu  
+意思：等待 (to wait)
+
+**着替える（きがえる）**
+
+kigaeru  
+意思：換衣服 (to change clothes)
+
+**作る（つくる）**
+
+tsukuru  
+意思：做、製作 (to make)
+
+**コーヒー**
+
+koohii  
+意思：咖啡 (coffee)
+
+**くれる**
+
+kureru  
+意思：（別人為我）做…、給我 (to do (for me))
+
+**赤ちゃん（あかちゃん）**
+
+akachan  
+意思：嬰兒 (baby)
+
+**夜ご飯（よるごはん）**
+
+yorugohan  
+意思：晚餐 (dinner)
+
+**A（の）間に B 是什麼意思？**
+
+用來表示「當A事件正在進行、持續的期間中，B這個（通常是短暫、瞬間發生的）事件發生了」。A句多半以「〜ている」表示一個持續進行的狀態，即使整句話描述的是過去發生的事，A子句仍要用現在式。
+
+**什麼時候用「間」而不用「間に」？**
+
+如果B事件是「貫穿整個A事件的全程」而非只是瞬間發生，則要把「間に」改成「間」（不加に），表示涵蓋整個時間範圍，而不是A期間中的某一瞬間。
+
+**「While I was taking a bath, there was a phone call.」的日文怎麼說？**
+
+お風呂(ふろ)に入(はい)っている間(あいだ)に、電話(でんわ)がありました。  
+(Ofuro ni haitte iru aida ni, denwa ga arimashita.)
+
+**「While I was sleeping last night, there was an earthquake.」的日文怎麼說？**
+
+昨夜(さくや)寝(ね)ている間(あいだ)に、地震(じしん)がありました。  
+(Sakuya nete iru aida ni, jishin ga arimashita.)
+
+**「While my mother is in Japan, I want to take her to Kyoto.」的日文怎麼說？**
+
+母(はは)が日本(にほん)にいる間(あいだ)に、京都(きょうと)に連(つ)れて行(い)きたいです。  
+(Haha ga Nihon ni iru aida ni, Kyouto ni tsurete ikitai desu.)
+
+**「While I was out, a friend came over.」的日文怎麼說？**
+
+留守(るす)の間(あいだ)に、友達(ともだち)が来(き)ました。  
+(Rusu no aida ni, tomodachi ga kimashita.)
+
+**「The whole time Maki was using the computer, I waited reading a book.」的日文怎麼說？**
+
+まきがパソコンを使(つか)っている間(あいだ)、私(わたし)は本(ほん)を読(よ)んで待(ま)ちました。  
+(Maki ga pasokon o tsukatte iru aida, watashi wa hon o yonde machimashita.)
+
+**「While I was changing clothes, Taka kindly made coffee for me.」的日文怎麼說？**
+
+私(わたし)が着替(きが)えている間(あいだ)に、たかがコーヒーを作(つく)ってくれました。  
+(Watashi ga kigaete iru aida ni, Taka ga koohii o tsukutte kuremashita.)
+
+**「While the baby is sleeping, I will make dinner.」的日文怎麼說？**
+
+赤(あか)ちゃんが寝(ね)ている間(あいだ)に、夜(よる)ご飯(はん)を作(つく)ります。  
+(Akachan ga nete iru aida ni, yorugohan o tsukurimasu.)
+
+**「While you were taking a bath, there was a call from Ken.」的日文怎麼說？**
+
+あなたがお風呂(ふろ)に入(はい)っている間(あいだ)に、けんから電話(でんわ)がありました。  
+(Anata ga ofuro ni haitte iru aida ni, Ken kara denwa ga arimashita.)
+
+---
+
+## 254. Adjective +する（使…變成…）
+
+**寒い（さむい）**
+
+samui  
+意思：冷 (cold)
+
+**上手（じょうず）**
+
+jouzu  
+意思：擅長、厲害 (skillful)
+
+**部屋（へや）**
+
+heya  
+意思：房間 (room)
+
+**綺麗（きれい）**
+
+kirei  
+意思：乾淨、漂亮 (clean/pretty)
+
+**話（はなし）**
+
+hanashi  
+意思：故事、話題 (story)
+
+**面白い（おもしろい）**
+
+omoshiroi  
+意思：有趣 (interesting)
+
+**髪（かみ）**
+
+kami  
+意思：頭髮 (hair)
+
+**世界（せかい）**
+
+sekai  
+意思：世界 (world)
+
+**いい／よい**
+
+ii/yoi  
+意思：好 (good)
+
+**静か（しずか）**
+
+shizuka  
+意思：安靜 (quiet)
+
+**両親（りょうしん）**
+
+ryoushin  
+意思：（雙方）父母 (parents)
+
+**来る（くる）**
+
+kuru  
+意思：來 (to come)
+
+**単語（たんご）**
+
+tango  
+意思：單字 (vocabulary word)
+
+**覚える（おぼえる）**
+
+oboeru  
+意思：記住、背誦 (to memorize)
+
+**少ない（すくない）**
+
+sukunai  
+意思：少 (few)
+
+**高い（たかい）**
+
+takai  
+意思：貴、高 (expensive/tall)
+
+**安い（やすい）**
+
+yasui  
+意思：便宜 (cheap)
+
+**同僚（どうりょう）**
+
+douryou  
+意思：同事 (coworker)
+
+**汚い（きたない）**
+
+kitanai  
+意思：髒 (dirty)
+
+**形容詞＋する 是什麼意思？怎麼接？**
+
+意思是「使（某對象）變成～（的狀態）」，句型為「[對象]を[形容詞]＋する」。若為い形容詞，需去掉語尾的「い」改成「く」再加上「する」（例：可愛い→可愛くする）；若為な形容詞，則去掉「な」改成「に」再加上「する」（例：元気な→元気にする）。
+
+**する 可以怎麼變化？**
+
+此句型中的「する」可依需要變化成て形、た形、ます形、意向形等各種時態與語氣，也有慣用用法，如「静かにする（使安靜）」「静かにしてください（請安靜）」。
+
+**「I made the room clean.」的日文怎麼說？**
+
+部屋(へや)を綺麗(きれい)にしました。  
+(Heya o kirei ni shimashita.)
+
+**「Please make the story more interesting.」的日文怎麼說？**
+
+話(はなし)をおもしろくしてください。  
+(Hanashi o omoshiroku shite kudasai.)
+
+**「I want to make my hair like Mary's.」的日文怎麼說？**
+
+髪(かみ)をメアリーみたいにしたいです。  
+(Kami o Mearii mitai ni shitai desu.)
+
+**「Let's make the world better.」的日文怎麼說？**
+
+世界(せかい)をよくしましょう。  
+(Sekai o yoku shimashou.)
+
+**「To make it quiet.」的日文怎麼說？**
+
+静(しず)かにする。  
+(Shizuka ni suru.)
+
+**「Please be quiet.」的日文怎麼說？**
+
+静(しず)かにしてください。  
+(Shizuka ni shite kudasai.)
+
+**「Since my parents are coming, I have to clean the room.」的日文怎麼說？**
+
+両親(りょうしん)がくるので、部屋(へや)を綺麗(きれい)にしなくちゃいけません。  
+(Ryoushin ga kuru node, heya o kirei ni shinakucha ikemasen.)
+
+**「There are so many words to memorize. Please reduce the number.」的日文怎麼說？**
+
+覚(おぼ)える単語(たんご)がたくさんあります。少(すく)なくしてください。  
+(Oboeru tango ga takusan arimasu. Sukunaku shite kudasai.)
+
+**「Two thousand yen is too expensive. Could you make it cheaper?」的日文怎麼說？**
+
+2千円(にせんえん)は高(たか)すぎます。安(やす)くしていただけませんか？  
+(Nisen'en wa takasugimasu. Yasuku shite itadakemasen ka?)
+
+**「My coworker came to my room and made it dirty.」的日文怎麼說？**
+
+同僚(どうりょう)が部屋(へや)にきて、部屋(へや)を汚(きたな)くしました。  
+(Douryou ga heya ni kite, heya o kitanaku shimashita.)
+
+---
+
+## 255. 〜てほしい（希望某人做…）
+
+**宿題（しゅくだい）**
+
+shukudai  
+意思：作業 (homework)
+
+**手伝う（てつだう）**
+
+tetsudau  
+意思：幫忙 (to help)
+
+**ケーキ**
+
+keeki  
+意思：蛋糕 (cake)
+
+**食べる（たべる）**
+
+taberu  
+意思：吃 (to eat)
+
+**たばこ**
+
+tabako  
+意思：香菸 (cigarette)
+
+**吸う（すう）**
+
+suu  
+意思：抽（菸） (to smoke)
+
+**歌う（うたう）**
+
+utau  
+意思：唱歌 (to sing)
+
+**静かな（しずかな）**
+
+shizukana  
+意思：安靜的 (quiet)
+
+**教える（おしえる）**
+
+oshieru  
+意思：教 (to teach)
+
+**日本語（にほんご）**
+
+nihongo  
+意思：日文 (Japanese)
+
+**遅刻する（ちこくする）**
+
+chikoku suru  
+意思：遲到 (to be late)
+
+**誕生日（たんじょうび）**
+
+tanjoubi  
+意思：生日 (birthday)
+
+**パーティー**
+
+paatii  
+意思：派對 (party)
+
+**来る（くる）**
+
+kuru  
+意思：來 (to come)
+
+**プリン**
+
+purin  
+意思：布丁 (pudding)
+
+**〜てほしい 是什麼意思？**
+
+用來表達「希望某人做某事」，由動詞的て形加上形容詞「ほしい」組成，希望對象的人以助詞「に」標示。過去式為「〜てほしかったです」，表示「（當時）希望…」。
+
+**〜てほしい 的否定形有幾種說法？**
+
+有兩種：一是將動詞維持肯定て形、否定ほしい，變成「〜てほしくありません／〜てほしくないです」；二是將動詞改成否定て形（〜ないで）、保留ほしい肯定形，變成「〜ないでほしいです」，兩者意思相同。
+
+**「想要」相關的三個說法怎麼分？**
+
+①〜たい（我想做…，動詞連用形＋たい）；②ほしい（我想要…，名詞＋が＋ほしい）；③〜てほしい（我希望某人做…，人＋に＋動詞て形＋ほしい）。
+
+**「I want Ken to help me with my homework.」的日文怎麼說？**
+
+けんに宿題(しゅくだい)を手伝(てつだ)ってほしいです。  
+(Ken ni shukudai o tetsudatte hoshii desu.)
+
+**「I wanted Sato to eat the cake.」的日文怎麼說？**
+
+さとにケーキを食(た)べてほしかったです。  
+(Sato ni keeki o tabete hoshikatta desu.)
+
+**「I don't want Taka to smoke.」的日文怎麼說？**
+
+たかにたばこを吸(す)ってほしくありません。  
+(Taka ni tabako o sutte hoshiku arimasen.)
+
+**「I don't want Taka to smoke.」的日文怎麼說？**
+
+たかにたばこを吸(す)わないでほしいです。  
+(Taka ni tabako o suwanaide hoshii desu.)
+
+**「I don't want Misa to sing.」的日文怎麼說？**
+
+みさに歌(うた)ってほしくありません。  
+(Misa ni utatte hoshiku arimasen.)
+
+**「I don't want Misa to sing.」的日文怎麼說？**
+
+みさに歌(うた)わないでほしいです。  
+(Misa ni utawanaide hoshii desu.)
+
+**「I want Ken to be quiet.」的日文怎麼說？**
+
+けんに静(しず)かにしてほしいです。  
+(Ken ni shizuka ni shite hoshii desu.)
+
+**「I want Takeshi to teach me Japanese.」的日文怎麼說？**
+
+たけしに日本語(にほんご)を教(おし)えてほしいです。  
+(Takeshi ni nihongo o oshiete hoshii desu.)
+
+**「I don't want Mary to be late.」的日文怎麼說？**
+
+メアリーに遅刻(ちこく)してほしくないです。  
+(Mearii ni chikoku shite hoshikunai desu.)
+
+**「I don't want Mary to be late.」的日文怎麼說？**
+
+メアリーに遅刻(ちこく)しないでほしいです。  
+(Mearii ni chikoku shinaide hoshii desu.)
+
+**「I had wanted Maki to come to my birthday party.」的日文怎麼說？**
+
+まきに誕生日(たんじょうび)パーティーにきてほしかったです。  
+(Maki ni tanjoubi paatii ni kite hoshikatta desu.)
+
+**「I hadn't wanted Hana to eat the pudding.」的日文怎麼說？**
+
+はなにプリンを食(た)べてほしくなかったです。  
+(Hana ni purin o tabete hoshikunakatta desu.)
+
+**「I hadn't wanted Hana to eat the pudding.」的日文怎麼說？**
+
+はなにプリンを食(た)べないでほしかったです。  
+(Hana ni purin o tabenaide hoshikatta desu.)
 
 ---
 
