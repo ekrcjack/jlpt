@@ -83,6 +83,11 @@
 - [164. I want to do（想要做…）](#164-i-want-to-do想要做)（14 個重點）
 - [165. Someone said he wants to do（引用他人的願望）](#165-someone-said-he-wants-to-do引用他人的願望)（9 個重點）
 - [166. It seems someone wants to do（看起來某人想做…）](#166-it-seems-someone-wants-to-do看起來某人想做)（12 個重點）
+- [170. 〜たり〜たりする（列舉具代表性的動作）](#170-たりたりする列舉具代表性的動作)（30 個重點）
+- [172. 〜ことがある（曾經做過…的經驗）](#172-ことがある曾經做過的經驗)（24 個重點）
+- [176. んです（說明語氣：解釋原因）](#176-んです說明語氣解釋原因)（39 個重點）
+- [179. 〜すぎる（太…、過度…）](#179-すぎる太過度)（32 個重點）
+- [181. 〜ほうがいいです（強烈建議：最好做…）](#181-ほうがいいです強烈建議最好做)（19 個重點）
 - [184. 〜なくちゃいけません（不得不做…）](#184-なくちゃいけません不得不做)（18 個重點）
 - [186. 〜でしょう（推測：大概…吧）](#186-でしょう推測大概吧)（26 個重點）
 - [196. あげる・くれる（授受動詞：給予）](#196-あげるくれる授受動詞給予)（12 個重點）
@@ -8725,6 +8730,732 @@ Tom和凱之間，哪一個比較年輕？
   - 現在否定：たがっていません（tagatteimasen）
   - 過去肯定：たがっていました（tagatteimashita）
   - 過去否定：たがっていませんでした（tagatteimasendeshita）
+
+---
+
+## 170. 〜たり〜たりする（列舉具代表性的動作）
+
+**買い物（かいもの）**
+
+kaimono  
+意思：購物 (shopping)
+
+**韓国料理（かんこくりょうり）**
+
+kankoku ryouri  
+意思：韓國料理 (Korean food)
+
+**読む（よむ）**
+
+yomu  
+意思：讀、閱讀 (to read)
+
+**料理する（りょうりする）**
+
+ryouri suru  
+意思：做菜、烹飪 (to cook)
+
+**カフェ**
+
+kafe  
+意思：咖啡廳 (café)
+
+**勉強する（べんきょうする）**
+
+benkyou suru  
+意思：讀書、學習 (to study)
+
+**テニス**
+
+tenisu  
+意思：網球 (tennis)
+
+**ピザ**
+
+piza  
+意思：披薩 (pizza)
+
+**話す（はなす）**
+
+hanasu  
+意思：說話、聊天 (to talk)
+
+**友達（ともだち）**
+
+tomodachi  
+意思：朋友 (friend)
+
+**洗濯する（せんたくする）**
+
+sentaku suru  
+意思：洗衣服 (to do laundry)
+
+**観る（みる）**
+
+miru  
+意思：看（電影等） (to watch)
+
+**映画（えいが）**
+
+eiga  
+意思：電影 (movie)
+
+**行く（いく）**
+
+iku  
+意思：去 (to go)
+
+**買い物に行く（かいものにいく）**
+
+kaimono ni iku  
+意思：去購物 (to go shopping)
+
+**タバコを吸う（たばこをすう）**
+
+tabako o suu  
+意思：抽菸 (to smoke)
+
+**飲む（のむ）**
+
+nomu  
+意思：喝 (to drink)
+
+**ビール**
+
+biiru  
+意思：啤酒 (beer)
+
+**教室（きょうしつ）**
+
+kyoushitsu  
+意思：教室 (classroom)
+
+**〜たり〜たりする 是什麼意思？**
+
+用來列舉幾個具代表性的動作或狀態，暗示「做了A、B等類似的事情」，並非只做這兩件事，還可能有其他未提及的活動，藉此避免用て形連接時給人「只做了這幾件事」的封閉印象。
+
+**〜たり〜たりする 怎麼接？**
+
+接續方式為「（活動A）過去肯定普通形＋り＋（活動B）過去肯定普通形＋り＋する」，句尾的する（する／した／しない…）負責表示整句的時態。
+
+**這個文法可以怎麼延伸使用？**
+
+可用於現在式、過去式，也能接「〜たいです」表示願望，或接「〜てはいけません」表示禁止等各種句型延伸。
+
+**「I will go shopping and eat Korean food.」的日文怎麼說？**
+
+買(か)い物(もの)をして、韓国料理(かんこくりょうり)を食(た)べます。  
+(Kaimono o shite, kankoku ryouri o tabemasu.)
+
+**「I do things like reading books and cooking.」的日文怎麼說？**
+
+本(ほん)を読(よ)んだり、料理(りょうり)したりします。  
+(Hon o yondari, ryouri shitari shimasu.)
+
+**「I did things like going to a café and studying.」的日文怎麼說？**
+
+カフェに行(い)ったり、勉強(べんきょう)したりしました。  
+(Kafe ni ittari, benkyou shitari shimashita.)
+
+**「I want to do things like playing tennis and eating pizza.」的日文怎麼說？**
+
+テニスをしたり、ピザを食(た)べたりしたいです。  
+(Tenisu o shitari, piza o tabetari shitai desu.)
+
+**「On the weekend, I did things like studying and talking with friends.」的日文怎麼說？**
+
+週末(しゅうまつ)、勉強(べんきょう)したり、友達(ともだち)と話(はな)したりしました。  
+(Shuumatsu, benkyou shitari, tomodachi to hanashitari shimashita.)
+
+**「Tomorrow, I will do things like doing laundry and watching a movie.」的日文怎麼說？**
+
+明日(あした)、洗濯(せんたく)したり、映画(えいが)をみたりします。  
+(Ashita, sentaku shitari, eiga o mitari shimasu.)
+
+**「I want to do things like going to a café and going shopping.」的日文怎麼說？**
+
+カフェに行(い)ったり、買(か)い物(もの)に行(い)ったりしたいです。  
+(Kafe ni ittari, kaimono ni ittari shitai desu.)
+
+**「You must not do things like smoking or drinking beer in the classroom.」的日文怎麼說？**
+
+教室(きょうしつ)で、タバコを吸(す)ったり、ビールを飲(の)んではいけません。  
+(Kyoushitsu de, tabako o suttari, biiru o nonde wa ikemasen.)
+
+---
+
+## 172. 〜ことがある（曾經做過…的經驗）
+
+**ヨーロッパ**
+
+yooroppa  
+意思：歐洲 (Europe)
+
+**休む（やすむ）**
+
+yasumu  
+意思：休息、缺席 (to rest/be absent)
+
+**遅刻する（ちこくする）**
+
+chikoku suru  
+意思：遲到 (to be late)
+
+**登る（のぼる）**
+
+noboru  
+意思：爬、攀登 (to climb)
+
+**授業（じゅぎょう）**
+
+jugyou  
+意思：課程、上課 (class)
+
+**富士山（ふじさん）**
+
+fujisan  
+意思：富士山 (Mt. Fuji)
+
+**住む（すむ）**
+
+sumu  
+意思：居住 (to live)
+
+**フランス**
+
+furansu  
+意思：法國 (France)
+
+**乗る（のる）**
+
+noru  
+意思：搭乘 (to ride)
+
+**地下鉄（ちかてつ）**
+
+chikatetsu  
+意思：地下鐵 (subway)
+
+**教える（おしえる）**
+
+oshieru  
+意思：教（授課） (to teach)
+
+**英語（えいご）**
+
+eigo  
+意思：英語 (English)
+
+**〜ことがある 是什麼意思？**
+
+接在動詞た形（過去・常體）之後，用來表達「曾經做過某事／有過某種經驗」，中文常譯為「有…過」。這裡的動詞必須是過去肯定的常體（辭書形的た形）。
+
+**肯定與否定形怎麼變化？**
+
+肯定形是「〜ことがあります」，否定形是「〜ことがありません」（表示「從來沒有…過」），依「ことがある」本身的肯定／否定、時態變化來表示「有／沒有」這個經驗。
+
+**使用這個文法時要注意什麼？**
+
+這個文法著重在「經驗的有無」，而不是單純描述動作何時發生。
+
+**「Have you ever been to Europe?」的日文怎麼說？**
+
+ヨーロッパに行(い)ったことがありますか？  
+(Yooroppa ni itta koto ga arimasu ka?)
+
+**「Yes, I have been there.」的日文怎麼說？**
+
+はい、行(い)ったことがあります。  
+(Hai, itta koto ga arimasu.)
+
+**「No, I have not been there.」的日文怎麼說？**
+
+いいえ、行(い)ったことがありません。  
+(Iie, itta koto ga arimasen.)
+
+**「Takeshi has never missed class.」的日文怎麼說？**
+
+たけしは授業(じゅぎょう)を休(やす)んだことがありません。  
+(Takeshi wa jugyou o yasunda koto ga arimasen.)
+
+**「I have never been late to class.」的日文怎麼說？**
+
+授業(じゅぎょう)に遅刻(ちこく)したことがありません。  
+(Jugyou ni chikoku shita koto ga arimasen.)
+
+**「Have you ever climbed Mt. Fuji?」的日文怎麼說？**
+
+富士山(ふじさん)に登(のぼ)ったことがありますか？  
+(Fujisan ni nobotta koto ga arimasu ka?)
+
+**「Miko has lived in France before.」的日文怎麼說？**
+
+みこはフランスに住(す)んだことがあります。  
+(Miko wa Furansu ni sunda koto ga arimasu.)
+
+**「Have you ever ridden the subway in Tokyo?」的日文怎麼說？**
+
+東京(とうきょう)で地下鉄(ちかてつ)に乗(の)ったことがありますか？  
+(Toukyou de chikatetsu ni notta koto ga arimasu ka?)
+
+**「I have never taught English before.」的日文怎麼說？**
+
+英語(えいご)を教(おし)えたことがありません。  
+(Eigo o oshieta koto ga arimasen.)
+
+---
+
+## 176. んです（說明語氣：解釋原因）
+
+**成績（せいせき）**
+
+seiseki  
+意思：成績 (grades)
+
+**終わる（おわる）**
+
+owaru  
+意思：結束、完成 (to end/finish)
+
+**別れる（わかれる）**
+
+wakareru  
+意思：分手 (to break up)
+
+**風呂に入る（ふろにはいる）**
+
+furo ni hairu  
+意思：洗澡、泡澡 (to take a bath)
+
+**シャワーを浴びる（しゃわーをあびる）**
+
+shawaa o abiru  
+意思：淋浴 (to take a shower)
+
+**貰う（もらう）**
+
+morau  
+意思：得到、收到 (to receive)
+
+**喉（のど）**
+
+nodo  
+意思：喉嚨 (throat)
+
+**試験（しけん）**
+
+shiken  
+意思：考試 (exam)
+
+**教科書（きょうかしょ）**
+
+kyoukasho  
+意思：教科書 (textbook)
+
+**誕生日（たんじょうび）**
+
+tanjoubi  
+意思：生日 (birthday)
+
+**んです 是什麼意思？和一般的陳述句有什麼不同？**
+
+日文中有兩種陳述方式：一種是單純客觀地陳述事實，另一種是「說明語氣」，用來解釋原因、背景或補充說明，這就是「んです」的作用。
+
+**んです 怎麼接？**
+
+接在句子述語（動詞／い形容詞／な形容詞／名詞）的常體（普通形）之後，述語本身可以是肯定或否定、現在式或過去式，但「んです」本身不隨之變化，通常不會出現否定或過去形。名詞、な形容詞後面接んです時，中間要加「な」（例如：静かなんです、学生なんです）。
+
+**んです 還有什麼常見用法？**
+
+也常用在疑問句中（常搭配「どうして」為什麼、「どうした」發生什麼事），用來邀請對方做出解釋；回答這類問題時，主語常用「が」而非「は」標示。此外，「んです」還可以用來針對剛才說過的話，補充額外的說明或評論。
+
+**「The bus didn't come.」的日文怎麼說？**
+
+バスが来(き)ませんでした。  
+(Basu ga kimasen deshita.)
+
+**「(The thing is,) the bus didn't come.」的日文怎麼說？**
+
+バスが来(こ)なかったんです。  
+(Basu ga konakatta ndesu.)
+
+**「(It's because) my grades aren't good.」的日文怎麼說？**
+
+成績(せいせき)がよくないんです。  
+(Seiseki ga yokunai ndesu.)
+
+**「(It's because) the exam is over.」的日文怎麼說？**
+
+試験(しけん)が終(お)わったんです。  
+(Shiken ga owatta ndesu.)
+
+**「There's a test tomorrow.」的日文怎麼說？**
+
+あしたテストがあります。  
+(Ashita tesuto ga arimasu.)
+
+**「(The thing is,) there's a test tomorrow.」的日文怎麼說？**
+
+あしたテストがあるんです。  
+(Ashita tesuto ga aru ndesu.)
+
+**「I want to go to the bathroom.」的日文怎麼說？**
+
+トイレに行(い)きたいです。  
+(Toire ni ikitai desu.)
+
+**「(Actually,) I want to go to the bathroom.」的日文怎麼說？**
+
+トイレに行(い)きたいんです。  
+(Toire ni ikitai ndesu.)
+
+**「Why did you break up with him?」的日文怎麼說？**
+
+どうして彼(かれ)と別(わか)れたんですか？  
+(Doushite kare to wakareta ndesu ka?)
+
+**「(It's because) he never takes a bath.」的日文怎麼說？**
+
+ぜんぜんお風呂(ふろ)に入(はい)らないんです。  
+(Zenzen ofuro ni hairanai ndesu.)
+
+**「What's wrong?」的日文怎麼說？**
+
+どうしたんですか？  
+(Doushita ndesu ka?)
+
+**「(The reason is,) my cat died.」的日文怎麼說？**
+
+猫(ねこ)が死(し)んだんです。  
+(Neko ga shinda ndesu.)
+
+**「This is a really great textbook, isn't it.」的日文怎麼說？**
+
+とてもいい教科書(きょうかしょ)ですね。  
+(Totemo ii kyoukasho desu ne.)
+
+**「(Actually,) my teacher wrote it.」的日文怎麼說？**
+
+私(わたし)の先生(せんせい)が書(か)いたんです。  
+(Watashi no sensei ga kaita ndesu.)
+
+**「I received a present.」的日文怎麼說？**
+
+プレゼントをもらいました。  
+(Purezento o moraimashita.)
+
+**「(Actually,) I received a present.」的日文怎麼說？**
+
+プレゼントをもらったんです。  
+(Purezento o moratta ndesu.)
+
+**「Tomorrow is a holiday.」的日文怎麼說？**
+
+明日(あした)は休(やす)みです。  
+(Ashita wa yasumi desu.)
+
+**「(Actually,) tomorrow is a holiday.」的日文怎麼說？**
+
+明日(あした)は休(やす)みなんです。  
+(Ashita wa yasumi na ndesu.)
+
+**「Yesterday was my birthday.」的日文怎麼說？**
+
+昨日(きのう)は誕生日(たんじょうび)でした。  
+(Kinou wa tanjoubi deshita.)
+
+**「(Actually,) yesterday was my birthday.」的日文怎麼說？**
+
+昨日(きのう)は誕生日(たんじょうび)だったんです。  
+(Kinou wa tanjoubi datta ndesu.)
+
+**「The test wasn't difficult.」的日文怎麼說？**
+
+テストが難(むずか)しくありませんでした。  
+(Tesuto ga muzukashiku arimasen deshita.)
+
+**「(Actually,) the test wasn't difficult.」的日文怎麼說？**
+
+テストが難(むずか)しくなかったんです。  
+(Tesuto ga muzukashikunakatta ndesu.)
+
+**「My throat hurts.」的日文怎麼說？**
+
+喉(のど)が痛(いた)いです。  
+(Nodo ga itai desu.)
+
+**「(Actually,) my throat hurts.」的日文怎麼說？**
+
+喉(のど)が痛(いた)いんです。  
+(Nodo ga itai ndesu.)
+
+**「There's a test tomorrow.」的日文怎麼說？**
+
+明日(あした)テストがあります。  
+(Ashita tesuto ga arimasu.)
+
+**「(Actually,) there's a test tomorrow, so...」的日文怎麼說？**
+
+明日(あした)テストがあるんです。  
+(Ashita tesuto ga aru ndesu.)
+
+---
+
+## 179. 〜すぎる（太…、過度…）
+
+**食べる（たべる）**
+
+taberu  
+意思：吃 (to eat)
+
+**起きる（おきる）**
+
+okiru  
+意思：起床 (to wake up)
+
+**早く（はやく）**
+
+hayaku  
+意思：早、快 (early/quickly)
+
+**いつも**
+
+itsumo  
+意思：總是、經常 (always)
+
+**高い（たかい）**
+
+takai  
+意思：貴、高 (expensive/tall)
+
+**小さい（ちいさい）**
+
+chiisai  
+意思：小 (small)
+
+**シャツ**
+
+shatsu  
+意思：襯衫 (shirt)
+
+**親切（な）（しんせつ（な））**
+
+shinsetsu na  
+意思：親切（的） (kind)
+
+**クッキー**
+
+kukkii  
+意思：餅乾 (cookie)
+
+**甘い（あまい）**
+
+amai  
+意思：甜 (sweet)
+
+**テスト**
+
+tesuto  
+意思：考試 (test)
+
+**難しい（むずかしい）**
+
+muzukashii  
+意思：困難的、難的 (difficult)
+
+**働く（はたらく）**
+
+hataraku  
+意思：工作 (to work)
+
+**先週（せんしゅう）**
+
+senshuu  
+意思：上星期 (last week)
+
+**テレビ**
+
+terebi  
+意思：電視 (television)
+
+**毎日（まいにち）**
+
+mainichi  
+意思：每天 (every day)
+
+**学校（がっこう）**
+
+gakkou  
+意思：學校 (school)
+
+**寒い（さむい）**
+
+samui  
+意思：冷的 (cold)
+
+**〜すぎる 是什麼意思？怎麼接？**
+
+接在動詞ます形的語幹、或い形容詞／な形容詞去掉語尾（い／な）後的詞幹之後，表示「太…、過度…」的意思，用來表達某動作或狀態程度過頭、超出適當範圍。
+
+**すぎる 本身怎麼變化？**
+
+すぎる本身是規則的る動詞（第二類動詞），可依一般る動詞的規則變化現在肯定（すぎます）、現在否定（すぎません）、過去肯定（すぎました）、過去否定（すぎませんでした）。
+
+**すぎる 常搭配什麼句型使用？**
+
+常搭配ので、から等表示原因的接續詞，說明因為程度過度而導致的結果（如「因為太冷了，所以不想去學校」）。
+
+**「I ate too much.」的日文怎麼說？**
+
+食(た)べすぎました。  
+(Tabesugimashita.)
+
+**「I always wake up too early.」的日文怎麼說？**
+
+いつも早(はや)く起(お)きすぎます。  
+(Itsumo hayaku okisugimasu.)
+
+**「This book is too expensive.」的日文怎麼說？**
+
+この本(ほん)は高(たか)すぎます。  
+(Kono hon wa takasugimasu.)
+
+**「This shirt is too small.」的日文怎麼說？**
+
+このシャツは小(ちい)さすぎます。  
+(Kono shatsu wa chiisasugimasu.)
+
+**「That person is too kind.」的日文怎麼說？**
+
+あの人(ひと)は親切(しんせつ)すぎます。  
+(Ano hito wa shinsetsu sugimasu.)
+
+**「This cookie is too sweet.」的日文怎麼說？**
+
+このクッキーは甘(あま)すぎます。  
+(Kono kukkii wa amasugimasu.)
+
+**「The test was too difficult.」的日文怎麼說？**
+
+テストは難(むずか)しすぎました。  
+(Tesuto wa muzukashisugimashita.)
+
+**「I worked too much last week.」的日文怎麼說？**
+
+先週(せんしゅう)は働(はたら)きすぎました。  
+(Senshuu wa hatarakisugimashita.)
+
+**「I watch too much TV every day.」的日文怎麼說？**
+
+毎日(まいにち)テレビを観(み)すぎます。  
+(Mainichi terebi o misugimasu.)
+
+**「It's too cold today, so I don't want to go to school.」的日文怎麼說？**
+
+今日(きょう)は寒(さむ)すぎるので学校(がっこう)に行(い)きたくありません。  
+(Kyou wa samusugiru node gakkou ni ikitaku arimasen.)
+
+**「It's too cold today, so I don't want to go to school.」的日文怎麼說？**
+
+今日(きょう)は寒(さむ)すぎるから学校(がっこう)に行(い)きたくありません。  
+(Kyou wa samusugiru kara gakkou ni ikitaku arimasen.)
+
+---
+
+## 181. 〜ほうがいいです（強烈建議：最好做…）
+
+**休む（やすむ）**
+
+yasumu  
+意思：休息、請假、缺席（翹課） (to rest/skip)
+
+**嘘をつく（うそをつく）**
+
+uso o tsuku  
+意思：說謊 (to lie)
+
+**覚える（おぼえる）**
+
+oboeru  
+意思：記住、背誦 (to memorize)
+
+**心配する（しんぱいする）**
+
+shinpai suru  
+意思：擔心 (to worry)
+
+**野菜（やさい）**
+
+yasai  
+意思：蔬菜 (vegetables)
+
+**授業（じゅぎょう）**
+
+jugyou  
+意思：課、上課 (class)
+
+**病院（びょういん）**
+
+byouin  
+意思：醫院 (hospital)
+
+**漢字（かんじ）**
+
+kanji  
+意思：漢字 (kanji characters)
+
+**手紙（てがみ）**
+
+tegami  
+意思：信 (letter)
+
+**お母さん（おかあさん）**
+
+okaasan  
+意思：媽媽 (mother)
+
+**〜ほうがいいです 是什麼意思？**
+
+是句尾表達建議的句型，意思是「（你）最好做…」，用來給予具體且較強烈的忠告——暗示如果不照著建議去做，可能會有危險或發生問題。
+
+**〜ほうがいいです 怎麼接？**
+
+當建議的內容是肯定（勸對方去做某事）時，前面接動詞的過去肯定普通形＋ほうがいいです；當建議的內容是否定（勸對方不要做某事）時，則接動詞的現在否定普通形＋ほうがいいです。
+
+**「You should eat more vegetables.」的日文怎麼說？**
+
+もっと野菜(やさい)を食(た)べたほうがいいです。  
+(Motto yasai o tabeta hou ga ii desu.)
+
+**「You'd better not skip class.」的日文怎麼說？**
+
+授業(じゅぎょう)を休(やす)まないほうがいいです。  
+(Jugyou o yasumanai hou ga ii desu.)
+
+**「You should go to the hospital.」的日文怎麼說？**
+
+病院(びょういん)に行(い)ったほうがいいです。  
+(Byouin ni itta hou ga ii desu.)
+
+**「You'd better not lie.」的日文怎麼說？**
+
+嘘(うそ)をつかないほうがいいです。  
+(Uso o tsukanai hou ga ii desu.)
+
+**「You should memorize kanji.」的日文怎麼說？**
+
+漢字(かんじ)を覚(おぼ)えたほうがいいです。  
+(Kanji o oboeta hou ga ii desu.)
+
+**「You'd better not worry.」的日文怎麼說？**
+
+心配(しんぱい)しないほうがいいです。  
+(Shinpai shinai hou ga ii desu.)
+
+**「You should write a letter to your mother.」的日文怎麼說？**
+
+お母(かあ)さんに手紙(てがみ)を書(か)いたほうがいいです。  
+(Okaasan ni tegami o kaita hou ga ii desu.)
 
 ---
 
