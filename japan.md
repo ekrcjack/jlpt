@@ -78,6 +78,7 @@
 - [147. Comparison 2 - Between A and B, which is more (property)（比較 2：A 和 B 哪個比較…）](#147-comparison-2---between-a-and-b-which-is-more-property比較-2a-和-b-哪個比較)（8 個重點）
 - [148. Comparison 3 - A is the most (property) among (category)（比較 3：在…之中 A 最…）](#148-comparison-3---a-is-the-most-property-among-category比較-3在之中-a-最)（12 個重點）
 - [149. Comparison 4 - Among (Category), what is the most (Property)（比較 4：在…之中哪個最…）](#149-comparison-4---among-category-what-is-the-most-property比較-4在之中哪個最)（15 個重點）
+- [154. Pronoun の（用の代替重複的名詞）](#154-pronoun-の用の代替重複的名詞)（42 個重點）
 - [156. つもりだ（打算做…）](#156-つもりだ打算做)（16 個重點）
 - [159. Adjective + なる（形容詞＋なる：變得…）](#159-adjective--なる形容詞なる變得)（12 個重點）
 - [164. I want to do（想要做…）](#164-i-want-to-do想要做)（14 個重點）
@@ -90,6 +91,12 @@
 - [181. 〜ほうがいいです（強烈建議：最好做…）](#181-ほうがいいです強烈建議最好做)（19 個重點）
 - [184. 〜なくちゃいけません（不得不做…）](#184-なくちゃいけません不得不做)（18 個重點）
 - [186. 〜でしょう（推測：大概…吧）](#186-でしょう推測大概吧)（26 個重點）
+- [189. Potential verbs（可能形：表示能力或可能性）](#189-potential-verbs可能形表示能力或可能性)（24 個重點）
+- [190. The usage of Short form + し（常體＋し：列舉理由）](#190-the-usage-of-short-form--し常體し列舉理由)（21 個重點）
+- [191. 〜そうです (It looks like 〜)（樣態：看起來…）](#191-そうです-it-looks-like-樣態看起來)（23 個重點）
+- [192. 〜てみる（To try doing 〜）（試著做…看看）](#192-てみるto-try-doing-試著做看看)（12 個重點）
+- [193. The usage of なら（限定對比：如果是…的話）](#193-the-usage-of-なら限定對比如果是的話)（20 個重點）
+- [195. I want (Thing)（名詞＋が＋ほしいです：想要（某個東西））](#195-i-want-thing名詞がほしいです想要某個東西)（28 個重點）
 - [196. あげる・くれる（授受動詞：給予）](#196-あげるくれる授受動詞給予)（12 個重點）
 - [197. もらう（授受動詞：得到）](#197-もらう授受動詞得到)（16 個重點）
 - [198. 〜たらどうですか（建議：…如何？）](#198-たらどうですか建議如何)（14 個重點）
@@ -8096,6 +8103,218 @@ Tom和凱之間，哪一個比較年輕？
 
 ---
 
+## 154. Pronoun の（用の代替重複的名詞）
+
+**黒い（くろい）**
+
+kuroi  
+意思：黑色的 (black)
+
+**セーター（せーたー）**
+
+sētā  
+意思：毛衣 (sweater)
+
+**持っています（もっています）**
+
+motte imasu  
+意思：持有、有 (to have/possess)
+
+**赤い（あかい）**
+
+akai  
+意思：紅色的 (red)
+
+**安い（やすい）**
+
+yasui  
+意思：便宜的 (cheap)
+
+**辞書（じしょ）**
+
+jisho  
+意思：字典 (dictionary)
+
+**買いに行きました（かいにいきました）**
+
+kai ni ikimashita  
+意思：去買了 (went to buy)
+
+**いい**
+
+ii  
+意思：好的 (good)
+
+**ありませんでした**
+
+arimasen deshita  
+意思：（過去）沒有、不存在 (there was not / there weren't any)
+
+**でも**
+
+demo  
+意思：但是 (but)
+
+**それ**
+
+sore  
+意思：那個 (that)
+
+**メアリー**
+
+Mearī  
+意思：瑪麗（人名） (Mary)
+
+**いいえ**
+
+iie  
+意思：不是、不 (no)
+
+**アメリカ**
+
+Amerika  
+意思：美國 (America)
+
+**アイスクリーム**
+
+aisukurīmu  
+意思：冰淇淋 (ice cream)
+
+**日本（にほん）**
+
+Nihon  
+意思：日本 (Japan)
+
+**おいしい**
+
+oishii  
+意思：好吃的 (delicious)
+
+**緑（みどり）**
+
+midori  
+意思：綠色 (green)
+
+**ドレス**
+
+doresu  
+意思：洋裝、連身裙 (dress)
+
+**好きな（すきな）**
+
+sukina  
+意思：喜歡的 (to like，な形容詞)
+
+**黄色（きいろ）**
+
+kiiro  
+意思：黃色 (yellow)
+
+**家賃（やちん）**
+
+yachin  
+意思：房租 (rent)
+
+**ニューヨーク**
+
+Nyū Yōku  
+意思：紐約 (New York)
+
+**高い（たかい）**
+
+takai  
+意思：貴的、高的 (expensive/high)
+
+**から**
+
+kara  
+意思：因為 (because)
+
+**古い（ふるい）**
+
+furui  
+意思：舊的 (old)
+
+**買う（かう）**
+
+kau  
+意思：買 (to buy)
+
+**新しい（あたらしい）**
+
+atarashii  
+意思：新的 (new)
+
+**私の（わたしの）**
+
+watashi no  
+意思：我的 (my)
+
+**パソコン**
+
+pasokon  
+意思：電腦、筆記型電腦 (computer/laptop)
+
+**遅い（おそい）**
+
+osoi  
+意思：慢的 (slow)
+
+**あなたの**
+
+anata no  
+意思：你的 (your)
+
+**の 作為代名詞是什麼意思？什麼時候可以用？**
+
+當名詞前面接著一個形容詞，而且說話雙方都清楚在指哪個名詞時，可以用代名詞「の」（no，類似英文的"one"）來取代重複的名詞，藉此避免重複。無論是い形容詞還是な形容詞，都可以直接接の來代替名詞：「い形容詞＋名詞」→「い形容詞＋の」；「な形容詞＋名詞」→「な形容詞＋の」。
+
+**「名詞1の名詞2」這種所有格用法，要怎麼簡化才能避免重複？**
+
+同樣地，當名詞後面接著「の＋另一個名詞」（表示所有關係，例如「名詞1の名詞2」）時，如果已經清楚在指什麼，也可以把重複出現的名詞2省略，只留下「名詞1の」，例如用「メアリーの」來代替「メアリーのかばん（瑪麗的包包）」。
+
+**「I have a black sweater. I have a red one, too.」的日文怎麼說？**
+
+黒(くろ)いセーターを持(も)っています。赤(あか)いのも持(も)っています。  
+(Kuroi sētā o motte imasu. Akai no mo motte imasu.)
+
+**「I went to buy a dictionary, but there were no good ones.」的日文怎麼說？**
+
+安(やす)い辞書(じしょ)を買(か)いに行(い)きました。でも、いいのがありませんでした。  
+(Yasui jisho o kai ni ikimashita. Demo, ii no ga arimasen deshita.)
+
+**「(To answer a question of "Is this Sue's bag?") No, that is Mary's.」的日文怎麼說？**
+
+いいえ、それはメアリーのです。  
+(Iie, sore wa Mearī no desu.)
+
+**「American ice cream is more delicious than Japanese one.」的日文怎麼說？**
+
+アメリカのアイスクリームのほうが日本(にほん)のよりおいしいです。  
+(Amerika no aisukurīmu no hō ga Nihon no yori oishii desu.)
+
+**「I like the green dress but I also like the yellow one too.」的日文怎麼說？**
+
+緑(みどり)のドレスが好(す)きです。でも、黄色(きいろ)のも好(す)きです。  
+(Midori no doresu ga suki desu. Demo, kiiro no mo suki desu.)
+
+**「The rent in New York is more expensive than the rent in Japan.」的日文怎麼說？**
+
+ニューヨークの家賃(やちん)のほうが、日本(にほん)のより高(たか)いです。  
+(Nyū Yōku no yachin no hō ga, Nihon no yori takai desu.)
+
+**「Because this dictionary is old, I will buy a new one.」的日文怎麼說？**
+
+この辞書(じしょ)は古(ふる)いから、新(あたら)しいのを買(か)います。  
+(Kono jisho wa furui kara, atarashii no o kaimasu.)
+
+**「My laptop is slower than yours.」的日文怎麼說？**
+
+私(わたし)のパソコンのほうがあなたのより遅(おそ)いです。  
+(Watashi no pasokon no hō ga anata no yori osoi desu.)
+
+---
+
 ## 156. つもりだ（打算做…）
 
 **「つもりです」是什麼意思？用來表達什麼語氣？**
@@ -9780,6 +9999,646 @@ wakaru
 - でしょうか：把でしょう變問句，邀請對方表達意見或猜測。
 - だろう：でしょう的普通形（短形），用於較委婉的推測分析，常搭配と思います。
 - でしょ：口語中でしょう的縮短唸法，帶疑問語氣，用來跟對方確認理解是否正確。
+
+---
+
+## 189. Potential verbs（可能形：表示能力或可能性）
+
+**出る（でる）**
+
+deru  
+意思：出去、離開 (to come out / to leave)
+
+**泳ぐ（およぐ）**
+
+oyogu  
+意思：游泳 (to swim)
+
+**漢字（かんじ）**
+
+kanji  
+意思：漢字 (kanji, Chinese character)
+
+**野球（やきゅう）**
+
+yakyuu  
+意思：棒球 (baseball)
+
+**山（やま）**
+
+yama  
+意思：山 (mountain)
+
+**登る（のぼる）**
+
+noboru  
+意思：爬、攀登 (to climb)
+
+**可能形（Potential verbs）是什麼意思？**
+
+可能形用來表示「某人能夠做某事」、「某人有能力做某事」，或是「某件事是有可能發生／成立的」，中文常翻譯成「能～、會～、可以～」。
+
+**各類動詞的可能形怎麼變化？**
+
+一段動詞（る動詞）：去掉字尾的「る」，加上「られる」，例如：食べる→食べられる、見る→見られる、教える→教えられる。五段動詞（う動詞）：把字尾去掉（u段音），改加「eru」，例如：行く(iku)→行ける(ikeru)、話す(hanasu)→話せる(hanaseru)、取る(toru)→取れる(toreru)。不規則動詞：する→できる、来る(くる)→来られる(こられる)。
+
+**可能形是否有比較簡略、口語的形式？**
+
+一段動詞與来る的可能形（～られる／こられる）音節較長，因此另外有一種較短的「ら抜き」形式：把「られる」拿掉中間的「ら」變成「れる」即可，例如出られる→出れる、見られる→見れる、来られる→来れる。這種省略形雖然在口語中越來越普遍，但一般仍被視為較不正式、較不標準的說法。
+
+**可能形本身要怎麼再做時態、肯定否定變化？**
+
+可能形（無論是～られる還是～eru結尾）本身都屬於一段動詞（る動詞），因此依一般一段動詞的規則繼續變化：現在肯定：常體「－る」／敬體「－ます」；現在否定：常體「－ない」／敬體「－ません」；過去肯定：常體「－た」／敬體「－ました」；過去否定：常體「－なかった」／敬體「－ませんでした」；て形則一律是「－て」。
+
+**把動詞改成可能形之後，助詞會不會改變？**
+
+原本用「を」的動詞，變成可能形之後，助詞「を」和「が」兩者都可以用，例如：漢字を読みます。→漢字が読めます。（或漢字を読めます。也可以）。但する的可能形「できる」幾乎都只搭配「が」，例如：野球をします。→野球ができます。（「野球をできます」被視為不標準的說法）。除了「を」以外的其他助詞，變成可能形之後維持不變，例如：山に登ります。→山に登れます。，助詞「に」不變。
+
+**「I can speak Japanese.」的日文怎麼說？**
+
+日本語(にほんご)が話(はな)せます。  
+(Nihongo ga hanasemasu.)
+
+**「I cannot swim.」的日文怎麼說？**
+
+私(わたし)は泳(およ)げません。  
+(Watashi wa oyogemasen.)
+
+**「We could not go to the beach.」的日文怎麼說？**
+
+海(うみ)に行(い)けませんでした。  
+(Umi ni ikemasen deshita.)
+
+**「I read kanji.」的日文怎麼說？**
+
+漢字(かんじ)を読(よ)みます。  
+(Kanji wo yomimasu.)
+
+**「I can read kanji.」的日文怎麼說？**
+
+漢字(かんじ)が読(よ)めます。  
+(Kanji ga yomemasu.)
+
+**「I play baseball.」的日文怎麼說？**
+
+野球(やきゅう)をします。  
+(Yakyuu wo shimasu.)
+
+**「I can play baseball.」的日文怎麼說？**
+
+野球(やきゅう)ができます。  
+(Yakyuu ga dekimasu.)
+
+**「I climb mountains.」的日文怎麼說？**
+
+山(やま)に登(のぼ)ります。  
+(Yama ni noborimasu.)
+
+**「I can climb mountains.」的日文怎麼說？**
+
+山(やま)に登(のぼ)れます。  
+(Yama ni noboremasu.)
+
+**「I can speak Chinese.」的日文怎麼說？**
+
+中国語(ちゅうごくご)が話(はな)せます。  
+(Chuugokugo ga hanasemasu.)
+
+**「Takeshi cannot swim.」的日文怎麼說？**
+
+たけしは泳(およ)げません。  
+(Takeshi wa oyogemasen.)
+
+**「I could not go to school yesterday.」的日文怎麼說？**
+
+学校(がっこう)に行(い)けませんでした。  
+(Gakkou ni ikemasen deshita.)
+
+**「I could eat breakfast.」的日文怎麼說？**
+
+朝(あさ)ごはんを食(た)べられました。  
+(Asagohan wo taberaremashita.)
+
+---
+
+## 190. The usage of Short form + し（常體＋し：列舉理由）
+
+**彼氏（かれし）**
+
+kareshi  
+意思：男朋友 (Boyfriend)
+
+**電話（でんわ）**
+
+denwa  
+意思：電話 (Phone)
+
+**素晴らしい（すばらしい）**
+
+subarashii  
+意思：很棒的、了不起的 (Great, wonderful)
+
+**物価（ぶっか）**
+
+bukka  
+意思：物價 (Prices (of commodities))
+
+**生活（せいかつ）**
+
+seikatsu  
+意思：生活 (Life)
+
+**楽な（らくな）**
+
+rakuna  
+意思：輕鬆自在的 (Easygoing)
+
+**約束（やくそく）**
+
+yakusoku  
+意思：約定、承諾 (Promise)
+
+**約束を守る（やくそくをまもる）**
+
+yakusoku o mamoru  
+意思：遵守約定 (Keep promises)
+
+**常體＋し 是什麼意思？**
+
+要說明一件事的原因時，可以用連接詞「から」；但當理由不只一個，而是想同時列舉兩個（或以上）的理由來說明某個情況時，就可以用「し」來取代「から」，語感類似中文的「既...又...，所以...」。
+
+**し 怎麼接？**
+
+「し」通常接在述語（動詞／い形容詞／な形容詞／名詞）的常體（短形）之後。現在肯定時，な形容詞和名詞後面要加上「だ」才能接し（例如：親切だし、先生だし），但い形容詞不需要加だ，直接以常體形式加し即可（例如：おもしろいし、いいし）。句型結構為：（理由）し、（理由）し、（情況）。
+
+**如果句子裡只用了一個し子句，代表什麼意思？**
+
+即使只列出一個し子句，也暗示這並不是唯一的理由，說話者只是舉出其中一個理由，還隱含著其他沒有明說的原因。例如：物価（ぶっか）が安（やす）いし、この町（まち）の生活（せいかつ）は楽（らく）です。（這個城市生活很輕鬆自在，其中一個原因是物價便宜。）
+
+**し子句一定要放在情況句子的前面嗎？**
+
+不一定，有時候し子句也可以放在情況描述之後，用來補充說明理由。例如：まりはいい先生（せんせい）です。教（おし）えるのが上手（じょうず）だし、親切（しんせつ）だし。（麻里是個好老師，她很擅長教學，而且也很親切。）
+
+**「Why aren't you coming to the party?」的日文怎麼說？**
+
+どうしてパーティーに来(こ)ないんですか？  
+(Doushite pātī ni konai ndesu ka?)
+
+**「I have to study today, because there will be an exam tomorrow.」的日文怎麼說？**
+
+明日(あした)試験(しけん)があるから、今日(きょう)は勉強(べんきょう)しなくちゃいけないんです。  
+(Ashita shiken ga aru kara, kyou wa benkyou shinakucha ikenai ndesu.)
+
+**「I really like my Japanese class, because Japanese Language is interesting and our teacher is good.」的日文怎麼說？**
+
+日本語(にほんご)はおもしろいし、先生(せんせい)はいいし、日本語(にほんご)の授業(じゅぎょう)が大好(だいす)きです。  
+(Nihongo wa omoshiroi shi, sensei wa ii shi, nihongo no jugyou ga daisuki desu.)
+
+**「Yesterday was a great day because I met my family, and I talked with my boyfriend on the phone.」的日文怎麼說？**
+
+家族(かぞく)に会(あ)ったし、彼氏(かれし)と電話(でんわ)で話(はな)したし、昨日(きのう)は素晴(すば)らしい日(ひ)でした。  
+(Kazoku ni atta shi, kareshi to denwa de hanashita shi, kinou wa subarashii hi deshita.)
+
+**「Life in this city is an easygoing one. Things are inexpensive, for one thing.」的日文怎麼說？**
+
+物価(ぶっか)が安(やす)いし、この町(まち)の生活(せいかつ)は楽(らく)です。  
+(Bukka ga yasui shi, kono machi no seikatsu wa raku desu.)
+
+**「Mari is a great teacher. She is good at teaching, and she is kind.」的日文怎麼說？**
+
+まりはいい先生(せんせい)です。教(おし)えるのが上手(じょうず)だし、親切(しんせつ)だし。  
+(Mari wa ii sensei desu. Oshieru no ga jouzu da shi, shinsetsu da shi.)
+
+**「I don't want to wake up because it is cold and I am sleepy.」的日文怎麼說？**
+
+寒(さむ)いし、眠(ねむ)たいし、起(お)きたくありません。  
+(Samui shi, nemutai shi, okitaku arimasen.)
+
+**「Tom is popular because he is smart and can play the guitar.」的日文怎麼說？**
+
+頭(あたま)がいいし、ギターが弾(ひ)けるし、トムは人気(にんき)です。  
+(Atama ga ii shi, gitā ga hikeru shi, tomu wa ninki desu.)
+
+**「Today is busy because I have a test tomorrow and I have to meet Taka.」的日文怎麼說？**
+
+明日(あした)テストがあるし、たかに会(あ)わなくちゃいけないし、今日(きょう)は忙(いそが)しいです。  
+(Ashita tesuto ga aru shi, taka ni awanakucha ikenai shi, kyou wa isogashii desu.)
+
+---
+
+## 191. 〜そうです (It looks like 〜)（樣態：看起來…）
+
+**退屈な（たいくつな）**
+
+taikutsu na  
+意思：無聊的 (boring)
+
+**暖かい（あたたかい）**
+
+atatakai  
+意思：溫暖的 (warm)
+
+**甘い（あまい）**
+
+amai  
+意思：甜的 (sweet)
+
+**悲しい（かなしい）**
+
+kanashii  
+意思：悲傷的 (sad)
+
+**〜そうです 是什麼意思？**
+
+「〜そうです」接在い形容詞或な形容詞的語幹後面，表示「看起來好像…」，是根據我們看到的樣子（視覺印象）所做的推測，而不是已經確認的客觀事實。例如看到蘋果外觀誘人，還沒吃之前可以說「おいしそうです」（看起來很好吃），等真的吃過確認好吃後，才會改用「おいしいです」。
+
+**い形容詞／な形容詞接そうです時怎麼變化？有沒有例外？**
+
+い形容詞只要去掉語尾的「い」再加上「そう」；な形容詞只要去掉語尾的「な」再加上「そう」。唯一的例外是い形容詞「いい」，不能直接去い加そう，必須先改成「よさ」，變成「よさそう」。「そう」本身當作一個な形容詞使用，接續依な形容詞的規則變化：現在肯定「〜そうです」、過去肯定「〜そうでした」、現在否定「〜そうじゃないです」、過去否定「〜そうじゃなかったです」、て形則是「〜そうで」。
+
+**そうです 的否定形怎麼接？需要注意什麼？**
+
+要先把該形容詞變成現在否定的常體（普通形，語尾為「ない」），再把「ない」改成「なさ」，然後加上「そう」。例如：難しい→難しくない→難しくなさそう；上手な→上手じゃない→上手じゃなさそう；いい→よくない→よくなさそう。要特別注意不能做成雙重否定，形容詞本身與そうな兩者之中，只能有一個是否定形，另一個必須維持肯定形。
+
+**そうな 可以用來修飾名詞嗎？**
+
+可以。因為「そう」本身是な形容詞，所以要修飾名詞時直接用「そうな＋名詞」的形式，不需要另外變化。例如「暖かそうなセーターを着ています」（穿著看起來很溫暖的毛衣）。
+
+**動詞也可以接そうです嗎？意思和變化要注意什麼？**
+
+可以，動詞ます形的語幹（去掉ます）加上そうです，用來表示「眼看就要發生的事」，例如「雨がふりそうです」（看起來快要下雨了）。但這個用法的否定形比較特殊，不是「〜なさそうです」，而是用「〜そうもありません」，例如「雨がふりそうもありません」（看起來不會下雨）。
+
+**そうです 的推測一定都是靠外觀嗎？**
+
+大部分情況下，そうです確實是根據視覺上的印象所做的猜測，用在我們還沒有確切證據、只能憑外表判斷的時候。但並非所有形容詞都適用——像「きれいな」這種光靠外觀就足以下定論的形容詞，就不需要用そう，直接說「きれいです」（很漂亮）即可，因為看到當下就已經是充分的證據了，沒有「推測」的必要。
+
+**「This apple looks delicious.」的日文怎麼說？**
+
+このりんごはおいしそうです。  
+(Kono ringo wa oishisou desu.)
+
+**「It looks like the weather will be fine tomorrow.」的日文怎麼說？**
+
+明日(あした)は天気(てんき)が良(よ)さそうです。  
+(Ashita wa tenki ga yosasou desu.)
+
+**「It looked like Mary was fine.」的日文怎麼說？**
+
+メアリーは元気(げんき)そうでした。  
+(Mearii wa genki sou deshita.)
+
+**「This book does not look difficult.」的日文怎麼說？**
+
+この本(ほん)は難(むずか)しくなさそうです。  
+(Kono hon wa muzukashikunasasou desu.)
+
+**「It does not look like Tomoko is good at tennis.」的日文怎麼說？**
+
+ともこはテニスが上手(じょうず)じゃなさそうです。  
+(Tomoko wa tenisu ga jouzu janasasou desu.)
+
+**「She wears a warm-looking sweater.」的日文怎麼說？**
+
+暖(あたた)かそうなセーターを着(き)ています。  
+(Atatakasouna seetaa wo kiteimasu.)
+
+**「It looks like it will rain.」的日文怎麼說？**
+
+雨(あめ)がふりそうです。  
+(Ame ga furisou desu.)
+
+**「It does not look like it will rain.」的日文怎麼說？**
+
+雨(あめ)がふりそうもありません。  
+(Ame ga furisou mo arimasen.)
+
+**「This cake looks sweet.」的日文怎麼說？**
+
+このケーキは甘(あま)そうです。  
+(Kono keeki wa amasou desu.)
+
+**「Takashi looks energetic.」的日文怎麼說？**
+
+たけしは元気(げんき)そうです。  
+(Takeshi wa genki sou desu.)
+
+**「This book does not look interesting.」的日文怎麼說？**
+
+この本(ほん)は面白(おもしろ)くなさそうです。  
+(Kono hon wa omoshirokunasasou desu.)
+
+**「My spanish Language teacher does not look kind.」的日文怎麼說？**
+
+私(わたし)のスペイン語(すぺいんご)の先生(せんせい)は親切(しんせつ)じゃなさそうです。  
+(Watashi no supeingo no sensei wa shinsetsu janasasou desu.)
+
+**「Miki looked sad.」的日文怎麼說？**
+
+みきは悲(かな)しそうでした。  
+(Miki wa kanashisou deshita.)
+
+---
+
+## 192. 〜てみる（To try doing 〜）（試著做…看看）
+
+**ゲーム（げーむ）**
+
+gēmu  
+意思：遊戲 (Game)
+
+**美術館（びじゅつかん）**
+
+bijutsukan  
+意思：美術館 (Museum)
+
+**時間（じかん）**
+
+jikan  
+意思：時間 (Time)
+
+**〜てみる 是什麼意思？**
+
+使用動詞的て形加上「みる」，用來表示「嘗試做某件事」或「姑且做做看」的語氣。說話者並不確定這麼做之後會有什麼結果，但還是先做做看，看看效果或反應如何。
+
+**〜てみる 怎麼接？要注意什麼？**
+
+接續方式是「動詞て形＋みる」。這裡的「みる」來自動詞「見る（みる，看、看看）」，作為補助動詞使用時仍依一段動詞（る動詞）的規則變化：現在肯定「ーてみます」、現在否定「ーてみません」、過去肯定「ーてみました」、過去否定「ーてみませんでした」，て形則是「ーてみて」。
+
+**「I did not know the kanji, so I tried asking a Japanese friend of mine.」的日文怎麼說？**
+
+漢字(かんじ)がわからなかったので、日本人(にほんじん)の友達(ともだち)に聞(き)いてみました。  
+(Kanji ga wakaranakatta node, nihonjin no tomodachi ni kiite mimashita.)
+
+**「Miki say that this cake is good, I will have a piece.」的日文怎麼說？**
+
+みきがこのケーキは美味(おい)しいと言(い)っていましたから、食(た)べてみます。  
+(Miki ga kono kēki wa oishii to itte imashita kara, tabete mimasu.)
+
+**「(In response to "That game was fun!") (Then,) I will play the game.」的日文怎麼說？**
+
+じゃあ、そのゲームをしてみます。  
+(Jaa, sono gēmu o shite mimasu.)
+
+**「(In response to "That movie was good!") I will watch the movie.」的日文怎麼說？**
+
+その映画(えいが)を観(み)てみます。  
+(Sono eiga o mite mimasu.)
+
+**「(In response to "This book was good!") I will read the book.」的日文怎麼說？**
+
+その本(ほん)を読(よ)んでみます。  
+(Sono hon o yonde mimasu.)
+
+**「Taeko said the museum was good. I want to try going there.」的日文怎麼說？**
+
+たえこは美術館(びじゅつかん)が良(よ)かったと言(い)っていました。あそこに行ってみたいです。  
+(Taeko wa bijutsukan ga yokatta to itte imashita. Asoko ni itte mitai desu.)
+
+**「I tried reading the book. But I did not have time.」的日文怎麼說？**
+
+その本(ほん)を読(よ)んでみました。でも、時間(じかん)がありませんでした。  
+(Sono hon o yonde mimashita. Demo, jikan ga arimasen deshita.)
+
+---
+
+## 193. The usage of なら（限定對比：如果是…的話）
+
+**ブラジル（ぶらじる）**
+
+burajiru  
+意思：巴西 (Brazil)
+
+**メキシコ（めきしこ）**
+
+mekishiko  
+意思：墨西哥 (Mexico)
+
+**肉（にく）**
+
+niku  
+意思：肉 (meat)
+
+**魚（さかな）**
+
+sakana  
+意思：魚 (fish)
+
+**バイク（ばいく）**
+
+baiku  
+意思：摩托車 (motorbike)
+
+**自転車（じてんしゃ）**
+
+jitensha  
+意思：腳踏車 (bicycle)
+
+**車（くるま）**
+
+kuruma  
+意思：汽車 (car)
+
+**食べる（たべる）**
+
+taberu  
+意思：吃 (to eat)
+
+**買う（かう）**
+
+kau  
+意思：買 (to buy)
+
+**飼う（かう）**
+
+kau  
+意思：飼養 (to keep/own a pet)
+
+**猫（ねこ）**
+
+neko  
+意思：貓 (cat)
+
+**犬（いぬ）**
+
+inu  
+意思：狗 (dog)
+
+**「なら」是什麼意思？主要用在什麼情境？**
+
+「名詞Ａ　なら　述語Ｘ」這個句型表示「述語Ｘ」只適用於Ａ，並不是普遍成立的事實，帶有「限定」與「對比」的語感。なら 常用來針對對方剛剛提到的幾個項目之一，特別挑出來做出一個「正面」的敘述，藉此與另一個被排除在外的項目形成對比（例如對方問「你去過巴西嗎？」，回答者用「メキシコなら…」單獨針對墨西哥做出肯定的敘述，暗示巴西並非如此）。
+
+**「なら」怎麼接？常見的句型結構是什麼？**
+
+「なら」直接接在名詞之後（名詞＋なら），構成假設／對比句。實際使用時最常見的固定句型是：「Ａなら～ますが、Ｂは～ません（或～たくないです等否定形）」，先用「なら」對Ａ做出正面、肯定的敘述，再用「は」對Ｂ做出相反（通常是否定）的敘述，形成兩者之間鮮明的對比。
+
+**「I've been to Mexico, but never been to Brazil.」的日文怎麼說？**
+
+メキシコなら行(い)ったことがありますが、ブラジルは行(い)ったことがありません。  
+(Mekishiko nara itta koto ga arimasu ga, Burajiru wa itta koto ga arimasen.)
+
+**「If it is in hiragana, I understand.」的日文怎麼說？**
+
+ひらがななら わかります。  
+(Hiragana nara wakarimasu.)
+
+**「I will be free on Sunday, but I am not free on Saturday.」的日文怎麼說？**
+
+日曜日(にちようび)なら暇(ひま)ですが、土曜日(どようび)は暇(ひま)じゃありません。  
+(Nichiyoubi nara hima desu ga, doyoubi wa hima ja arimasen.)
+
+**「I eat fish, but I don't eat meat.」的日文怎麼說？**
+
+魚(さかな)なら食(た)べますが、肉(にく)は食(た)べません。  
+(Sakana nara tabemasu ga, niku wa tabemasen.)
+
+**「I want to buy a car, but I don't want to buy a motorbike.」的日文怎麼說？**
+
+車(くるま)なら買(か)いたいですが、バイクは買(か)いたくないです。  
+(Kuruma nara kaitai desu ga, baiku wa kaitakunai desu.)
+
+**「I've owned a dog, but I've never owned a cat.」的日文怎麼說？**
+
+犬(いぬ)なら飼(か)ったことがありますが、猫(ねこ)は飼(か)ったことがありません。  
+(Inu nara katta koto ga arimasu ga, neko wa katta koto ga arimasen.)
+
+---
+
+## 195. I want (Thing)（名詞＋が＋ほしいです：想要（某個東西））
+
+**おもちゃ**
+
+omocha  
+意思：玩具 (toy)
+
+**お金（おかね）**
+
+okane  
+意思：錢 (money)
+
+**パソコン（ぱそこん）**
+
+pasokon  
+意思：筆記型電腦 (laptop)
+
+**ドーナツ（どーなつ）**
+
+doonatsu  
+意思：甜甜圈 (donut)
+
+**ぬいぐるみ**
+
+nuigurumi  
+意思：填充玩偶 (stuffed animal)
+
+**卵（たまご）**
+
+tamago  
+意思：蛋 (egg)
+
+**休日（きゅうじつ）**
+
+kyuujitsu  
+意思：假日 (holiday)
+
+**辞書（じしょ）**
+
+jisho  
+意思：字典 (dictionary)
+
+**大きい（おおきい）**
+
+ookii  
+意思：大的 (large)
+
+**犬（いぬ）**
+
+inu  
+意思：狗 (dog)
+
+**アイスクリーム（あいすくりーむ）**
+
+aisukuriimu  
+意思：冰淇淋 (ice cream)
+
+**友達（ともだち）**
+
+tomodachi  
+意思：朋友 (friend)
+
+**ほしい 是什麼意思？怎麼接？**
+
+「ほしい」是「（我）想要···」的意思，用來表達說話者自己想要某個東西。它是一個い形容詞，變化方式和一般い形容詞相同：現在肯定形是「[對象]が ほしいです」，現在否定形是「[對象]は/が ほしくないです」，過去肯定形是「[對象]が ほしかったです」，過去否定形則是「[對象]は/が ほしくありませんでした」。表示想要的對象後面通常接助詞「が」，否定句時「は」也很常用。
+
+**為什麼ほしい主要只能用在第一人稱（說話者）身上？**
+
+「ほしい」和之前學過的「たい」（想做···）一樣，屬於「私秘述語」，也就是只有當事人自己才知道的內心感受。因此原則上只能用來直接描述說話者本人的感受；其他人到底想不想要某樣東西，說話者只能靠觀察或推測來判斷，所以日文文法上要求在對第二、三人稱使用私秘述語時，必須加上額外的表達方式，不能直接用「〜はほしいです」這種說法。
+
+**要表達「某人推測、猜想不確定」的語氣時怎麼說？**
+
+可以在ほしい（或其變化形，如ほしくない）後面加上「でしょう」，表示這只是說話者的推測或猜測，而非確定的事實。例如：きょうこはドーナツがほしくないでしょう。（京子大概不想要甜甜圈吧。）
+
+**要表達「某人說他自己想要···」時怎麼說？**
+
+可以用ほしい的現在肯定短形（辭書形）加上「と言っています」，表示「（某人）說他想要···」，也就是引用當事人自己說出來的話。例如：ロバートはパソコンがほしいと言っています。（羅伯特說他想要一台筆電。）
+
+**要客觀描述看起來「某人想要」某物時，還有什麼說法？跟ほしい有什麼不同？**
+
+ほしい也有一個對應的動詞「ほしがる」，屬於う動詞，通常以「ほしがっている」的形式出現，用來表示說話者根據觀察，判斷某人目前想要某物。和ほしい不同的是，ほしがる／ほしがっている後面接的「想要的對象」要用助詞「を」，而不是「が」。例如：トムは友達をほしがっています。（據我了解，湯姆想要一個朋友。）
+
+**「Probably Kyoko does not want a donut.」的日文怎麼說？**
+
+きょうこはドーナツがほしくないでしょう。  
+(Kyouko wa doonatsu ga hoshikunai deshou.)
+
+**「I want a good kanji dictionary.」的日文怎麼說？**
+
+いい漢字(かんじ)の辞書(じしょ)がほしいです。  
+(Ii kanji no jisho ga hoshii desu.)
+
+**「I wanted a toy Godzilla.」的日文怎麼說？**
+
+ゴジラのおもちゃがほしかったです。  
+(Gojira no omocha ga hoshikatta desu.)
+
+**「I don't have much desire for money.」的日文怎麼說？**
+
+お金(かね)はあまりほしくありません。  
+(Okane wa amari hoshiku arimasen.)
+
+**「Robert says he wants a laptop.」的日文怎麼說？**
+
+ロバートはパソコンがほしいと言(い)っています。  
+(Robaato wa pasokon ga hoshii to itte imasu.)
+
+**「(I understand that) Tom wants a friend.」的日文怎麼說？**
+
+トムは友達(ともだち)をほしがっています。  
+(Tomu wa tomodachi o hoshigatte imasu.)
+
+**「I want a stuffed animal.」的日文怎麼說？**
+
+ぬいぐるみがほしいです。  
+(Nuigurumi ga hoshii desu.)
+
+**「I don't want eggs.」的日文怎麼說？**
+
+卵(たまご)は/がほしくありません。  
+(Tamago wa/ga hoshiku arimasen.)
+
+**「I wanted holidays.」的日文怎麼說？**
+
+休日(きゅうじつ)がほしかったです。  
+(Kyuujitsu ga hoshikatta desu.)
+
+**「I did not want a large dog.」的日文怎麼說？**
+
+大(おお)きい犬(いぬ)は/がほしくありませんでした。  
+(Ookii inu wa/ga hoshiku arimasen deshita.)
+
+**「Mika wants icecream.」的日文怎麼說？**
+
+みかはアイスクリームをほしがっています。  
+(Mika wa aisukuriimu o hoshigatte imasu.)
 
 ---
 
