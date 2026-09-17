@@ -8,6 +8,7 @@
 - [18. Numbers 11-99（數字 11～99）](#18-numbers-11-99數字-1199)（13 個重點）
 - [19. Numbers 100 - 9,999（數字 100～9,999）](#19-numbers-100---9999數字-1009999)（33 個重點）
 - [20. Bigger numbers（更大的數字：萬以上單位）](#20-bigger-numbers更大的數字萬以上單位)（8 個重點）
+- [22. Date, Month, Day（日期、月份、星期的說法）](#22-date-month-day日期月份星期的說法)（9 個重點）
 - [23. Time（時間的說法）](#23-time時間的說法)（24 個重點）
 - [26. XはYです（X 是 Y：名詞肯定句）](#26-xはyですx-是-y名詞肯定句)（17 個重點）
 - [27. Question（疑問句：〜か）](#27-question疑問句か)（18 個重點）
@@ -48,8 +49,10 @@
 - [78. Degree Expressions（程度副詞）](#78-degree-expressions程度副詞)（5 個重點）
 - [83. Te-form rules (Ru-verbs)（て形變化規則：る動詞）](#83-te-form-rules-ru-verbsて形變化規則る動詞)（8 個重點）
 - [84. Te-form rules (U-verbs)（て形變化規則：う動詞）](#84-te-form-rules-u-verbsて形變化規則う動詞)（18 個重點）
+- [85. Te-form rules (Irregular)（て形變化規則：不規則動詞）](#85-te-form-rules-irregularて形變化規則不規則動詞)（3 個重點）
 - [86. Te-form Usage 1（て形用法 1：請求與並列）](#86-te-form-usage-1て形用法-1請求與並列)（14 個重點）
 - [87. Te-form Usage 2（て形用法 2：許可與禁止）](#87-te-form-usage-2て形用法-2許可與禁止)（12 個重點）
+- [88. Te-form Usage 3 - Forming a sentence that describes two events or activities（て形用法 3：連接兩件事或動作）](#88-te-form-usage-3---forming-a-sentence-that-describes-two-events-or-activitiesて形用法-3連接兩件事或動作)（16 個重點）
 - [93. 〜ている（進行與持續狀態）](#93-ている進行與持續狀態)（18 個重點）
 - [94. 〜ている 2（瞬間變化動詞的狀態）](#94-ている-2瞬間變化動詞的狀態)（15 個重點）
 - [98. Te form for joining sentences（て形連接句子）](#98-te-form-for-joining-sentencesて形連接句子)（16 個重點）
@@ -72,6 +75,7 @@
 - [130. Something and Anything（何か・何も：某物與什麼都沒有）](#130-something-and-anything何か何も某物與什麼都沒有)（12 個重點）
 - [131. Some and Any for places, person and things（場所、人、事物的 some／any）](#131-some-and-any-for-places-person-and-things場所人事物的-someany)（16 個重點）
 - [135. Qualifying Nouns with Verbs and Adjectives（用動詞與形容詞修飾名詞）](#135-qualifying-nouns-with-verbs-and-adjectives用動詞與形容詞修飾名詞)（15 個重點）
+- [138. まだ〜ていません（還沒做…，尚未發生的動作）](#138-まだていません還沒做尚未發生的動作)（13 個重點）
 - [143. Because 1 〜から（原因理由 1：因為…）](#143-because-1-から原因理由-1因為)（17 個重點）
 - [144. Because 2 〜ので（原因理由 2：因為…）](#144-because-2-ので原因理由-2因為)（31 個重點）
 - [146. Comparison 1 - A is more (property) than B（比較 1：A 比 B 更…）](#146-comparison-1---a-is-more-property-than-b比較-1a-比-b-更)（19 個重點）
@@ -539,6 +543,74 @@ nijuu yon
 
 602（万）= ろっぴゃくにまん  
 3,080 = さんぜんはちじゅう
+
+---
+
+## 22. Date, Month, Day（日期、月份、星期的說法）
+
+**準備字彙：跟日期有關的常用單字有哪些？**
+
+・誕生日（たんじょうび - tanjoubi）－生日  
+・今日（きょう - kyou）－今天  
+・昨日（きのう - kinou）－昨天  
+・明日（あした - ashita）－明天
+
+**日文的「日期」（幾號）怎麼唸？基本規則是什麼？**
+
+規則：**數字 ＋ 日（にち-nichi）**
+
+例：  
+11號 ⇒ じゅういち にち（juuichinichi）  
+12號 ⇒ じゅうに にち（juuninichi）
+
+**但是 1號～10號，以及 20號，唸法是不規則的（源自古語數數方式），需要整組背起來，這些不規則唸法分別是？**
+
+<table><tr><th>日期</th><th>假名</th><th>羅馬拼音</th></tr><tr><td>1日</td><td>ついたち</td><td>tsuitachi</td></tr><tr><td>2日</td><td>ふつか</td><td>futsuka</td></tr><tr><td>3日</td><td>みっか</td><td>mikka</td></tr><tr><td>4日</td><td>よっか</td><td>yokka</td></tr><tr><td>5日</td><td>いつか</td><td>itsuka</td></tr><tr><td>6日</td><td>むいか</td><td>muika</td></tr><tr><td>7日</td><td>なのか</td><td>nanoka</td></tr><tr><td>8日</td><td>ようか</td><td>youka</td></tr><tr><td>9日</td><td>ここのか</td><td>kokonoka</td></tr><tr><td>10日</td><td>とうか</td><td>touka</td></tr><tr><td>20日</td><td>はつか</td><td>hatsuka</td></tr></table>
+
+其餘的日期（11～19日、21～31日，20日除外）都照「數字＋にち」規則唸，例如 11日＝じゅういちにち、12日＝じゅうににち。
+
+**月份怎麼說？基本規則是什麼？**
+
+規則：**數字 ＋ 月（がつ-gatsu）**
+
+例：  
+1月 ⇒ いちがつ（ichigatsu）  
+2月 ⇒ にがつ（nigatsu）
+
+所有月份都遵循同一套規則，沒有例外的變化型，但有幾個月要注意唸法的細節（見下一題）。
+
+**月份雖然規則統一，但有 3 個月份的唸法要特別小心，是哪幾個？**
+
+・4月：**しがつ**（shigatsu）－不可以唸成 よんがつ（yongatsu）  
+・7月：**しちがつ**（shichigatsu）－不可以唸成 なながつ（nanagatsu）  
+・9月：**くがつ**（kugatsu）－不可以唸成 きゅうがつ（kyuugatsu）
+
+<table><tr><th>月份</th><th>假名</th><th>羅馬拼音</th></tr><tr><td>1月</td><td>いちがつ</td><td>ichigatsu</td></tr><tr><td>2月</td><td>にがつ</td><td>nigatsu</td></tr><tr><td>3月</td><td>さんがつ</td><td>sangatsu</td></tr><tr><td>4月</td><td>しがつ</td><td>shigatsu</td></tr><tr><td>5月</td><td>ごがつ</td><td>gogatsu</td></tr><tr><td>6月</td><td>ろくがつ</td><td>rokugatsu</td></tr><tr><td>7月</td><td>しちがつ</td><td>shichigatsu</td></tr><tr><td>8月</td><td>はちがつ</td><td>hachigatsu</td></tr><tr><td>9月</td><td>くがつ</td><td>kugatsu</td></tr><tr><td>10月</td><td>じゅうがつ</td><td>juugatsu</td></tr><tr><td>11月</td><td>じゅういちがつ</td><td>juuichigatsu</td></tr><tr><td>12月</td><td>じゅうにがつ</td><td>juunigatsu</td></tr></table>
+
+**練習：聖誕節、情人節、愚人節的日期，日文分別怎麼唸？**
+
+・聖誕節（Christmas）：**12月25日** → じゅうにがつ にじゅうごにち（juunigatsu nijuugonichi）  
+・情人節（Valentine's Day）：**2月14日** → にがつ じゅうよんにち（nigatsu juuyonnichi）  
+・愚人節（April Fool's Day）：**4月1日** → しがつ ついたち（shigatsu tsuitachi）
+
+**要詢問「日期是什麼時候」，日文有哪兩種問法？**
+
+・**○○○はいつですか？**（wa itsu desuka?）－○○○是什麼時候？  
+・**○○○は何月（なんがつ）何日（なんにち）ですか？**（wa nangatsu nannichi desuka?）－○○○是幾月幾號？
+
+**例句：詢問生日**
+
+Q: 誕生日（たんじょうび）はいつですか？  
+(Tanjoubi wa itsu desuka?) － 你的生日是什麼時候？
+
+A: 9月20日です。  
+(Kugatsu hatsuka desu.) － 是9月20日。
+
+**星期（曜日）怎麼說？**
+
+規則：星期名稱的漢字 ＋ 曜日（ようび-youbi）。講義中明確出現的是月曜日、火曜日、日曜日，其餘星期依同樣規則類推：
+
+<table><tr><th>星期</th><th>漢字</th><th>假名</th><th>羅馬拼音</th></tr><tr><td>星期一</td><td>月曜日</td><td>げつようび</td><td>getsuyoubi</td></tr><tr><td>星期二</td><td>火曜日</td><td>かようび</td><td>kayoubi</td></tr><tr><td>星期三</td><td>水曜日</td><td>すいようび</td><td>suiyoubi</td></tr><tr><td>星期四</td><td>木曜日</td><td>もくようび</td><td>mokuyoubi</td></tr><tr><td>星期五</td><td>金曜日</td><td>きんようび</td><td>kinyoubi</td></tr><tr><td>星期六</td><td>土曜日</td><td>どようび</td><td>doyoubi</td></tr><tr><td>星期日</td><td>日曜日</td><td>にちようび</td><td>nichiyoubi</td></tr></table>
 
 ---
 
@@ -4336,6 +4408,33 @@ Te-form：話して（はなして / hanashite）
 
 ---
 
+## 85. Te-form rules (Irregular)（て形變化規則：不規則動詞）
+
+**Te-form 的變化規則為什麼比較複雜？**
+
+Te-form 的變化規則相當複雜，需要分別學習三種動詞的規則：  
+(1) る動詞（ru-verbs）  
+(2) う動詞（u-verbs）  
+(3) 不規則動詞（irregular verbs）
+
+其中，う動詞的規則又再細分為 **5 個子規則**。
+
+**Te-form 有哪 4 種主要用法？**
+
+(1) 表示請求（「……可以嗎？」）  
+(2) 給予／詢問許可（「你可以……」／「我可以……嗎？」）  
+(3) 表示禁止（「不可以……」）  
+(4) 連接兩個動作或事件，表示「做了這個，又做了那個」
+
+**不規則動詞（する、来る）的Te-form怎麼變？**
+
+不規則動詞沒有固定公式可套用，需要個別背下來：
+
+する（する / suru）→ して（shite）- 做  
+来る（くる / kuru）→ 来て（きて / kite）- 來
+
+---
+
 ## 86. Te-form Usage 1（て形用法 1：請求與並列）
 
 **日文的 Te-form（て形）有哪 4 種主要用法？**
@@ -4562,6 +4661,123 @@ Te-form：**開けて**（あけて / akete）
 
 **3. 表達禁止**：Te-form + はいけません（waikemasen）  
 →「You may not (must not) …」
+
+---
+
+## 88. Te-form Usage 3 - Forming a sentence that describes two events or activities（て形用法 3：連接兩件事或動作）
+
+**ノート（のーと）**
+
+no-to  
+**Notebook（筆記本）**
+
+**借（か）りる**
+
+kariru  
+**To borrow（借、借用）**
+
+**コピーする（こぴーする）**
+
+kopi-suru  
+**To photocopy（影印）**
+
+**郵便局（ゆうびんきょく）**
+
+yuubinkyoku  
+**Post office（郵局）**
+
+**昼寝（ひるね）する**
+
+hirunesuru  
+**To take a nap（睡午覺）**
+
+**バス（ばす）**
+
+basu  
+**Bus（巴士／公車）**
+
+**飛行機（ひこうき）**
+
+hikouki  
+**Airplane（飛機）**
+
+**パリ（ぱり）**
+
+pari  
+**Paris（巴黎）**
+
+**如何用「Te-form」連接兩個以上的動作，表達「做了A，然後做了B」？**
+
+**Te-form 連接兩個以上動詞**  
+用法：可以用te-form連接兩個或以上的動詞，用來描述一連串事件或動作（先做了這個，然後做了那個）。換句話說，te-form在動詞之間扮演「and」的角色。  
+注意：兩個動詞不能用「と」連接，と只能連接名詞。
+
+例句1：  
+ノート（のーと）を借（か）りて　コピー（こぴー）します。  
+（我會借筆記本然後影印。／I will borrow the notebook and photocopy it.）  
+→ 第一個動作「借りる」要用Te-form（借りて），第二個動作「コピーする」要用現在肯定形（します）。
+
+例句2：  
+6時（じ）に起（お）きて　勉強（べんきょう）しました。  
+（我六點起床然後唸書。／I got up at six and studied.）  
+→ 第一個動作「起きる」用Te-form（起きて），第二個動作「勉強する」因為句子是過去式，要用過去肯定形（しました）。
+
+**練習1：「我去了郵局然後回家。」（I went to the post office and returned home.）**
+
+提示：行く（辭書形）／行って（Te-form）；郵便局（ゆうびんきょく）；帰（かえ）る（辭書形）；句尾應為過去肯定形。
+
+答案：  
+郵便局（ゆうびんきょく）に行（い）って　家（いえ）に帰（かえ）りました。  
+（去了郵局然後回家。）
+
+**練習2：「我要睡午覺然後唸西班牙文。」（I will take a nap and study Spanish.）**
+
+提示：昼寝（ひるね）する（辭書形）／昼寝（ひるね）して（Te-form）；勉強する（辭書形）；句尾應為現在肯定形。
+
+答案：  
+昼寝（ひるね）して　スペイン語（すぺいんご）を勉強（べんきょう）します。  
+（睡個午覺然後唸西班牙文。）
+
+**練習3：「我和武見了面然後看了電影。」（I met Takeshi and watched a movie.）**
+
+提示：会（あ）う（辭書形）／会（あ）って（Te-form）；見（み）る（辭書形）；句尾應為過去肯定形。
+
+答案：  
+たけしと会（あ）って　映画（えいが）を見（み）ました。  
+（和武見面然後看了電影。）
+
+**「Te-form」還可以怎麼「鬆散地」連接動詞和句子的其他部分？**
+
+**Te-form 鬆散連接（描述方式／manner）**  
+用法：te-form動詞的動作也可以用來「鬆散地」連接到句子的其他部分，此時前面的te-form描述的是後面動作進行的方式（manner）。
+
+例句：  
+バス（ばす）に乗（の）って　仕事（しごと）に行（い）きます。  
+（我搭公車去上班。／I go to work by bus. (I rode a bus to work)）  
+→ te-form動詞「乗って」描述後面「行きます（去上班）」這個動作是用什麼方式進行的。
+
+**Te-form 鬆散連接還能用來表達什麼？**
+
+用法：te-form動詞也可以用來描述後面情況（例如道歉）的原因或狀況。
+
+例句：  
+教科書（きょうかしょ）を忘（わす）れて　すみません。  
+（我把課本忘在家裡了，對不起。／I am sorry for not bringing in the textbook. (I left the textbook at home, and I am sorry.)）  
+→ te-form動詞「忘れて」描述的是道歉（すみません）的原因或情況。
+
+**練習4：「我會搭飛機去巴黎。」（I will go to Paris by plane.）**
+
+提示：可以先把句子想成「我會搭飛機，然後去巴黎」；乗（の）る（辭書形）／乗（の）って（Te-form）；行（い）く（辭書形）；句尾應為現在肯定形。
+
+答案：  
+飛行機（ひこうき）に乗（の）って　パリ（ぱり）に行（い）きます。  
+（搭飛機去巴黎。）
+
+**【總結】用Te-form連接兩個以上動作時，要注意的三個重點是？**
+
+1. 可以用Te-form連接兩個以上的動詞。  
+2. 最後一個動詞不可以用Te-form結尾。  
+3. 最後一個動詞要依照整句話的時態（現在式／過去式）做變化。
 
 ---
 
@@ -7255,6 +7471,101 @@ Person：誰か**（肯定/疑問）／誰**も（否定）
 2. 屬性描述句 → 髪が長い人（長頭髮的人）
 3. 動詞短型修飾 → めがねをかけている人（戴眼鏡的人）
 4. 關係性な形容詞修飾 → バスケットボールをするのが好きな友達（喜歡打籃球的朋友）
+
+---
+
+## 138. まだ〜ていません（還沒做…，尚未發生的動作）
+
+**英文的「現在完成式」(has done) 和「簡單過去式」(did) 有什麼不同？以 Zelda has lost her key. / Zelda lost her key. 為例。**
+
+兩句話講的是同一件事——Zelda 弄丟了鑰匙——但表達的角度不同：  
+・現在完成式「Zelda has lost her key.」＝把這件事講成「和現在有關聯」：聽的人會理解成 Zelda 現在還沒找到鑰匙。  
+・簡單過去式「Zelda lost her key.」＝把這件事講成「與現在的狀況無關」：不知道 Zelda 現在到底找到鑰匙了沒。
+
+**日文要表達「跟現在有沒有關聯」時，肯定句與否定句用的規則一樣嗎？**
+
+不一樣：  
+・**肯定句**：日文的「過去式」身兼兩職，可以同時表達「與現在無關」（搭配きのう之類的詞）跟「與現在有關」（搭配もう「已經」）。  
+・**否定句**：則是由「過去式」與「〜ている」句型分工——「與現在無關」仍用過去否定，「與現在有關（尚未發生）」改用「〜ている」的否定形。
+
+**肯定句舉例：「わたしはきのう宿題をしました。」和「わたしはもう宿題をしました。」意思差在哪？**
+
+兩句動詞都是「しました」（する的過去肯定），差別在副詞：  
+・わたしはきのう宿題（しゅくだい）をしました。  
+（Watashi wa kinou shukudai o shimashita.）＝「我昨天做了作業」＝簡單過去式，與現在無關（「きのう」把事件釘在過去某個已結束的時間點）。  
+・わたしはもう宿題（しゅくだい）をしました。  
+（Watashi wa mou shukudai o shimashita.）＝「我已經做完作業了」＝現在完成式，與現在有關（「もう」表示這件事跟現在的狀況是連著的）。
+
+**否定句舉例：「わたしはきのう宿題をしませんでした。」和「わたしはまだ宿題をしていません。」意思差在哪？**
+
+・わたしはきのう宿題（しゅくだい）をしませんでした。  
+（Watashi wa kinou shukudai o shimasendeshita.）＝「我昨天沒做作業」＝する的過去否定，簡單過去式，與現在無關。  
+・わたしはまだ宿題（しゅくだい）をしていません。  
+（Watashi wa mada shukudai o shiteimasen.）＝「我還沒做作業」＝Te-form（して）＋いません，現在完成式的否定，與現在有關——聽的人會理解成「到現在這一刻都還沒做」。
+
+**（本課重點總結）Simple Past 和 Present Perfect 在肯定句、否定句各自用什麼形式？**
+
+<table><tr><th></th><th>Affirmative（肯定）</th><th>Negative（否定）</th></tr><tr><td>Simple Past</td><td>過去肯定</td><td>過去否定</td></tr><tr><td>Present Perfect</td><td>過去肯定</td><td>Te-form ＋ いません</td></tr></table>
+
+重點：**肯定句**時 Simple Past 與 Present Perfect 用的是「同一個形式」（過去肯定），要靠きのう／もう之類的副詞才分得出差別；**否定句**時兩者形式本身就不同，Present Perfect 的否定要換成「Te-form＋いません」。
+
+**「まだ〜ていません」的公式是什麼？中文意思是？**
+
+まだ (mada, 還／尚) ＋ 動詞Te-form (〜て) ＋ いません (imasen, いる的現在否定)
+
+整體意思＝「還沒〜」(Have not ~ yet)，表示某個動作到目前為止都還沒發生／完成。
+
+**例句1（動作動詞, Activity）：「私はまだ食べていません。」怎麼分析？**
+
+私（わたし）は　まだ　食（た）べて　いません。  
+（Watashi wa mada tabete imasen.）  
+＝「我還沒吃。」(I have not eaten yet.)  
+・まだ＝Yet／還　・食べて＝食べる的Te-form　・いません＝いる的現在否定
+
+**例句2（變化動詞, Change）：「スーはまだ起きていません。」怎麼分析？和例句1有什麼共同點？**
+
+スー　は　まだ　起（お）きて　いません。  
+（Su- wa mada okite imasen.）  
+＝「Sue 還沒起床（還沒醒）。」(Sue is not woken yet.)  
+・結構跟例句1完全相同：まだ＋Te-form＋いません。  
+・差別只在動詞種類：食べる是持續性「動作」動詞，起きる是瞬間發生的「變化」動詞，但套進「まだ〜ていません」公式時規則完全一樣，都表示「這個動作/變化到現在還沒發生」。
+
+**練習1：「你已經喝咖啡了嗎？」(Have you already drunk coffee?) 是「現在完成式肯定疑問句」，該怎麼造？**
+
+規則：現在完成式肯定疑問句＝過去肯定＋か。詞彙：飲む（のむ／nomu）喝、もう（mou）已經。
+
+もうコーヒーを飲（の）みましたか？  
+（Mou ko-hi- o nomimashita ka?）
+
+**練習2：「我還沒喝咖啡。」(I have not drunk coffee yet.) 是「現在完成式否定句」，該怎麼造？**
+
+規則：現在完成式否定＝まだ＋Te-form＋いません。
+
+まだコーヒーを飲（の）んでいません。  
+（Mada ko-hi- o nonde imasen.）
+
+**練習3：「我已經喝咖啡了。」(I have already drunk coffee.) 是「現在完成式肯定句」，該怎麼造？**
+
+規則：現在完成式肯定＝過去肯定（不加か，因為是直述句而非疑問句）。
+
+もうコーヒーを飲（の）みました。  
+（Mou ko-hi- o nomimashita.）
+
+**練習4：「我還沒看火影忍者。」(I have not watched Naruto yet.) 該怎麼造？**
+
+詞彙：観る（みる／miru）看、ナルト（naruto）火影忍者。規則同練習2：まだ＋Te-form＋いません。
+
+まだナルトをみていません。  
+（Mada naruto o mite imasen.）
+
+**練習5：「我已經看過七龍珠了。」(I have already watched Dragonball.) 該怎麼造？**
+
+詞彙：ドラゴンボール（doragon bo-ru）七龍珠。規則同練習1、3：現在完成式肯定＝過去肯定。
+
+＊註：課程原始截圖此處把主詞誤植為「ナルト」（疑似從練習4複製後忘記改字），已依題目要求更正為「ドラゴンボール」。
+
+もうドラゴンボールを観（み）ました。  
+（Mou doragon bo-ru o mimashita.）
 
 ---
 
