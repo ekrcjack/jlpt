@@ -32,6 +32,7 @@ N5 補充教材・工具：
 會話・課程筆記・例句：
 
 - **生活日語會話** — `con/`：23 單元 219 場景 568 句對話，附 N4 文法解析
+- **JLPT N5〜N4 会話 50 篇** — `con-n45/`：50 篇情境對話 1,107 句，附振假名・中譯，可全文朗讀
 - **日文文法與單字筆記** — `udemy/`：Udemy 課程整理，157 課依 10 個文法主題分頁
 - **日文例句整理** — `sentences/`：164 課共 2,330 例句，附英文・平假名・羅馬拼音
 
@@ -47,4 +48,4 @@ python3 -m http.server
 
 ## 架構
 
-每個子資料夾都是一個自成一體的 `index.html`：資料以 `DATA` 物件內嵌於 `<script>`，卡片式呈現，發音使用 `window.speechSynthesis`（ja-JP／zh-TW）。子資料夾之間沒有共用程式碼。每個單元另有各自獨立的 GitHub repo（`ch2`、`n1`–`n4`、`pat`、`part`、`te`、`adj`、`connecting`、`four`、`con`、`udemy`、`sentences` 等）；本 repo 為含首頁的整合版，首頁以 tab 分為 N5 入門／單字・漢字／文法專題／會話／課程筆記・例句五群，共 19 個學習頁面。
+每個子資料夾都是一個自成一體的 `index.html`：資料以 `DATA` 物件內嵌於 `<script>`，卡片式呈現，發音使用 `window.speechSynthesis`（ja-JP／zh-TW）。子資料夾之間沒有共用程式碼。每個單元另有各自獨立的 GitHub repo（`ch2`、`n1`–`n4`、`pat`、`part`、`te`、`adj`、`connecting`、`four`、`con`、`con-n45`、`udemy`、`sentences` 等）；本 repo 為含首頁的整合版，首頁以 tab 分為 N5 入門／單字・漢字／文法專題／會話／課程筆記・例句五群，共 20 個學習頁面。
